@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D9019B00-DF88-41B3-8F39-0379A010ED5C}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Web_Client\WebPage.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="WebServer\ServerExe.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Sphinx_Server\SphinxServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Desktop_Client\DesktopApp.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="WebPage">
+        <MSBuild Projects="Web_Client\WebPage.dproj"/>
+    </Target>
+    <Target Name="WebPage:Clean">
+        <MSBuild Projects="Web_Client\WebPage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WebPage:Make">
+        <MSBuild Projects="Web_Client\WebPage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ServerExe">
+        <MSBuild Projects="WebServer\ServerExe.dproj"/>
+    </Target>
+    <Target Name="ServerExe:Clean">
+        <MSBuild Projects="WebServer\ServerExe.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ServerExe:Make">
+        <MSBuild Projects="WebServer\ServerExe.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SphinxServer">
+        <MSBuild Projects="Sphinx_Server\SphinxServer.dproj"/>
+    </Target>
+    <Target Name="SphinxServer:Clean">
+        <MSBuild Projects="Sphinx_Server\SphinxServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SphinxServer:Make">
+        <MSBuild Projects="Sphinx_Server\SphinxServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DesktopApp">
+        <MSBuild Projects="Desktop_Client\DesktopApp.dproj"/>
+    </Target>
+    <Target Name="DesktopApp:Clean">
+        <MSBuild Projects="Desktop_Client\DesktopApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DesktopApp:Make">
+        <MSBuild Projects="Desktop_Client\DesktopApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="WebPage;ServerExe;SphinxServer;DesktopApp"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="WebPage:Clean;ServerExe:Clean;SphinxServer:Clean;DesktopApp:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="WebPage:Make;ServerExe:Make;SphinxServer:Make;DesktopApp:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

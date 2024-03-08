@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.598,D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\Unit2.dfm=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Unit2.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.524,D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\Project1.dproj=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.237,D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\Unit1.pas=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.556,=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.237,D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\Unit1.dfm=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.658,D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Unit2.pas=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Server.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.658,D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Unit2.dfm=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Server.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.829,D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Main.pas=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\MainModule.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.245,D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Project1.dproj=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\ServerExe.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.135,=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\FetchUsersService.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.829,D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Main.dfm=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\MainModule.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.811,=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.598,D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\Unit2.pas=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.763,D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Unit3.pas=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Entities.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.684,=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.660,D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Unit1.dfm=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Main.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.660,D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Unit1.pas=D:\KamleshGaonkar\kamlesh\Practice\TMS web\Codolex_Web\WebServer\Main.pas</Transaction>
+  </Transactions>
+</BorlandProject>

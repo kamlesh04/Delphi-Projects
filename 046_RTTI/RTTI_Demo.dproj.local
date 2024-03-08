@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.102,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.541,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.902,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.622,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas=D:\KamleshGaonkar\kamlesh\Practice\RTTI\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.386,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project2.dproj=D:\KamleshGaonkar\kamlesh\Practice\RTTI\Project2.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.956,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.103,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.622,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.dfm=D:\KamleshGaonkar\kamlesh\Practice\RTTI\Unit5.dfm</Transaction>
+    <Transaction>2024-02-06 18:27:57.006,D:\KamleshGaonkar\kamlesh\CodeBase\RTTI\RTTI_Demo.dproj=D:\KamleshGaonkar\kamlesh\CodeBase\RTTI\Project2.dproj</Transaction>
+    <Transaction>2024-02-06 18:28:07.528,D:\KamleshGaonkar\kamlesh\CodeBase\RTTI\uMain.pas=D:\KamleshGaonkar\kamlesh\CodeBase\RTTI\Unit5.pas</Transaction>
+    <Transaction>2024-02-06 18:28:07.528,D:\KamleshGaonkar\kamlesh\CodeBase\RTTI\uMain.dfm=D:\KamleshGaonkar\kamlesh\CodeBase\RTTI\Unit5.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

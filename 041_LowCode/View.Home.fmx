@@ -1,0 +1,183 @@
+inherited HomeFrame: THomeFrame
+  inherited MainLayout: TGridPanelLayout
+    ControlCollection = <
+      item
+        Column = 0
+        Control = DataPanel
+        Row = 1
+      end
+      item
+        Column = 0
+        Control = HeaderRect
+        Row = 0
+      end>
+    inherited HeaderRect: TRectangle
+      Fill.Color = x14000000
+      Margins.Top = 1.000000000000000000
+      Margins.Bottom = 1.000000000000000000
+      Size.Height = 36.439434051513670000
+      inherited CaptionLbl: TLabel
+        Size.Height = 33.439434051513670000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+        Text = 'Home'
+        inherited HamburgerImg: TPath
+          Size.Height = 16.439434051513670000
+          inherited HitBox: TLayout
+            Size.Height = 22.439434051513670000
+          end
+        end
+      end
+    end
+    object DataPanel: TGridPanelLayout
+      Align = Client
+      Anchors = []
+      Size.Width = 328.000000000000000000
+      Size.Height = 549.560546875000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ColumnCollection = <
+        item
+          Value = 100.000000000000000000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = ContactsDataRect
+          Row = 0
+        end
+        item
+          Column = 0
+          Control = DB1SampleDataRect
+          Row = 1
+        end
+        item
+          Column = 0
+          Control = DB2SampleDataRect
+          Row = 2
+        end>
+      RowCollection = <
+        item
+          Value = 33.333352546538560000
+        end
+        item
+          Value = 33.333363455052340000
+        end
+        item
+          Value = 33.333283998409090000
+        end
+        item
+          SizeStyle = Auto
+        end>
+      inline ContactsDataRect: TDataRectFrame
+        Align = Client
+        Size.Width = 328.000000000000000000
+        Size.Height = 183.186950683593800000
+        Size.PlatformDefault = False
+        inherited BgRect: TRectangle
+          Fill.Color = x14000000
+          Size.Width = 328.000000000000000000
+          Size.Height = 183.186950683593800000
+          inherited ContactsGridPanel: TGridPanelLayout
+            Size.Width = 328.000000000000000000
+            Size.Height = 183.186950683593800000
+            ControlCollection = <
+              item
+                Column = 0
+                Control = ContactsDataRect.DataCaptionLbl
+                Row = 0
+              end
+              item
+                Column = 0
+                Control = ContactsDataRect.DataValueLbl
+                Row = 1
+              end>
+            inherited DataCaptionLbl: TLabel
+              Size.Width = 328.000000000000000000
+              Size.Height = 91.593475341796880000
+              Text = 'Contacts'
+              OnClick = ContactsDataRectClick
+            end
+            inherited DataValueLbl: TLabel
+              Size.Width = 328.000000000000000000
+              Size.Height = 91.593475341796880000
+              OnClick = ContactsDataRectClick
+            end
+          end
+        end
+      end
+      inline DB1SampleDataRect: TDataRectFrame
+        Align = Client
+        Size.Width = 328.000000000000000000
+        Size.Height = 183.187011718750000000
+        Size.PlatformDefault = False
+        inherited BgRect: TRectangle
+          Fill.Color = x28000000
+          Size.Width = 328.000000000000000000
+          Size.Height = 183.187011718750000000
+          inherited ContactsGridPanel: TGridPanelLayout
+            Size.Width = 328.000000000000000000
+            Size.Height = 183.187011718750000000
+            ControlCollection = <
+              item
+                Column = 0
+                Control = DB1SampleDataRect.DataCaptionLbl
+                Row = 0
+              end
+              item
+                Column = 0
+                Control = DB1SampleDataRect.DataValueLbl
+                Row = 1
+              end>
+            inherited DataCaptionLbl: TLabel
+              Size.Width = 328.000000000000000000
+              Size.Height = 91.593505859375000000
+              Text = 'Customer ID'
+            end
+            inherited DataValueLbl: TLabel
+              Size.Width = 328.000000000000000000
+              Size.Height = 91.593505859375000000
+              Text = '<String value>'
+            end
+          end
+        end
+      end
+      inline DB2SampleDataRect: TDataRectFrame
+        Align = Client
+        Size.Width = 328.000000000000000000
+        Size.Height = 183.186584472656300000
+        Size.PlatformDefault = False
+        inherited BgRect: TRectangle
+          Fill.Color = x37000000
+          Sides = []
+          Size.Width = 328.000000000000000000
+          Size.Height = 183.186584472656300000
+          inherited ContactsGridPanel: TGridPanelLayout
+            Size.Width = 328.000000000000000000
+            Size.Height = 183.186584472656300000
+            ControlCollection = <
+              item
+                Column = 0
+                Control = DB2SampleDataRect.DataCaptionLbl
+                Row = 0
+              end
+              item
+                Column = 0
+                Control = DB2SampleDataRect.DataValueLbl
+                Row = 1
+              end>
+            inherited DataCaptionLbl: TLabel
+              Size.Width = 328.000000000000000000
+              Size.Height = 91.593292236328130000
+              Text = 'Address 1'
+            end
+            inherited DataValueLbl: TLabel
+              Size.Width = 328.000000000000000000
+              Size.Height = 91.593292236328130000
+              Text = '<Number value>'
+            end
+          end
+        end
+      end
+    end
+  end
+end

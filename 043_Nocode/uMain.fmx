@@ -1,0 +1,355 @@
+object Form2: TForm2
+  Left = 552
+  Top = 167
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 648
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 552
+  Top = 167
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 648.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      648s
+      454s
+      648s
+      454s
+      648s
+      454s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Label1: TLabel
+        Align = Top
+        Anchors = []
+        Size.Width = 648.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Label1'
+        TabOrder = 6
+      end
+      object Button1: TButton
+        Action = NextTabAction1
+        Align = Top
+        Anchors = []
+        Enabled = True
+        ImageIndex = -1
+        Position.Y = 17.000000000000000000
+        Size.Width = 648.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+      end
+      object Grid1: TGrid
+        Align = Bottom
+        CanFocus = True
+        ClipChildren = True
+        Position.Y = 208.000000000000000000
+        Size.Width = 648.000000000000000000
+        Size.Height = 213.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 8
+        RowCount = 7
+        Viewport.Width = 644.000000000000000000
+        Viewport.Height = 188.000000000000000000
+      end
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 1
+        Text = '1'
+        Position.X = 40.000000000000000000
+        Position.Y = 62.000000000000000000
+        Hint = 'Emp No'
+        Size.Width = 57.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Emp No.'
+        ParentShowHint = False
+        ShowHint = True
+      end
+      object Edit2: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 2
+        Text = 'sdf'
+        Position.X = 40.000000000000000000
+        Position.Y = 110.000000000000000000
+        Size.Width = 145.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'First Name'
+      end
+      object Edit3: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 5
+        Text = '28'
+        Position.X = 240.000000000000000000
+        Position.Y = 158.000000000000000000
+        Size.Width = 145.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Dept No.'
+      end
+      object Edit5: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 3
+        Text = 'dsf'
+        Position.X = 240.000000000000000000
+        Position.Y = 110.000000000000000000
+        Size.Width = 145.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Last Name'
+      end
+      object DateEdit1: TDateEdit
+        Date = -2.000000000000000000
+        TodayDefault = True
+        Position.X = 40.000000000000000000
+        Position.Y = 158.000000000000000000
+        Size.Width = 145.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+      end
+      object BindNavigator1: TBindNavigator
+        Align = MostBottom
+        Position.Y = 421.000000000000000000
+        Size.Width = 648.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        DataSource = BindSourceDB1
+        VisibleButtons = [nbInsert, nbDelete, nbPost, nbCancel, nbRefresh]
+        xRadius = 4.000000000000000000
+        yRadius = 4.000000000000000000
+      end
+      object Button5: TButton
+        Action = LiveBindingsBindNavigatePost1
+        Enabled = True
+        ImageIndex = -1
+        Position.X = 416.000000000000000000
+        Position.Y = 158.000000000000000000
+        TabOrder = 9
+      end
+      object Button6: TButton
+        Action = LiveBindingsBindNavigateInsert1
+        Enabled = True
+        ImageIndex = -1
+        Position.X = 416.000000000000000000
+        Position.Y = 110.000000000000000000
+        TabOrder = 10
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Label2: TLabel
+        Align = Top
+        Size.Width = 648.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Label2'
+        TabOrder = 0
+      end
+      object Button2: TButton
+        Action = PreviousTabAction1
+        Align = Top
+        Enabled = True
+        ImageIndex = -1
+        Position.Y = 17.000000000000000000
+        Size.Width = 648.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Prev'
+      end
+      object Button4: TButton
+        Action = NextTabAction1
+        Align = Top
+        Enabled = True
+        ImageIndex = -1
+        Position.Y = 39.000000000000000000
+        Size.Width = 648.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem3'
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 50.000000000000000000
+      object Label3: TLabel
+        Align = Top
+        Size.Width = 648.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Label3'
+        TabOrder = 0
+      end
+      object Button3: TButton
+        Action = PreviousTabAction1
+        Align = Top
+        Enabled = True
+        ImageIndex = -1
+        Position.Y = 17.000000000000000000
+        Size.Width = 648.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Prev'
+      end
+    end
+  end
+  object ActionList1: TActionList
+    Left = 608
+    Top = 8
+    object NextTabAction1: TNextTabAction
+      Category = 'Tab'
+      TabControl = TabControl1
+    end
+    object PreviousTabAction1: TPreviousTabAction
+      Category = 'Tab'
+      TabControl = TabControl1
+    end
+    object LiveBindingsBindNavigatePost1: TFMXBindNavigatePost
+      Category = 'LiveBindings'
+      Text = 'Insert'
+      DataSource = BindSourceDB1
+    end
+    object LiveBindingsBindNavigateInsert1: TFMXBindNavigateInsert
+      Category = 'LiveBindings'
+      Text = 'Refresh'
+      DataSource = BindSourceDB1
+    end
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      
+        'Database=D:\KamleshGaonkar\kamlesh\Practice\LowCode\Res\db\emplo' +
+        'yee.fdb'
+      'User_Name=sysdba'
+      'Password=admin'
+      'DriverID=FB')
+    Connected = True
+    LoginPrompt = False
+    Left = 608
+    Top = 64
+  end
+  object FDTable1: TFDTable
+    Active = True
+    IndexFieldNames = 'EMP_NO'
+    Connection = FDConnection1
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'EMPLOYEE1'
+    Left = 600
+    Top = 152
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = FDTable1
+    ScopeMappings = <>
+    Left = 600
+    Top = 112
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 612
+    Top = 333
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = Grid1
+      Columns = <
+        item
+          MemberName = 'EMP_NO'
+        end
+        item
+          MemberName = 'FIRST_NAME'
+        end
+        item
+          MemberName = 'LAST_NAME'
+        end
+        item
+          MemberName = 'HIRE_DATE'
+        end
+        item
+          MemberName = 'DEPT_NO'
+          Width = 100
+        end>
+    end
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'EMP_NO'
+      Control = Edit1
+      Track = False
+    end
+    object LinkControlToField2: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'FIRST_NAME'
+      Control = Edit2
+      Track = False
+    end
+    object LinkControlToField3: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'DEPT_NO'
+      Control = Edit3
+      Track = False
+    end
+    object LinkControlToField4: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'LAST_NAME'
+      Control = Edit5
+      Track = False
+    end
+    object LinkControlToField5: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'HIRE_DATE'
+      Control = DateEdit1
+      Track = False
+    end
+  end
+end

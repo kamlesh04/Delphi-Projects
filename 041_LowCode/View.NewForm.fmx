@@ -1,0 +1,49 @@
+inherited NewFormFrame: TNewFormFrame
+  inherited MainLayout: TGridPanelLayout
+    ControlCollection = <
+      item
+        Column = 0
+        Control = lblFormText
+        Row = 1
+      end
+      item
+        Column = 0
+        Control = HeaderRect
+        Row = 0
+      end>
+    inherited HeaderRect: TRectangle
+      inherited CaptionLbl: TLabel
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+        Text = 'New Form'
+      end
+    end
+    object lblFormText: TLabel
+      Align = Top
+      StyledSettings = [Family, Style, FontColor]
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 58.439434051513670000
+      Size.Width = 308.000000000000000000
+      Size.Height = 105.999984741210900000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.FontColor = xFF1F1F1F
+      TextSettings.VertAlign = Leading
+      Text = 'Some new empty form...'
+      TabOrder = 0
+      object lblFormText2: TLabel
+        Align = Bottom
+        StyledSettings = [Family, Style, FontColor]
+        Position.Y = 26.000000000000000000
+        Size.Width = 308.000000000000000000
+        Size.Height = 80.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 22.000000000000000000
+        Text = 'You can start adding your features here!'
+        TabOrder = 1
+      end
+    end
+  end
+end

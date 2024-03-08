@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.957,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.978,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.774,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.354,D:\KamleshGaonkar\kamlesh\Practice\Web server\Web client\unit1.pas=D:\KamleshGaonkar\kamlesh\Practice\Web server\Web client\PDFViewer.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.811,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.115,D:\KamleshGaonkar\kamlesh\Practice\Web server\Web client\PDFViewer.dfm=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.354,D:\KamleshGaonkar\kamlesh\Practice\Web server\Web client\unit1.dfm=D:\KamleshGaonkar\kamlesh\Practice\Web server\Web client\PDFViewer.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.115,D:\KamleshGaonkar\kamlesh\Practice\Web server\Web client\PDFViewer.pas=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.638,D:\KamleshGaonkar\kamlesh\Practice\Web server\Web client\webclient.dproj=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

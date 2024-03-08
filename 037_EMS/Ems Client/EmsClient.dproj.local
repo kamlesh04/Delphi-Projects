@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.051,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.871,D:\KamleshGaonkar\kamlesh\CodeBase\EMS\uMainForm.dfm=D:\KamleshGaonkar\kamlesh\CodeBase\EMS\Unit6.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.871,D:\KamleshGaonkar\kamlesh\CodeBase\EMS\uMainForm.pas=D:\KamleshGaonkar\kamlesh\CodeBase\EMS\Unit6.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.417,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit6.pas=D:\KamleshGaonkar\kamlesh\Practice\EMS\Unit6.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.813,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project3.dproj=D:\KamleshGaonkar\kamlesh\Practice\EMS\EmsClient.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.417,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit6.dfm=D:\KamleshGaonkar\kamlesh\Practice\EMS\Unit6.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.700,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit7.dfm=D:\KamleshGaonkar\kamlesh\Practice\EMS\Unit7.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.817,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.700,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit7.pas=D:\KamleshGaonkar\kamlesh\Practice\EMS\Unit7.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.461,D:\KamleshGaonkar\kamlesh\CodeBase\EMS\uDataModuleMain.dfm=D:\KamleshGaonkar\kamlesh\CodeBase\EMS\uDataModule.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.212,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.488,D:\KamleshGaonkar\kamlesh\CodeBase\EMS\uDataModule.pas=D:\KamleshGaonkar\kamlesh\CodeBase\EMS\Unit7.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.488,D:\KamleshGaonkar\kamlesh\CodeBase\EMS\uDataModule.dfm=D:\KamleshGaonkar\kamlesh\CodeBase\EMS\Unit7.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.461,D:\KamleshGaonkar\kamlesh\CodeBase\EMS\uDataModuleMain.pas=D:\KamleshGaonkar\kamlesh\CodeBase\EMS\uDataModule.pas</Transaction>
+  </Transactions>
+</BorlandProject>

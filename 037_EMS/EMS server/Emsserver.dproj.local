@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.764,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.677,=dbrtl.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.720,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Server.dfm=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.226,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.356,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Emsserver.dproj=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.861,=FireDACIBDriver.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.720,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Server.pas=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.161,=emsserverapi.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.816,=FireDACCommon.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.718,=FireDAC.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

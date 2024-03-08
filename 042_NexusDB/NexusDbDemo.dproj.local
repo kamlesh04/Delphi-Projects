@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.335,D:\KamleshGaonkar\kamlesh\Practice\NexusDB\Project2.dproj=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.925,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.507,D:\KamleshGaonkar\kamlesh\Practice\NexusDB\Unit5.pas=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.507,D:\KamleshGaonkar\kamlesh\Practice\NexusDB\Unit5.dfm=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.dfm</Transaction>
+    <Transaction>2024-02-06 18:15:34.401,D:\KamleshGaonkar\kamlesh\CodeBase\39. NexusDB\uMain.pas=D:\KamleshGaonkar\kamlesh\CodeBase\39. NexusDB\Unit5.pas</Transaction>
+    <Transaction>2024-02-06 18:15:34.401,D:\KamleshGaonkar\kamlesh\CodeBase\39. NexusDB\uMain.dfm=D:\KamleshGaonkar\kamlesh\CodeBase\39. NexusDB\Unit5.dfm</Transaction>
+    <Transaction>2024-02-06 18:15:52.116,D:\KamleshGaonkar\kamlesh\CodeBase\39. NexusDB\NexusDbDemo.dproj=D:\KamleshGaonkar\kamlesh\CodeBase\39. NexusDB\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

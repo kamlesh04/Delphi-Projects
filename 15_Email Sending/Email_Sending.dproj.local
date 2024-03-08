@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.450,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.401,C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas=D:\kamlesg  delphi tranning\Email Sending\Email.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.806,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.667,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.200,C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Project2.dproj=D:\kamlesg  delphi tranning\Email Sending\Email_Sending.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.519,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.739,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.557,D:\KamleshGaonkar\kamlesh\kamlesg  delphi tranning\12.Email Sending\Unit1.pas=D:\KamleshGaonkar\kamlesh\kamlesg  delphi tranning\12.Email Sending\Connection.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.961,=D:\KamleshGaonkar\kamlesh\kamlesg  delphi tranning\12.Email Sending\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.061,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.557,D:\KamleshGaonkar\kamlesh\kamlesg  delphi tranning\12.Email Sending\Unit1.dfm=D:\KamleshGaonkar\kamlesh\kamlesg  delphi tranning\12.Email Sending\Connection.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.401,C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.dfm=D:\kamlesg  delphi tranning\Email Sending\Email.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.624,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.327,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

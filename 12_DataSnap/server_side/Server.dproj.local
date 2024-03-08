@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.450,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.990,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.806,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.519,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.667,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.629,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.773,C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Project2.dproj=D:\kamlesg  delphi tranning\client_server Architecture\server_side\Server.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.511,C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas=D:\kamlesg  delphi tranning\client_server Architecture\server_side\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.340,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.511,C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.dfm=D:\kamlesg  delphi tranning\client_server Architecture\server_side\Unit3.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.859,C:\Users\Asus\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas=D:\kamlesg  delphi tranning\client_server Architecture\server_side\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.327,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.859,C:\Users\Asus\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.dfm=D:\kamlesg  delphi tranning\client_server Architecture\server_side\ServerMethodsUnit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.061,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.675,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.453,C:\Users\Asus\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas=D:\kamlesg  delphi tranning\client_server Architecture\server_side\ServerContainerUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.737,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.453,C:\Users\Asus\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.dfm=D:\kamlesg  delphi tranning\client_server Architecture\server_side\ServerContainerUnit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.624,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="ServerContainerUnit1.pas"/>
+    <File Path="ServerContainerUnit1.dfm"/>
+    <File Path="ServerMethodsUnit1.pas"/>
+    <File Path="ServerMethodsUnit1.dfm"/>
+    <File Path="Unit3.pas"/>
+    <File Path="Unit3.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

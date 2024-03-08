@@ -1,0 +1,13 @@
+﻿[ClientModule1.DataSource1]
+Coordinates=206,1,150,33
+
+[ClientModule1.ClientDataSet1]
+Coordinates=180,20,160,33
+
+[]
+Coordinates=10,10,144,123
+Visible=True
+
+[BindingsList1]
+Coordinates=173,135,82,33
+

@@ -1,0 +1,21 @@
+//const
+//  SecRuns = 10000;
+//var
+//  Count: Integer;
+begin
+//  Count := 0;
+//  FLogFileName:=TFileStream.Create('D:\kamlesg  delphi tranning\Services\test.txt', fmOpenWrite);
+//  FLog := TStreamWriter.Create(FLogFileName);
+ // while not Terminated do
+ // begin
+//    //Inc(Count);
+//    //if Count >= SecRuns then
+//    //begin
+//      Count := 0;
+//      FLog.WriteLine('Logged after every minute: ' + TimeToStr(now));
+//
+      // end;
+//    Sleep(10000);
+//    ServiceThread.ProcessRequests(False);
+ //   Timer1.Enabled:=true;
+ // end;

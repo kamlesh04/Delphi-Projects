@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.726,=D:\kamlesg  delphi tranning\Packages\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.260,=D:\kamlesg  delphi tranning\Packages\Button2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.228,D:\kamlesg  delphi tranning\Packages\Unit1.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.300,D:\kamlesg  delphi tranning\Packages\My_Package.dproj=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.110,=D:\kamlesg  delphi tranning\Packages\SpeedButton1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.762,=vcl.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.001,=rtl.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.532,D:\kamlesg  delphi tranning\Packages\Button2.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.670,=D:\kamlesg  delphi tranning\Packages\Button2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.008,D:\kamlesg  delphi tranning\Packages\Button2.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

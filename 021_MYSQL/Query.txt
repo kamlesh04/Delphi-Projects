@@ -1,0 +1,124 @@
+1: create table customer_Details
+    (
+    Customer_id int primary key,
+    First_name varchar(100),
+    Last_Name  varchar(100),
+    date_of_birth DATE,
+    City   varchar(100),
+    Account_no  varchar(20)
+   );
+
+
+ create table Account_Details
+    (
+    Account_no varchar(20) primary key,
+    Account_type varchar(50),
+    Creation_date DATE,
+    Min_balance   Decimal(10,2),
+    current_balance  Decimal(10,2)
+   );
+
+ create table Account_Type
+    (
+    Account_type  varchar(20) primary key,
+    Account_name varchar(100)
+   );
+
+
+2: insert into customer_details(Customer_id,First_name,Last_Name,date_of_birth,City,Account_no)
+values(1,'Vania',' Dsouza','1990-12-16','Vasco','C001'),
+(2,'Pooja','Naik ','1990-02-08','Ponda','S011'),
+(3,'Pranal','Bhat','1990-10-08','Ponda','C002'),
+(4,'Rita','Dias','1990-12-16','Ponda','S012'),
+(5,'Steffy','Dias','1989-10-13','Cuncolim','C003'),
+(6,'Brian','Lara','1992-02-18','Chandor','C004')
+
+
+3: insert into Account_Details(Account_no,Account_type,Creation_date,Min_balance,current_balance)
+values('C001','A1','2010-01-11','10000','12000'),
+('S011','A2','2011-08-08','20000','18500'),
+('C002','A1','2010-07-08','10000','16000'),
+('S012','A2','2009-05-16','20000','22000'),
+('C003','A1','2009-04-13','10000','14800'),
+('C004','A1','2009-03-18','10000','9000')
+
+
+
+4: insert into Account_Type(Account_type,Account_name)
+values('A1','Current Account'),
+('A2','saving Account')
+
+5:
+SELECT * FROM customer_details c
+where c.First_name  like 's%';
+
+6.
+SELECT  * FROM customer_details c
+where c.City= 'Ponda';
+
+7.
+SELECT  City,count(Customer_id) FROM customer_details c
+ group by City;
+
+8.
+SELECT current_balance FROM customer_details c
+inner join Account_Details a on a.Account_no=c.Account_no
+where First_name='Rita';
+
+
+9.
+SELECT DATE_FORMAT(Creation_date, '%d-%b-%Y') as Creation_date  FROM customer_details c
+inner join Account_Details a on a.Account_no=c.Account_no
+where First_name='Brian';
+
+10.
+SELECT  *  FROM customer_details c
+inner join Account_Details a on a.Account_no=c.Account_no
+where current_balance < Min_balance;
+
+11.
+SELECT  *  FROM customer_details c
+inner join Account_Details a on a.Account_no=c.Account_no
+inner join Account_Type at on at.Account_type= a.Account_type
+where at.Account_type = 'A1';
+
+12.
+SELECT  distinct City FROM customer_details c
+ group by City;
+
+13.
+SELECT  *  FROM customer_details c
+inner join Account_Details a on a.Account_no=c.Account_no
+where current_balance=(SELECT  max(current_balance )  FROM Account_Details c)
+
+14.
+SELECT  count(*) FROM customer_details c
+
+15.
+SELECT First_name,DATE_FORMAT(FROM_DAYS(DATEDIFF(NOW(),date_of_birth)),'%Y')+0 as age
+ FROM customer_details c
+
+16.
+Alter table customer_details add column Nationality varchar(50);
+
+17.
+Alter table customer_details modify column Nationality  varchar(100);
+
+
+
+
+function TBnkLoginFM.MatchPass(Table: TADOQuery; const Name, Pass: string): Boolean;
+        begin
+          Result := False;
+          Table.First;
+          while not Table.Eof do begin
+            if Table.FieldByName('UserId').AsString = Name then begin
+              Result := Table.FieldByName('Customer_Password').AsString = Pass;
+              Exit;
+            end;
+            Table.Next;
+          end;
+
+   end;
+
+

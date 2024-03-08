@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.806,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.726,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.624,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.519,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.667,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.450,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.327,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.817,D:\kamlesg  delphi tranning\Oops\OOPS.dfm=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.817,D:\kamlesg  delphi tranning\Oops\OOPS.pas=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.061,=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.267,D:\kamlesg  delphi tranning\Oops\Advance.dproj=C:\Users\Asus\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.812,=D:\kamlesg  delphi tranning\Oops\calories.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.843,=D:\kamlesg  delphi tranning\Oops\person.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="calories.pas"/>
+    <File Path="person.pas"/>
+    <File Path="AdvanceFM.pas"/>
+    <File Path="AdvanceFM.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

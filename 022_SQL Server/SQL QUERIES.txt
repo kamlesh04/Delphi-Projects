@@ -1,0 +1,390 @@
+*************JOINS****************************************************
+SELECT CUST_NAME,CUST_CITY,ORD_AMOUNT,ORD_DATE,AGENT_NAME,AGT.WORKING_AREA AS AGENT_WORKING_AREA
+FROM CUSTOMER CST 
+INNER JOIN AGENTS AGT ON AGT.AGENT_CODE= CST.AGENT_CODE
+inner join ORDERS ORD ON ORD.AGENT_CODE= CST.AGENT_CODE AND ORD.CUST_CODE=CST.CUST_CODE
+
+SELECT * FROM CUSTOMER CST 
+LEFT JOIN AGENTS AGT ON AGT.AGENT_CODE= CST.AGENT_CODE
+LEFT join ORDERS ORD ON ORD.AGENT_CODE= CST.AGENT_CODE AND ORD.CUST_CODE=CST.CUST_CODE
+
+SELECT * FROM CUSTOMER CST 
+RIGHT JOIN AGENTS AGT ON AGT.AGENT_CODE= CST.AGENT_CODE
+RIGHT join ORDERS ORD ON ORD.AGENT_CODE= CST.AGENT_CODE AND ORD.CUST_CODE=CST.CUST_CODE
+
+SELECT * FROM CUSTOMER CST 
+FULL OUTER JOIN AGENTS AGT ON AGT.AGENT_CODE= CST.AGENT_CODE
+
+
+*********************View*************************
+CREATE VIEW CustomerRecords_vw
+as
+	SELECT CUST_NAME, CUST_CITY,ORD_AMOUNT,ORD_DATE, AGENT_NAME, agt.WORKING_AREA
+	FROM    CUSTOMER cut 
+	INNER JOIN AGENTS  agt ON agt.AGENT_CODE = cut.AGENT_CODE 
+	INNER JOIN ORDERS ord ON ord.AGENT_CODE = agt.AGENT_CODE AND cut.CUST_CODE = ord.CUST_CODE;
+
+
+select * from CustomerRecords_vw
+drop view CustomerRecords_vw;
+
+****************NESTED QUERIES*******************
+select * from CUSTOMER
+where OUTSTANDING_AMT=(SELECT MAX(OUTSTANDING_AMT) FROM CUSTOMER );
+---------------------------
+INSERT INTO CUSTOMER_BK
+SELECT * FROM CUSTOMER
+---------------------------
+
+UPDATE  CUSTOMER SET GRADE='3'
+WHERE CUST_CODE  IN (SELECT CUST_CODE FROM ORDERS WHERE ORD_AMOUNT>4000);
+
+*******************TRIGGER*****************************
+create  trigger CustomerInsert_tr
+on CUSTOMER
+FOR INSERT
+AS 
+BEGIN
+
+DECLARE @CODE VARCHAR(6)
+
+SELECT @CODE=CUST_CODE FROM inserted
+INSERT INTO CUSTOMER_AUDIT(CUST_CODE,ACTION_TAKEN,MODIFIED_DATE)
+VALUES(@CODE ,'NeW Customer added with code '+ @CODE ,CURRENT_TIMESTAMP);
+
+END
+
+DROP TRIGGER CustomerInsert_tr
+INSERT INTO CUSTOMER VALUES ('C00028', 'FlemingO', 'BrisbanA', 'Brisban', 'Australia', '2', '7000.00', '7000.00', '9000.00', '5000.00', 'NHBGVFC', 'A007');
+
+------------------------------------------------------
+create  trigger CustomerDelete_tr
+on CUSTOMER
+FOR delete
+AS 
+BEGIN
+
+DECLARE @CODE VARCHAR(6)
+
+SELECT @CODE=CUST_CODE FROM deleted
+INSERT INTO CUSTOMER_AUDIT(CUST_CODE,ACTION_TAKEN,MODIFIED_DATE)
+VALUES(@CODE ,'Customer '+ @CODE+' is deleted' ,CURRENT_TIMESTAMP);
+
+END
+
+DROP TRIGGER CustomerDelete_tr
+delete from CUSTOMER 
+where CUST_CODE='C00028'
+------------------------------------------------------------
+create  trigger CustomerUpdate_tr
+on CUSTOMER
+after  update
+AS 
+BEGIN
+
+DECLARE @CODE VARCHAR(6)
+
+SELECT @CODE=CUST_CODE FROM inserted
+INSERT INTO CUSTOMER_AUDIT(CUST_CODE,ACTION_TAKEN,MODIFIED_DATE)
+VALUES(@CODE ,'Customer '+ @CODE+' details are updated' ,CURRENT_TIMESTAMP);
+
+END
+
+DROP TRIGGER CustomerUpdate_tr
+update  CUSTOMER set CUST_NAME='Brina'
+where CUST_CODE='C00027';
+
+******************************Procedure************************
+CREATE PROCEDURE SelectCustomer @Cust_Id varchar(6),@Cust_City varchar(35)
+as
+select * from CUSTOMER 
+WHERE CUST_CODE like '%'+ @Cust_Id +'%' and CUST_CITY like  '%'+ @Cust_City +'%';
+GO
+
+drop  PROCEDURE SelectCustomer
+exec SelectCustomer @Cust_Id='C0000',@Cust_City='mum' 
+
+----------------------------------------output------------------------------------------
+CREATE PROCEDURE SelectCustomer_output @Cust_Id varchar(6),@Cust_City varchar(35),@count int  output
+as
+select * from CUSTOMER 
+WHERE CUST_CODE like '%'+ @Cust_Id +'%' and CUST_CITY like  '%'+ @Cust_City +'%';
+select @count=@@ROWCOUNT
+GO
+--
+DECLARE @cnt INT;
+
+exec SelectCustomer_output @Cust_Id='C0000',@Cust_City='mum' ,@count=@cnt output
+
+SELECT @cnt AS 'Number of records found';
+
+drop  PROCEDURE SelectCustomer_output 
+
+***********************User-Defined-Function****************
+CREATE function CustomereDtlsPopulate(@Cust_Id varchar(6),@Cust_City varchar(25))
+returns varchar(6) 
+as
+begin
+declare @id varchar(6);
+	return(select CUST_CODE from CUSTOMER 
+	WHERE CUST_CODE = @Cust_Id 
+	and CUST_CITY = @Cust_City);
+end
+drop function CustomereDtlsPopulate;
+select  coalesce(dbo.CustomereDtlsPopulate('C00001','New York'),'No Record Found')
+------------------------------------------------------
+CREATE  function CustomereDtlsPopulate_NoPara()
+returns TABLE
+as
+return
+	SELECT * FROM CUSTOMER;
+ drop function CustomereDtlsPopulate_NoPara;
+select * from dbo.CustomereDtlsPopulate_NoPara();
+---------------------------
+CREATE  function CustomereDtlsPopulate_NoPara()
+returns @t TABLE(id varchar(6),City varchar(35))
+as
+--return
+begin
+	insert into @t
+	SELECT CUST_CODE,CUST_CITY FROM CUSTOMER;
+	return
+end
+
+
+***************************INDEX********************************************
+SELECT CUST_NAME, CUST_CITY,case when ORD_AMOUNT is null  then 0.00
+else ORD_AMOUNT end ,ORD_DATE, AGENT_NAME
+FROM    CUSTOMER cut  
+INNER JOIN AGENTS  agt ON agt.AGENT_CODE = cut.AGENT_CODE 
+INNER JOIN ORDERS ord ON ord.AGENT_CODE = agt.AGENT_CODE AND cut.CUST_CODE = ord.CUST_CODE
+	where OUTSTANDING_AMT>11000 AND OUTSTANDING_AMT<14000;
+
+CREATE  INDEX iNDEXOUTSTANDING_AMT ON CUSTOMER(OUTSTANDING_AMT)
+DROP INDEX iNDEXOUTSTANDING_AMT ON CUSTOMER
+execute sp_helpindex CUSTOMER
+-------------------Clustered---------------
+select * from EMPLOYEE
+
+CREATE  clustered INDEX iNDEXID ON EMPLOYEE(ID)
+DROP INDEX iNDEXID ON EMPLOYEE
+
+****************************************EXCEPTION HANDLING*************************
+CREATE procedure CustomerExcphandle @Cust_Id VARCHAR(6),@Amt VARCHAR(6)
+as
+begin
+begin TRY
+	UPDATE  CUSTOMER SET OUTSTANDING_AMT=@Amt
+	WHERE CUST_CODE = @Cust_Id ;
+	select 'Data Updated';  	
+END TRY  
+BEGIN CATCH   
+	select Error_Message()  
+END CATCH;
+ 
+end
+
+exec CustomerExcphandle @Cust_Id='C00001',@Amt='10000g'
+drop procedure CustomerExcphandle
+-------------------------------------GOTO----------------------------------------------
+create procedure ExceptioneTest
+as
+begin
+declare @count int;
+BEGIN TRY  
+set @count=1;
+EXECUTE CustomerExcphandle
+while @count<10
+begin
+	select @count
+	set @count=@count+1
+	if @count=4 goto one
+	if @count=5 goto two
+end
+one:
+ select 'One';
+ goto three;
+ two: select 'Two';
+ three: select 'Three';
+END TRY  
+BEGIN CATCH  
+    SELECT   
+        ERROR_NUMBER() AS ErrorNumber  
+       ,ERROR_MESSAGE() AS ErrorMessage;  
+END CATCH 
+end
+ 
+exec ExceptioneTest
+drop procedure ExceptioneTest
+
+****************************COMMIT/ROLLBACK***********************************
+CREATE procedure CustomerRollBack @Cust_Id VARCHAR(6),@Amt VARCHAR(6)
+as
+begin tran t
+	begin TRY
+		UPDATE  CUSTOMER SET OUTSTANDING_AMT=@Amt
+		WHERE CUST_CODE = @Cust_Id ;
+		if @Amt>11000
+		begin
+			print 'Amt cannot more than 10000/-,entry will rollback'
+			rollback tran t
+		end
+		else
+		begin
+			select 'Data Updated';
+			commit tran t
+		end 
+	END TRY  
+	BEGIN CATCH   
+		select Error_Message()  
+	END CATCH;		
+
+
+
+exec CustomerRollBack @Cust_Id='C00001',@Amt='13000'
+drop procedure CustomerRollBack
+
+**************************PIVOT***************************************************
+SELECT * FROM   
+(SELECT CUST_COUNTRY, OUTSTANDING_AMT,GRADE FROM CUSTOMER )Tab1  
+PIVOT  
+(  
+SUM(OUTSTANDING_AMT) FOR CUST_COUNTRY IN (USA,CANADA,INDIA)) AS Tab2  
+-----------------------------------------------------------------DYNAMIC----------------------
+
+CREATE PROCEDURE PivotTest
+as
+begin
+	DECLARE  @columns NVARCHAR(MAX) = '';
+	DECLARE  @sql     NVARCHAR(MAX) = '';
+
+SELECT 
+    @columns += QUOTENAME(CUST_COUNTRY) + ','
+FROM 
+    CUSTOMER
+GROUP BY CUST_COUNTRY
+ORDER BY 
+    CUST_COUNTRY;
+
+SET @columns = LEFT(@columns, LEN(@columns) - 1);
+SET @sql ='SELECT * FROM   
+(SELECT CUST_COUNTRY, OUTSTANDING_AMT,GRADE FROM CUSTOMER )Tab1  
+PIVOT  
+(  
+SUM(OUTSTANDING_AMT) FOR CUST_COUNTRY IN ('+@columns+')) AS Tab2';
+EXECUTE sp_executesql @sql;
+PRINT @columns;
+end
+
+exec PivotTest
+drop procedure PivotTest
+
+******************************************IF/ELSE************************************
+CREATE function CustomereCrossedLimit(@Cust_Id varchar(6),@Cust_City varchar(25))
+returns varchar(300) 
+as
+begin
+declare @id numeric(12, 2);
+declare @FLAG VARCHAR(50);
+	set @id=(select OUTSTANDING_AMT from CUSTOMER
+				WHERE CUST_CODE = @Cust_Id 
+				and CUST_CITY = @Cust_City );
+		
+	IF @ID >=11000 
+		SET @FLAG='Your Outstanding Amt crossed the limit.'
+	ELSE
+		SET @FLAG='Your Outstanding Amt is under the limit.'
+
+	return  @FLAG;
+end
+select  coalesce(dbo.CustomereCrossedLimit('C00001','New York'),'No Record Found')
+---------------------------------------------------Is Null----------------------------
+SELECT CUST_NAME, CUST_CITY,ORD_AMOUNT,ORD_DATE, AGENT_NAME
+	FROM    CUSTOMER cut 
+	INNER JOIN AGENTS  agt ON agt.AGENT_CODE = cut.AGENT_CODE 
+	INNER JOIN ORDERS ord ON ord.AGENT_CODE = agt.AGENT_CODE AND cut.CUST_CODE = ord.CUST_CODE
+	where CUST_CITY is null; 
+-------------------------------------------------------IN/NOT IN--------------------------------
+SELECT CUST_NAME, CUST_CITY,ORD_AMOUNT,ORD_DATE, AGENT_NAME
+	FROM    CUSTOMER cut 
+	INNER JOIN AGENTS  agt ON agt.AGENT_CODE = cut.AGENT_CODE 
+	INNER JOIN ORDERS ord ON ord.AGENT_CODE = agt.AGENT_CODE AND cut.CUST_CODE = ord.CUST_CODE
+	where CUST_CITY in('Mumbai','New York'); 
+
+SELECT CUST_NAME, CUST_CITY,ORD_AMOUNT,ORD_DATE, AGENT_NAME
+	FROM    CUSTOMER cut 
+	INNER JOIN AGENTS  agt ON agt.AGENT_CODE = cut.AGENT_CODE 
+	INNER JOIN ORDERS ord ON ord.AGENT_CODE = agt.AGENT_CODE AND cut.CUST_CODE = ord.CUST_CODE
+	where CUST_CITY not in('Mumbai','New York'); 
+
+--------------------------------------------------------CASE STATEMENT-----------------------------
+SELECT CUST_NAME, CUST_CITY,case when ORD_AMOUNT is null  then 0.00
+else ORD_AMOUNT end ,ORD_DATE, AGENT_NAME
+FROM    CUSTOMER cut 
+INNER JOIN AGENTS  agt ON agt.AGENT_CODE = cut.AGENT_CODE 
+INNER JOIN ORDERS ord ON ord.AGENT_CODE = agt.AGENT_CODE AND cut.CUST_CODE = ord.CUST_CODE
+
+**********************************PARTITION**********************************
+select *,ROW_NUMBER()over(PARTITION BY CUST_CITY order by CUST_NAME ) from CUSTOMER cut
+select *,MAX(OUTSTANDING_AMT) over(PARTITION BY GRADE) from CUSTOMER cut
+select *,MAX(OUTSTANDING_AMT) over(PARTITION BY CUST_CITY order by CUST_NAME ) from CUSTOMER cut
+
+******************************CTE****************************************
+-------------------------------------SELECT----------------------
+WITH CUST_CTE
+AS
+(
+ SELECT *
+  FROM CUSTOMER
+
+)
+select * FROM CUST_CTE
+	
+---------------------------------------INSERT-------------------------
+WITH CUST_CTE
+AS
+(
+ SELECT *
+  FROM CUSTOMER
+)
+INSERT INTO CUSTOMER_BK
+select * FROM CUST_CTE
+
+-----------------------------------UPDATE-----------------------------
+WITH CUST_CTE
+AS
+(
+  SELECT *
+  FROM CUSTOMER
+  WHERE CUST_CODE='C00001'   
+)
+UPDATE CUST_CTE
+SET OUTSTANDING_AMT='11000'
+WHERE CUST_CODE='C00001'
+--------------------------------------DELETE---------------------------
+WITH C_CTE
+AS
+(
+  SELECT *
+  FROM CUSTOMER_BK
+  WHERE CUST_CODE='C00001'   
+)
+
+DELETE FROM C_CTE
+WHERE CUST_CODE='C00001'
+----------------------------------------MULTIPLE CTE------------------------
+WITH CUST_CTE 
+AS
+(
+  SELECT CUST_CODE,CUST_NAME,CUST_CITY
+  FROM CUSTOMER
+ -- WHERE CUST_CODE='C00001'   
+),ORD_CTE
+AS
+(	
+	SELECT CUST_CODE FROM ORDERS
+)
+
+SELECT CUST_NAME,CUST_CITY
+  FROM CUST_CTE CCTE
+  INNER JOIN ORD_CTE OCTE ON OCTE.CUST_CODE=CCTE.CUST_CODE

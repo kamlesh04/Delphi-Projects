@@ -1,0 +1,1080 @@
+date/time          : 2022-05-19, 15:51:34, 165ms
+computer name      : DESKTOP-2SD12NM
+user name          : Asus <admin>
+registered owner   : Asus
+operating system   : Windows 10 x64 build 18363
+system language    : English
+system up time     : 6 hours 33 minutes
+program up time    : 373 milliseconds
+processors         : 2x Pentium(R) Dual-Core CPU E6600 @ 3.06GHz
+physical memory    : 443/4061 MB (free/total)
+free disk space    : (C:) 190.67 GB (D:) 191.47 GB
+display mode       : 1024x768, 32 bit
+process id         : $cc0
+allocated memory   : 43.09 MB
+largest free block : 1.34 GB
+executable         : Project_TMS.exe
+exec. date/time    : 2022-05-19 15:51
+version            : 1.0.0.0
+compiled with      : Delphi 10.4 Sydney
+madExcept version  : 5.1.2
+callstack crc      : $52b0323c, $12cfa005, $12cfa005
+count              : 2
+exception number   : 1
+exception class    : EAccessViolation
+exception message  : Access violation at address 0089B7CF in module 'Project_TMS.exe'. Read of address 00000074.
+
+main thread ($2568):
+0089b7cf +01f Project_TMS.exe TmsFM          56 +26 TForm3.FormCreate
+006a32e9 +031 Project_TMS.exe Vcl.Forms    3986  +3 TCustomForm.DoCreate
+006a2ec5 +011 Project_TMS.exe Vcl.Forms    3867  +1 TCustomForm.AfterConstruction
+004095d5 +01d Project_TMS.exe System      19053  +2 @AfterConstruction
+006a2e77 +1ab Project_TMS.exe Vcl.Forms    3857 +37 TCustomForm.Create
+006ae81e +076 Project_TMS.exe Vcl.Forms   11121 +13 TApplication.CreateForm
+008aaa35 +03d Project_TMS.exe Project_TMS    18  +3 initialization
+748a6357 +017 KERNEL32.DLL                          BaseThreadInitThunk
+
+thread $2ee4:
+748a6357 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2f44:
+748a6357 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $bcc:
+768ede99 +39 USER32.dll                MsgWaitForMultipleObjects
+004b212d +0d Project_TMS.exe madExcept CallThreadProcSafe
+004b2192 +32 Project_TMS.exe madExcept ThreadExceptFrame
+748a6357 +17 KERNEL32.DLL              BaseThreadInitThunk
+>> created by main thread ($2568) at:
+7447468b +00 gdiplus.dll
+
+thread $13f4:
+748a6357 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2938:
+748a6357 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+modules:
+00400000 Project_TMS.exe      1.0.0.0             D:\kamlesg  delphi tranning\TMS\Win32\Debug
+5c990000 dbgcore.DLL          10.0.18362.1        C:\Windows\SYSTEM32
+61a60000 dbghelp.dll          10.0.18362.1        C:\Windows\SYSTEM32
+62170000 DWMAPI.DLL           10.0.18362.267      C:\Windows\SYSTEM32
+63380000 FaultRep.dll         10.0.18362.476      C:\Windows\SYSTEM32
+68580000 wininet.dll          11.0.18362.418      C:\Windows\SYSTEM32
+6d1d0000 uxtheme.dll          10.0.18362.449      C:\Windows\system32
+6d250000 WINSTA.dll           10.0.18362.53       C:\Windows\SYSTEM32
+6d2a0000 wtsapi32.dll         10.0.18362.1        C:\Windows\SYSTEM32
+6d2b0000 NETUTILS.DLL         10.0.18362.1        C:\Windows\SYSTEM32
+6d2c0000 version.dll          10.0.18362.1        C:\Windows\SYSTEM32
+73dd0000 netapi32.dll         10.0.18362.1        C:\Windows\SYSTEM32
+74170000 wsock32.dll          10.0.18362.1        C:\Windows\SYSTEM32
+74180000 ntmarta.dll          10.0.18362.1        C:\Windows\SYSTEM32
+741b0000 PROPSYS.dll          7.0.18362.267       C:\Windows\SYSTEM32
+74280000 winspool.drv         10.0.18362.267      C:\Windows\SYSTEM32
+743c0000 IPHLPAPI.DLL         10.0.18362.1        C:\Windows\SYSTEM32
+74400000 gdiplus.dll          10.0.18362.476      C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.18362.476_none_5f5cdad7821dc869
+74570000 COMCTL32.dll         6.10.18362.476      C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.18362.476_none_2e71e7f2278b4e9b
+74780000 WINMMBASE.dll        10.0.18362.1        C:\Windows\SYSTEM32
+747b0000 winmm.dll            10.0.18362.1        C:\Windows\SYSTEM32
+74820000 CRYPTBASE.dll        10.0.18362.1        C:\Windows\System32
+74830000 SspiCli.dll          10.0.18362.1        C:\Windows\System32
+74850000 IMM32.DLL            10.0.18362.387      C:\Windows\System32
+74880000 kernel.appcore.dll   10.0.18362.1        C:\Windows\System32
+74890000 KERNEL32.DLL         10.0.18362.329      C:\Windows\System32
+749d0000 windows.storage.dll  10.0.18362.449      C:\Windows\System32
+75030000 SHLWAPI.dll          10.0.18362.1        C:\Windows\System32
+750e0000 bcrypt.dll           10.0.18362.267      C:\Windows\System32
+75100000 ucrtbase.dll         10.0.18362.387      C:\Windows\System32
+75220000 WS2_32.dll           10.0.18362.387      C:\Windows\System32
+75280000 GDI32.dll            10.0.18362.1        C:\Windows\System32
+75420000 UMPDC.dll                                C:\Windows\System32
+75430000 powrprof.dll         10.0.18362.1        C:\Windows\System32
+75480000 clbcatq.dll          2001.12.10941.16384 C:\Windows\System32
+75500000 comdlg32.dll         10.0.18362.418      C:\Windows\System32
+755b0000 SHELL32.dll          10.0.18362.449      C:\Windows\System32
+75b30000 msvcp_win.dll        10.0.18362.387      C:\Windows\System32
+75bc0000 gdi32full.dll        10.0.18362.476      C:\Windows\System32
+75d90000 MSCTF.dll            10.0.18362.387      C:\Windows\System32
+75ea0000 combase.dll          10.0.18362.449      C:\Windows\System32
+76120000 advapi32.dll         10.0.18362.329      C:\Windows\System32
+761a0000 oleaut32.dll         10.0.18362.329      C:\Windows\System32
+76360000 ole32.dll            10.0.18362.113      C:\Windows\System32
+76460000 KERNELBASE.dll       10.0.18362.476      C:\Windows\System32
+76660000 cfgmgr32.dll         10.0.18362.387      C:\Windows\System32
+766a0000 cryptsp.dll          10.0.18362.1        C:\Windows\System32
+766c0000 profapi.dll          10.0.18362.1        C:\Windows\System32
+766e0000 bcryptPrimitives.dll 10.0.18362.295      C:\Windows\System32
+76740000 RPCRT4.dll           10.0.18362.476      C:\Windows\System32
+76810000 win32u.dll           10.0.18362.476      C:\Windows\System32
+76830000 shcore.dll           10.0.18362.1        C:\Windows\System32
+768c0000 USER32.dll           10.0.18362.476      C:\Windows\System32
+76a60000 msvcrt.dll           7.0.18362.1         C:\Windows\System32
+76b20000 sechost.dll          10.0.18362.267      C:\Windows\System32
+77060000 ntdll.dll            10.0.18362.387      C:\Windows\SYSTEM32
+
+processes:
+0000 Idle                                                               0 0    0
+0004 System                                                             0 0    0
+0058 Registry                                                           0 0    0
+0174 smss.exe                                                           0 0    0
+01e8 csrss.exe                                                          0 0    0
+0234 wininit.exe                                                        0 0    0
+0244 csrss.exe                                                          1 0    0
+0274 services.exe                                                       0 0    0
+027c lsass.exe                                                          0 0    0   normal       C:\Windows\System32
+02ac winlogon.exe                                                       1 5    0   high         C:\Windows\System32
+032c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0334 fontdrvhost.exe                                                    0 0    0   normal       C:\Windows\System32
+033c fontdrvhost.exe                                                    1 0    0   normal       C:\Windows\System32
+036c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+03b4 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+03e8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+01b0 dwm.exe                                                            1 16   2   high         C:\Windows\System32
+0404 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0414 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+047c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0484 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0494 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+04b8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+04d8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+04e0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0574 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+05a0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+05c4 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+05d8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0630 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0638 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0680 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+06ac svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+06e8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+075c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+07d8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0454 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0824 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0838 ARWSRVC.EXE                                                        0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+0888 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+089c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+08a8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+096c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+09a4 Memory Compression                                                 0 0    0
+09e0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+09f8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0a44 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0a4c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0a5c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0b58 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0bfc svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0ac4 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0b6c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0c1c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0c60 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0c68 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0ce0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0d54 spoolsv.exe                                                        0 0    0   normal       C:\Windows\System32
+0d5c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0da4 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0ed0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0ed8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0f80 OPSSVC.EXE                                                         0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+0fc4 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0fcc AnyDesk.exe                                                        0 0    0   high         C:\Program Files (x86)\AnyDesk
+0fd8 bdssvc.exe                                                         0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+0fe8 OfficeClickToRun.exe                                               0 0    0   normal       C:\Program Files\Common Files\microsoft shared\ClickToRun
+0c10 EMLPROXY.EXE                                                       0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+0bf0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0b10 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0c4c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+08b0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0f48 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1098 mysqld-nt.exe                                                      0 0    0   normal       C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin
+11fc REPRSVC.EXE                                                        0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+1204 QUHLPSVC.EXE                                                       0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+120c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1218 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1220 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1228 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1240 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1250 TeamViewer_Service.exe                                             0 0    0   normal       C:\Program Files\TeamViewer
+125c dasHost.exe                                                        0 0    0   normal       C:\Windows\System32
+1278 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+12e8 services_project.exe                                               0 0    0   normal       D:\kamlesg  delphi tranning\Services\Win32\Debug
+12f0 services_project.exe                                               0 0    0   normal       D:\kamlesg  delphi tranning\Services\Win32\Debug
+1304 thread.exe                                                         0 0    0   normal       D:\kamlesg  delphi tranning\services_thread\Win32\Debug
+13dc sqlwriter.exe                                                      0 0    0   normal       C:\Program Files\Microsoft SQL Server\90\Shared
+15d0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+15d8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1988 dasHost.exe                                                        0 0    0   normal       C:\Windows\System32
+1994 MsDtsSrvr.exe                                                      0 0    0   normal       C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn
+19a0 sqlservr.exe                                                       0 0    0   normal       C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\Binn
+19f4 ReportingServicesService.exe                                       0 0    0   normal       C:\Program Files (x86)\Microsoft SQL Server\MSRS12.MSSQLSERVER\Reporting Services\ReportServer\bin
+1a70 svchost.exe                                                        0 0    0
+1aac msmdsrv.exe                                                        0 0    0   normal       C:\Program Files (x86)\Microsoft SQL Server\MSAS12.MSSQLSERVER\OLAP\bin
+1ba0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1d98 ONLINENT.EXE                                                       1 587  234 normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+1e10 sihost.exe                                                         1 0    11  normal       C:\Windows\System32
+1e18 svchost.exe                                                        1 0    1   normal       C:\Windows\System32
+1e78 TeamViewer.exe                                                     1 91   54  normal       C:\Program Files\TeamViewer
+1e84 svchost.exe                                                        1 0    4   normal       C:\Windows\System32
+1e90 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1f68 taskhostw.exe                                                      1 8    6   normal       C:\Windows\System32
+1fd0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1fd8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1c88 ctfmon.exe                                                         1 2    24  high         C:\Windows\System32
+1fcc explorer.exe                                                       1 1311 659 normal       C:\Windows
+21b8 svchost.exe                                                        1 0    12  normal       C:\Windows\System32
+23ec tv_w32.exe                                                         1 0    2   normal       C:\Program Files\TeamViewer
+23f8 tv_x64.exe                                                         1 0    2   normal       C:\Program Files\TeamViewer
+035c StartMenuExperienceHost.exe                                        1 1    26  normal       C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy
+0654 fdlauncher.exe                                                     0 0    0   normal       C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\Binn
+0ba8 fdhost.exe                                                         0 0    0   normal       C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\Binn
+0c90 conhost.exe                                                        0 0    0   normal       C:\Windows\System32
+2168 RuntimeBroker.exe                                                  1 40   1   normal       C:\Windows\System32
+1f70 SearchIndexer.exe                                                  0 0    0   normal       C:\Windows\System32
+1a48 RuntimeBroker.exe                                                  1 41   9   normal       C:\Windows\System32
+1b9c SkypeApp.exe                                                       1 0    9   normal       C:\Program Files\WindowsApps\Microsoft.SkypeApp_14.35.152.0_x64__kzf8qxf38zg5c
+0310 SkypeBackgroundHost.exe                                            1 0    1   normal       C:\Program Files\WindowsApps\Microsoft.SkypeApp_14.35.152.0_x64__kzf8qxf38zg5c
+260c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+27f4 Skype.exe                                                          1 25   47  normal       C:\Program Files (x86)\Microsoft\Skype for Desktop
+2288 ipmsg.exe                                                          1 21   18  normal       C:\Users\Asus\AppData\Local\IPMsg
+2490 SearchUI.exe                                                       1 16   70  normal       C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy
+2748 Skype.exe                                                          1 0    4   normal       C:\Program Files (x86)\Microsoft\Skype for Desktop
+2458 AnyDesk.exe                                                        1 94   14  normal       C:\Program Files (x86)\AnyDesk
+2494 Skype.exe                                                          1 4    2   above normal C:\Program Files (x86)\Microsoft\Skype for Desktop
+0324 Skype.exe                                                          1 0    1   normal       C:\Program Files (x86)\Microsoft\Skype for Desktop
+1fa8 RuntimeBroker.exe                                                  1 0    4   normal       C:\Windows\System32
+2054 Skype.exe                                                          1 3    21  normal       C:\Program Files (x86)\Microsoft\Skype for Desktop
+2890 Skype.exe                                                          1 0    1   normal       C:\Program Files (x86)\Microsoft\Skype for Desktop
+2954 svchost.exe                                                        1 0    1   normal       C:\Windows\System32
+2bec GoogleCrashHandler.exe                                             0 0    0   idle         C:\Program Files (x86)\Google\Update\1.3.36.132
+2810 GoogleCrashHandler64.exe                                           0 0    0   idle         C:\Program Files (x86)\Google\Update\1.3.36.132
+16b4 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+042c SgrmBroker.exe                                                     0 0    0
+2bd0 svchost.exe                                                        0 0    0
+1e48 SCANWSCS.EXE                                                       0 0    0
+2ba8 SecurityHealthService.exe                                          0 0    0
+1550 SecurityHealthHost.exe                                             1 0    1   normal       C:\Windows\System32
+2740 ShellExperienceHost.exe                                            1 13   58  normal       C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy
+10c0 RuntimeBroker.exe                                                  1 40   6   normal       C:\Windows\System32
+0e04 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1344 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0730 chrome.exe                                                         1 59   72  normal       C:\Program Files\Google\Chrome\Application
+0230 chrome.exe                                                         1 0    3   normal       C:\Program Files\Google\Chrome\Application
+23e0 chrome.exe                                                         1 4    2   above normal C:\Program Files\Google\Chrome\Application
+21e4 chrome.exe                                                         1 0    1   normal       C:\Program Files\Google\Chrome\Application
+00b4 chrome.exe                                                         1 0    1   normal       C:\Program Files\Google\Chrome\Application
+2378 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0744 RuntimeBroker.exe                                                  1 0    1   normal       C:\Windows\System32
+1330 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+2c70 chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+140c chrome.exe                                                         1 0    1   normal       C:\Program Files\Google\Chrome\Application
+1bfc firefox.exe                                                        1 67   71  normal       C:\Program Files (x86)\Mozilla Firefox
+2834 firefox.exe                                                        1 0    13  normal       C:\Program Files (x86)\Mozilla Firefox
+28cc firefox.exe                                                        1 0    0   normal       C:\Program Files (x86)\Mozilla Firefox
+0da0 firefox.exe                                                        1 0    0   idle         C:\Program Files (x86)\Mozilla Firefox
+0698 firefox.exe                                                        1 0    0   normal       C:\Program Files (x86)\Mozilla Firefox
+135c firefox.exe                                                        1 0    0   normal       C:\Program Files (x86)\Mozilla Firefox
+28e4 firefox.exe                                                        1 0    0   normal       C:\Program Files (x86)\Mozilla Firefox
+1154 firefox.exe                                                        1 0    0   normal       C:\Program Files (x86)\Mozilla Firefox
+080c firefox.exe                                                        1 0    0   normal       C:\Program Files (x86)\Mozilla Firefox
+1c30 SCSECSVC.EXE                                                       0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+19e8 BSSISS.EXE                                                         0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+1f88 bds.exe                                                            1 3192 927 normal       C:\Program Files (x86)\Embarcadero\Studio\21.0\bin
+1e54 chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+2d4c chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+2d00 chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+2278 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1a1c SearchUI.exe                                                       1 14   57  normal       C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy
+2a5c dllhost.exe                                                        1 0    3   normal       C:\Windows\System32
+29b8 WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe 1 0    25  normal       C:\Windows\SystemApps\InputApp_cw5n1h2txyewy
+2cf8 chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+1ee0 msedge.exe                                                         1 19   62  normal       C:\Program Files (x86)\Microsoft\Edge\Application
+2fb4 msedge.exe                                                         1 0    3   normal       C:\Program Files (x86)\Microsoft\Edge\Application
+1334 msedge.exe                                                         1 4    6   above normal C:\Program Files (x86)\Microsoft\Edge\Application
+2814 msedge.exe                                                         1 0    1   normal       C:\Program Files (x86)\Microsoft\Edge\Application
+2388 msedge.exe                                                         1 0    1   normal       C:\Program Files (x86)\Microsoft\Edge\Application
+2158 msedge.exe                                                         1 0    0   idle         C:\Program Files (x86)\Microsoft\Edge\Application
+20b4 msedge.exe                                                         1 0    0   idle         C:\Program Files (x86)\Microsoft\Edge\Application
+071c msedge.exe                                                         1 0    0   idle         C:\Program Files (x86)\Microsoft\Edge\Application
+1cc0 msedge.exe                                                         1 0    0   normal       C:\Program Files (x86)\Microsoft\Edge\Application
+21fc taskhostw.exe                                                      1 0    2   normal       C:\Windows\System32
+1f0c chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+1e40 DelphiLSP.exe                                                      1 20   20  normal       C:\Program Files (x86)\Embarcadero\Studio\21.0\bin
+05fc conhost.exe                                                        1 10   9   normal       C:\Windows\System32
+06e4 DelphiLSP.exe                                                      1 20   16  normal       C:\Program Files (x86)\Embarcadero\Studio\21.0\bin
+09f0 DelphiLSP.exe                                                      1 20   16  normal       C:\Program Files (x86)\Embarcadero\Studio\21.0\bin
+1370 chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+18b8 chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+2090 SAPISSVC.EXE                                                       0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+28f4 LockApp.exe                                                        1 6    19  normal       C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy
+04d0 RuntimeBroker.exe                                                  1 13   11  normal       C:\Windows\System32
+0148 Microsoft.Photos.exe                                               1 0    10  normal       C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2019.18114.19418.0_x64__8wekyb3d8bbwe
+1b70 RuntimeBroker.exe                                                  1 0    12  normal       C:\Windows\System32
+2bbc taskhostw.exe                                                      0 0    0   below normal C:\Windows\System32
+2924 MySQLQueryBrowser.exe                                              1 818  237 normal       C:\Program Files (x86)\MySQL\MySQL Tools for 5.0
+1874 audiodg.exe                                                        0 0    0   normal       C:\Windows\System32
+29d4 QHPISVR.EXE                                                        0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+0f30 conhost.exe                                                        0 0    0   normal       C:\Windows\System32
+2330 notepad++.exe                                                      1 827  355 normal       C:\Program Files\Notepad++
+0cc0 Project_TMS.exe                                                    1 108  62  normal       D:\kamlesg  delphi tranning\TMS\Win32\Debug
+
+hardware:
++ {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+  - AnyDesk Printer
+  - EPSON L5190 Series
+  - Fax
+  - Microsoft Print to PDF
+  - Microsoft XPS Document Writer
+  - Root Print Queue
++ {36fc9e60-c465-11cf-8056-444553540000}
+  - Generic USB Hub
+  - Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27C8
+  - Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27C9
+  - Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27CA
+  - Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27CB
+  - Intel(R) 82801G (ICH7 Family) USB2 Enhanced Host Controller - 27CC
+  - USB Composite Device
+  - USB Composite Device
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
++ {4d36e965-e325-11ce-bfc1-08002be10318}
+  - HP DVD Writer 1260t ATA Device
++ {4d36e966-e325-11ce-bfc1-08002be10318}
+  - ACPI x64-based PC
++ {4d36e967-e325-11ce-bfc1-08002be10318}
+  - ST500DM002-1BD142 ATA Device
++ {4d36e968-e325-11ce-bfc1-08002be10318}
+  - Microsoft Basic Display Adapter
++ {4d36e96a-e325-11ce-bfc1-08002be10318}
+  - ATA Channel 0
+  - ATA Channel 0
+  - ATA Channel 1
+  - ATA Channel 1
+  - Intel(R) 82801G (ICH7 Family) Ultra ATA Storage Controllers - 27DF
+  - Intel(R) 82801GB/GR/GH (ICH7 Family) Serial ATA Storage Controller - 27C0
++ {4d36e96b-e325-11ce-bfc1-08002be10318}
+  - HID Keyboard Device
++ {4d36e96c-e325-11ce-bfc1-08002be10318}
+  - High Definition Audio Device
+  - Usb Audio Device
++ {4d36e96e-e325-11ce-bfc1-08002be10318}
+  - Generic PnP Monitor
++ {4d36e96f-e325-11ce-bfc1-08002be10318}
+  - HID-compliant Optical Wheel Mouse (driver 5.90.38.0)
++ {4d36e972-e325-11ce-bfc1-08002be10318}
+  - Microsoft Kernel Debug Network Adapter
+  - Qualcomm Atheros AR813x/815x PCI-E Gigabit Ethernet Controller (NDIS 6.30) (driver 2.1.0.17)
+  - WAN Miniport (IKEv2)
+  - WAN Miniport (IP)
+  - WAN Miniport (IPv6)
+  - WAN Miniport (L2TP)
+  - WAN Miniport (Network Monitor)
+  - WAN Miniport (PPPOE)
+  - WAN Miniport (PPTP)
+  - WAN Miniport (SSTP)
++ {4d36e978-e325-11ce-bfc1-08002be10318}
+  - Communications Port (COM1)
+  - ECP Printer Port (LPT1)
++ {4d36e979-e325-11ce-bfc1-08002be10318}
+  - Microsoft IPP Class Driver
++ {4d36e97b-e325-11ce-bfc1-08002be10318}
+  - Microsoft Storage Spaces Controller
++ {4d36e97d-e325-11ce-bfc1-08002be10318}
+  - ACPI Fixed Feature Button
+  - ACPI Power Button
+  - Composite Bus Enumerator
+  - CPU to IO Controller
+  - Direct memory access controller
+  - High Definition Audio Controller
+  - High precision event timer
+  - Legacy device
+  - LPC Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Basic Display Driver
+  - Microsoft Basic Render Driver
+  - Microsoft Hyper-V Virtualization Infrastructure Driver
+  - Microsoft System Management BIOS Driver
+  - Microsoft Virtual Drive Enumerator
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - NDIS Virtual Network Adapter Enumerator
+  - Numeric data processor
+  - PCI Express Root Complex
+  - PCI-to-PCI Bridge
+  - PCI-to-PCI Bridge
+  - PCI-to-PCI Bridge
+  - Plug and Play Software Device Enumerator
+  - Printer Port Logical Interface
+  - Programmable interrupt controller
+  - Remote Desktop Camera Bus
+  - Remote Desktop Device Redirector Bus
+  - Remote Desktop USB Hub
+  - System board
+  - System board
+  - System CMOS/real time clock
+  - System speaker
+  - System timer
+  - UMBus Enumerator
+  - UMBus Enumerator
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+  - Pentium(R) Dual-Core  CPU      E6600  @ 3.06GHz
+  - Pentium(R) Dual-Core  CPU      E6600  @ 3.06GHz
++ {533c5b84-ec70-11d2-9505-00c04f79deaf}
+  - Generic volume shadow copy
+  - Generic volume shadow copy
++ {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+  - EPSON L5190 Series
+  - EPSON51D02F (L5190 Series)
+  - Generic printer device
+  - HPFA642A (HP Officejet 4500 G510g-m)
+  - Media Foundation Sensor Group
+  - Microsoft Device Association Root Enumerator
+  - Microsoft GS Wavetable Synth
+  - Microsoft Radio Device Enumeration Bus
+  - Microsoft RRAS Root Enumerator
+  - PC1: Umang:
++ {6bdd1fc6-810f-11d0-bec7-08002be2092f}
+  - EPSON51D02F (L5190 Series)
++ {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+  - HID-compliant consumer control device
+  - HID-compliant consumer control device
+  - HID-compliant consumer control device
+  - HID-compliant system controller
+  - USB Input Device
+  - USB Input Device
+  - USB Input Device
+  - USB Input Device
++ {c166523c-fe0c-4a94-a586-f1a80cfbbf3e}
+  - Digital Audio (S/PDIF) (High Definition Audio Device)
+  - Microphone (5- Usb Audio Device)
+  - Microphone (High Definition Audio Device)
+  - Speakers (High Definition Audio Device)
++ {c30ecea0-11ef-4ef9-b02e-6af81e6e65c0}
+  - EPSON51D02F (L5190 Series)
+  - HPFA642A (HP Officejet 4500 G510g-m)
++ {ca3e7ab9-b4c3-4ae6-8251-579ef933890f}
+  - Integrated Camera
+
+cpu registers:
+eax = 00000000
+ebx = 03542460
+ecx = 3fe5255e
+edx = 00000000
+esi = 006a2eec
+edi = 008aa9f8
+eip = 0089b7cf
+esp = 0019fe78
+ebp = 0019fe94
+
+stack dump:
+0019fe78  4c 12 5e 25 95 d3 e5 40 - b0 fe 19 00 b0 fe 19 00  L.^%...@........
+0019fe88  60 24 54 03 c8 3e 6a 00 - 60 24 54 03 b8 fe 19 00  `$T..>j.`$T.....
+0019fe98  ef 32 6a 00 cc fe 19 00 - 78 a1 40 00 b8 fe 19 00  .2j.....x.@.....
+0019fea8  f8 a9 8a 00 ec 2e 6a 00 - 60 24 54 03 60 24 54 03  ......j.`$T.`$T.
+0019feb8  e8 fe 19 00 cb 2e 6a 00 - ec 2e 6a 00 00 00 00 00  ......j...j.....
+0019fec8  d8 95 40 00 f0 fe 19 00 - e5 95 40 00 e8 fe 19 00  ..@.......@.....
+0019fed8  f8 a9 8a 00 ec 2e 6a 00 - 00 00 00 00 60 24 54 03  ......j.....`$T.
+0019fee8  20 ff 19 00 7c 2e 6a 00 - 28 ff 19 00 89 95 40 00   ...|.j.(.....@.
+0019fef8  20 ff 19 00 60 24 54 03 - f8 a9 8a 00 14 b5 89 00   ...`$T.........
+0019ff08  00 00 00 00 00 00 00 00 - e2 0f b1 01 08 00 00 00  ................
+0019ff18  84 a7 4c ff 60 24 54 03 - 58 ff 19 00 21 e8 6a 00  ..L.`$T.X...!.j.
+0019ff28  34 ff 19 00 2b e8 6a 00 - 58 ff 19 00 60 ff 19 00  4...+.j.X...`...
+0019ff38  f6 e8 6a 00 58 ff 19 00 - f8 a9 8a 00 f8 a9 8a 00  ..j.X...........
+0019ff48  00 80 26 00 60 24 54 03 - f0 39 8c 00 f0 7c 56 03  ..&.`$T..9...|V.
+0019ff58  70 ff 19 00 3a aa 8a 00 - cc ff 19 00 78 a6 40 00  p...:.......x.@.
+0019ff68  70 ff 19 00 00 00 00 00 - 80 ff 19 00 59 63 8a 74  p...........Yc.t
+0019ff78  00 80 26 00 40 63 8a 74 - dc ff 19 00 74 7b 0c 77  ..&.@c.t....t{.w
+0019ff88  00 80 26 00 2c 4e 35 73 - 00 00 00 00 00 00 00 00  ..&.,N5s........
+0019ff98  00 80 26 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ..&.............
+0019ffa8  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+
+disassembling:
+[...]
+0089b7c1      add     esp, -8
+0089b7c4      fstp    qword ptr [esp]
+0089b7c7      wait
+0089b7c8      mov     eax, [$8ba018]
+0089b7cd      mov     eax, [eax]
+0089b7cf    > mov     eax, [eax+$74]
+0089b7d2      call    -$1d64f ($87e188)      ; DBPlanner.TDBDaySource.SetDay
+0089b7d7 57   mov     eax, [ebp-4]
+0089b7da      mov     eax, [eax+$3e8]
+0089b7e0      mov     edx, [eax]
+0089b7e2      call    dword ptr [edx+$1f4]
+[...]
+
+date/time          : 2022-05-19, 17:31:55, 330ms
+computer name      : DESKTOP-2SD12NM
+user name          : Asus <admin>
+registered owner   : Asus
+operating system   : Windows 10 x64 build 18363
+system language    : English
+system up time     : 8 hours 13 minutes
+program up time    : 8 seconds
+processors         : 2x Pentium(R) Dual-Core CPU E6600 @ 3.06GHz
+physical memory    : 601/4061 MB (free/total)
+free disk space    : (C:) 189.99 GB (D:) 191.47 GB
+display mode       : 1024x768, 32 bit
+process id         : $303c
+allocated memory   : 46.57 MB
+largest free block : 1.02 GB
+executable         : Project_TMS.exe
+exec. date/time    : 2022-05-19 17:31
+version            : 1.0.0.0
+compiled with      : Delphi 10.4 Sydney
+madExcept version  : 5.1.2
+callstack crc      : $d31e8e0b, $08991b57, $08991b57
+exception number   : 1
+exception class    : EStringListError
+exception message  : List index out of bounds (1).
+
+main thread ($326c):
+004ea3c2 +01a Project_TMS.exe System.Classes  7474  +2 TStringList.Get
+004e9c1a +032 Project_TMS.exe System.Classes  7232  +3 TStrings.GetValueFromIndex
+0089c098 +0b8 Project_TMS.exe TmsFM             45 +13 TForm3.FormCreate
+006a32e9 +031 Project_TMS.exe Vcl.Forms       3986  +3 TCustomForm.DoCreate
+006a2ec5 +011 Project_TMS.exe Vcl.Forms       3867  +1 TCustomForm.AfterConstruction
+004095d5 +01d Project_TMS.exe System         19053  +2 @AfterConstruction
+006a2e77 +1ab Project_TMS.exe Vcl.Forms       3857 +37 TCustomForm.Create
+006ae81e +076 Project_TMS.exe Vcl.Forms      11121 +13 TApplication.CreateForm
+008aaa4d +055 Project_TMS.exe Project_TMS       19  +4 initialization
+748a6357 +017 KERNEL32.DLL                             BaseThreadInitThunk
+
+thread $3278:
+748a6357 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $31bc:
+748a6357 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $3198:
+768ede99 +39 USER32.dll                MsgWaitForMultipleObjects
+004b212d +0d Project_TMS.exe madExcept CallThreadProcSafe
+004b2192 +32 Project_TMS.exe madExcept ThreadExceptFrame
+748a6357 +17 KERNEL32.DLL              BaseThreadInitThunk
+>> created by main thread ($326c) at:
+7447468b +00 gdiplus.dll
+
+thread $319c:
+7656bacd +12d KERNELBASE.dll            WaitForMultipleObjectsEx
+004b212d +00d Project_TMS.exe madExcept CallThreadProcSafe
+004b2192 +032 Project_TMS.exe madExcept ThreadExceptFrame
+748a6357 +017 KERNEL32.DLL              BaseThreadInitThunk
+>> created by main thread ($326c) at:
+52a20a99 +000 comsvcs.dll
+
+thread $31a0:
+7656bacd +12d KERNELBASE.dll            WaitForMultipleObjectsEx
+004b212d +00d Project_TMS.exe madExcept CallThreadProcSafe
+004b2192 +032 Project_TMS.exe madExcept ThreadExceptFrame
+748a6357 +017 KERNEL32.DLL              BaseThreadInitThunk
+>> created by main thread ($326c) at:
+75f27b28 +000 combase.dll
+
+thread $318c:
+748a6357 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $3184:
+748a6357 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $32e8: <priority:1>
+004b212d +0d Project_TMS.exe madExcept CallThreadProcSafe
+004b2192 +32 Project_TMS.exe madExcept ThreadExceptFrame
+748a6357 +17 KERNEL32.DLL              BaseThreadInitThunk
+>> created by main thread ($326c) at:
+740e1e14 +00 mswsock.dll
+
+modules:
+00400000 Project_TMS.exe      1.0.0.0             D:\kamlesg  delphi tranning\TMS\Win32\Debug
+05a70000 msadcer.dll          10.0.18362.1        C:\Program Files (x86)\Common Files\System\msadc
+10000000 MSDASQLR.DLL         10.0.18362.1        C:\Program Files (x86)\Common Files\System\Ole DB
+51ea0000 myodbc5w.dll         5.2.5.0             C:\Program Files (x86)\MySQL\Connector ODBC 5.2
+52940000 msadce.dll           10.0.18362.1        C:\Program Files (x86)\Common Files\System\msadc
+529e0000 comsvcs.dll          2001.12.10941.16384 C:\Windows\System32
+59900000 odbccp32.dll         10.0.18362.1        C:\Windows\SYSTEM32
+59920000 MSDATL3.dll          10.0.18362.1        C:\Program Files (x86)\Common Files\System\Ole DB
+59940000 msdasql.dll          10.0.18362.1        C:\Program Files (x86)\Common Files\System\Ole DB
+599e0000 oledb32.dll          10.0.18362.1        C:\Program Files (x86)\Common Files\System\Ole DB
+59ab0000 MSDART.DLL           10.0.18362.1        C:\Windows\SYSTEM32
+59ae0000 msado15.dll          10.0.18362.239      C:\Program Files (x86)\Common Files\System\ado
+5c990000 dbgcore.DLL          10.0.18362.1        C:\Windows\SYSTEM32
+61a60000 dbghelp.dll          10.0.18362.1        C:\Windows\SYSTEM32
+62170000 DWMAPI.DLL           10.0.18362.267      C:\Windows\SYSTEM32
+63380000 FaultRep.dll         10.0.18362.476      C:\Windows\SYSTEM32
+63dc0000 DPAPI.dll            10.0.18362.1        C:\Windows\SYSTEM32
+68580000 wininet.dll          11.0.18362.418      C:\Windows\SYSTEM32
+6a690000 ODBC32.dll           10.0.18362.1        C:\Windows\SYSTEM32
+6c880000 Secur32.dll          10.0.18362.1        C:\Windows\SYSTEM32
+6d1d0000 uxtheme.dll          10.0.18362.449      C:\Windows\system32
+6d250000 WINSTA.dll           10.0.18362.53       C:\Windows\SYSTEM32
+6d2a0000 wtsapi32.dll         10.0.18362.1        C:\Windows\SYSTEM32
+6d2b0000 NETUTILS.DLL         10.0.18362.1        C:\Windows\SYSTEM32
+6d2c0000 version.dll          10.0.18362.1        C:\Windows\SYSTEM32
+73dd0000 netapi32.dll         10.0.18362.1        C:\Windows\SYSTEM32
+73e20000 rasadhlp.dll         10.0.18362.1        C:\Windows\System32
+73e30000 fwpuclnt.dll         10.0.18362.113      C:\Windows\System32
+73ff0000 wshbth.dll           10.0.18362.1        C:\Windows\system32
+74000000 NLAapi.dll           10.0.18362.1        C:\Windows\system32
+74020000 winrnr.dll           10.0.18362.1        C:\Windows\System32
+74030000 DNSAPI.dll           10.0.18362.267      C:\Windows\SYSTEM32
+740d0000 mswsock.dll          10.0.18362.1        C:\Windows\System32
+74130000 pnrpnsp.dll          10.0.18362.1        C:\Windows\system32
+74150000 napinsp.dll          10.0.18362.1        C:\Windows\system32
+74170000 wsock32.dll          10.0.18362.1        C:\Windows\SYSTEM32
+74180000 ntmarta.dll          10.0.18362.1        C:\Windows\SYSTEM32
+741b0000 PROPSYS.dll          7.0.18362.267       C:\Windows\SYSTEM32
+74280000 winspool.drv         10.0.18362.267      C:\Windows\SYSTEM32
+743c0000 IPHLPAPI.DLL         10.0.18362.1        C:\Windows\SYSTEM32
+74400000 gdiplus.dll          10.0.18362.476      C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.18362.476_none_5f5cdad7821dc869
+74570000 COMCTL32.dll         6.10.18362.476      C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.18362.476_none_2e71e7f2278b4e9b
+74780000 WINMMBASE.dll        10.0.18362.1        C:\Windows\SYSTEM32
+747b0000 winmm.dll            10.0.18362.1        C:\Windows\SYSTEM32
+74820000 CRYPTBASE.dll        10.0.18362.1        C:\Windows\System32
+74830000 SspiCli.dll          10.0.18362.1        C:\Windows\System32
+74850000 IMM32.DLL            10.0.18362.387      C:\Windows\System32
+74880000 kernel.appcore.dll   10.0.18362.1        C:\Windows\System32
+74890000 KERNEL32.DLL         10.0.18362.329      C:\Windows\System32
+749d0000 windows.storage.dll  10.0.18362.449      C:\Windows\System32
+75030000 SHLWAPI.dll          10.0.18362.1        C:\Windows\System32
+750e0000 bcrypt.dll           10.0.18362.267      C:\Windows\System32
+75100000 ucrtbase.dll         10.0.18362.387      C:\Windows\System32
+75220000 WS2_32.dll           10.0.18362.387      C:\Windows\System32
+75280000 GDI32.dll            10.0.18362.1        C:\Windows\System32
+75420000 UMPDC.dll                                C:\Windows\System32
+75430000 powrprof.dll         10.0.18362.1        C:\Windows\System32
+75480000 clbcatq.dll          2001.12.10941.16384 C:\Windows\System32
+75500000 comdlg32.dll         10.0.18362.418      C:\Windows\System32
+755b0000 SHELL32.dll          10.0.18362.449      C:\Windows\System32
+75b30000 msvcp_win.dll        10.0.18362.387      C:\Windows\System32
+75bc0000 gdi32full.dll        10.0.18362.476      C:\Windows\System32
+75d20000 MSASN1.dll           10.0.18362.1        C:\Windows\System32
+75d90000 MSCTF.dll            10.0.18362.387      C:\Windows\System32
+75ea0000 combase.dll          10.0.18362.449      C:\Windows\System32
+76120000 advapi32.dll         10.0.18362.329      C:\Windows\System32
+761a0000 oleaut32.dll         10.0.18362.329      C:\Windows\System32
+76260000 CRYPT32.dll          10.0.18362.476      C:\Windows\System32
+76360000 ole32.dll            10.0.18362.113      C:\Windows\System32
+76460000 KERNELBASE.dll       10.0.18362.476      C:\Windows\System32
+76660000 cfgmgr32.dll         10.0.18362.387      C:\Windows\System32
+766a0000 cryptsp.dll          10.0.18362.1        C:\Windows\System32
+766c0000 profapi.dll          10.0.18362.1        C:\Windows\System32
+766e0000 bcryptPrimitives.dll 10.0.18362.295      C:\Windows\System32
+76740000 RPCRT4.dll           10.0.18362.476      C:\Windows\System32
+76800000 NSI.dll              10.0.18362.449      C:\Windows\System32
+76810000 win32u.dll           10.0.18362.476      C:\Windows\System32
+76830000 shcore.dll           10.0.18362.1        C:\Windows\System32
+768c0000 USER32.dll           10.0.18362.476      C:\Windows\System32
+76a60000 msvcrt.dll           7.0.18362.1         C:\Windows\System32
+76b20000 sechost.dll          10.0.18362.267      C:\Windows\System32
+77060000 ntdll.dll            10.0.18362.387      C:\Windows\SYSTEM32
+
+processes:
+0000 Idle                                                               0 0    0
+0004 System                                                             0 0    0
+0058 Registry                                                           0 0    0
+0174 smss.exe                                                           0 0    0
+01e8 csrss.exe                                                          0 0    0
+0234 wininit.exe                                                        0 0    0
+0244 csrss.exe                                                          1 0    0
+0274 services.exe                                                       0 0    0
+027c lsass.exe                                                          0 0    0   normal       C:\Windows\System32
+02ac winlogon.exe                                                       1 5    0   high         C:\Windows\System32
+032c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0334 fontdrvhost.exe                                                    0 0    0   normal       C:\Windows\System32
+033c fontdrvhost.exe                                                    1 0    0   normal       C:\Windows\System32
+036c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+03b4 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+03e8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+01b0 dwm.exe                                                            1 16   2   high         C:\Windows\System32
+0404 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0414 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+047c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0484 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0494 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+04b8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+04d8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+04e0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0574 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+05a0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+05c4 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+05d8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0630 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0638 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0680 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+06ac svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+06e8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+075c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+07d8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0454 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0824 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0838 ARWSRVC.EXE                                                        0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+0888 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+089c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+08a8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+096c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+09a4 Memory Compression                                                 0 0    0
+09e0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+09f8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0a44 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0a4c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0a5c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0b58 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0bfc svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0ac4 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0b6c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0c1c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0c60 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0c68 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0ce0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0d54 spoolsv.exe                                                        0 0    0   normal       C:\Windows\System32
+0d5c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0da4 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0ed0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0ed8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0f80 OPSSVC.EXE                                                         0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+0fc4 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0fcc AnyDesk.exe                                                        0 0    0   high         C:\Program Files (x86)\AnyDesk
+0fd8 bdssvc.exe                                                         0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+0fe8 OfficeClickToRun.exe                                               0 0    0   normal       C:\Program Files\Common Files\microsoft shared\ClickToRun
+0c10 EMLPROXY.EXE                                                       0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+0bf0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0b10 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0c4c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+08b0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0f48 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1098 mysqld-nt.exe                                                      0 0    0   normal       C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin
+11fc REPRSVC.EXE                                                        0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+1204 QUHLPSVC.EXE                                                       0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+120c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1218 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1220 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1228 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1240 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1250 TeamViewer_Service.exe                                             0 0    0   normal       C:\Program Files\TeamViewer
+125c dasHost.exe                                                        0 0    0   normal       C:\Windows\System32
+1278 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+12e8 services_project.exe                                               0 0    0   normal       D:\kamlesg  delphi tranning\Services\Win32\Debug
+12f0 services_project.exe                                               0 0    0   normal       D:\kamlesg  delphi tranning\Services\Win32\Debug
+1304 thread.exe                                                         0 0    0   normal       D:\kamlesg  delphi tranning\services_thread\Win32\Debug
+13dc sqlwriter.exe                                                      0 0    0   normal       C:\Program Files\Microsoft SQL Server\90\Shared
+15d0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+15d8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1988 dasHost.exe                                                        0 0    0   normal       C:\Windows\System32
+1994 MsDtsSrvr.exe                                                      0 0    0   normal       C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn
+19a0 sqlservr.exe                                                       0 0    0   normal       C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\Binn
+19f4 ReportingServicesService.exe                                       0 0    0   normal       C:\Program Files (x86)\Microsoft SQL Server\MSRS12.MSSQLSERVER\Reporting Services\ReportServer\bin
+1a70 svchost.exe                                                        0 0    0
+1aac msmdsrv.exe                                                        0 0    0   normal       C:\Program Files (x86)\Microsoft SQL Server\MSAS12.MSSQLSERVER\OLAP\bin
+1ba0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1d98 ONLINENT.EXE                                                       1 587  234 normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+1e10 sihost.exe                                                         1 0    11  normal       C:\Windows\System32
+1e18 svchost.exe                                                        1 0    1   normal       C:\Windows\System32
+1e78 TeamViewer.exe                                                     1 91   54  normal       C:\Program Files\TeamViewer
+1e84 svchost.exe                                                        1 0    4   normal       C:\Windows\System32
+1e90 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1f68 taskhostw.exe                                                      1 8    6   normal       C:\Windows\System32
+1fd0 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1fd8 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1c88 ctfmon.exe                                                         1 2    24  high         C:\Windows\System32
+1fcc explorer.exe                                                       1 1316 649 normal       C:\Windows
+21b8 svchost.exe                                                        1 0    11  normal       C:\Windows\System32
+23ec tv_w32.exe                                                         1 0    2   normal       C:\Program Files\TeamViewer
+23f8 tv_x64.exe                                                         1 0    2   normal       C:\Program Files\TeamViewer
+035c StartMenuExperienceHost.exe                                        1 1    26  normal       C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy
+0654 fdlauncher.exe                                                     0 0    0   normal       C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\Binn
+0ba8 fdhost.exe                                                         0 0    0   normal       C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\Binn
+0c90 conhost.exe                                                        0 0    0   normal       C:\Windows\System32
+2168 RuntimeBroker.exe                                                  1 40   1   normal       C:\Windows\System32
+1f70 SearchIndexer.exe                                                  0 0    0   normal       C:\Windows\System32
+1a48 RuntimeBroker.exe                                                  1 41   9   normal       C:\Windows\System32
+1b9c SkypeApp.exe                                                       1 0    9   normal       C:\Program Files\WindowsApps\Microsoft.SkypeApp_14.35.152.0_x64__kzf8qxf38zg5c
+0310 SkypeBackgroundHost.exe                                            1 0    1   normal       C:\Program Files\WindowsApps\Microsoft.SkypeApp_14.35.152.0_x64__kzf8qxf38zg5c
+260c svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+27f4 Skype.exe                                                          1 25   48  normal       C:\Program Files (x86)\Microsoft\Skype for Desktop
+2288 ipmsg.exe                                                          1 21   18  normal       C:\Users\Asus\AppData\Local\IPMsg
+2490 SearchUI.exe                                                       1 16   69  normal       C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy
+2748 Skype.exe                                                          1 0    4   normal       C:\Program Files (x86)\Microsoft\Skype for Desktop
+2458 AnyDesk.exe                                                        1 94   14  normal       C:\Program Files (x86)\AnyDesk
+2494 Skype.exe                                                          1 4    2   above normal C:\Program Files (x86)\Microsoft\Skype for Desktop
+0324 Skype.exe                                                          1 0    1   normal       C:\Program Files (x86)\Microsoft\Skype for Desktop
+1fa8 RuntimeBroker.exe                                                  1 0    4   normal       C:\Windows\System32
+2054 Skype.exe                                                          1 3    21  normal       C:\Program Files (x86)\Microsoft\Skype for Desktop
+2890 Skype.exe                                                          1 0    1   normal       C:\Program Files (x86)\Microsoft\Skype for Desktop
+2954 svchost.exe                                                        1 0    1   normal       C:\Windows\System32
+2bec GoogleCrashHandler.exe                                             0 0    0   idle         C:\Program Files (x86)\Google\Update\1.3.36.132
+2810 GoogleCrashHandler64.exe                                           0 0    0   idle         C:\Program Files (x86)\Google\Update\1.3.36.132
+16b4 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+042c SgrmBroker.exe                                                     0 0    0
+2bd0 svchost.exe                                                        0 0    0
+1e48 SCANWSCS.EXE                                                       0 0    0
+2ba8 SecurityHealthService.exe                                          0 0    0
+1550 SecurityHealthHost.exe                                             1 0    1   normal       C:\Windows\System32
+2740 ShellExperienceHost.exe                                            1 13   57  normal       C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy
+10c0 RuntimeBroker.exe                                                  1 40   6   normal       C:\Windows\System32
+0e04 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1344 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0730 chrome.exe                                                         1 59   70  normal       C:\Program Files\Google\Chrome\Application
+0230 chrome.exe                                                         1 0    3   normal       C:\Program Files\Google\Chrome\Application
+23e0 chrome.exe                                                         1 4    2   above normal C:\Program Files\Google\Chrome\Application
+21e4 chrome.exe                                                         1 0    1   normal       C:\Program Files\Google\Chrome\Application
+00b4 chrome.exe                                                         1 0    1   normal       C:\Program Files\Google\Chrome\Application
+2378 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+0744 RuntimeBroker.exe                                                  1 0    1   normal       C:\Windows\System32
+1330 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+2c70 chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+140c chrome.exe                                                         1 0    1   normal       C:\Program Files\Google\Chrome\Application
+1bfc firefox.exe                                                        1 67   66  normal       C:\Program Files (x86)\Mozilla Firefox
+2834 firefox.exe                                                        1 0    13  normal       C:\Program Files (x86)\Mozilla Firefox
+28cc firefox.exe                                                        1 0    0   normal       C:\Program Files (x86)\Mozilla Firefox
+0da0 firefox.exe                                                        1 0    0   idle         C:\Program Files (x86)\Mozilla Firefox
+0698 firefox.exe                                                        1 0    0   normal       C:\Program Files (x86)\Mozilla Firefox
+135c firefox.exe                                                        1 0    0   normal       C:\Program Files (x86)\Mozilla Firefox
+28e4 firefox.exe                                                        1 0    0   normal       C:\Program Files (x86)\Mozilla Firefox
+1154 firefox.exe                                                        1 0    0   normal       C:\Program Files (x86)\Mozilla Firefox
+080c firefox.exe                                                        1 0    0   normal       C:\Program Files (x86)\Mozilla Firefox
+1c30 SCSECSVC.EXE                                                       0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+19e8 BSSISS.EXE                                                         0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+1f88 bds.exe                                                            1 3338 936 normal       C:\Program Files (x86)\Embarcadero\Studio\21.0\bin
+1e54 chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+2d4c chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+2d00 chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+2278 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+1a1c SearchUI.exe                                                       1 14   57  normal       C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy
+2a5c dllhost.exe                                                        1 0    3   normal       C:\Windows\System32
+29b8 WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe 1 0    25  normal       C:\Windows\SystemApps\InputApp_cw5n1h2txyewy
+2cf8 chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+1ee0 msedge.exe                                                         1 19   60  normal       C:\Program Files (x86)\Microsoft\Edge\Application
+2fb4 msedge.exe                                                         1 0    3   normal       C:\Program Files (x86)\Microsoft\Edge\Application
+1334 msedge.exe                                                         1 4    6   above normal C:\Program Files (x86)\Microsoft\Edge\Application
+2814 msedge.exe                                                         1 0    1   normal       C:\Program Files (x86)\Microsoft\Edge\Application
+2388 msedge.exe                                                         1 0    1   normal       C:\Program Files (x86)\Microsoft\Edge\Application
+2158 msedge.exe                                                         1 0    0   idle         C:\Program Files (x86)\Microsoft\Edge\Application
+20b4 msedge.exe                                                         1 0    0   idle         C:\Program Files (x86)\Microsoft\Edge\Application
+071c msedge.exe                                                         1 0    0   idle         C:\Program Files (x86)\Microsoft\Edge\Application
+1cc0 msedge.exe                                                         1 0    0   normal       C:\Program Files (x86)\Microsoft\Edge\Application
+21fc taskhostw.exe                                                      1 0    2   normal       C:\Windows\System32
+1f0c chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+1e40 DelphiLSP.exe                                                      1 20   21  normal       C:\Program Files (x86)\Embarcadero\Studio\21.0\bin
+05fc conhost.exe                                                        1 10   9   normal       C:\Windows\System32
+06e4 DelphiLSP.exe                                                      1 20   16  normal       C:\Program Files (x86)\Embarcadero\Studio\21.0\bin
+09f0 DelphiLSP.exe                                                      1 20   16  normal       C:\Program Files (x86)\Embarcadero\Studio\21.0\bin
+1370 chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+18b8 chrome.exe                                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+28f4 LockApp.exe                                                        1 6    19  normal       C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy
+04d0 RuntimeBroker.exe                                                  1 13   11  normal       C:\Windows\System32
+0148 Microsoft.Photos.exe                                               1 0    10  normal       C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2019.18114.19418.0_x64__8wekyb3d8bbwe
+1b70 RuntimeBroker.exe                                                  1 0    12  normal       C:\Windows\System32
+2bbc taskhostw.exe                                                      0 0    0   below normal C:\Windows\System32
+2924 MySQLQueryBrowser.exe                                              1 844  244 normal       C:\Program Files (x86)\MySQL\MySQL Tools for 5.0
+2330 notepad++.exe                                                      1 816  356 normal       C:\Program Files\Notepad++
+0c30 svchost.exe                                                        0 0    0   normal       C:\Windows\System32
+2b5c svchost.exe                                                        0 0    0
+2194 SAPISSVC.EXE                                                       0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+2508 WmiPrvSE.exe                                                       0 0    0   normal       C:\Windows\System32\wbem
+303c Project_TMS.exe                                                    1 108  60  normal       D:\kamlesg  delphi tranning\TMS\Win32\Debug
+32f0 QHPISVR.EXE                                                        0 0    0   normal       C:\Program Files\Quick Heal\Quick Heal Internet Security
+32d4 conhost.exe                                                        0 0    0   normal       C:\Windows\System32
+
+hardware:
++ {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+  - AnyDesk Printer
+  - EPSON L5190 Series
+  - Fax
+  - Microsoft Print to PDF
+  - Microsoft XPS Document Writer
+  - Root Print Queue
++ {36fc9e60-c465-11cf-8056-444553540000}
+  - Generic USB Hub
+  - Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27C8
+  - Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27C9
+  - Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27CA
+  - Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27CB
+  - Intel(R) 82801G (ICH7 Family) USB2 Enhanced Host Controller - 27CC
+  - USB Composite Device
+  - USB Composite Device
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
++ {4d36e965-e325-11ce-bfc1-08002be10318}
+  - HP DVD Writer 1260t ATA Device
++ {4d36e966-e325-11ce-bfc1-08002be10318}
+  - ACPI x64-based PC
++ {4d36e967-e325-11ce-bfc1-08002be10318}
+  - ST500DM002-1BD142 ATA Device
++ {4d36e968-e325-11ce-bfc1-08002be10318}
+  - Microsoft Basic Display Adapter
++ {4d36e96a-e325-11ce-bfc1-08002be10318}
+  - ATA Channel 0
+  - ATA Channel 0
+  - ATA Channel 1
+  - ATA Channel 1
+  - Intel(R) 82801G (ICH7 Family) Ultra ATA Storage Controllers - 27DF
+  - Intel(R) 82801GB/GR/GH (ICH7 Family) Serial ATA Storage Controller - 27C0
++ {4d36e96b-e325-11ce-bfc1-08002be10318}
+  - HID Keyboard Device
++ {4d36e96c-e325-11ce-bfc1-08002be10318}
+  - High Definition Audio Device
+  - Usb Audio Device
++ {4d36e96e-e325-11ce-bfc1-08002be10318}
+  - Generic PnP Monitor
++ {4d36e96f-e325-11ce-bfc1-08002be10318}
+  - HID-compliant Optical Wheel Mouse (driver 5.90.38.0)
++ {4d36e972-e325-11ce-bfc1-08002be10318}
+  - Microsoft Kernel Debug Network Adapter
+  - Qualcomm Atheros AR813x/815x PCI-E Gigabit Ethernet Controller (NDIS 6.30) (driver 2.1.0.17)
+  - WAN Miniport (IKEv2)
+  - WAN Miniport (IP)
+  - WAN Miniport (IPv6)
+  - WAN Miniport (L2TP)
+  - WAN Miniport (Network Monitor)
+  - WAN Miniport (PPPOE)
+  - WAN Miniport (PPTP)
+  - WAN Miniport (SSTP)
++ {4d36e978-e325-11ce-bfc1-08002be10318}
+  - Communications Port (COM1)
+  - ECP Printer Port (LPT1)
++ {4d36e979-e325-11ce-bfc1-08002be10318}
+  - Microsoft IPP Class Driver
++ {4d36e97b-e325-11ce-bfc1-08002be10318}
+  - Microsoft Storage Spaces Controller
++ {4d36e97d-e325-11ce-bfc1-08002be10318}
+  - ACPI Fixed Feature Button
+  - ACPI Power Button
+  - Composite Bus Enumerator
+  - CPU to IO Controller
+  - Direct memory access controller
+  - High Definition Audio Controller
+  - High precision event timer
+  - Legacy device
+  - LPC Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Basic Display Driver
+  - Microsoft Basic Render Driver
+  - Microsoft Hyper-V Virtualization Infrastructure Driver
+  - Microsoft System Management BIOS Driver
+  - Microsoft Virtual Drive Enumerator
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - NDIS Virtual Network Adapter Enumerator
+  - Numeric data processor
+  - PCI Express Root Complex
+  - PCI-to-PCI Bridge
+  - PCI-to-PCI Bridge
+  - PCI-to-PCI Bridge
+  - Plug and Play Software Device Enumerator
+  - Printer Port Logical Interface
+  - Programmable interrupt controller
+  - Remote Desktop Camera Bus
+  - Remote Desktop Device Redirector Bus
+  - Remote Desktop USB Hub
+  - System board
+  - System board
+  - System CMOS/real time clock
+  - System speaker
+  - System timer
+  - UMBus Enumerator
+  - UMBus Enumerator
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+  - Pentium(R) Dual-Core  CPU      E6600  @ 3.06GHz
+  - Pentium(R) Dual-Core  CPU      E6600  @ 3.06GHz
++ {533c5b84-ec70-11d2-9505-00c04f79deaf}
+  - Generic volume shadow copy
+  - Generic volume shadow copy
++ {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+  - EPSON L5190 Series
+  - EPSON51D02F (L5190 Series)
+  - Generic printer device
+  - HPFA642A (HP Officejet 4500 G510g-m)
+  - Media Foundation Sensor Group
+  - Microsoft Device Association Root Enumerator
+  - Microsoft GS Wavetable Synth
+  - Microsoft Radio Device Enumeration Bus
+  - Microsoft RRAS Root Enumerator
+  - PC1: Umang:
++ {6bdd1fc6-810f-11d0-bec7-08002be2092f}
+  - EPSON51D02F (L5190 Series)
++ {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+  - HID-compliant consumer control device
+  - HID-compliant consumer control device
+  - HID-compliant consumer control device
+  - HID-compliant system controller
+  - USB Input Device
+  - USB Input Device
+  - USB Input Device
+  - USB Input Device
++ {c166523c-fe0c-4a94-a586-f1a80cfbbf3e}
+  - Digital Audio (S/PDIF) (High Definition Audio Device)
+  - Microphone (5- Usb Audio Device)
+  - Microphone (High Definition Audio Device)
+  - Speakers (High Definition Audio Device)
++ {c30ecea0-11ef-4ef9-b02e-6af81e6e65c0}
+  - EPSON51D02F (L5190 Series)
+  - HPFA642A (HP Officejet 4500 G510g-m)
++ {ca3e7ab9-b4c3-4ae6-8251-579ef933890f}
+  - Integrated Camera
+
+cpu registers:
+eax = 036cb740
+ebx = 00000000
+ecx = 00000000
+edx = 01961370
+esi = 00000001
+edi = 0019fe8c
+eip = 004ea3c7
+esp = 0019fdd0
+ebp = 0019fe28
+
+stack dump:
+0019fdd0  c7 a3 4e 00 de fa ed 0e - 01 00 00 00 07 00 00 00  ..N.............
+0019fde0  e4 fd 19 00 c7 a3 4e 00 - 40 b7 6c 03 00 00 00 00  ......N.@.l.....
+0019fdf0  01 00 00 00 8c fe 19 00 - 28 fe 19 00 00 fe 19 00  ........(.......
+0019fe00  40 fe 19 00 a8 a3 40 00 - 28 fe 19 00 40 1b 72 03  @.....@.(...@.r.
+0019fe10  00 00 00 00 01 00 00 00 - 00 00 00 00 01 00 00 00  ................
+0019fe20  c4 88 44 00 40 1b 72 03 - 60 fe 19 00 c7 a3 4e 00  ..D.@.r.`.....N.
+0019fe30  3c fe 4b 00 40 1b 72 03 - 8c fe 19 00 1d 9c 4e 00  <.K.@.r.......N.
+0019fe40  68 fe 19 00 a8 a3 40 00 - 60 fe 19 00 f8 a9 8a 00  h.....@.`.......
+0019fe50  ec 2e 6a 00 50 8e 63 03 - 00 00 00 00 01 00 00 00  ..j.P.c.........
+0019fe60  94 fe 19 00 9d c0 89 00 - 9c fe 19 00 a8 a3 40 00  ..............@.
+0019fe70  94 fe 19 00 50 8e 63 03 - a0 8d 5e 00 08 0e 13 00  ....P.c...^.....
+0019fe80  70 30 66 03 00 00 00 00 - 00 00 00 00 00 00 00 00  p0f.............
+0019fe90  50 8e 63 03 b8 fe 19 00 - ef 32 6a 00 cc fe 19 00  P.c......2j.....
+0019fea0  78 a1 40 00 b8 fe 19 00 - f8 a9 8a 00 ec 2e 6a 00  x.@...........j.
+0019feb0  50 8e 63 03 50 8e 63 03 - e8 fe 19 00 cb 2e 6a 00  P.c.P.c.......j.
+0019fec0  ec 2e 6a 00 00 00 00 00 - d8 95 40 00 f0 fe 19 00  ..j.......@.....
+0019fed0  e5 95 40 00 e8 fe 19 00 - f8 a9 8a 00 ec 2e 6a 00  ..@...........j.
+0019fee0  00 00 00 00 50 8e 63 03 - 20 ff 19 00 7c 2e 6a 00  ....P.c. ...|.j.
+0019fef0  28 ff 19 00 89 95 40 00 - 20 ff 19 00 50 8e 63 03  (.....@. ...P.c.
+0019ff00  f8 a9 8a 00 44 bd 89 00 - 00 00 00 00 00 00 00 00  ....D...........
+
+disassembling:
+[...]
+004ea3b4        cmp     eax, esi
+004ea3b6        ja      loc_4ea3c7
+004ea3b8 7474   mov     edx, [$8b9e00]
+004ea3be        mov     ecx, esi
+004ea3c0        mov     eax, ebx
+004ea3c2      > call    -$1beb ($4e87dc)       ; System.Classes.TStrings.Error
+004ea3c7 7475   mov     eax, edi
+004ea3c9        mov     edx, [ebx+$20]
+004ea3cc        mov     edx, [edx+esi*8]
+004ea3cf        call    -$df1a8 ($40b22c)      ; System.@UStrAsg
+004ea3d4 7476   pop     edi
+[...]
+

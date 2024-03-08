@@ -1,0 +1,126 @@
+**********Dense**************
+
+select *,dense_rank() over (partition by grade order by ORD_DATE) from CUSTOMER C
+inner join ORDERS O	ON O.CUST_CODE= C.CUST_CODE 
+
+select *,dense_rank() over (order by ORD_DATE) from CUSTOMER C
+inner join ORDERS O	ON O.CUST_CODE= C.CUST_CODE
+
+select *,rank() over (order by ORD_DATE) from CUSTOMER C
+inner join ORDERS O	ON O.CUST_CODE= C.CUST_CODE  
+
+***************** Cross Join*************
+
+select * from CUSTOMER
+cross join ORDERS
+
+
+*************** Cross Apply ***********
+select * from CUSTOMER c
+cross apply(
+	select top(3)* from ORDERS o
+	where o.CUST_CODE= c.CUST_CODE
+)Cust
+
+
+select * from CUSTOMER c
+cross apply dbo.CrossApplyTest(c.CUST_CODE)
+
+
+
+
+create function CrossApplyTest(@Cust_code varchar(6))
+returns table
+as
+	return select * from ORDERS
+	where CUST_CODE=@Cust_code;
+
+
+
+WITH    t AS 
+        (
+        SELECT  1 AS id
+        UNION ALL
+        SELECT  2
+        )
+SELECT  *
+FROM    t
+CROSS APPLY
+        (
+        SELECT  TOP (2)*
+        FROM    ORDERS m
+        ORDER BY
+                id
+        ) q
+
+
+
+
+		
+
+
+
+select C.*,O.ORD_DATE from CUSTOMER C
+inner join ORDERS O	ON O.CUST_CODE= C.CUST_CODE 
+
+select * from CUSTOMER c
+inner join (
+	select top(3)* from ORDERS 
+)Cust on  Cust.CUST_CODE= c.CUST_CODE
+
+*****************************************************
+
+with CTE1(CUST_CODE,CUST_NAME,CUST_LVL) as
+(
+select CUST_CODE,CUST_NAME,1 from CUSTOMER
+UNION ALL
+SELECT C.CUST_CODE,C.CUST_NAME,CTE1.CUST_LVL +1  FROM CUSTOMER C
+INNER JOIN CTE1 ON CTE1.CUST_CODE = C.CUST_CODE
+ where CUST_LVL <100
+)
+select CUST_CODE,CUST_NAME,CUST_LVL from CTE1
+ order by CUST_CODE desc
+OPTION (MAXRECURSION 100) 
+
+
+
+
+declare @min int;
+declare @max int;
+set @min=1;
+set @max=100;
+ with cte(num) as
+ ( select @min 
+  union all select num +1 from cte where num+1 <=@max 
+ )
+ select * from cte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

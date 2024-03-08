@@ -1,0 +1,2632 @@
+
+ Start         Length     Name                   Class
+ 0001:00401000 0000544CH .text                   CODE
+ 0002:00407000 00000B4CH .itext                  ICODE
+ 0003:00408000 00000094H .data                   DATA
+ 0004:00409000 00000034H .bss                    BSS
+ 0005:00000000 00000000H .tls                    TLS
+ 0006:00400000 00000000H .pdata                  PDATA
+
+
+Detailed map of segments
+
+ 0001:00000000 000000A0 C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:000000A0 00000BA0 C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:00000C40 00000008 C=CODE     S=.text    G=(none)   M=System.UITypes ACBP=A9
+ 0001:00000C48 00000144 C=CODE     S=.text    G=(none)   M=Winapi.Windows ACBP=A9
+ 0001:00000D8C 00000024 C=CODE     S=.text    G=(none)   M=Winapi.PsAPI ACBP=A9
+ 0001:00000DB0 00000008 C=CODE     S=.text    G=(none)   M=System.Character ACBP=A9
+ 0001:00000DB8 00000008 C=CODE     S=.text    G=(none)   M=System.Internal.ExcUtils ACBP=A9
+ 0001:00000DC0 00000058 C=CODE     S=.text    G=(none)   M=System.SysUtils ACBP=A9
+ 0001:00000E18 00000008 C=CODE     S=.text    G=(none)   M=System.VarUtils ACBP=A9
+ 0001:00000E20 00000008 C=CODE     S=.text    G=(none)   M=System.Variants ACBP=A9
+ 0001:00000E28 00000008 C=CODE     S=.text    G=(none)   M=System.Math ACBP=A9
+ 0001:00000E30 00000008 C=CODE     S=.text    G=(none)   M=System.TimeSpan ACBP=A9
+ 0001:00000E38 00000088 C=CODE     S=.text    G=(none)   M=System.Classes ACBP=A9
+ 0001:00000EC0 00000018 C=CODE     S=.text    G=(none)   M=System.Rtti ACBP=A9
+ 0001:00000ED8 00000008 C=CODE     S=.text    G=(none)   M=System.TypInfo ACBP=A9
+ 0001:00000EE0 00000010 C=CODE     S=.text    G=(none)   M=System.Generics.Defaults ACBP=A9
+ 0001:00000EF0 00000008 C=CODE     S=.text    G=(none)   M=System.Messaging ACBP=A9
+ 0001:00000EF8 00000008 C=CODE     S=.text    G=(none)   M=System.Actions ACBP=A9
+ 0001:00000F00 00000010 C=CODE     S=.text    G=(none)   M=System.DateUtils ACBP=A9
+ 0001:00000F10 00000008 C=CODE     S=.text    G=(none)   M=System.IOUtils ACBP=A9
+ 0001:00000F18 00000008 C=CODE     S=.text    G=(none)   M=System.IniFiles ACBP=A9
+ 0001:00000F20 00000008 C=CODE     S=.text    G=(none)   M=System.Win.Registry ACBP=A9
+ 0001:00000F28 00000008 C=CODE     S=.text    G=(none)   M=System.UIConsts ACBP=A9
+ 0001:00000F30 00000030 C=CODE     S=.text    G=(none)   M=Vcl.Graphics ACBP=A9
+ 0001:00000F60 00000008 C=CODE     S=.text    G=(none)   M=System.SyncObjs ACBP=A9
+ 0001:00000F68 00000008 C=CODE     S=.text    G=(none)   M=Winapi.UxTheme ACBP=A9
+ 0001:00000F70 00000008 C=CODE     S=.text    G=(none)   M=Vcl.ActnList ACBP=A9
+ 0001:00000F78 00000008 C=CODE     S=.text    G=(none)   M=System.AnsiStrings ACBP=A9
+ 0001:00000F80 00000010 C=CODE     S=.text    G=(none)   M=System.Win.ComObj ACBP=A9
+ 0001:00000F90 00000068 C=CODE     S=.text    G=(none)   M=Winapi.MsCTF ACBP=A9
+ 0001:00000FF8 00000008 C=CODE     S=.text    G=(none)   M=Vcl.GraphUtil ACBP=A9
+ 0001:00001000 00000188 C=CODE     S=.text    G=(none)   M=Vcl.Controls ACBP=A9
+ 0001:00001188 00000090 C=CODE     S=.text    G=(none)   M=Vcl.StdCtrls ACBP=A9
+ 0001:00001218 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Printers ACBP=A9
+ 0001:00001220 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Clipbrd ACBP=A9
+ 0001:00001228 000000D0 C=CODE     S=.text    G=(none)   M=Vcl.ComCtrls ACBP=A9
+ 0001:000012F8 00000008 C=CODE     S=.text    G=(none)   M=System.HelpIntfs ACBP=A9
+ 0001:00001300 00000018 C=CODE     S=.text    G=(none)   M=Vcl.Dialogs ACBP=A9
+ 0001:00001318 00000028 C=CODE     S=.text    G=(none)   M=Vcl.ExtCtrls ACBP=A9
+ 0001:00001340 00000010 C=CODE     S=.text    G=(none)   M=Vcl.Themes ACBP=A9
+ 0001:00001350 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Menus ACBP=A9
+ 0001:00001358 00000008 C=CODE     S=.text    G=(none)   M=Winapi.FlatSB ACBP=A9
+ 0001:00001360 000001E0 C=CODE     S=.text    G=(none)   M=Vcl.Forms ACBP=A9
+ 0001:00001540 00000008 C=CODE     S=.text    G=(none)   M=Data.SqlTimSt ACBP=A9
+ 0001:00001548 00000008 C=CODE     S=.text    G=(none)   M=Data.FmtBcd ACBP=A9
+ 0001:00001550 00000010 C=CODE     S=.text    G=(none)   M=Data.DB  ACBP=A9
+ 0001:00001560 00000008 C=CODE     S=.text    G=(none)   M=Data.Win.ADODB ACBP=A9
+ 0001:00001568 00000020 C=CODE     S=.text    G=(none)   M=Vcl.Grids ACBP=A9
+ 0001:00001588 00000010 C=CODE     S=.text    G=(none)   M=Vcl.Buttons ACBP=A9
+ 0001:00001598 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Imaging.jpeg ACBP=A9
+ 0001:000015A0 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Imaging.pngimage ACBP=A9
+ 0001:000015A8 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Imaging.GIFImg ACBP=A9
+ 0001:000015B0 00000008 C=CODE     S=.text    G=(none)   M=System.NetEncoding ACBP=A9
+ 0001:000015B8 00000008 C=CODE     S=.text    G=(none)   M=AdvUtils ACBP=A9
+ 0001:000015C0 00000010 C=CODE     S=.text    G=(none)   M=AdvPersistence ACBP=A9
+ 0001:000015D0 00000008 C=CODE     S=.text    G=(none)   M=AdvGDIPlusApi ACBP=A9
+ 0001:000015D8 00000008 C=CODE     S=.text    G=(none)   M=AdvGDIPlusClasses ACBP=A9
+ 0001:000015E0 00000008 C=CODE     S=.text    G=(none)   M=AdvGraphicsTypes ACBP=A9
+ 0001:000015E8 00000008 C=CODE     S=.text    G=(none)   M=AdvGraphics ACBP=A9
+ 0001:000015F0 00000010 C=CODE     S=.text    G=(none)   M=Xml.Win.msxmldom ACBP=A9
+ 0001:00001600 00000008 C=CODE     S=.text    G=(none)   M=Xml.xmldom ACBP=A9
+ 0001:00001608 00000008 C=CODE     S=.text    G=(none)   M=Xml.XMLSchema ACBP=A9
+ 0001:00001610 00000008 C=CODE     S=.text    G=(none)   M=TMSTrial ACBP=A9
+ 0001:00001618 00000008 C=CODE     S=.text    G=(none)   M=AdvGraphicsStyles ACBP=A9
+ 0001:00001620 00000008 C=CODE     S=.text    G=(none)   M=AdvTypes ACBP=A9
+ 0001:00001628 00000008 C=CODE     S=.text    G=(none)   M=AdvGDIP  ACBP=A9
+ 0001:00001630 00000008 C=CODE     S=.text    G=(none)   M=PlanXPVS ACBP=A9
+ 0001:00001638 00000008 C=CODE     S=.text    G=(none)   M=PlanHTML ACBP=A9
+ 0001:00001640 00000008 C=CODE     S=.text    G=(none)   M=AdvStyleIF ACBP=A9
+ 0001:00001648 00000030 C=CODE     S=.text    G=(none)   M=Planner  ACBP=A9
+ 0001:00001678 00000008 C=CODE     S=.text    G=(none)   M=Vcl.ImageCollection ACBP=A9
+ 0001:00001680 00000008 C=CODE     S=.text    G=(none)   M=Vcl.DBLogDlg ACBP=A9
+ 0001:00001688 00000008 C=CODE     S=.text    G=(none)   M=Vcl.DBPWDlg ACBP=A9
+ 0001:00001690 00000030 C=CODE     S=.text    G=(none)   M=Vcl.DBCtrls ACBP=A9
+ 0001:000016C0 00000010 C=CODE     S=.text    G=(none)   M=Vcl.DBGrids ACBP=A9
+ 0001:000016D0 00000048 C=CODE     S=.text    G=(none)   M=PlannerCal ACBP=A9
+ 0001:00001718 00000008 C=CODE     S=.text    G=(none)   M=ACXPVS   ACBP=A9
+ 0001:00001720 00000008 C=CODE     S=.text    G=(none)   M=AdvToolTip ACBP=A9
+ 0001:00001728 00000008 C=CODE     S=.text    G=(none)   M=PlannerMonthView ACBP=A9
+ 0001:00001730 00000008 C=CODE     S=.text    G=(none)   M=AdvXPVS  ACBP=A9
+ 0001:00001738 00000008 C=CODE     S=.text    G=(none)   M=AdvUtil  ACBP=A9
+ 0001:00001740 00000008 C=CODE     S=.text    G=(none)   M=Winapi.D2D1 ACBP=A9
+ 0001:00001748 00000010 C=CODE     S=.text    G=(none)   M=Vcl.Direct2D ACBP=A9
+ 0001:00001758 00000008 C=CODE     S=.text    G=(none)   M=AsgHTMLE ACBP=A9
+ 0001:00001760 00000008 C=CODE     S=.text    G=(none)   M=AdvObj   ACBP=A9
+ 0001:00001768 00000008 C=CODE     S=.text    G=(none)   M=Vcl.CheckLst ACBP=A9
+ 0001:00001770 00000008 C=CODE     S=.text    G=(none)   M=Vcl.AxCtrls ACBP=A9
+ 0001:00001778 00000008 C=CODE     S=.text    G=(none)   M=asgdd    ACBP=A9
+ 0001:00001780 00000008 C=CODE     S=.text    G=(none)   M=AdvDateTimePicker ACBP=A9
+ 0001:00001788 00000008 C=CODE     S=.text    G=(none)   M=ATXPVS   ACBP=A9
+ 0001:00001790 00000008 C=CODE     S=.text    G=(none)   M=AdvDropDown ACBP=A9
+ 0001:00001798 00000008 C=CODE     S=.text    G=(none)   M=asgxlsfmt ACBP=A9
+ 0001:000017A0 00000008 C=CODE     S=.text    G=(none)   M=AdvGrid  ACBP=A9
+ 0001:000017A8 00000008 C=CODE     S=.text    G=(none)   M=DBAdvGrid ACBP=A9
+ 0001:000017B0 00000008 C=CODE     S=.text    G=(none)   M=Vcl.ExtDlgs ACBP=A9
+ 0001:000017B8 00000008 C=CODE     S=.text    G=(none)   M=Winapi.Mapi ACBP=A9
+ 0001:000017C0 00000008 C=CODE     S=.text    G=(none)   M=Vcl.ExtActns ACBP=A9
+ 0001:000017C8 00000008 C=CODE     S=.text    G=(none)   M=Vcl.ActnMenus ACBP=A9
+ 0001:000017D0 00000008 C=CODE     S=.text    G=(none)   M=Vcl.ActnMan ACBP=A9
+ 0001:000017D8 00000008 C=CODE     S=.text    G=(none)   M=AdvMenuUtil ACBP=A9
+ 0001:000017E0 00000008 C=CODE     S=.text    G=(none)   M=AdvMenus ACBP=A9
+ 0001:000017E8 00000008 C=CODE     S=.text    G=(none)   M=Vcl.AppEvnts ACBP=A9
+ 0001:000017F0 00000008 C=CODE     S=.text    G=(none)   M=AdvOfficeHint ACBP=A9
+ 0001:000017F8 00000008 C=CODE     S=.text    G=(none)   M=AdvDWM   ACBP=A9
+ 0001:00001800 00000008 C=CODE     S=.text    G=(none)   M=AdvTBXPVS ACBP=A9
+ 0001:00001808 00000008 C=CODE     S=.text    G=(none)   M=AdvShapeButton ACBP=A9
+ 0001:00001810 00000008 C=CODE     S=.text    G=(none)   M=AdvToolBar ACBP=A9
+ 0001:00001818 00000010 C=CODE     S=.text    G=(none)   M=AdvWebBrowser.Win ACBP=A9
+ 0001:00001828 00000008 C=CODE     S=.text    G=(none)   M=AdvWebBrowser ACBP=A9
+ 0001:00001830 00000008 C=CODE     S=.text    G=(none)   M=System.Win.Sensors ACBP=A9
+ 0001:00001838 00000018 C=CODE     S=.text    G=(none)   M=System.Sensors ACBP=A9
+ 0001:00001850 00000008 C=CODE     S=.text    G=(none)   M=AdvMetroForm ACBP=A9
+ 0001:00001858 00000008 C=CODE     S=.text    G=(none)   M=AdvMetroTaskDialog ACBP=A9
+ 0001:00001860 00000008 C=CODE     S=.text    G=(none)   M=AdvMetroTile ACBP=A9
+ 0001:00001868 00000008 C=CODE     S=.text    G=(none)   M=AdvNavBar ACBP=A9
+ 0001:00001870 00000008 C=CODE     S=.text    G=(none)   M=AdvReplaceDialogForm ACBP=A9
+ 0001:00001878 00000008 C=CODE     S=.text    G=(none)   M=AdvMDD   ACBP=A9
+ 0001:00001880 00000008 C=CODE     S=.text    G=(none)   M=AdvMemo  ACBP=A9
+ 0001:00001888 00000008 C=CODE     S=.text    G=(none)   M=GDIPFill ACBP=A9
+ 0001:00001890 00000008 C=CODE     S=.text    G=(none)   M=CustomItemsContainer ACBP=A9
+ 0001:00001898 00000008 C=CODE     S=.text    G=(none)   M=dxCore   ACBP=A9
+ 0001:000018A0 00000010 C=CODE     S=.text    G=(none)   M=dxThreading ACBP=A9
+ 0001:000018B0 00000008 C=CODE     S=.text    G=(none)   M=cxGeometry ACBP=A9
+ 0001:000018B8 00000008 C=CODE     S=.text    G=(none)   M=dxCoreClasses ACBP=A9
+ 0001:000018C0 00000010 C=CODE     S=.text    G=(none)   M=dxCrypto ACBP=A9
+ 0001:000018D0 00000018 C=CODE     S=.text    G=(none)   M=dxCoreGraphics ACBP=A9
+ 0001:000018E8 00000008 C=CODE     S=.text    G=(none)   M=dxDPIAwareUtils ACBP=A9
+ 0001:000018F0 00000008 C=CODE     S=.text    G=(none)   M=dxGDIPlusAPI ACBP=A9
+ 0001:000018F8 00000010 C=CODE     S=.text    G=(none)   M=dxStringHelper ACBP=A9
+ 0001:00001908 00000008 C=CODE     S=.text    G=(none)   M=dxSmartImage ACBP=A9
+ 0001:00001910 00000010 C=CODE     S=.text    G=(none)   M=dxGDIPlusClasses ACBP=A9
+ 0001:00001920 00000008 C=CODE     S=.text    G=(none)   M=cxDrawTextUtils ACBP=A9
+ 0001:00001928 00000008 C=CODE     S=.text    G=(none)   M=dxUxTheme ACBP=A9
+ 0001:00001930 00000008 C=CODE     S=.text    G=(none)   M=dxHooks  ACBP=A9
+ 0001:00001938 00000008 C=CODE     S=.text    G=(none)   M=dxTouch  ACBP=A9
+ 0001:00001940 00000008 C=CODE     S=.text    G=(none)   M=dxThemeManager ACBP=A9
+ 0001:00001948 00000008 C=CODE     S=.text    G=(none)   M=dxSkinsStrs ACBP=A9
+ 0001:00001950 00000008 C=CODE     S=.text    G=(none)   M=dxXMLDoc ACBP=A9
+ 0001:00001958 00000018 C=CODE     S=.text    G=(none)   M=dxSVGCoreParsers ACBP=A9
+ 0001:00001970 00000010 C=CODE     S=.text    G=(none)   M=dxSVGCore ACBP=A9
+ 0001:00001980 00000008 C=CODE     S=.text    G=(none)   M=dxSVGImage ACBP=A9
+ 0001:00001988 00000008 C=CODE     S=.text    G=(none)   M=dxSkinsCore ACBP=A9
+ 0001:00001990 00000008 C=CODE     S=.text    G=(none)   M=cxLibraryStrs ACBP=A9
+ 0001:00001998 00000008 C=CODE     S=.text    G=(none)   M=cxLookAndFeelPainters ACBP=A9
+ 0001:000019A0 00000008 C=CODE     S=.text    G=(none)   M=cxLookAndFeels ACBP=A9
+ 0001:000019A8 00000008 C=CODE     S=.text    G=(none)   M=dxFading ACBP=A9
+ 0001:000019B0 00000010 C=CODE     S=.text    G=(none)   M=dxForms  ACBP=A9
+ 0001:000019C0 00000008 C=CODE     S=.text    G=(none)   M=cxDWMApi ACBP=A9
+ 0001:000019C8 00000008 C=CODE     S=.text    G=(none)   M=cxContainer ACBP=A9
+ 0001:000019D0 00000008 C=CODE     S=.text    G=(none)   M=dxCustomHint ACBP=A9
+ 0001:000019D8 00000008 C=CODE     S=.text    G=(none)   M=dxAnimation ACBP=A9
+ 0001:000019E0 00000008 C=CODE     S=.text    G=(none)   M=dxShapePrimitives ACBP=A9
+ 0001:000019E8 00000008 C=CODE     S=.text    G=(none)   M=dxDirectX.D2D.Types ACBP=A9
+ 0001:000019F0 00000010 C=CODE     S=.text    G=(none)   M=dxDirectX.D2D.Classes ACBP=A9
+ 0001:00001A00 00000008 C=CODE     S=.text    G=(none)   M=dxDirectX.D2D.Canvas ACBP=A9
+ 0001:00001A08 00000010 C=CODE     S=.text    G=(none)   M=cxDateUtils ACBP=A9
+ 0001:00001A18 00000008 C=CODE     S=.text    G=(none)   M=cxFormats ACBP=A9
+ 0001:00001A20 00000018 C=CODE     S=.text    G=(none)   M=cxControls ACBP=A9
+ 0001:00001A38 00000008 C=CODE     S=.text    G=(none)   M=cxCustomCanvas ACBP=A9
+ 0001:00001A40 00000010 C=CODE     S=.text    G=(none)   M=cxGraphics ACBP=A9
+ 0001:00001A50 00000008 C=CODE     S=.text    G=(none)   M=cxClasses ACBP=A9
+ 0001:00001A58 00000244 C=CODE     S=.text    G=(none)   M=NewForm  ACBP=A9
+ 0001:00001C9C 00000008 C=CODE     S=.text    G=(none)   M=cxDataConsts ACBP=A9
+ 0001:00001CA4 00000008 C=CODE     S=.text    G=(none)   M=cxDataStorage ACBP=A9
+ 0001:00001CAC 00000008 C=CODE     S=.text    G=(none)   M=cxFilterConsts ACBP=A9
+ 0001:00001CB4 00000008 C=CODE     S=.text    G=(none)   M=cxCustomData ACBP=A9
+ 0001:00001CBC 00000008 C=CODE     S=.text    G=(none)   M=dxCultureInfo ACBP=A9
+ 0001:00001CC4 00000010 C=CODE     S=.text    G=(none)   M=dxSpellCheckerCore ACBP=A9
+ 0001:00001CD4 00000008 C=CODE     S=.text    G=(none)   M=cxEditConsts ACBP=A9
+ 0001:00001CDC 00000008 C=CODE     S=.text    G=(none)   M=cxEdit   ACBP=A9
+ 0001:00001CE4 00000008 C=CODE     S=.text    G=(none)   M=cxFilterControlStrs ACBP=A9
+ 0001:00001CEC 00000008 C=CODE     S=.text    G=(none)   M=cxTextEdit ACBP=A9
+ 0001:00001CF4 00000008 C=CODE     S=.text    G=(none)   M=cxMaskEdit ACBP=A9
+ 0001:00001CFC 00000008 C=CODE     S=.text    G=(none)   M=cxDropDownEdit ACBP=A9
+ 0001:00001D04 00000008 C=CODE     S=.text    G=(none)   M=cxDB     ACBP=A9
+ 0001:00001D0C 00000008 C=CODE     S=.text    G=(none)   M=cxExtEditConsts ACBP=A9
+ 0001:00001D14 00000008 C=CODE     S=.text    G=(none)   M=cxCheckBox ACBP=A9
+ 0001:00001D1C 00000008 C=CODE     S=.text    G=(none)   M=cxSpinEdit ACBP=A9
+ 0001:00001D24 00000008 C=CODE     S=.text    G=(none)   M=cxTrackBar ACBP=A9
+ 0001:00001D2C 00000008 C=CODE     S=.text    G=(none)   M=dxCameraControl ACBP=A9
+ 0001:00001D34 00000008 C=CODE     S=.text    G=(none)   M=cxImage  ACBP=A9
+ 0001:00001D3C 00000008 C=CODE     S=.text    G=(none)   M=cxMemo   ACBP=A9
+ 0001:00001D44 00000008 C=CODE     S=.text    G=(none)   M=cxBlobEdit ACBP=A9
+ 0001:00001D4C 00000008 C=CODE     S=.text    G=(none)   M=cxButtonEdit ACBP=A9
+ 0001:00001D54 00000008 C=CODE     S=.text    G=(none)   M=cxCalc   ACBP=A9
+ 0001:00001D5C 00000008 C=CODE     S=.text    G=(none)   M=cxTimeEdit ACBP=A9
+ 0001:00001D64 00000008 C=CODE     S=.text    G=(none)   M=Vcl.OleServer ACBP=A9
+ 0001:00001D6C 00000008 C=CODE     S=.text    G=(none)   M=cxAccessibility ACBP=A9
+ 0001:00001D74 00000008 C=CODE     S=.text    G=(none)   M=dxGallery ACBP=A9
+ 0001:00001D7C 00000008 C=CODE     S=.text    G=(none)   M=dxNumericWheelPicker ACBP=A9
+ 0001:00001D84 00000008 C=CODE     S=.text    G=(none)   M=dxDateTimeWheelPicker ACBP=A9
+ 0001:00001D8C 00000008 C=CODE     S=.text    G=(none)   M=cxCalendar ACBP=A9
+ 0001:00001D94 00000008 C=CODE     S=.text    G=(none)   M=cxCurrencyEdit ACBP=A9
+ 0001:00001D9C 00000008 C=CODE     S=.text    G=(none)   M=cxHyperLinkEdit ACBP=A9
+ 0001:00001DA4 00000008 C=CODE     S=.text    G=(none)   M=cxImageComboBox ACBP=A9
+ 0001:00001DAC 00000008 C=CODE     S=.text    G=(none)   M=cxListBox ACBP=A9
+ 0001:00001DB4 00000008 C=CODE     S=.text    G=(none)   M=cxMRUEdit ACBP=A9
+ 0001:00001DBC 00000008 C=CODE     S=.text    G=(none)   M=dxAcrylicEffect ACBP=A9
+ 0001:00001DC4 00000008 C=CODE     S=.text    G=(none)   M=cxGroupBox ACBP=A9
+ 0001:00001DCC 00000008 C=CODE     S=.text    G=(none)   M=cxRadioGroup ACBP=A9
+ 0001:00001DD4 00000008 C=CODE     S=.text    G=(none)   M=cxDBFilter ACBP=A9
+ 0001:00001DDC 00000008 C=CODE     S=.text    G=(none)   M=cxDBData ACBP=A9
+ 0001:00001DE4 00000008 C=CODE     S=.text    G=(none)   M=dxToggleSwitch ACBP=A9
+ 0001:00001DEC 00000008 C=CODE     S=.text    G=(none)   M=dxSparkline ACBP=A9
+ 0001:00001DF4 00000008 C=CODE     S=.text    G=(none)   M=dxBarCodeUtils ACBP=A9
+ 0001:00001DFC 00000008 C=CODE     S=.text    G=(none)   M=dxBarCode ACBP=A9
+ 0001:00001E04 00000008 C=CODE     S=.text    G=(none)   M=dxTokenEdit ACBP=A9
+ 0001:00001E0C 00000008 C=CODE     S=.text    G=(none)   M=dxDocumentLayoutUnitConverter ACBP=A9
+ 0001:00001E14 00000018 C=CODE     S=.text    G=(none)   M=dxFontHelpers ACBP=A9
+ 0001:00001E2C 00000008 C=CODE     S=.text    G=(none)   M=dxFormattedText ACBP=A9
+ 0001:00001E34 00000008 C=CODE     S=.text    G=(none)   M=dxFormattedTextConverterBBCode ACBP=A9
+ 0001:00001E3C 000000D8 C=CODE     S=.text    G=(none)   M=dxEncoding ACBP=A9
+ 0001:00001F14 00000008 C=CODE     S=.text    G=(none)   M=dxFormattedTextConverterRTF ACBP=A9
+ 0001:00001F1C 00000008 C=CODE     S=.text    G=(none)   M=dxFormattedLabel ACBP=A9
+ 0001:00001F24 00000008 C=CODE     S=.text    G=(none)   M=cxEditRepositoryItems ACBP=A9
+ 0001:00001F2C 00000008 C=CODE     S=.text    G=(none)   M=cxEditDataRegisteredRepositoryItems ACBP=A9
+ 0001:00001F34 00000008 C=CODE     S=.text    G=(none)   M=cxDBEditRepository ACBP=A9
+ 0001:00001F3C 00000008 C=CODE     S=.text    G=(none)   M=cxEditDBRegisteredRepositoryItems ACBP=A9
+ 0001:00001F44 00000008 C=CODE     S=.text    G=(none)   M=cxDBLookupComboBox ACBP=A9
+ 0001:00001F4C 00000008 C=CODE     S=.text    G=(none)   M=AtbXPVS  ACBP=A9
+ 0001:00001F54 000021DC C=CODE     S=.text    G=(none)   M=dbplanner_test ACBP=A9
+ 0001:00004130 0000131C C=CODE     S=.text    G=(none)   M=Project_dbplanner ACBP=A9
+ 0002:00000000 00000008 C=ICODE    S=.itext   G=(none)   M=System   ACBP=A9
+ 0002:00000008 00000008 C=ICODE    S=.itext   G=(none)   M=SysInit  ACBP=A9
+ 0002:00000010 00000008 C=ICODE    S=.itext   G=(none)   M=System.UITypes ACBP=A9
+ 0002:00000018 00000018 C=ICODE    S=.itext   G=(none)   M=Winapi.Windows ACBP=A9
+ 0002:00000030 00000008 C=ICODE    S=.itext   G=(none)   M=Winapi.PsAPI ACBP=A9
+ 0002:00000038 00000008 C=ICODE    S=.itext   G=(none)   M=System.Character ACBP=A9
+ 0002:00000040 00000008 C=ICODE    S=.itext   G=(none)   M=System.Internal.ExcUtils ACBP=A9
+ 0002:00000048 00000028 C=ICODE    S=.itext   G=(none)   M=System.SysUtils ACBP=A9
+ 0002:00000070 00000008 C=ICODE    S=.itext   G=(none)   M=System.VarUtils ACBP=A9
+ 0002:00000078 00000008 C=ICODE    S=.itext   G=(none)   M=System.Variants ACBP=A9
+ 0002:00000080 00000008 C=ICODE    S=.itext   G=(none)   M=System.Math ACBP=A9
+ 0002:00000088 00000008 C=ICODE    S=.itext   G=(none)   M=System.TimeSpan ACBP=A9
+ 0002:00000090 00000040 C=ICODE    S=.itext   G=(none)   M=System.Classes ACBP=A9
+ 0002:000000D0 00000018 C=ICODE    S=.itext   G=(none)   M=System.Rtti ACBP=A9
+ 0002:000000E8 00000008 C=ICODE    S=.itext   G=(none)   M=System.TypInfo ACBP=A9
+ 0002:000000F0 00000010 C=ICODE    S=.itext   G=(none)   M=System.Generics.Defaults ACBP=A9
+ 0002:00000100 00000008 C=ICODE    S=.itext   G=(none)   M=System.Messaging ACBP=A9
+ 0002:00000108 00000008 C=ICODE    S=.itext   G=(none)   M=System.Actions ACBP=A9
+ 0002:00000110 00000010 C=ICODE    S=.itext   G=(none)   M=System.DateUtils ACBP=A9
+ 0002:00000120 00000008 C=ICODE    S=.itext   G=(none)   M=System.IOUtils ACBP=A9
+ 0002:00000128 00000008 C=ICODE    S=.itext   G=(none)   M=System.IniFiles ACBP=A9
+ 0002:00000130 00000008 C=ICODE    S=.itext   G=(none)   M=System.Win.Registry ACBP=A9
+ 0002:00000138 00000008 C=ICODE    S=.itext   G=(none)   M=System.UIConsts ACBP=A9
+ 0002:00000140 00000010 C=ICODE    S=.itext   G=(none)   M=Vcl.Graphics ACBP=A9
+ 0002:00000150 00000008 C=ICODE    S=.itext   G=(none)   M=System.SyncObjs ACBP=A9
+ 0002:00000158 00000008 C=ICODE    S=.itext   G=(none)   M=Winapi.UxTheme ACBP=A9
+ 0002:00000160 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.ActnList ACBP=A9
+ 0002:00000168 00000008 C=ICODE    S=.itext   G=(none)   M=System.AnsiStrings ACBP=A9
+ 0002:00000170 00000010 C=ICODE    S=.itext   G=(none)   M=System.Win.ComObj ACBP=A9
+ 0002:00000180 00000010 C=ICODE    S=.itext   G=(none)   M=Winapi.MsCTF ACBP=A9
+ 0002:00000190 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.GraphUtil ACBP=A9
+ 0002:00000198 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Controls ACBP=A9
+ 0002:000001A0 00000090 C=ICODE    S=.itext   G=(none)   M=Vcl.StdCtrls ACBP=A9
+ 0002:00000230 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Printers ACBP=A9
+ 0002:00000238 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Clipbrd ACBP=A9
+ 0002:00000240 000000C8 C=ICODE    S=.itext   G=(none)   M=Vcl.ComCtrls ACBP=A9
+ 0002:00000308 00000008 C=ICODE    S=.itext   G=(none)   M=System.HelpIntfs ACBP=A9
+ 0002:00000310 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Dialogs ACBP=A9
+ 0002:00000318 00000028 C=ICODE    S=.itext   G=(none)   M=Vcl.ExtCtrls ACBP=A9
+ 0002:00000340 00000010 C=ICODE    S=.itext   G=(none)   M=Vcl.Themes ACBP=A9
+ 0002:00000350 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Menus ACBP=A9
+ 0002:00000358 00000008 C=ICODE    S=.itext   G=(none)   M=Winapi.FlatSB ACBP=A9
+ 0002:00000360 00000020 C=ICODE    S=.itext   G=(none)   M=Vcl.Forms ACBP=A9
+ 0002:00000380 00000008 C=ICODE    S=.itext   G=(none)   M=Data.SqlTimSt ACBP=A9
+ 0002:00000388 00000008 C=ICODE    S=.itext   G=(none)   M=Data.FmtBcd ACBP=A9
+ 0002:00000390 00000008 C=ICODE    S=.itext   G=(none)   M=Data.DB  ACBP=A9
+ 0002:00000398 00000008 C=ICODE    S=.itext   G=(none)   M=Data.Win.ADODB ACBP=A9
+ 0002:000003A0 00000020 C=ICODE    S=.itext   G=(none)   M=Vcl.Grids ACBP=A9
+ 0002:000003C0 00000010 C=ICODE    S=.itext   G=(none)   M=Vcl.Buttons ACBP=A9
+ 0002:000003D0 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Imaging.jpeg ACBP=A9
+ 0002:000003D8 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Imaging.pngimage ACBP=A9
+ 0002:000003E0 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Imaging.GIFImg ACBP=A9
+ 0002:000003E8 00000008 C=ICODE    S=.itext   G=(none)   M=System.NetEncoding ACBP=A9
+ 0002:000003F0 00000008 C=ICODE    S=.itext   G=(none)   M=AdvUtils ACBP=A9
+ 0002:000003F8 00000010 C=ICODE    S=.itext   G=(none)   M=AdvPersistence ACBP=A9
+ 0002:00000408 00000008 C=ICODE    S=.itext   G=(none)   M=AdvGDIPlusApi ACBP=A9
+ 0002:00000410 00000008 C=ICODE    S=.itext   G=(none)   M=AdvGDIPlusClasses ACBP=A9
+ 0002:00000418 00000008 C=ICODE    S=.itext   G=(none)   M=AdvGraphicsTypes ACBP=A9
+ 0002:00000420 00000008 C=ICODE    S=.itext   G=(none)   M=AdvGraphics ACBP=A9
+ 0002:00000428 00000010 C=ICODE    S=.itext   G=(none)   M=Xml.Win.msxmldom ACBP=A9
+ 0002:00000438 00000008 C=ICODE    S=.itext   G=(none)   M=Xml.xmldom ACBP=A9
+ 0002:00000440 00000008 C=ICODE    S=.itext   G=(none)   M=Xml.XMLSchema ACBP=A9
+ 0002:00000448 00000008 C=ICODE    S=.itext   G=(none)   M=TMSTrial ACBP=A9
+ 0002:00000450 00000008 C=ICODE    S=.itext   G=(none)   M=AdvGraphicsStyles ACBP=A9
+ 0002:00000458 00000008 C=ICODE    S=.itext   G=(none)   M=AdvTypes ACBP=A9
+ 0002:00000460 00000008 C=ICODE    S=.itext   G=(none)   M=AdvGDIP  ACBP=A9
+ 0002:00000468 00000008 C=ICODE    S=.itext   G=(none)   M=PlanXPVS ACBP=A9
+ 0002:00000470 00000008 C=ICODE    S=.itext   G=(none)   M=PlanHTML ACBP=A9
+ 0002:00000478 00000008 C=ICODE    S=.itext   G=(none)   M=AdvStyleIF ACBP=A9
+ 0002:00000480 00000008 C=ICODE    S=.itext   G=(none)   M=Planner  ACBP=A9
+ 0002:00000488 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.ImageCollection ACBP=A9
+ 0002:00000490 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.DBLogDlg ACBP=A9
+ 0002:00000498 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.DBPWDlg ACBP=A9
+ 0002:000004A0 00000030 C=ICODE    S=.itext   G=(none)   M=Vcl.DBCtrls ACBP=A9
+ 0002:000004D0 00000010 C=ICODE    S=.itext   G=(none)   M=Vcl.DBGrids ACBP=A9
+ 0002:000004E0 00000008 C=ICODE    S=.itext   G=(none)   M=PlannerCal ACBP=A9
+ 0002:000004E8 00000008 C=ICODE    S=.itext   G=(none)   M=ACXPVS   ACBP=A9
+ 0002:000004F0 00000008 C=ICODE    S=.itext   G=(none)   M=AdvToolTip ACBP=A9
+ 0002:000004F8 00000008 C=ICODE    S=.itext   G=(none)   M=PlannerMonthView ACBP=A9
+ 0002:00000500 00000008 C=ICODE    S=.itext   G=(none)   M=AdvXPVS  ACBP=A9
+ 0002:00000508 00000008 C=ICODE    S=.itext   G=(none)   M=AdvUtil  ACBP=A9
+ 0002:00000510 00000008 C=ICODE    S=.itext   G=(none)   M=Winapi.D2D1 ACBP=A9
+ 0002:00000518 00000010 C=ICODE    S=.itext   G=(none)   M=Vcl.Direct2D ACBP=A9
+ 0002:00000528 00000008 C=ICODE    S=.itext   G=(none)   M=AsgHTMLE ACBP=A9
+ 0002:00000530 00000008 C=ICODE    S=.itext   G=(none)   M=AdvObj   ACBP=A9
+ 0002:00000538 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.CheckLst ACBP=A9
+ 0002:00000540 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.AxCtrls ACBP=A9
+ 0002:00000548 00000008 C=ICODE    S=.itext   G=(none)   M=asgdd    ACBP=A9
+ 0002:00000550 00000008 C=ICODE    S=.itext   G=(none)   M=AdvDateTimePicker ACBP=A9
+ 0002:00000558 00000008 C=ICODE    S=.itext   G=(none)   M=ATXPVS   ACBP=A9
+ 0002:00000560 00000008 C=ICODE    S=.itext   G=(none)   M=AdvDropDown ACBP=A9
+ 0002:00000568 00000008 C=ICODE    S=.itext   G=(none)   M=asgxlsfmt ACBP=A9
+ 0002:00000570 00000008 C=ICODE    S=.itext   G=(none)   M=AdvGrid  ACBP=A9
+ 0002:00000578 00000008 C=ICODE    S=.itext   G=(none)   M=DBAdvGrid ACBP=A9
+ 0002:00000580 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.ExtDlgs ACBP=A9
+ 0002:00000588 00000008 C=ICODE    S=.itext   G=(none)   M=Winapi.Mapi ACBP=A9
+ 0002:00000590 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.ExtActns ACBP=A9
+ 0002:00000598 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.ActnMenus ACBP=A9
+ 0002:000005A0 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.ActnMan ACBP=A9
+ 0002:000005A8 00000008 C=ICODE    S=.itext   G=(none)   M=AdvMenuUtil ACBP=A9
+ 0002:000005B0 00000008 C=ICODE    S=.itext   G=(none)   M=AdvMenus ACBP=A9
+ 0002:000005B8 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.AppEvnts ACBP=A9
+ 0002:000005C0 00000008 C=ICODE    S=.itext   G=(none)   M=AdvOfficeHint ACBP=A9
+ 0002:000005C8 00000008 C=ICODE    S=.itext   G=(none)   M=AdvDWM   ACBP=A9
+ 0002:000005D0 00000008 C=ICODE    S=.itext   G=(none)   M=AdvTBXPVS ACBP=A9
+ 0002:000005D8 00000008 C=ICODE    S=.itext   G=(none)   M=AdvShapeButton ACBP=A9
+ 0002:000005E0 00000008 C=ICODE    S=.itext   G=(none)   M=AdvToolBar ACBP=A9
+ 0002:000005E8 00000010 C=ICODE    S=.itext   G=(none)   M=AdvWebBrowser.Win ACBP=A9
+ 0002:000005F8 00000008 C=ICODE    S=.itext   G=(none)   M=AdvWebBrowser ACBP=A9
+ 0002:00000600 00000008 C=ICODE    S=.itext   G=(none)   M=System.Win.Sensors ACBP=A9
+ 0002:00000608 00000018 C=ICODE    S=.itext   G=(none)   M=System.Sensors ACBP=A9
+ 0002:00000620 00000008 C=ICODE    S=.itext   G=(none)   M=AdvMetroForm ACBP=A9
+ 0002:00000628 00000008 C=ICODE    S=.itext   G=(none)   M=AdvMetroTaskDialog ACBP=A9
+ 0002:00000630 00000008 C=ICODE    S=.itext   G=(none)   M=AdvMetroTile ACBP=A9
+ 0002:00000638 00000008 C=ICODE    S=.itext   G=(none)   M=AdvNavBar ACBP=A9
+ 0002:00000640 00000008 C=ICODE    S=.itext   G=(none)   M=AdvReplaceDialogForm ACBP=A9
+ 0002:00000648 00000008 C=ICODE    S=.itext   G=(none)   M=AdvMDD   ACBP=A9
+ 0002:00000650 00000008 C=ICODE    S=.itext   G=(none)   M=AdvMemo  ACBP=A9
+ 0002:00000658 00000008 C=ICODE    S=.itext   G=(none)   M=GDIPFill ACBP=A9
+ 0002:00000660 00000008 C=ICODE    S=.itext   G=(none)   M=CustomItemsContainer ACBP=A9
+ 0002:00000668 00000008 C=ICODE    S=.itext   G=(none)   M=dxCore   ACBP=A9
+ 0002:00000670 00000010 C=ICODE    S=.itext   G=(none)   M=dxThreading ACBP=A9
+ 0002:00000680 00000008 C=ICODE    S=.itext   G=(none)   M=cxGeometry ACBP=A9
+ 0002:00000688 00000008 C=ICODE    S=.itext   G=(none)   M=dxCoreClasses ACBP=A9
+ 0002:00000690 00000010 C=ICODE    S=.itext   G=(none)   M=dxCrypto ACBP=A9
+ 0002:000006A0 00000018 C=ICODE    S=.itext   G=(none)   M=dxCoreGraphics ACBP=A9
+ 0002:000006B8 00000008 C=ICODE    S=.itext   G=(none)   M=dxDPIAwareUtils ACBP=A9
+ 0002:000006C0 00000008 C=ICODE    S=.itext   G=(none)   M=dxGDIPlusAPI ACBP=A9
+ 0002:000006C8 00000010 C=ICODE    S=.itext   G=(none)   M=dxStringHelper ACBP=A9
+ 0002:000006D8 00000008 C=ICODE    S=.itext   G=(none)   M=dxSmartImage ACBP=A9
+ 0002:000006E0 00000010 C=ICODE    S=.itext   G=(none)   M=dxGDIPlusClasses ACBP=A9
+ 0002:000006F0 00000008 C=ICODE    S=.itext   G=(none)   M=cxDrawTextUtils ACBP=A9
+ 0002:000006F8 00000008 C=ICODE    S=.itext   G=(none)   M=dxUxTheme ACBP=A9
+ 0002:00000700 00000008 C=ICODE    S=.itext   G=(none)   M=dxHooks  ACBP=A9
+ 0002:00000708 00000008 C=ICODE    S=.itext   G=(none)   M=dxTouch  ACBP=A9
+ 0002:00000710 00000008 C=ICODE    S=.itext   G=(none)   M=dxThemeManager ACBP=A9
+ 0002:00000718 00000008 C=ICODE    S=.itext   G=(none)   M=dxSkinsStrs ACBP=A9
+ 0002:00000720 00000008 C=ICODE    S=.itext   G=(none)   M=dxXMLDoc ACBP=A9
+ 0002:00000728 00000018 C=ICODE    S=.itext   G=(none)   M=dxSVGCoreParsers ACBP=A9
+ 0002:00000740 00000010 C=ICODE    S=.itext   G=(none)   M=dxSVGCore ACBP=A9
+ 0002:00000750 00000008 C=ICODE    S=.itext   G=(none)   M=dxSVGImage ACBP=A9
+ 0002:00000758 00000008 C=ICODE    S=.itext   G=(none)   M=dxSkinsCore ACBP=A9
+ 0002:00000760 00000008 C=ICODE    S=.itext   G=(none)   M=cxLibraryStrs ACBP=A9
+ 0002:00000768 00000008 C=ICODE    S=.itext   G=(none)   M=cxLookAndFeelPainters ACBP=A9
+ 0002:00000770 00000008 C=ICODE    S=.itext   G=(none)   M=cxLookAndFeels ACBP=A9
+ 0002:00000778 00000008 C=ICODE    S=.itext   G=(none)   M=dxFading ACBP=A9
+ 0002:00000780 00000010 C=ICODE    S=.itext   G=(none)   M=dxForms  ACBP=A9
+ 0002:00000790 00000008 C=ICODE    S=.itext   G=(none)   M=cxDWMApi ACBP=A9
+ 0002:00000798 00000008 C=ICODE    S=.itext   G=(none)   M=cxContainer ACBP=A9
+ 0002:000007A0 00000008 C=ICODE    S=.itext   G=(none)   M=dxCustomHint ACBP=A9
+ 0002:000007A8 00000008 C=ICODE    S=.itext   G=(none)   M=dxAnimation ACBP=A9
+ 0002:000007B0 00000008 C=ICODE    S=.itext   G=(none)   M=dxShapePrimitives ACBP=A9
+ 0002:000007B8 00000008 C=ICODE    S=.itext   G=(none)   M=dxDirectX.D2D.Types ACBP=A9
+ 0002:000007C0 00000010 C=ICODE    S=.itext   G=(none)   M=dxDirectX.D2D.Classes ACBP=A9
+ 0002:000007D0 00000008 C=ICODE    S=.itext   G=(none)   M=dxDirectX.D2D.Canvas ACBP=A9
+ 0002:000007D8 00000010 C=ICODE    S=.itext   G=(none)   M=cxDateUtils ACBP=A9
+ 0002:000007E8 00000008 C=ICODE    S=.itext   G=(none)   M=cxFormats ACBP=A9
+ 0002:000007F0 00000018 C=ICODE    S=.itext   G=(none)   M=cxControls ACBP=A9
+ 0002:00000808 00000008 C=ICODE    S=.itext   G=(none)   M=cxCustomCanvas ACBP=A9
+ 0002:00000810 00000010 C=ICODE    S=.itext   G=(none)   M=cxGraphics ACBP=A9
+ 0002:00000820 00000008 C=ICODE    S=.itext   G=(none)   M=cxClasses ACBP=A9
+ 0002:00000828 00000008 C=ICODE    S=.itext   G=(none)   M=cxDataConsts ACBP=A9
+ 0002:00000830 00000008 C=ICODE    S=.itext   G=(none)   M=cxDataStorage ACBP=A9
+ 0002:00000838 00000008 C=ICODE    S=.itext   G=(none)   M=cxFilterConsts ACBP=A9
+ 0002:00000840 00000008 C=ICODE    S=.itext   G=(none)   M=cxCustomData ACBP=A9
+ 0002:00000848 00000008 C=ICODE    S=.itext   G=(none)   M=dxCultureInfo ACBP=A9
+ 0002:00000850 00000010 C=ICODE    S=.itext   G=(none)   M=dxSpellCheckerCore ACBP=A9
+ 0002:00000860 00000008 C=ICODE    S=.itext   G=(none)   M=cxEditConsts ACBP=A9
+ 0002:00000868 00000008 C=ICODE    S=.itext   G=(none)   M=cxEdit   ACBP=A9
+ 0002:00000870 00000008 C=ICODE    S=.itext   G=(none)   M=cxFilterControlStrs ACBP=A9
+ 0002:00000878 00000008 C=ICODE    S=.itext   G=(none)   M=cxTextEdit ACBP=A9
+ 0002:00000880 00000008 C=ICODE    S=.itext   G=(none)   M=cxMaskEdit ACBP=A9
+ 0002:00000888 00000008 C=ICODE    S=.itext   G=(none)   M=cxDropDownEdit ACBP=A9
+ 0002:00000890 00000008 C=ICODE    S=.itext   G=(none)   M=cxDB     ACBP=A9
+ 0002:00000898 00000008 C=ICODE    S=.itext   G=(none)   M=cxExtEditConsts ACBP=A9
+ 0002:000008A0 00000008 C=ICODE    S=.itext   G=(none)   M=cxCheckBox ACBP=A9
+ 0002:000008A8 00000008 C=ICODE    S=.itext   G=(none)   M=cxSpinEdit ACBP=A9
+ 0002:000008B0 00000008 C=ICODE    S=.itext   G=(none)   M=cxTrackBar ACBP=A9
+ 0002:000008B8 00000008 C=ICODE    S=.itext   G=(none)   M=dxCameraControl ACBP=A9
+ 0002:000008C0 00000008 C=ICODE    S=.itext   G=(none)   M=cxImage  ACBP=A9
+ 0002:000008C8 00000008 C=ICODE    S=.itext   G=(none)   M=cxMemo   ACBP=A9
+ 0002:000008D0 00000008 C=ICODE    S=.itext   G=(none)   M=cxBlobEdit ACBP=A9
+ 0002:000008D8 00000008 C=ICODE    S=.itext   G=(none)   M=cxButtonEdit ACBP=A9
+ 0002:000008E0 00000008 C=ICODE    S=.itext   G=(none)   M=cxCalc   ACBP=A9
+ 0002:000008E8 00000008 C=ICODE    S=.itext   G=(none)   M=cxTimeEdit ACBP=A9
+ 0002:000008F0 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.OleServer ACBP=A9
+ 0002:000008F8 00000008 C=ICODE    S=.itext   G=(none)   M=cxAccessibility ACBP=A9
+ 0002:00000900 00000008 C=ICODE    S=.itext   G=(none)   M=dxGallery ACBP=A9
+ 0002:00000908 00000008 C=ICODE    S=.itext   G=(none)   M=dxNumericWheelPicker ACBP=A9
+ 0002:00000910 00000008 C=ICODE    S=.itext   G=(none)   M=dxDateTimeWheelPicker ACBP=A9
+ 0002:00000918 00000008 C=ICODE    S=.itext   G=(none)   M=cxCalendar ACBP=A9
+ 0002:00000920 00000008 C=ICODE    S=.itext   G=(none)   M=cxCurrencyEdit ACBP=A9
+ 0002:00000928 00000008 C=ICODE    S=.itext   G=(none)   M=cxHyperLinkEdit ACBP=A9
+ 0002:00000930 00000008 C=ICODE    S=.itext   G=(none)   M=cxImageComboBox ACBP=A9
+ 0002:00000938 00000008 C=ICODE    S=.itext   G=(none)   M=cxListBox ACBP=A9
+ 0002:00000940 00000008 C=ICODE    S=.itext   G=(none)   M=cxMRUEdit ACBP=A9
+ 0002:00000948 00000008 C=ICODE    S=.itext   G=(none)   M=dxAcrylicEffect ACBP=A9
+ 0002:00000950 00000008 C=ICODE    S=.itext   G=(none)   M=cxGroupBox ACBP=A9
+ 0002:00000958 00000008 C=ICODE    S=.itext   G=(none)   M=cxRadioGroup ACBP=A9
+ 0002:00000960 00000008 C=ICODE    S=.itext   G=(none)   M=cxDBFilter ACBP=A9
+ 0002:00000968 00000008 C=ICODE    S=.itext   G=(none)   M=cxDBData ACBP=A9
+ 0002:00000970 00000008 C=ICODE    S=.itext   G=(none)   M=dxToggleSwitch ACBP=A9
+ 0002:00000978 00000008 C=ICODE    S=.itext   G=(none)   M=dxSparkline ACBP=A9
+ 0002:00000980 00000008 C=ICODE    S=.itext   G=(none)   M=dxBarCodeUtils ACBP=A9
+ 0002:00000988 00000008 C=ICODE    S=.itext   G=(none)   M=dxBarCode ACBP=A9
+ 0002:00000990 00000008 C=ICODE    S=.itext   G=(none)   M=dxTokenEdit ACBP=A9
+ 0002:00000998 00000008 C=ICODE    S=.itext   G=(none)   M=dxDocumentLayoutUnitConverter ACBP=A9
+ 0002:000009A0 00000018 C=ICODE    S=.itext   G=(none)   M=dxFontHelpers ACBP=A9
+ 0002:000009B8 00000008 C=ICODE    S=.itext   G=(none)   M=dxFormattedText ACBP=A9
+ 0002:000009C0 00000008 C=ICODE    S=.itext   G=(none)   M=dxFormattedTextConverterBBCode ACBP=A9
+ 0002:000009C8 000000D8 C=ICODE    S=.itext   G=(none)   M=dxEncoding ACBP=A9
+ 0002:00000AA0 00000008 C=ICODE    S=.itext   G=(none)   M=dxFormattedTextConverterRTF ACBP=A9
+ 0002:00000AA8 00000008 C=ICODE    S=.itext   G=(none)   M=dxFormattedLabel ACBP=A9
+ 0002:00000AB0 00000008 C=ICODE    S=.itext   G=(none)   M=cxEditRepositoryItems ACBP=A9
+ 0002:00000AB8 00000008 C=ICODE    S=.itext   G=(none)   M=cxEditDataRegisteredRepositoryItems ACBP=A9
+ 0002:00000AC0 00000008 C=ICODE    S=.itext   G=(none)   M=cxDBEditRepository ACBP=A9
+ 0002:00000AC8 00000008 C=ICODE    S=.itext   G=(none)   M=cxEditDBRegisteredRepositoryItems ACBP=A9
+ 0002:00000AD0 00000008 C=ICODE    S=.itext   G=(none)   M=cxDBLookupComboBox ACBP=A9
+ 0002:00000AD8 00000008 C=ICODE    S=.itext   G=(none)   M=AtbXPVS  ACBP=A9
+ 0002:00000AE0 0000006C C=ICODE    S=.itext   G=(none)   M=Project_dbplanner ACBP=A9
+ 0003:00000000 00000078 C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0003:00000078 0000000C C=DATA     S=.data    G=DGROUP   M=Winapi.Windows ACBP=A9
+ 0003:00000084 00000004 C=DATA     S=.data    G=DGROUP   M=Winapi.MsCTF ACBP=A9
+ 0004:00000000 00000018 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0004:00000018 00000008 C=BSS      S=.bss     G=DGROUP   M=Winapi.Windows ACBP=A9
+ 0004:00000020 00000008 C=BSS      S=.bss     G=DGROUP   M=Winapi.PsAPI ACBP=A9
+ 0004:00000028 00000004 C=BSS      S=.bss     G=DGROUP   M=Winapi.MsCTF ACBP=A9
+ 0004:0000002C 00000004 C=BSS      S=.bss     G=DGROUP   M=NewForm  ACBP=A9
+ 0004:00000030 00000004 C=BSS      S=.bss     G=DGROUP   M=dbplanner_test ACBP=A9
+
+
+  Address             Publics by Name
+
+ 0002:000004E8       ACXPVS.ACXPVS
+ 0001:00001718       ACXPVS.Finalization
+ 0002:00000550       AdvDateTimePicker.AdvDateTimePicker
+ 0001:00001780       AdvDateTimePicker.Finalization
+ 0002:00000560       AdvDropDown.AdvDropDown
+ 0001:00001790       AdvDropDown.Finalization
+ 0002:000005C8       AdvDWM.AdvDWM
+ 0001:000017F8       AdvDWM.Finalization
+ 0002:00000460       AdvGDIP.AdvGDIP
+ 0001:00001628       AdvGDIP.Finalization
+ 0002:00000408       AdvGDIPlusApi.AdvGDIPlusApi
+ 0001:000015D0       AdvGDIPlusApi.Finalization
+ 0002:00000410       AdvGDIPlusClasses.AdvGDIPlusClasses
+ 0001:000015D8       AdvGDIPlusClasses.Finalization
+ 0002:00000420       AdvGraphics.AdvGraphics
+ 0001:000015E8       AdvGraphics.Finalization
+ 0002:00000450       AdvGraphicsStyles.AdvGraphicsStyles
+ 0001:00001618       AdvGraphicsStyles.Finalization
+ 0002:00000418       AdvGraphicsTypes.AdvGraphicsTypes
+ 0001:000015E0       AdvGraphicsTypes.Finalization
+ 0002:00000570       AdvGrid.AdvGrid
+ 0001:000017A0       AdvGrid.Finalization
+ 0002:00000648       AdvMDD.AdvMDD
+ 0001:00001878       AdvMDD.Finalization
+ 0002:00000650       AdvMemo.AdvMemo
+ 0001:00001880       AdvMemo.Finalization
+ 0002:000005B0       AdvMenus.AdvMenus
+ 0001:000017E0       AdvMenus.Finalization
+ 0002:000005A8       AdvMenuUtil.AdvMenuUtil
+ 0001:000017D8       AdvMenuUtil.Finalization
+ 0002:00000620       AdvMetroForm.AdvMetroForm
+ 0001:00001850       AdvMetroForm.Finalization
+ 0002:00000628       AdvMetroTaskDialog.AdvMetroTaskDialog
+ 0001:00001858       AdvMetroTaskDialog.Finalization
+ 0002:00000630       AdvMetroTile.AdvMetroTile
+ 0001:00001860       AdvMetroTile.Finalization
+ 0002:00000638       AdvNavBar.AdvNavBar
+ 0001:00001868       AdvNavBar.Finalization
+ 0002:00000530       AdvObj.AdvObj
+ 0001:00001760       AdvObj.Finalization
+ 0002:000005C0       AdvOfficeHint.AdvOfficeHint
+ 0001:000017F0       AdvOfficeHint.Finalization
+ 0002:00000400       AdvPersistence.AdvPersistence
+ 0001:000015C8       AdvPersistence.Finalization
+ 0002:000003F8       AdvPersistence.TAdvPersistence.Create@
+ 0001:000015C0       AdvPersistence.TAdvPersistence.Destroy@
+ 0002:00000640       AdvReplaceDialogForm.AdvReplaceDialogForm
+ 0001:00001870       AdvReplaceDialogForm.Finalization
+ 0002:000005D8       AdvShapeButton.AdvShapeButton
+ 0001:00001808       AdvShapeButton.Finalization
+ 0002:00000478       AdvStyleIF.AdvStyleIF
+ 0001:00001640       AdvStyleIF.Finalization
+ 0002:000005D0       AdvTBXPVS.AdvTBXPVS
+ 0001:00001800       AdvTBXPVS.Finalization
+ 0002:000005E0       AdvToolBar.AdvToolBar
+ 0001:00001810       AdvToolBar.Finalization
+ 0002:000004F0       AdvToolTip.AdvToolTip
+ 0001:00001720       AdvToolTip.Finalization
+ 0002:00000458       AdvTypes.AdvTypes
+ 0001:00001620       AdvTypes.Finalization
+ 0002:00000508       AdvUtil.AdvUtil
+ 0001:00001738       AdvUtil.Finalization
+ 0002:000003F0       AdvUtils.AdvUtils
+ 0001:000015B8       AdvUtils.Finalization
+ 0002:000005F8       AdvWebBrowser.AdvWebBrowser
+ 0001:00001828       AdvWebBrowser.Finalization
+ 0002:000005F0       AdvWebBrowser.Win.AdvWebBrowser.Win
+ 0001:00001820       AdvWebBrowser.Win.Finalization
+ 0002:000005E8       AdvWebBrowser.Win.TAdvWinWebBrowser.Create@
+ 0001:00001818       AdvWebBrowser.Win.TAdvWinWebBrowser.Destroy@
+ 0002:00000500       AdvXPVS.AdvXPVS
+ 0001:00001730       AdvXPVS.Finalization
+ 0002:00000548       asgdd.asgdd
+ 0001:00001778       asgdd.Finalization
+ 0002:00000528       AsgHTMLE.AsgHTMLE
+ 0001:00001758       AsgHTMLE.Finalization
+ 0002:00000568       asgxlsfmt.asgxlsfmt
+ 0001:00001798       asgxlsfmt.Finalization
+ 0002:00000AD8       AtbXPVS.AtbXPVS
+ 0001:00001F4C       AtbXPVS.Finalization
+ 0002:00000558       ATXPVS.ATXPVS
+ 0001:00001788       ATXPVS.Finalization
+ 0002:00000660       CustomItemsContainer.CustomItemsContainer
+ 0001:00001890       CustomItemsContainer.Finalization
+ 0002:000008F8       cxAccessibility.cxAccessibility
+ 0001:00001D6C       cxAccessibility.Finalization
+ 0002:000008D0       cxBlobEdit.cxBlobEdit
+ 0001:00001D44       cxBlobEdit.Finalization
+ 0002:000008D8       cxButtonEdit.cxButtonEdit
+ 0001:00001D4C       cxButtonEdit.Finalization
+ 0002:000008E0       cxCalc.cxCalc
+ 0001:00001D54       cxCalc.Finalization
+ 0002:00000918       cxCalendar.cxCalendar
+ 0001:00001D8C       cxCalendar.Finalization
+ 0002:000008A0       cxCheckBox.cxCheckBox
+ 0001:00001D14       cxCheckBox.Finalization
+ 0002:00000820       cxClasses.cxClasses
+ 0001:00001A50       cxClasses.Finalization
+ 0002:00000798       cxContainer.cxContainer
+ 0001:000019C8       cxContainer.Finalization
+ 0002:00000800       cxControls.cxControls
+ 0001:00001A30       cxControls.Finalization
+ 0001:00001A28       cxControls.TdxHybridScrollbarManagers.Finalize@
+ 0002:000007F8       cxControls.TdxHybridScrollbarManagers.Initialize@
+ 0002:000007F0       cxControls.TdxTouchScrollUIModeManager.Create@
+ 0001:00001A20       cxControls.TdxTouchScrollUIModeManager.Finalize@
+ 0002:00000920       cxCurrencyEdit.cxCurrencyEdit
+ 0001:00001D94       cxCurrencyEdit.Finalization
+ 0002:00000808       cxCustomCanvas.cxCustomCanvas
+ 0001:00001A38       cxCustomCanvas.Finalization
+ 0002:00000840       cxCustomData.cxCustomData
+ 0001:00001CB4       cxCustomData.Finalization
+ 0002:00000828       cxDataConsts.cxDataConsts
+ 0001:00001C9C       cxDataConsts.Finalization
+ 0002:00000830       cxDataStorage.cxDataStorage
+ 0001:00001CA4       cxDataStorage.Finalization
+ 0002:000007E0       cxDateUtils.cxDateUtils
+ 0001:00001A10       cxDateUtils.Finalization
+ 0002:000007D8       cxDateUtils.TdxTimeZoneHelper.Create@
+ 0001:00001A08       cxDateUtils.TdxTimeZoneHelper.Destroy@
+ 0002:00000890       cxDB.TcxDataLinksController.Create@
+ 0001:00001D04       cxDB.TcxDataLinksController.Destroy@
+ 0002:00000968       cxDBData.cxDBData
+ 0001:00001DDC       cxDBData.Finalization
+ 0002:00000AC0       cxDBEditRepository.cxDBEditRepository
+ 0001:00001F34       cxDBEditRepository.Finalization
+ 0002:00000960       cxDBFilter.cxDBFilter
+ 0001:00001DD4       cxDBFilter.Finalization
+ 0002:00000AD0       cxDBLookupComboBox.cxDBLookupComboBox
+ 0001:00001F44       cxDBLookupComboBox.Finalization
+ 0002:000006F0       cxDrawTextUtils.cxDrawTextUtils
+ 0001:00001920       cxDrawTextUtils.Finalization
+ 0002:00000888       cxDropDownEdit.cxDropDownEdit
+ 0001:00001CFC       cxDropDownEdit.Finalization
+ 0002:00000790       cxDWMApi.cxDWMApi
+ 0001:000019C0       cxDWMApi.Finalization
+ 0002:00000868       cxEdit.cxEdit
+ 0001:00001CDC       cxEdit.Finalization
+ 0002:00000860       cxEditConsts.cxEditConsts
+ 0001:00001CD4       cxEditConsts.Finalization
+ 0002:00000AB8       cxEditDataRegisteredRepositoryItems.cxEditDataRegisteredRepositoryItems
+ 0001:00001F2C       cxEditDataRegisteredRepositoryItems.Finalization
+ 0002:00000AC8       cxEditDBRegisteredRepositoryItems.cxEditDBRegisteredRepositoryItems
+ 0001:00001F3C       cxEditDBRegisteredRepositoryItems.Finalization
+ 0002:00000AB0       cxEditRepositoryItems.cxEditRepositoryItems
+ 0001:00001F24       cxEditRepositoryItems.Finalization
+ 0002:00000898       cxExtEditConsts.cxExtEditConsts
+ 0001:00001D0C       cxExtEditConsts.Finalization
+ 0002:00000838       cxFilterConsts.cxFilterConsts
+ 0001:00001CAC       cxFilterConsts.Finalization
+ 0002:00000870       cxFilterControlStrs.cxFilterControlStrs
+ 0001:00001CE4       cxFilterControlStrs.Finalization
+ 0002:000007E8       cxFormats.cxFormats
+ 0001:00001A18       cxFormats.Finalization
+ 0002:00000680       cxGeometry.cxGeometry
+ 0001:000018B0       cxGeometry.Finalization
+ 0002:00000818       cxGraphics.cxGraphics
+ 0001:00001A48       cxGraphics.Finalization
+ 0001:00001A40       cxGraphics.TdxImageListPaintCache.Finalize@
+ 0002:00000810       cxGraphics.TdxImageListPaintCache.Initialize@
+ 0002:00000950       cxGroupBox.cxGroupBox
+ 0001:00001DC4       cxGroupBox.Finalization
+ 0002:00000928       cxHyperLinkEdit.cxHyperLinkEdit
+ 0001:00001D9C       cxHyperLinkEdit.Finalization
+ 0002:000008C0       cxImage.cxImage
+ 0001:00001D34       cxImage.Finalization
+ 0002:00000930       cxImageComboBox.cxImageComboBox
+ 0001:00001DA4       cxImageComboBox.Finalization
+ 0002:00000760       cxLibraryStrs.cxLibraryStrs
+ 0001:00001990       cxLibraryStrs.Finalization
+ 0002:00000938       cxListBox.cxListBox
+ 0001:00001DAC       cxListBox.Finalization
+ 0002:00000768       cxLookAndFeelPainters.cxLookAndFeelPainters
+ 0001:00001998       cxLookAndFeelPainters.Finalization
+ 0002:00000770       cxLookAndFeels.cxLookAndFeels
+ 0001:000019A0       cxLookAndFeels.Finalization
+ 0002:00000880       cxMaskEdit.cxMaskEdit
+ 0001:00001CF4       cxMaskEdit.Finalization
+ 0002:000008C8       cxMemo.cxMemo
+ 0001:00001D3C       cxMemo.Finalization
+ 0002:00000940       cxMRUEdit.cxMRUEdit
+ 0001:00001DB4       cxMRUEdit.Finalization
+ 0002:00000958       cxRadioGroup.cxRadioGroup
+ 0001:00001DCC       cxRadioGroup.Finalization
+ 0002:000008A8       cxSpinEdit.cxSpinEdit
+ 0001:00001D1C       cxSpinEdit.Finalization
+ 0002:00000878       cxTextEdit.cxTextEdit
+ 0001:00001CEC       cxTextEdit.Finalization
+ 0002:000008E8       cxTimeEdit.cxTimeEdit
+ 0001:00001D5C       cxTimeEdit.Finalization
+ 0002:000008B0       cxTrackBar.cxTrackBar
+ 0001:00001D24       cxTrackBar.Finalization
+ 0002:00000390       Data.DB.Data.DB
+ 0001:00001558       Data.DB.Finalization
+ 0001:00001550       Data.DB.TFields.FieldByName
+ 0002:00000388       Data.FmtBcd.Data.FmtBcd
+ 0001:00001548       Data.FmtBcd.Finalization
+ 0002:00000380       Data.SqlTimSt.Data.SqlTimSt
+ 0001:00001540       Data.SqlTimSt.Finalization
+ 0002:00000398       Data.Win.ADODB.Data.Win.ADODB
+ 0001:00001560       Data.Win.ADODB.Finalization
+ 0002:00000578       DBAdvGrid.DBAdvGrid
+ 0001:000017A8       DBAdvGrid.Finalization
+ 0001:00001F54       dbplanner_test..TPlannerFm
+ 0004:00000030       dbplanner_test.PlannerFm
+ 0001:000035A4       dbplanner_test.TPlannerFm.AdvComboBox1DrawItem
+ 0001:000036B4       dbplanner_test.TPlannerFm.AdvGlowButton1Click
+ 0001:0000371C       dbplanner_test.TPlannerFm.btnCreateClick
+ 0001:000037FC       dbplanner_test.TPlannerFm.ComboBox1DrawItem
+ 0001:00003990       dbplanner_test.TPlannerFm.DBPlanner1ItemDelete
+ 0001:000039BC       dbplanner_test.TPlannerFm.DBPlanner1ItemInsert
+ 0001:00003A2C       dbplanner_test.TPlannerFm.DBPlanner1ItemRightClick
+ 0001:00003AE0       dbplanner_test.TPlannerFm.DBPlanner1ItemText
+ 0001:00003B00       dbplanner_test.TPlannerFm.DBPlanner2ItemRightClick
+ 0001:00003B14       dbplanner_test.TPlannerFm.DBPlannerCalendar1AllDaySelect
+ 0001:00003B90       dbplanner_test.TPlannerFm.DBPlannerCalendar1DaySelect
+ 0001:00003CF8       dbplanner_test.TPlannerFm.DBPlannerMonthView1FieldsToItem
+ 0001:00003D44       dbplanner_test.TPlannerFm.DBPlannerMonthView1ItemRightClick
+ 0001:00003DF8       dbplanner_test.TPlannerFm.DBPlannerMonthView1ItemToFields
+ 0001:00003E74       dbplanner_test.TPlannerFm.Exit1Click
+ 0001:00003E90       dbplanner_test.TPlannerFm.FormCreate
+ 0001:00003FC0       dbplanner_test.TPlannerFm.Open1Click
+ 0001:000040DC       dbplanner_test.TPlannerFm.ToolButton5Click
+ 0002:00000948       dxAcrylicEffect.dxAcrylicEffect
+ 0001:00001DBC       dxAcrylicEffect.Finalization
+ 0002:000007A8       dxAnimation.dxAnimation
+ 0001:000019D8       dxAnimation.Finalization
+ 0002:00000988       dxBarCode.dxBarCode
+ 0001:00001DFC       dxBarCode.Finalization
+ 0002:00000980       dxBarCodeUtils.dxBarCodeUtils
+ 0001:00001DF4       dxBarCodeUtils.Finalization
+ 0002:000008B8       dxCameraControl.dxCameraControl
+ 0001:00001D2C       dxCameraControl.Finalization
+ 0002:00000668       dxCore.dxCore
+ 0001:00001898       dxCore.Finalization
+ 0002:00000688       dxCoreClasses.dxCoreClasses
+ 0001:000018B8       dxCoreClasses.Finalization
+ 0002:000006B0       dxCoreGraphics.dxCoreGraphics
+ 0001:000018E0       dxCoreGraphics.Finalization
+ 0001:000018D0       dxCoreGraphics.TdxAlphaColors.Finalize@
+ 0002:000006A0       dxCoreGraphics.TdxAlphaColors.Initialize@
+ 0001:000018D8       dxCoreGraphics.TdxTextMeasurer.Finalize@
+ 0002:000006A8       dxCoreGraphics.TdxTextMeasurer.Initialize@
+ 0002:00000698       dxCrypto.dxCrypto
+ 0001:000018C8       dxCrypto.Finalization
+ 0002:00000690       dxCrypto.TdxCryptoAlgorithms.Create@
+ 0001:000018C0       dxCrypto.TdxCryptoAlgorithms.Destroy@
+ 0002:00000848       dxCultureInfo.dxCultureInfo
+ 0001:00001CBC       dxCultureInfo.Finalization
+ 0002:000007A0       dxCustomHint.dxCustomHint
+ 0001:000019D0       dxCustomHint.Finalization
+ 0002:00000910       dxDateTimeWheelPicker.dxDateTimeWheelPicker
+ 0001:00001D84       dxDateTimeWheelPicker.Finalization
+ 0002:000007D0       dxDirectX.D2D.Canvas.dxDirectX.D2D.Canvas
+ 0001:00001A00       dxDirectX.D2D.Canvas.Finalization
+ 0002:000007C8       dxDirectX.D2D.Classes.dxDirectX.D2D.Classes
+ 0001:000019F8       dxDirectX.D2D.Classes.Finalization
+ 0002:000007C0       dxDirectX.D2D.Classes.TdxDirect2DPenStyleCache.Create@
+ 0001:000019F0       dxDirectX.D2D.Classes.TdxDirect2DPenStyleCache.Destroy@
+ 0002:000007B8       dxDirectX.D2D.Types.dxDirectX.D2D.Types
+ 0001:000019E8       dxDirectX.D2D.Types.Finalization
+ 0001:00001E0C       dxDocumentLayoutUnitConverter.TdxGraphicsDpi.Destroy@
+ 0002:00000998       dxDocumentLayoutUnitConverter.TdxGraphicsDpi.Initialize@
+ 0002:000006B8       dxDPIAwareUtils.dxDPIAwareUtils
+ 0001:000018E8       dxDPIAwareUtils.Finalization
+ 0002:00000A98       dxEncoding.dxEncoding
+ 0001:00001F0C       dxEncoding.Finalization
+ 0002:00000A40       dxEncoding.TdxBig5CharDistributionAnalyzer.Create@
+ 0001:00001EAC       dxEncoding.TdxBig5CharDistributionAnalyzer.Destroy@
+ 0002:00000A48       dxEncoding.TdxBig5EncodingAnalyzer.Create@
+ 0001:00001EB4       dxEncoding.TdxBig5EncodingAnalyzer.Destroy@
+ 0002:000009D8       dxEncoding.TdxBulgarianEncodingDetector.Create@
+ 0001:00001E44       dxEncoding.TdxBulgarianEncodingDetector.Destroy@
+ 0002:000009C8       dxEncoding.TdxCharsetAndCodePageTranslator.Create@
+ 0001:00001EFC       dxEncoding.TdxCharsetAndCodePageTranslator.Finalize@
+ 0002:000009D0       dxEncoding.TdxCyrillicEncodingDetector.Create@
+ 0001:00001E3C       dxEncoding.TdxCyrillicEncodingDetector.Destroy@
+ 0001:00001EF4       dxEncoding.TdxEncoding.Finalize@
+ 0002:00000A88       dxEncoding.TdxEncoding.Initialize@
+ 0002:00000A78       dxEncoding.TdxEucJpEncodingAnalyzer.Create@
+ 0001:00001EE4       dxEncoding.TdxEucJpEncodingAnalyzer.Destroy@
+ 0002:00000A60       dxEncoding.TdxEucKrCharDistributionAnalyzer.Create@
+ 0001:00001ECC       dxEncoding.TdxEucKrCharDistributionAnalyzer.Destroy@
+ 0002:00000A68       dxEncoding.TdxEucKrEncodingAnalyzer.Create@
+ 0001:00001ED4       dxEncoding.TdxEucKrEncodingAnalyzer.Destroy@
+ 0001:00001F04       dxEncoding.TdxFullTrustCharsetAndCodePageTranslator.Finalize@
+ 0002:00000A90       dxEncoding.TdxFullTrustCharsetAndCodePageTranslator.Initialize@
+ 0002:00000A50       dxEncoding.TdxGB18030CharDistributionAnalyzer.Create@
+ 0001:00001EBC       dxEncoding.TdxGB18030CharDistributionAnalyzer.Destroy@
+ 0002:00000A58       dxEncoding.TdxGB18030EncodingAnalyzer.Create@
+ 0001:00001EC4       dxEncoding.TdxGB18030EncodingAnalyzer.Destroy@
+ 0002:00000A20       dxEncoding.TdxGreekEncodingDetector.Create@
+ 0001:00001E8C       dxEncoding.TdxGreekEncodingDetector.Destroy@
+ 0002:000009E0       dxEncoding.TdxIbm855EncodingDetector.Create@
+ 0001:00001E4C       dxEncoding.TdxIbm855EncodingDetector.Destroy@
+ 0002:000009E8       dxEncoding.TdxIbm866EncodingDetector.Create@
+ 0001:00001E54       dxEncoding.TdxIbm866EncodingDetector.Destroy@
+ 0002:00000A70       dxEncoding.TdxJapaneseCharDistributionAnalyzer.Create@
+ 0001:00001EDC       dxEncoding.TdxJapaneseCharDistributionAnalyzer.Destroy@
+ 0002:000009F0       dxEncoding.TdxKoi8rEncodingDetector.Create@
+ 0001:00001E5C       dxEncoding.TdxKoi8rEncodingDetector.Destroy@
+ 0002:00000A00       dxEncoding.TdxLatin5BulgarianEncodingDetector.Create@
+ 0001:00001E6C       dxEncoding.TdxLatin5BulgarianEncodingDetector.Destroy@
+ 0002:000009F8       dxEncoding.TdxLatin5EncodingDetector.Create@
+ 0001:00001E64       dxEncoding.TdxLatin5EncodingDetector.Destroy@
+ 0002:00000A28       dxEncoding.TdxLatin7EncodingDetector.Create@
+ 0001:00001E94       dxEncoding.TdxLatin7EncodingDetector.Destroy@
+ 0002:00000A18       dxEncoding.TdxMacCyrillicDetector.Create@
+ 0001:00001E84       dxEncoding.TdxMacCyrillicDetector.Destroy@
+ 0002:00000A80       dxEncoding.TdxShiftedJisEncodingAnalyzer.Create@
+ 0001:00001EEC       dxEncoding.TdxShiftedJisEncodingAnalyzer.Destroy@
+ 0002:00000A38       dxEncoding.TdxUtf8EncodingAnalyzer.Create@
+ 0001:00001EA4       dxEncoding.TdxUtf8EncodingAnalyzer.Destroy@
+ 0002:00000A10       dxEncoding.TdxWin1251BulgarianEncodingDetector.Create@
+ 0001:00001E7C       dxEncoding.TdxWin1251BulgarianEncodingDetector.Destroy@
+ 0002:00000A08       dxEncoding.TdxWin1251EncodingDetector.Create@
+ 0001:00001E74       dxEncoding.TdxWin1251EncodingDetector.Destroy@
+ 0002:00000A30       dxEncoding.TdxWin1253EncodingDetector.Create@
+ 0001:00001E9C       dxEncoding.TdxWin1253EncodingDetector.Destroy@
+ 0002:00000778       dxFading.dxFading
+ 0001:000019A8       dxFading.Finalization
+ 0002:000009B0       dxFontHelpers.dxFontHelpers
+ 0001:00001E24       dxFontHelpers.Finalization
+ 0002:000009A0       dxFontHelpers.TdxFontLink.Create@
+ 0001:00001E14       dxFontHelpers.TdxFontLink.Destroy@
+ 0001:00001E1C       dxFontHelpers.TdxGdiFontHelper.Finalize@
+ 0002:000009A8       dxFontHelpers.TdxGdiFontHelper.Initialize@
+ 0002:00000AA8       dxFormattedLabel.dxFormattedLabel
+ 0001:00001F1C       dxFormattedLabel.Finalization
+ 0002:000009B8       dxFormattedText.dxFormattedText
+ 0001:00001E2C       dxFormattedText.Finalization
+ 0002:000009C0       dxFormattedTextConverterBBCode.dxFormattedTextConverterBBCode
+ 0001:00001E34       dxFormattedTextConverterBBCode.Finalization
+ 0002:00000AA0       dxFormattedTextConverterRTF.dxFormattedTextConverterRTF
+ 0001:00001F14       dxFormattedTextConverterRTF.Finalization
+ 0002:00000788       dxForms.dxForms
+ 0001:000019B8       dxForms.Finalization
+ 0002:00000780       dxForms.TdxFrameControllerManager.Create@
+ 0001:000019B0       dxForms.TdxFrameControllerManager.Destroy@
+ 0002:00000900       dxGallery.dxGallery
+ 0001:00001D74       dxGallery.Finalization
+ 0002:000006C0       dxGDIPlusAPI.dxGDIPlusAPI
+ 0001:000018F0       dxGDIPlusAPI.Finalization
+ 0002:000006E8       dxGDIPlusClasses.dxGDIPlusClasses
+ 0001:00001918       dxGDIPlusClasses.Finalization
+ 0001:00001910       dxGDIPlusClasses.TdxGPImageCodecJPEG.Destroy@
+ 0002:000006E0       dxGDIPlusClasses.TdxGPImageCodecJPEG.Initialize@
+ 0002:00000700       dxHooks.dxHooks
+ 0001:00001930       dxHooks.Finalization
+ 0002:00000908       dxNumericWheelPicker.dxNumericWheelPicker
+ 0001:00001D7C       dxNumericWheelPicker.Finalization
+ 0002:000007B0       dxShapePrimitives.dxShapePrimitives
+ 0001:000019E0       dxShapePrimitives.Finalization
+ 0002:00000758       dxSkinsCore.dxSkinsCore
+ 0001:00001988       dxSkinsCore.Finalization
+ 0002:00000718       dxSkinsStrs.dxSkinsStrs
+ 0001:00001948       dxSkinsStrs.Finalization
+ 0002:000006D8       dxSmartImage.dxSmartImage
+ 0001:00001908       dxSmartImage.Finalization
+ 0002:00000978       dxSparkline.dxSparkline
+ 0001:00001DEC       dxSparkline.Finalization
+ 0002:00000858       dxSpellCheckerCore.dxSpellCheckerCore
+ 0001:00001CCC       dxSpellCheckerCore.Finalization
+ 0002:00000850       dxSpellCheckerCore.TdxSpellCheckerInstance.Create@
+ 0001:00001CC4       dxSpellCheckerCore.TdxSpellCheckerInstance.Destroy@
+ 0002:000006D0       dxStringHelper.dxStringHelper
+ 0001:00001900       dxStringHelper.Finalization
+ 0002:000006C8       dxStringHelper.TdxStringHelper.Create@
+ 0001:000018F8       dxStringHelper.TdxStringHelper.Destroy@
+ 0002:00000748       dxSVGCore.dxSVGCore
+ 0001:00001978       dxSVGCore.Finalization
+ 0002:00000740       dxSVGCore.TdxSVGAttributeConverter.Create@
+ 0001:00001970       dxSVGCore.TdxSVGAttributeConverter.Destroy@
+ 0002:00000728       dxSVGCoreParsers.TdxSVGFontStyleString.Create@
+ 0001:00001958       dxSVGCoreParsers.TdxSVGFontStyleString.Destroy@
+ 0002:00000738       dxSVGCoreParsers.TdxSVGParserTransform.Create@
+ 0001:00001968       dxSVGCoreParsers.TdxSVGParserTransform.Destroy@
+ 0002:00000730       dxSVGCoreParsers.TdxSVGParserValue.Create@
+ 0001:00001960       dxSVGCoreParsers.TdxSVGParserValue.Destroy@
+ 0002:00000750       dxSVGImage.dxSVGImage
+ 0001:00001980       dxSVGImage.Finalization
+ 0002:00000710       dxThemeManager.dxThemeManager
+ 0001:00001940       dxThemeManager.Finalization
+ 0002:00000678       dxThreading.dxThreading
+ 0001:000018A8       dxThreading.Finalization
+ 0001:000018A0       dxThreading.TdxUIThreadSyncService.Finalize@
+ 0002:00000670       dxThreading.TdxUIThreadSyncService.Initialize@
+ 0002:00000970       dxToggleSwitch.dxToggleSwitch
+ 0001:00001DE4       dxToggleSwitch.Finalization
+ 0002:00000990       dxTokenEdit.dxTokenEdit
+ 0001:00001E04       dxTokenEdit.Finalization
+ 0002:00000708       dxTouch.dxTouch
+ 0001:00001938       dxTouch.Finalization
+ 0002:000006F8       dxUxTheme.dxUxTheme
+ 0001:00001928       dxUxTheme.Finalization
+ 0002:00000720       dxXMLDoc.dxXMLDoc
+ 0001:00001950       dxXMLDoc.Finalization
+ 0001:00001888       GDIPFill.Finalization
+ 0002:00000658       GDIPFill.GDIPFill
+ 0001:00001A58       NewForm..TMainFm
+ 0004:0000002C       NewForm.MainFm
+ 0001:00001638       PlanHTML.Finalization
+ 0002:00000470       PlanHTML.PlanHTML
+ 0001:00001670       Planner.Finalization
+ 0002:00000480       Planner.Planner
+ 0001:00001668       Planner.TPlannerItem.SetCaptionBkg
+ 0001:00001650       Planner.TPlannerItem.SetCaptionText
+ 0001:00001648       Planner.TPlannerItem.SetCaptionType
+ 0001:00001658       Planner.TPlannerItem.SetColor
+ 0001:00001660       Planner.TPlannerItem.SetColorTo
+ 0001:00001710       PlannerCal.Finalization
+ 0002:000004E0       PlannerCal.PlannerCal
+ 0001:00001708       PlannerCal.TPlannerCalendar.GetEvents
+ 0001:000016E0       PlannerCal.TSelDateItem.SetColor
+ 0001:000016E8       PlannerCal.TSelDateItem.SetDate
+ 0001:000016F0       PlannerCal.TSelDateItem.SetEventShape
+ 0001:000016F8       PlannerCal.TSelDateItem.SetFontColor
+ 0001:00001700       PlannerCal.TSelDateItem.SetHint
+ 0001:000016D0       PlannerCal.TSelDateItems.Add
+ 0001:000016D8       PlannerCal.TSelDateItems.GetItem
+ 0001:00001728       PlannerMonthView.Finalization
+ 0002:000004F8       PlannerMonthView.PlannerMonthView
+ 0001:00001630       PlanXPVS.Finalization
+ 0002:00000468       PlanXPVS.PlanXPVS
+ 0001:00004130       Project_dbplanner.Finalization
+ 0002:00000AE0       Project_dbplanner.Project_dbplanner
+ 0001:00000C20       SysInit...
+ 0001:00000BEC       SysInit...
+ 0001:00000BC4       SysInit...
+ 0001:00000BAC       SysInit...
+ 0001:00000B7C       SysInit...
+ 0001:00000B68       SysInit...
+ 0001:00000B58       SysInit...
+ 0001:00000B48       SysInit...
+ 0001:00000B38       SysInit...
+ 0001:00000B28       SysInit...
+ 0003:00000024       SysInit...
+ 0001:00000B18       SysInit...
+ 0001:00000C10       SysInit...
+ 0004:00000014       SysInit..1
+ 0001:0000061C       SysInit.@InitExe
+ 0001:000000FC       SysInit.@_dbkDummyProc
+ 0001:00000100       SysInit.@_dbkFCallArgs
+ 0001:000004F0       SysInit.@_dbk_fcall_wrapper
+ 0001:00000668       SysInit.@_delayLoadHelper2
+ 0001:00000948       SysInit.@_FUnloadDelayLoadedDLL2
+ 0001:00000A58       SysInit.@_HrLoadAllImportsForDll
+ 0004:00000010       SysInit.@_pfnDliFailureHook2
+ 0004:0000000C       SysInit.@_pfnDliNotifyHook2
+ 0004:00000008       SysInit.dbkFCallWrapperAddr
+ 0001:00000C30       SysInit.Finalization
+ 0001:000000B0       SysInit.FreeLibrary
+ 0001:000000D0       SysInit.GetLastError
+ 0001:000000B8       SysInit.GetModuleHandle
+ 0001:000000E8       SysInit.GetProcAddress
+ 0004:00000000       SysInit.HInstance
+ 0001:000000F0       SysInit.InitializeModule
+ 0001:000000A0       SysInit.InterlockedExchange
+ 0001:000000D8       SysInit.LoadLibraryA
+ 0001:000000C0       SysInit.LocalAlloc
+ 0001:000000C8       SysInit.LocalFree
+ 0003:00000008       SysInit.Module
+ 0003:00000004       SysInit.PtrToNil
+ 0001:000000E0       SysInit.RaiseException
+ 0001:00000B10       SysInit.ShutdownDelayHelp2
+ 0002:00000008       SysInit.SysInit
+ 0003:00000000       SysInit.TlsIndex
+ 0004:FFFF7000       SysInit.__ImageBase
+ 0001:00000020       System.@AsClass
+ 0001:00000048       System.@DoneExcept
+ 0001:00000088       System.@DynArrayClear
+ 0001:00000058       System.@Halt0
+ 0001:00000038       System.@HandleAnyException
+ 0001:00000040       System.@HandleFinally
+ 0001:00000050       System.@StartExe
+ 0001:00000068       System.@UStrArrayClr
+ 0001:00000070       System.@UStrAsg
+ 0001:00000060       System.@UStrClr
+ 0001:00000080       System.@UStrEqual
+ 0001:00000078       System.@UStrLAsg
+ 0001:00000098       System.Finalization
+ 0001:00000090       System.RegisterModule
+ 0002:00000000       System.System
+ 0001:00000030       System.TObject.Dispatch
+ 0001:00000010       System.TObject.Equals
+ 0001:00000008       System.TObject.FreeInstance
+ 0001:00000018       System.TObject.GetHashCode
+ 0001:00000000       System.TObject.NewInstance
+ 0001:00000028       System.TObject.ToString
+ 0001:00000EF8       System.Actions.Finalization
+ 0002:00000108       System.Actions.System.Actions
+ 0001:00000F78       System.AnsiStrings.Finalization
+ 0002:00000168       System.AnsiStrings.System.AnsiStrings
+ 0001:00000DB0       System.Character.Finalization
+ 0002:00000038       System.Character.System.Character
+ 0001:00000EB8       System.Classes.Finalization
+ 0002:000000C8       System.Classes.System.Classes
+ 0002:000000C0       System.Classes.TBaseAsyncResult.Create@
+ 0001:00000EB0       System.Classes.TBaseAsyncResult.Destroy@
+ 0002:00000098       System.Classes.TBinaryWriter.Create@
+ 0001:00000E98       System.Classes.TBinaryWriter.Destroy@
+ 0001:00000E50       System.Classes.TCollection.GetCount
+ 0001:00000E78       System.Classes.TComponent.CanObserve
+ 0002:000000B0       System.Classes.TComponent.Create@
+ 0001:00000E38       System.Classes.TComponent.Destroy@
+ 0001:00000E68       System.Classes.TComponent.GetObservers
+ 0001:00000E80       System.Classes.TComponent.ObserverAdded
+ 0001:00000E88       System.Classes.TComponent.SafeCallException
+ 0001:00000E70       System.Classes.TComponent.UpdateAction
+ 0001:00000E90       System.Classes.TComponent.UpdateRegistry
+ 0001:00000E60       System.Classes.TComponent.WriteState
+ 0002:000000A0       System.Classes.TFieldsCache.Create@
+ 0001:00000E40       System.Classes.TFieldsCache.Destroy@
+ 0002:000000B8       System.Classes.TLoginCredentialService.Create@
+ 0001:00000EA0       System.Classes.TLoginCredentialService.Destroy@
+ 0002:00000090       System.Classes.TObserverMapping.Create@
+ 0001:00000EA8       System.Classes.TObserverMapping.Destroy@
+ 0001:00000E48       System.Classes.TPersistent.Assign
+ 0002:000000A8       System.Classes.TThread.Create@
+ 0001:00000E58       System.Classes.TThread.Destroy@
+ 0001:00000F08       System.DateUtils.Finalization
+ 0002:00000118       System.DateUtils.System.DateUtils
+ 0002:00000110       System.DateUtils.TTimeZone.Create@
+ 0001:00000F00       System.DateUtils.TTimeZone.Destroy@
+ 0002:000000F8       System.Generics.Defaults.TIStringComparer.Create@
+ 0001:00000EE8       System.Generics.Defaults.TIStringComparer.Destroy@
+ 0002:000000F0       System.Generics.Defaults.TStringComparer.Create@
+ 0001:00000EE0       System.Generics.Defaults.TStringComparer.Destroy@
+ 0001:000012F8       System.HelpIntfs.Finalization
+ 0002:00000308       System.HelpIntfs.System.HelpIntfs
+ 0001:00000F18       System.IniFiles.Finalization
+ 0002:00000128       System.IniFiles.System.IniFiles
+ 0001:00000DB8       System.Internal.ExcUtils.Finalization
+ 0002:00000040       System.Internal.ExcUtils.System.Internal.ExcUtils
+ 0002:00000120       System.IOUtils.TPath.Create@
+ 0001:00000F10       System.IOUtils.TPath.Destroy@
+ 0001:00000E28       System.Math.Finalization
+ 0002:00000080       System.Math.System.Math
+ 0002:00000100       System.Messaging.TMessageManager.Create@
+ 0001:00000EF0       System.Messaging.TMessageManager.UnInitialize@
+ 0002:000003E8       System.NetEncoding.TNetEncoding.Create@
+ 0001:000015B0       System.NetEncoding.TNetEncoding.Destroy@
+ 0001:00000ED0       System.Rtti.Finalization
+ 0002:000000E0       System.Rtti.System.Rtti
+ 0002:000000D0       System.Rtti.TRttiContext.Create@
+ 0001:00000EC8       System.Rtti.TRttiContext.Destroy@
+ 0002:000000D8       System.Rtti.TValue.Create@
+ 0001:00000EC0       System.Rtti.TValue.Destroy@
+ 0001:00001848       System.Sensors.Finalization
+ 0002:00000618       System.Sensors.System.Sensors
+ 0002:00000608       System.Sensors.TGeocoder.Create@
+ 0001:00001838       System.Sensors.TGeocoder.Destroy@
+ 0002:00000610       System.Sensors.TSensorManager.Create@
+ 0001:00001840       System.Sensors.TSensorManager.Destroy@
+ 0001:00000F60       System.SyncObjs.Finalization
+ 0002:00000150       System.SyncObjs.System.SyncObjs
+ 0001:00000DE0       System.SysUtils.DateTimeToStr
+ 0001:00000DD0       System.SysUtils.DayOfWeek
+ 0002:00000058       System.SysUtils.Exception.Create@
+ 0001:00000DE8       System.SysUtils.Exception.Destroy@
+ 0001:00000DC8       System.SysUtils.FileExists
+ 0001:00000E10       System.SysUtils.Finalization
+ 0001:00000DD8       System.SysUtils.Now
+ 0001:00000DF8       System.SysUtils.SafeLoadLibrary
+ 0002:00000068       System.SysUtils.System.SysUtils
+ 0002:00000050       System.SysUtils.TEncoding.Create@
+ 0001:00000E08       System.SysUtils.TEncoding.Destroy@
+ 0002:00000048       System.SysUtils.TLanguages.Create@
+ 0001:00000DF0       System.SysUtils.TLanguages.Destroy@
+ 0002:00000060       System.SysUtils.TOSVersion.Create@
+ 0001:00000DC0       System.SysUtils.TOSVersion.Destroy@
+ 0001:00000E00       System.SysUtils.TStringHelper.Split
+ 0002:00000088       System.TimeSpan.TTimeSpan.Create@
+ 0001:00000E30       System.TimeSpan.TTimeSpan.Destroy@
+ 0001:00000ED8       System.TypInfo.Finalization
+ 0002:000000E8       System.TypInfo.System.TypInfo
+ 0001:00000F28       System.UIConsts.Finalization
+ 0002:00000138       System.UIConsts.System.UIConsts
+ 0001:00000C40       System.UITypes.Finalization
+ 0002:00000010       System.UITypes.System.UITypes
+ 0001:00000E20       System.Variants.Finalization
+ 0002:00000078       System.Variants.System.Variants
+ 0001:00000E18       System.VarUtils.Finalization
+ 0002:00000070       System.VarUtils.System.VarUtils
+ 0001:00000F88       System.Win.ComObj.Finalization
+ 0002:00000178       System.Win.ComObj.System.Win.ComObj
+ 0002:00000170       System.Win.ComObj.TComServerObject.Create@
+ 0001:00000F80       System.Win.ComObj.TComServerObject.Destroy@
+ 0002:00000130       System.Win.Registry.TRegistry.Create@
+ 0001:00000F20       System.Win.Registry.TRegistry.Destroy@
+ 0002:00000600       System.Win.Sensors.TWindowsGpsStatus.Create@
+ 0001:00001830       System.Win.Sensors.TWindowsGpsStatus.Destroy@
+ 0001:00001610       TMSTrial.Finalization
+ 0002:00000448       TMSTrial.TMSTrial
+ 0001:00000F70       Vcl.ActnList.Finalization
+ 0002:00000160       Vcl.ActnList.Vcl.ActnList
+ 0001:000017D0       Vcl.ActnMan.Finalization
+ 0002:000005A0       Vcl.ActnMan.Vcl.ActnMan
+ 0001:000017C8       Vcl.ActnMenus.Finalization
+ 0002:00000598       Vcl.ActnMenus.Vcl.ActnMenus
+ 0001:000017E8       Vcl.AppEvnts.Finalization
+ 0002:000005B8       Vcl.AppEvnts.Vcl.AppEvnts
+ 0001:00001770       Vcl.AxCtrls.Finalization
+ 0002:00000540       Vcl.AxCtrls.Vcl.AxCtrls
+ 0001:00001590       Vcl.Buttons.Finalization
+ 0002:000003C0       Vcl.Buttons.TBitBtn.Create@
+ 0001:00001588       Vcl.Buttons.TBitBtn.Destroy@
+ 0002:000003C8       Vcl.Buttons.Vcl.Buttons
+ 0002:00000538       Vcl.CheckLst.TCheckListBox.Create@
+ 0001:00001768       Vcl.CheckLst.TCheckListBox.Destroy@
+ 0001:00001220       Vcl.Clipbrd.Finalization
+ 0002:00000238       Vcl.Clipbrd.Vcl.Clipbrd
+ 0001:000012F0       Vcl.ComCtrls.Finalization
+ 0002:000002E8       Vcl.ComCtrls.TComboBoxEx.Create@
+ 0001:000012D8       Vcl.ComCtrls.TComboBoxEx.Destroy@
+ 0001:000012B8       Vcl.ComCtrls.TCommonCalendar.GetDate
+ 0002:000002C8       Vcl.ComCtrls.TCoolBar.Create@
+ 0001:000012B0       Vcl.ComCtrls.TCoolBar.Destroy@
+ 0002:000002E0       Vcl.ComCtrls.TCustomComboBoxEx.Create@
+ 0001:000012D0       Vcl.ComCtrls.TCustomComboBoxEx.Destroy@
+ 0002:00000258       Vcl.ComCtrls.TCustomHeaderControl.Create@
+ 0001:00001240       Vcl.ComCtrls.TCustomHeaderControl.Destroy@
+ 0002:000002A0       Vcl.ComCtrls.TCustomHotKey.Create@
+ 0001:00001288       Vcl.ComCtrls.TCustomHotKey.Destroy@
+ 0002:000002B0       Vcl.ComCtrls.TCustomListView.Create@
+ 0001:00001298       Vcl.ComCtrls.TCustomListView.Destroy@
+ 0002:00000280       Vcl.ComCtrls.TCustomRichEdit.Create@
+ 0001:00001268       Vcl.ComCtrls.TCustomRichEdit.Destroy@
+ 0002:00000250       Vcl.ComCtrls.TCustomStatusBar.Create@
+ 0001:00001238       Vcl.ComCtrls.TCustomStatusBar.Destroy@
+ 0002:00000240       Vcl.ComCtrls.TCustomTabControl.Create@
+ 0001:00001228       Vcl.ComCtrls.TCustomTabControl.Destroy@
+ 0002:00000260       Vcl.ComCtrls.TCustomTreeView.Create@
+ 0001:00001248       Vcl.ComCtrls.TCustomTreeView.Destroy@
+ 0002:00000290       Vcl.ComCtrls.TCustomUpDown.Create@
+ 0001:00001278       Vcl.ComCtrls.TCustomUpDown.Destroy@
+ 0002:000002D0       Vcl.ComCtrls.TDateTimePicker.Create@
+ 0001:000012C0       Vcl.ComCtrls.TDateTimePicker.Destroy@
+ 0002:000002F8       Vcl.ComCtrls.THeaderControl.Create@
+ 0001:000012E8       Vcl.ComCtrls.THeaderControl.Destroy@
+ 0002:000002A8       Vcl.ComCtrls.THotKey.Create@
+ 0001:00001290       Vcl.ComCtrls.THotKey.Destroy@
+ 0002:000002B8       Vcl.ComCtrls.TListView.Create@
+ 0001:000012A0       Vcl.ComCtrls.TListView.Destroy@
+ 0002:000002D8       Vcl.ComCtrls.TPageScroller.Create@
+ 0001:000012C8       Vcl.ComCtrls.TPageScroller.Destroy@
+ 0002:00000278       Vcl.ComCtrls.TProgressBar.Create@
+ 0001:00001260       Vcl.ComCtrls.TProgressBar.Destroy@
+ 0002:00000288       Vcl.ComCtrls.TRichEdit.Create@
+ 0001:00001270       Vcl.ComCtrls.TRichEdit.Destroy@
+ 0002:000002F0       Vcl.ComCtrls.TStatusBar.Create@
+ 0001:000012E0       Vcl.ComCtrls.TStatusBar.Destroy@
+ 0002:00000248       Vcl.ComCtrls.TTabControl.Create@
+ 0001:00001230       Vcl.ComCtrls.TTabControl.Destroy@
+ 0002:000002C0       Vcl.ComCtrls.TToolBar.Create@
+ 0001:000012A8       Vcl.ComCtrls.TToolBar.Destroy@
+ 0002:00000270       Vcl.ComCtrls.TTrackBar.Create@
+ 0001:00001258       Vcl.ComCtrls.TTrackBar.Destroy@
+ 0002:00000268       Vcl.ComCtrls.TTreeView.Create@
+ 0001:00001250       Vcl.ComCtrls.TTreeView.Destroy@
+ 0002:00000298       Vcl.ComCtrls.TUpDown.Create@
+ 0001:00001280       Vcl.ComCtrls.TUpDown.Destroy@
+ 0002:00000300       Vcl.ComCtrls.Vcl.ComCtrls
+ 0001:00001180       Vcl.Controls.Finalization
+ 0001:00001068       Vcl.Controls.TControl.CreateTouchManager
+ 0001:00001020       Vcl.Controls.TControl.DefaultScalingFlags
+ 0001:00001010       Vcl.Controls.TControl.GetAction
+ 0001:00001028       Vcl.Controls.TControl.GetCurrentPPI
+ 0001:00001000       Vcl.Controls.TControl.GetDragImages
+ 0001:00001008       Vcl.Controls.TControl.GetEnabled
+ 0001:00001070       Vcl.Controls.TControl.GetFloatingDockSiteClass
+ 0001:00001030       Vcl.Controls.TControl.GetParentCurrentDpi
+ 0001:00001098       Vcl.Controls.TControl.GetStyleName
+ 0001:00001090       Vcl.Controls.TControl.GetSystemMetrics
+ 0001:00001050       Vcl.Controls.TControl.GetText
+ 0001:00001078       Vcl.Controls.TControl.InitiateAction
+ 0001:000010A0       Vcl.Controls.TControl.IsCustomStyleActive
+ 0001:000010A8       Vcl.Controls.TControl.IsLightStyleColor
+ 0001:00001038       Vcl.Controls.TControl.SetAutoSize
+ 0001:00001060       Vcl.Controls.TControl.SetBiDiMode
+ 0001:00001018       Vcl.Controls.TControl.SetDragMode
+ 0001:00001048       Vcl.Controls.TControl.SetEnabled
+ 0001:00001040       Vcl.Controls.TControl.SetName
+ 0001:00001080       Vcl.Controls.TControl.SetStyleElements
+ 0001:00001088       Vcl.Controls.TControl.SetStyleName
+ 0001:00001058       Vcl.Controls.TControl.SetText
+ 0001:00001148       Vcl.Controls.TWinControl.AssignTo
+ 0001:00001140       Vcl.Controls.TWinControl.AsyncSchedule
+ 0001:00001150       Vcl.Controls.TWinControl.CanAutoSize
+ 0001:00001130       Vcl.Controls.TWinControl.CanResize
+ 0001:00001138       Vcl.Controls.TWinControl.ConstrainedResize
+ 0001:000010B8       Vcl.Controls.TWinControl.CreateHandle
+ 0001:000010C0       Vcl.Controls.TWinControl.CustomAlignInsertBefore
+ 0001:000010C8       Vcl.Controls.TWinControl.CustomAlignPosition
+ 0001:000010B0       Vcl.Controls.TWinControl.DestroyWnd
+ 0001:00001160       Vcl.Controls.TWinControl.DockReplaceDockClient
+ 0001:00001178       Vcl.Controls.TWinControl.GetAllocatedWindowHandle
+ 0001:00001128       Vcl.Controls.TWinControl.GetClientOrigin
+ 0001:00001120       Vcl.Controls.TWinControl.GetControlExtents
+ 0001:00001100       Vcl.Controls.TWinControl.GetDeviceContext
+ 0001:00001108       Vcl.Controls.TWinControl.Invalidate
+ 0001:00001118       Vcl.Controls.TWinControl.Repaint
+ 0001:000010E0       Vcl.Controls.TWinControl.ResetIme
+ 0001:000010F0       Vcl.Controls.TWinControl.ScaleControlsForDpi
+ 0001:000010E8       Vcl.Controls.TWinControl.SetBounds
+ 0001:000010D8       Vcl.Controls.TWinControl.SetIme
+ 0001:00001158       Vcl.Controls.TWinControl.SetParentBackground
+ 0001:000010D0       Vcl.Controls.TWinControl.SetParentDoubleBuffered
+ 0001:000010F8       Vcl.Controls.TWinControl.ShowControl
+ 0001:00001110       Vcl.Controls.TWinControl.Update
+ 0001:00001170       Vcl.Controls.TWinControl.UpdateControlOriginalParentSize
+ 0001:00001168       Vcl.Controls.TWinControl.UpdateTIPStatus
+ 0002:00000198       Vcl.Controls.Vcl.Controls
+ 0001:000016B8       Vcl.DBCtrls.Finalization
+ 0002:000004B8       Vcl.DBCtrls.TCustomDBLookupComboBox.Create@
+ 0001:000016A8       Vcl.DBCtrls.TCustomDBLookupComboBox.Destroy@
+ 0002:000004C0       Vcl.DBCtrls.TDBLookupComboBox.Create@
+ 0001:000016B0       Vcl.DBCtrls.TDBLookupComboBox.Destroy@
+ 0002:000004B0       Vcl.DBCtrls.TDBLookupListBox.Create@
+ 0001:000016A0       Vcl.DBCtrls.TDBLookupListBox.Destroy@
+ 0002:000004A0       Vcl.DBCtrls.TDBMemo.Create@
+ 0001:00001690       Vcl.DBCtrls.TDBMemo.Destroy@
+ 0002:000004A8       Vcl.DBCtrls.TDBNavigator.Create@
+ 0001:00001698       Vcl.DBCtrls.TDBNavigator.Destroy@
+ 0002:000004C8       Vcl.DBCtrls.Vcl.DBCtrls
+ 0002:000004D0       Vcl.DBGrids.TCustomDBGrid.Create@
+ 0001:000016C0       Vcl.DBGrids.TCustomDBGrid.Destroy@
+ 0002:000004D8       Vcl.DBGrids.TDBGrid.Create@
+ 0001:000016C8       Vcl.DBGrids.TDBGrid.Destroy@
+ 0001:00001680       Vcl.DBLogDlg.Finalization
+ 0002:00000490       Vcl.DBLogDlg.Vcl.DBLogDlg
+ 0001:00001688       Vcl.DBPWDlg.Finalization
+ 0002:00000498       Vcl.DBPWDlg.Vcl.DBPWDlg
+ 0001:00001310       Vcl.Dialogs.Finalization
+ 0001:00001308       Vcl.Dialogs.InputQuery
+ 0001:00001300       Vcl.Dialogs.TOpenDialog.GetFileName
+ 0002:00000310       Vcl.Dialogs.Vcl.Dialogs
+ 0001:00001750       Vcl.Direct2D.Finalization
+ 0002:00000518       Vcl.Direct2D.TDirect2DCanvas.Create@
+ 0001:00001748       Vcl.Direct2D.TDirect2DCanvas.Destroy@
+ 0002:00000520       Vcl.Direct2D.Vcl.Direct2D
+ 0001:000017C0       Vcl.ExtActns.Finalization
+ 0002:00000590       Vcl.ExtActns.Vcl.ExtActns
+ 0001:00001338       Vcl.ExtCtrls.Finalization
+ 0002:00000320       Vcl.ExtCtrls.TCategoryPanelGroup.Create@
+ 0001:00001320       Vcl.ExtCtrls.TCategoryPanelGroup.Destroy@
+ 0002:00000318       Vcl.ExtCtrls.TCustomCategoryPanelGroup.Create@
+ 0001:00001318       Vcl.ExtCtrls.TCustomCategoryPanelGroup.Destroy@
+ 0002:00000328       Vcl.ExtCtrls.TCustomLinkLabel.Create@
+ 0001:00001328       Vcl.ExtCtrls.TCustomLinkLabel.Destroy@
+ 0002:00000330       Vcl.ExtCtrls.TLinkLabel.Create@
+ 0001:00001330       Vcl.ExtCtrls.TLinkLabel.Destroy@
+ 0002:00000338       Vcl.ExtCtrls.Vcl.ExtCtrls
+ 0001:000017B0       Vcl.ExtDlgs.Finalization
+ 0002:00000580       Vcl.ExtDlgs.Vcl.ExtDlgs
+ 0001:00001538       Vcl.Forms.Finalization
+ 0001:00001518       Vcl.Forms.TApplication.CreateForm
+ 0001:00001510       Vcl.Forms.TApplication.Initialize
+ 0001:00001520       Vcl.Forms.TApplication.Run
+ 0001:00001530       Vcl.Forms.TApplication.SetMainFormOnTaskBar
+ 0001:00001528       Vcl.Forms.TApplication.Terminate
+ 0001:000014A0       Vcl.Forms.TCustomForm.AdjustClientRect
+ 0001:00001398       Vcl.Forms.TCustomForm.AfterConstruction
+ 0001:00001458       Vcl.Forms.TCustomForm.AlignControls
+ 0001:000013A8       Vcl.Forms.TCustomForm.BeforeDestruction
+ 0001:00001450       Vcl.Forms.TCustomForm.ClientWndProc
+ 0001:000014C8       Vcl.Forms.TCustomForm.CloseQuery
+ 0001:00001388       Vcl.Forms.TCustomForm.Create
+ 0002:00000368       Vcl.Forms.TCustomForm.Create@
+ 0001:000013A0       Vcl.Forms.TCustomForm.CreateNew
+ 0001:00001468       Vcl.Forms.TCustomForm.CreateParams
+ 0001:00001478       Vcl.Forms.TCustomForm.CreateWindowHandle
+ 0001:00001470       Vcl.Forms.TCustomForm.CreateWnd
+ 0001:00001490       Vcl.Forms.TCustomForm.DefaultHandler
+ 0001:000013F8       Vcl.Forms.TCustomForm.DefineProperties
+ 0001:000013B0       Vcl.Forms.TCustomForm.Destroy
+ 0001:00001390       Vcl.Forms.TCustomForm.Destroy@
+ 0001:00001480       Vcl.Forms.TCustomForm.DestroyHandle
+ 0001:00001488       Vcl.Forms.TCustomForm.DestroyWindowHandle
+ 0001:000014C0       Vcl.Forms.TCustomForm.DoAfterMonitorDpiChanged
+ 0001:000014B8       Vcl.Forms.TCustomForm.DoBeforeMonitorDpiChanged
+ 0001:000013B8       Vcl.Forms.TCustomForm.DoCreate
+ 0001:000013C0       Vcl.Forms.TCustomForm.DoDestroy
+ 0001:00001400       Vcl.Forms.TCustomForm.DoThumbButtonNotify
+ 0001:00001410       Vcl.Forms.TCustomForm.DoThumbPreviewRequest
+ 0001:00001408       Vcl.Forms.TCustomForm.DoWindowPreviewRequest
+ 0001:00001460       Vcl.Forms.TCustomForm.GetCanvas
+ 0001:00001418       Vcl.Forms.TCustomForm.GetClientRect
+ 0001:000013D8       Vcl.Forms.TCustomForm.GetDesignDpi
+ 0001:00001420       Vcl.Forms.TCustomForm.GetFloating
+ 0001:000013C8       Vcl.Forms.TCustomForm.Loaded
+ 0001:000013D0       Vcl.Forms.TCustomForm.Notification
+ 0001:000014A8       Vcl.Forms.TCustomForm.PaintWindow
+ 0001:00001500       Vcl.Forms.TCustomForm.QueryInterface
+ 0001:000013F0       Vcl.Forms.TCustomForm.ReadState
+ 0001:000014F8       Vcl.Forms.TCustomForm.RequestAlign
+ 0001:000014B0       Vcl.Forms.TCustomForm.Resizing
+ 0001:000013E8       Vcl.Forms.TCustomForm.ScaleForCurrentDpi
+ 0001:000013E0       Vcl.Forms.TCustomForm.ScaleForPPI
+ 0001:000014D8       Vcl.Forms.TCustomForm.SetFocus
+ 0001:00001498       Vcl.Forms.TCustomForm.SetFocusedControl
+ 0001:00001438       Vcl.Forms.TCustomForm.SetParent
+ 0001:00001428       Vcl.Forms.TCustomForm.SetParentBiDiMode
+ 0001:000014D0       Vcl.Forms.TCustomForm.Show
+ 0001:000014E0       Vcl.Forms.TCustomForm.ShowModal
+ 0001:000014E8       Vcl.Forms.TCustomForm.UpdateActions
+ 0001:000014F0       Vcl.Forms.TCustomForm.UpdateStyleElements
+ 0001:00001440       Vcl.Forms.TCustomForm.ValidateRename
+ 0001:00001430       Vcl.Forms.TCustomForm.WantChildKey
+ 0001:00001448       Vcl.Forms.TCustomForm.WndProc
+ 0002:00000370       Vcl.Forms.TForm.Create@
+ 0001:00001508       Vcl.Forms.TForm.Destroy@
+ 0002:00000360       Vcl.Forms.TScrollBox.Create@
+ 0001:00001380       Vcl.Forms.TScrollBox.Destroy@
+ 0001:00001360       Vcl.Forms.TScrollingWinControl.AutoScrollEnabled
+ 0001:00001378       Vcl.Forms.TScrollingWinControl.AutoScrollInView
+ 0001:00001368       Vcl.Forms.TScrollingWinControl.DoGesture
+ 0001:00001370       Vcl.Forms.TScrollingWinControl.DoGetGestureOptions
+ 0002:00000378       Vcl.Forms.Vcl.Forms
+ 0001:00000F58       Vcl.Graphics.Finalization
+ 0001:00000F48       Vcl.Graphics.TBrush.SetColor
+ 0001:00000F38       Vcl.Graphics.TFont.SetColor
+ 0001:00000F40       Vcl.Graphics.TFont.SetSize
+ 0001:00000F50       Vcl.Graphics.TPicture.LoadFromFile
+ 0002:00000140       Vcl.Graphics.TWICImage.Create@
+ 0001:00000F30       Vcl.Graphics.TWICImage.Destroy@
+ 0002:00000148       Vcl.Graphics.Vcl.Graphics
+ 0001:00000FF8       Vcl.GraphUtil.Finalization
+ 0002:00000190       Vcl.GraphUtil.Vcl.GraphUtil
+ 0002:000003A8       Vcl.Grids.TCustomDrawGrid.Create@
+ 0001:00001570       Vcl.Grids.TCustomDrawGrid.Destroy@
+ 0002:000003A0       Vcl.Grids.TCustomGrid.Create@
+ 0001:00001568       Vcl.Grids.TCustomGrid.Destroy@
+ 0002:000003B8       Vcl.Grids.TDrawGrid.Create@
+ 0001:00001580       Vcl.Grids.TDrawGrid.Destroy@
+ 0002:000003B0       Vcl.Grids.TStringGrid.Create@
+ 0001:00001578       Vcl.Grids.TStringGrid.Destroy@
+ 0001:00001678       Vcl.ImageCollection.Finalization
+ 0002:00000488       Vcl.ImageCollection.Vcl.ImageCollection
+ 0001:000015A8       Vcl.Imaging.GIFImg.Finalization
+ 0002:000003E0       Vcl.Imaging.GIFImg.Vcl.Imaging.GIFImg
+ 0001:00001598       Vcl.Imaging.jpeg.Finalization
+ 0002:000003D0       Vcl.Imaging.jpeg.Vcl.Imaging.jpeg
+ 0001:000015A0       Vcl.Imaging.pngimage.Finalization
+ 0002:000003D8       Vcl.Imaging.pngimage.Vcl.Imaging.pngimage
+ 0001:00001350       Vcl.Menus.Finalization
+ 0002:00000350       Vcl.Menus.Vcl.Menus
+ 0001:00001D64       Vcl.OleServer.Finalization
+ 0002:000008F0       Vcl.OleServer.Vcl.OleServer
+ 0001:00001218       Vcl.Printers.Finalization
+ 0002:00000230       Vcl.Printers.Vcl.Printers
+ 0002:00000210       Vcl.StdCtrls.TButton.Create@
+ 0001:000011F8       Vcl.StdCtrls.TButton.Destroy@
+ 0002:00000218       Vcl.StdCtrls.TCheckBox.Create@
+ 0001:00001200       Vcl.StdCtrls.TCheckBox.Destroy@
+ 0002:00000208       Vcl.StdCtrls.TComboBox.Create@
+ 0001:000011F0       Vcl.StdCtrls.TComboBox.Destroy@
+ 0002:000001C0       Vcl.StdCtrls.TCustomButton.Create@
+ 0001:000011A8       Vcl.StdCtrls.TCustomButton.Destroy@
+ 0002:000001C8       Vcl.StdCtrls.TCustomCheckBox.Create@
+ 0001:000011B0       Vcl.StdCtrls.TCustomCheckBox.Destroy@
+ 0002:000001B8       Vcl.StdCtrls.TCustomComboBox.Create@
+ 0001:000011A0       Vcl.StdCtrls.TCustomComboBox.Destroy@
+ 0002:000001A8       Vcl.StdCtrls.TCustomEdit.Create@
+ 0001:00001190       Vcl.StdCtrls.TCustomEdit.Destroy@
+ 0002:000001A0       Vcl.StdCtrls.TCustomGroupBox.Create@
+ 0001:00001188       Vcl.StdCtrls.TCustomGroupBox.Destroy@
+ 0002:000001D8       Vcl.StdCtrls.TCustomListBox.Create@
+ 0001:000011C0       Vcl.StdCtrls.TCustomListBox.Destroy@
+ 0002:000001B0       Vcl.StdCtrls.TCustomMemo.Create@
+ 0001:00001198       Vcl.StdCtrls.TCustomMemo.Destroy@
+ 0002:000001E8       Vcl.StdCtrls.TCustomStaticText.Create@
+ 0001:000011D0       Vcl.StdCtrls.TCustomStaticText.Destroy@
+ 0002:000001F8       Vcl.StdCtrls.TEdit.Create@
+ 0001:000011E0       Vcl.StdCtrls.TEdit.Destroy@
+ 0002:000001F0       Vcl.StdCtrls.TGroupBox.Create@
+ 0001:000011D8       Vcl.StdCtrls.TGroupBox.Destroy@
+ 0002:00000220       Vcl.StdCtrls.TListBox.Create@
+ 0001:00001208       Vcl.StdCtrls.TListBox.Destroy@
+ 0002:00000200       Vcl.StdCtrls.TMemo.Create@
+ 0001:000011E8       Vcl.StdCtrls.TMemo.Destroy@
+ 0002:000001D0       Vcl.StdCtrls.TRadioButton.Create@
+ 0001:000011B8       Vcl.StdCtrls.TRadioButton.Destroy@
+ 0002:000001E0       Vcl.StdCtrls.TScrollBar.Create@
+ 0001:000011C8       Vcl.StdCtrls.TScrollBar.Destroy@
+ 0002:00000228       Vcl.StdCtrls.TStaticText.Create@
+ 0001:00001210       Vcl.StdCtrls.TStaticText.Destroy@
+ 0002:00000348       Vcl.Themes.TCustomStyleEngine.Create@
+ 0001:00001348       Vcl.Themes.TCustomStyleEngine.Destroy@
+ 0002:00000340       Vcl.Themes.TStyleManager.Create@
+ 0001:00001340       Vcl.Themes.TStyleManager.Destroy@
+ 0001:00001740       Winapi.D2D1.Finalization
+ 0002:00000510       Winapi.D2D1.Winapi.D2D1
+ 0001:00001358       Winapi.FlatSB.Finalization
+ 0002:00000358       Winapi.FlatSB.Winapi.FlatSB
+ 0001:000017B8       Winapi.Mapi.Finalization
+ 0002:00000588       Winapi.Mapi.Winapi.Mapi
+ 0004:00000028       Winapi.MsCTF..1
+ 0001:00000FD0       Winapi.MsCTF.DoneMSCTF
+ 0001:00000FE8       Winapi.MsCTF.Finalization
+ 0001:00000F90       Winapi.MsCTF.InitMSCTF
+ 0003:00000084       Winapi.MsCTF.MsCTFHandle
+ 0002:00000180       Winapi.MsCTF.Winapi.MsCTF
+ 0004:00000020       Winapi.PsAPI..1
+ 0001:00000D8C       Winapi.PsAPI.Finalization
+ 0004:00000024       Winapi.PsAPI.hPSAPI
+ 0002:00000030       Winapi.PsAPI.Winapi.PsAPI
+ 0001:00000F68       Winapi.UxTheme.Finalization
+ 0002:00000158       Winapi.UxTheme.Winapi.UxTheme
+ 0004:00000018       Winapi.Windows..2
+ 0001:00000D6C       Winapi.Windows.Finalization
+ 0001:00000D20       Winapi.Windows.FreeLibrary
+ 0001:00000D28       Winapi.Windows.GetVersionEx
+ 0004:0000001C       Winapi.Windows.HtmlHelpModule
+ 0001:00000D30       Winapi.Windows.InitVersionInfo
+ 0003:00000078       Winapi.Windows.Win32MajorVersion
+ 0003:0000007C       Winapi.Windows.Win32MinorVersion
+ 0003:00000080       Winapi.Windows.Win32Platform
+ 0002:00000018       Winapi.Windows.Winapi.Windows
+ 0001:000015F8       Xml.Win.msxmldom.Finalization
+ 0002:00000428       Xml.Win.msxmldom.TMSXMLDOMDocumentFactory.Create@
+ 0001:000015F0       Xml.Win.msxmldom.TMSXMLDOMDocumentFactory.Destroy@
+ 0002:00000430       Xml.Win.msxmldom.Xml.Win.msxmldom
+ 0001:00001600       Xml.xmldom.Finalization
+ 0002:00000438       Xml.xmldom.Xml.xmldom
+ 0001:00001608       Xml.XMLSchema.Finalization
+ 0002:00000440       Xml.XMLSchema.Xml.XMLSchema
+
+
+  Address             Publics by Value
+
+ 0001:00000000       System.TObject.NewInstance
+ 0001:00000008       System.TObject.FreeInstance
+ 0001:00000010       System.TObject.Equals
+ 0001:00000018       System.TObject.GetHashCode
+ 0001:00000020       System.@AsClass
+ 0001:00000028       System.TObject.ToString
+ 0001:00000030       System.TObject.Dispatch
+ 0001:00000038       System.@HandleAnyException
+ 0001:00000040       System.@HandleFinally
+ 0001:00000048       System.@DoneExcept
+ 0001:00000050       System.@StartExe
+ 0001:00000058       System.@Halt0
+ 0001:00000060       System.@UStrClr
+ 0001:00000068       System.@UStrArrayClr
+ 0001:00000070       System.@UStrAsg
+ 0001:00000078       System.@UStrLAsg
+ 0001:00000080       System.@UStrEqual
+ 0001:00000088       System.@DynArrayClear
+ 0001:00000090       System.RegisterModule
+ 0001:00000098       System.Finalization
+ 0001:000000A0       SysInit.InterlockedExchange
+ 0001:000000B0       SysInit.FreeLibrary
+ 0001:000000B8       SysInit.GetModuleHandle
+ 0001:000000C0       SysInit.LocalAlloc
+ 0001:000000C8       SysInit.LocalFree
+ 0001:000000D0       SysInit.GetLastError
+ 0001:000000D8       SysInit.LoadLibraryA
+ 0001:000000E0       SysInit.RaiseException
+ 0001:000000E8       SysInit.GetProcAddress
+ 0001:000000F0       SysInit.InitializeModule
+ 0001:000000FC       SysInit.@_dbkDummyProc
+ 0001:00000100       SysInit.@_dbkFCallArgs
+ 0001:000004F0       SysInit.@_dbk_fcall_wrapper
+ 0001:0000061C       SysInit.@InitExe
+ 0001:00000668       SysInit.@_delayLoadHelper2
+ 0001:00000948       SysInit.@_FUnloadDelayLoadedDLL2
+ 0001:00000A58       SysInit.@_HrLoadAllImportsForDll
+ 0001:00000B10       SysInit.ShutdownDelayHelp2
+ 0001:00000B18       SysInit...
+ 0001:00000B28       SysInit...
+ 0001:00000B38       SysInit...
+ 0001:00000B48       SysInit...
+ 0001:00000B58       SysInit...
+ 0001:00000B68       SysInit...
+ 0001:00000B7C       SysInit...
+ 0001:00000BAC       SysInit...
+ 0001:00000BC4       SysInit...
+ 0001:00000BEC       SysInit...
+ 0001:00000C10       SysInit...
+ 0001:00000C20       SysInit...
+ 0001:00000C30       SysInit.Finalization
+ 0001:00000C40       System.UITypes.Finalization
+ 0001:00000D20       Winapi.Windows.FreeLibrary
+ 0001:00000D28       Winapi.Windows.GetVersionEx
+ 0001:00000D30       Winapi.Windows.InitVersionInfo
+ 0001:00000D6C       Winapi.Windows.Finalization
+ 0001:00000D8C       Winapi.PsAPI.Finalization
+ 0001:00000DB0       System.Character.Finalization
+ 0001:00000DB8       System.Internal.ExcUtils.Finalization
+ 0001:00000DC0       System.SysUtils.TOSVersion.Destroy@
+ 0001:00000DC8       System.SysUtils.FileExists
+ 0001:00000DD0       System.SysUtils.DayOfWeek
+ 0001:00000DD8       System.SysUtils.Now
+ 0001:00000DE0       System.SysUtils.DateTimeToStr
+ 0001:00000DE8       System.SysUtils.Exception.Destroy@
+ 0001:00000DF0       System.SysUtils.TLanguages.Destroy@
+ 0001:00000DF8       System.SysUtils.SafeLoadLibrary
+ 0001:00000E00       System.SysUtils.TStringHelper.Split
+ 0001:00000E08       System.SysUtils.TEncoding.Destroy@
+ 0001:00000E10       System.SysUtils.Finalization
+ 0001:00000E18       System.VarUtils.Finalization
+ 0001:00000E20       System.Variants.Finalization
+ 0001:00000E28       System.Math.Finalization
+ 0001:00000E30       System.TimeSpan.TTimeSpan.Destroy@
+ 0001:00000E38       System.Classes.TComponent.Destroy@
+ 0001:00000E40       System.Classes.TFieldsCache.Destroy@
+ 0001:00000E48       System.Classes.TPersistent.Assign
+ 0001:00000E50       System.Classes.TCollection.GetCount
+ 0001:00000E58       System.Classes.TThread.Destroy@
+ 0001:00000E60       System.Classes.TComponent.WriteState
+ 0001:00000E68       System.Classes.TComponent.GetObservers
+ 0001:00000E70       System.Classes.TComponent.UpdateAction
+ 0001:00000E78       System.Classes.TComponent.CanObserve
+ 0001:00000E80       System.Classes.TComponent.ObserverAdded
+ 0001:00000E88       System.Classes.TComponent.SafeCallException
+ 0001:00000E90       System.Classes.TComponent.UpdateRegistry
+ 0001:00000E98       System.Classes.TBinaryWriter.Destroy@
+ 0001:00000EA0       System.Classes.TLoginCredentialService.Destroy@
+ 0001:00000EA8       System.Classes.TObserverMapping.Destroy@
+ 0001:00000EB0       System.Classes.TBaseAsyncResult.Destroy@
+ 0001:00000EB8       System.Classes.Finalization
+ 0001:00000EC0       System.Rtti.TValue.Destroy@
+ 0001:00000EC8       System.Rtti.TRttiContext.Destroy@
+ 0001:00000ED0       System.Rtti.Finalization
+ 0001:00000ED8       System.TypInfo.Finalization
+ 0001:00000EE0       System.Generics.Defaults.TStringComparer.Destroy@
+ 0001:00000EE8       System.Generics.Defaults.TIStringComparer.Destroy@
+ 0001:00000EF0       System.Messaging.TMessageManager.UnInitialize@
+ 0001:00000EF8       System.Actions.Finalization
+ 0001:00000F00       System.DateUtils.TTimeZone.Destroy@
+ 0001:00000F08       System.DateUtils.Finalization
+ 0001:00000F10       System.IOUtils.TPath.Destroy@
+ 0001:00000F18       System.IniFiles.Finalization
+ 0001:00000F20       System.Win.Registry.TRegistry.Destroy@
+ 0001:00000F28       System.UIConsts.Finalization
+ 0001:00000F30       Vcl.Graphics.TWICImage.Destroy@
+ 0001:00000F38       Vcl.Graphics.TFont.SetColor
+ 0001:00000F40       Vcl.Graphics.TFont.SetSize
+ 0001:00000F48       Vcl.Graphics.TBrush.SetColor
+ 0001:00000F50       Vcl.Graphics.TPicture.LoadFromFile
+ 0001:00000F58       Vcl.Graphics.Finalization
+ 0001:00000F60       System.SyncObjs.Finalization
+ 0001:00000F68       Winapi.UxTheme.Finalization
+ 0001:00000F70       Vcl.ActnList.Finalization
+ 0001:00000F78       System.AnsiStrings.Finalization
+ 0001:00000F80       System.Win.ComObj.TComServerObject.Destroy@
+ 0001:00000F88       System.Win.ComObj.Finalization
+ 0001:00000F90       Winapi.MsCTF.InitMSCTF
+ 0001:00000FD0       Winapi.MsCTF.DoneMSCTF
+ 0001:00000FE8       Winapi.MsCTF.Finalization
+ 0001:00000FF8       Vcl.GraphUtil.Finalization
+ 0001:00001000       Vcl.Controls.TControl.GetDragImages
+ 0001:00001008       Vcl.Controls.TControl.GetEnabled
+ 0001:00001010       Vcl.Controls.TControl.GetAction
+ 0001:00001018       Vcl.Controls.TControl.SetDragMode
+ 0001:00001020       Vcl.Controls.TControl.DefaultScalingFlags
+ 0001:00001028       Vcl.Controls.TControl.GetCurrentPPI
+ 0001:00001030       Vcl.Controls.TControl.GetParentCurrentDpi
+ 0001:00001038       Vcl.Controls.TControl.SetAutoSize
+ 0001:00001040       Vcl.Controls.TControl.SetName
+ 0001:00001048       Vcl.Controls.TControl.SetEnabled
+ 0001:00001050       Vcl.Controls.TControl.GetText
+ 0001:00001058       Vcl.Controls.TControl.SetText
+ 0001:00001060       Vcl.Controls.TControl.SetBiDiMode
+ 0001:00001068       Vcl.Controls.TControl.CreateTouchManager
+ 0001:00001070       Vcl.Controls.TControl.GetFloatingDockSiteClass
+ 0001:00001078       Vcl.Controls.TControl.InitiateAction
+ 0001:00001080       Vcl.Controls.TControl.SetStyleElements
+ 0001:00001088       Vcl.Controls.TControl.SetStyleName
+ 0001:00001090       Vcl.Controls.TControl.GetSystemMetrics
+ 0001:00001098       Vcl.Controls.TControl.GetStyleName
+ 0001:000010A0       Vcl.Controls.TControl.IsCustomStyleActive
+ 0001:000010A8       Vcl.Controls.TControl.IsLightStyleColor
+ 0001:000010B0       Vcl.Controls.TWinControl.DestroyWnd
+ 0001:000010B8       Vcl.Controls.TWinControl.CreateHandle
+ 0001:000010C0       Vcl.Controls.TWinControl.CustomAlignInsertBefore
+ 0001:000010C8       Vcl.Controls.TWinControl.CustomAlignPosition
+ 0001:000010D0       Vcl.Controls.TWinControl.SetParentDoubleBuffered
+ 0001:000010D8       Vcl.Controls.TWinControl.SetIme
+ 0001:000010E0       Vcl.Controls.TWinControl.ResetIme
+ 0001:000010E8       Vcl.Controls.TWinControl.SetBounds
+ 0001:000010F0       Vcl.Controls.TWinControl.ScaleControlsForDpi
+ 0001:000010F8       Vcl.Controls.TWinControl.ShowControl
+ 0001:00001100       Vcl.Controls.TWinControl.GetDeviceContext
+ 0001:00001108       Vcl.Controls.TWinControl.Invalidate
+ 0001:00001110       Vcl.Controls.TWinControl.Update
+ 0001:00001118       Vcl.Controls.TWinControl.Repaint
+ 0001:00001120       Vcl.Controls.TWinControl.GetControlExtents
+ 0001:00001128       Vcl.Controls.TWinControl.GetClientOrigin
+ 0001:00001130       Vcl.Controls.TWinControl.CanResize
+ 0001:00001138       Vcl.Controls.TWinControl.ConstrainedResize
+ 0001:00001140       Vcl.Controls.TWinControl.AsyncSchedule
+ 0001:00001148       Vcl.Controls.TWinControl.AssignTo
+ 0001:00001150       Vcl.Controls.TWinControl.CanAutoSize
+ 0001:00001158       Vcl.Controls.TWinControl.SetParentBackground
+ 0001:00001160       Vcl.Controls.TWinControl.DockReplaceDockClient
+ 0001:00001168       Vcl.Controls.TWinControl.UpdateTIPStatus
+ 0001:00001170       Vcl.Controls.TWinControl.UpdateControlOriginalParentSize
+ 0001:00001178       Vcl.Controls.TWinControl.GetAllocatedWindowHandle
+ 0001:00001180       Vcl.Controls.Finalization
+ 0001:00001188       Vcl.StdCtrls.TCustomGroupBox.Destroy@
+ 0001:00001190       Vcl.StdCtrls.TCustomEdit.Destroy@
+ 0001:00001198       Vcl.StdCtrls.TCustomMemo.Destroy@
+ 0001:000011A0       Vcl.StdCtrls.TCustomComboBox.Destroy@
+ 0001:000011A8       Vcl.StdCtrls.TCustomButton.Destroy@
+ 0001:000011B0       Vcl.StdCtrls.TCustomCheckBox.Destroy@
+ 0001:000011B8       Vcl.StdCtrls.TRadioButton.Destroy@
+ 0001:000011C0       Vcl.StdCtrls.TCustomListBox.Destroy@
+ 0001:000011C8       Vcl.StdCtrls.TScrollBar.Destroy@
+ 0001:000011D0       Vcl.StdCtrls.TCustomStaticText.Destroy@
+ 0001:000011D8       Vcl.StdCtrls.TGroupBox.Destroy@
+ 0001:000011E0       Vcl.StdCtrls.TEdit.Destroy@
+ 0001:000011E8       Vcl.StdCtrls.TMemo.Destroy@
+ 0001:000011F0       Vcl.StdCtrls.TComboBox.Destroy@
+ 0001:000011F8       Vcl.StdCtrls.TButton.Destroy@
+ 0001:00001200       Vcl.StdCtrls.TCheckBox.Destroy@
+ 0001:00001208       Vcl.StdCtrls.TListBox.Destroy@
+ 0001:00001210       Vcl.StdCtrls.TStaticText.Destroy@
+ 0001:00001218       Vcl.Printers.Finalization
+ 0001:00001220       Vcl.Clipbrd.Finalization
+ 0001:00001228       Vcl.ComCtrls.TCustomTabControl.Destroy@
+ 0001:00001230       Vcl.ComCtrls.TTabControl.Destroy@
+ 0001:00001238       Vcl.ComCtrls.TCustomStatusBar.Destroy@
+ 0001:00001240       Vcl.ComCtrls.TCustomHeaderControl.Destroy@
+ 0001:00001248       Vcl.ComCtrls.TCustomTreeView.Destroy@
+ 0001:00001250       Vcl.ComCtrls.TTreeView.Destroy@
+ 0001:00001258       Vcl.ComCtrls.TTrackBar.Destroy@
+ 0001:00001260       Vcl.ComCtrls.TProgressBar.Destroy@
+ 0001:00001268       Vcl.ComCtrls.TCustomRichEdit.Destroy@
+ 0001:00001270       Vcl.ComCtrls.TRichEdit.Destroy@
+ 0001:00001278       Vcl.ComCtrls.TCustomUpDown.Destroy@
+ 0001:00001280       Vcl.ComCtrls.TUpDown.Destroy@
+ 0001:00001288       Vcl.ComCtrls.TCustomHotKey.Destroy@
+ 0001:00001290       Vcl.ComCtrls.THotKey.Destroy@
+ 0001:00001298       Vcl.ComCtrls.TCustomListView.Destroy@
+ 0001:000012A0       Vcl.ComCtrls.TListView.Destroy@
+ 0001:000012A8       Vcl.ComCtrls.TToolBar.Destroy@
+ 0001:000012B0       Vcl.ComCtrls.TCoolBar.Destroy@
+ 0001:000012B8       Vcl.ComCtrls.TCommonCalendar.GetDate
+ 0001:000012C0       Vcl.ComCtrls.TDateTimePicker.Destroy@
+ 0001:000012C8       Vcl.ComCtrls.TPageScroller.Destroy@
+ 0001:000012D0       Vcl.ComCtrls.TCustomComboBoxEx.Destroy@
+ 0001:000012D8       Vcl.ComCtrls.TComboBoxEx.Destroy@
+ 0001:000012E0       Vcl.ComCtrls.TStatusBar.Destroy@
+ 0001:000012E8       Vcl.ComCtrls.THeaderControl.Destroy@
+ 0001:000012F0       Vcl.ComCtrls.Finalization
+ 0001:000012F8       System.HelpIntfs.Finalization
+ 0001:00001300       Vcl.Dialogs.TOpenDialog.GetFileName
+ 0001:00001308       Vcl.Dialogs.InputQuery
+ 0001:00001310       Vcl.Dialogs.Finalization
+ 0001:00001318       Vcl.ExtCtrls.TCustomCategoryPanelGroup.Destroy@
+ 0001:00001320       Vcl.ExtCtrls.TCategoryPanelGroup.Destroy@
+ 0001:00001328       Vcl.ExtCtrls.TCustomLinkLabel.Destroy@
+ 0001:00001330       Vcl.ExtCtrls.TLinkLabel.Destroy@
+ 0001:00001338       Vcl.ExtCtrls.Finalization
+ 0001:00001340       Vcl.Themes.TStyleManager.Destroy@
+ 0001:00001348       Vcl.Themes.TCustomStyleEngine.Destroy@
+ 0001:00001350       Vcl.Menus.Finalization
+ 0001:00001358       Winapi.FlatSB.Finalization
+ 0001:00001360       Vcl.Forms.TScrollingWinControl.AutoScrollEnabled
+ 0001:00001368       Vcl.Forms.TScrollingWinControl.DoGesture
+ 0001:00001370       Vcl.Forms.TScrollingWinControl.DoGetGestureOptions
+ 0001:00001378       Vcl.Forms.TScrollingWinControl.AutoScrollInView
+ 0001:00001380       Vcl.Forms.TScrollBox.Destroy@
+ 0001:00001388       Vcl.Forms.TCustomForm.Create
+ 0001:00001390       Vcl.Forms.TCustomForm.Destroy@
+ 0001:00001398       Vcl.Forms.TCustomForm.AfterConstruction
+ 0001:000013A0       Vcl.Forms.TCustomForm.CreateNew
+ 0001:000013A8       Vcl.Forms.TCustomForm.BeforeDestruction
+ 0001:000013B0       Vcl.Forms.TCustomForm.Destroy
+ 0001:000013B8       Vcl.Forms.TCustomForm.DoCreate
+ 0001:000013C0       Vcl.Forms.TCustomForm.DoDestroy
+ 0001:000013C8       Vcl.Forms.TCustomForm.Loaded
+ 0001:000013D0       Vcl.Forms.TCustomForm.Notification
+ 0001:000013D8       Vcl.Forms.TCustomForm.GetDesignDpi
+ 0001:000013E0       Vcl.Forms.TCustomForm.ScaleForPPI
+ 0001:000013E8       Vcl.Forms.TCustomForm.ScaleForCurrentDpi
+ 0001:000013F0       Vcl.Forms.TCustomForm.ReadState
+ 0001:000013F8       Vcl.Forms.TCustomForm.DefineProperties
+ 0001:00001400       Vcl.Forms.TCustomForm.DoThumbButtonNotify
+ 0001:00001408       Vcl.Forms.TCustomForm.DoWindowPreviewRequest
+ 0001:00001410       Vcl.Forms.TCustomForm.DoThumbPreviewRequest
+ 0001:00001418       Vcl.Forms.TCustomForm.GetClientRect
+ 0001:00001420       Vcl.Forms.TCustomForm.GetFloating
+ 0001:00001428       Vcl.Forms.TCustomForm.SetParentBiDiMode
+ 0001:00001430       Vcl.Forms.TCustomForm.WantChildKey
+ 0001:00001438       Vcl.Forms.TCustomForm.SetParent
+ 0001:00001440       Vcl.Forms.TCustomForm.ValidateRename
+ 0001:00001448       Vcl.Forms.TCustomForm.WndProc
+ 0001:00001450       Vcl.Forms.TCustomForm.ClientWndProc
+ 0001:00001458       Vcl.Forms.TCustomForm.AlignControls
+ 0001:00001460       Vcl.Forms.TCustomForm.GetCanvas
+ 0001:00001468       Vcl.Forms.TCustomForm.CreateParams
+ 0001:00001470       Vcl.Forms.TCustomForm.CreateWnd
+ 0001:00001478       Vcl.Forms.TCustomForm.CreateWindowHandle
+ 0001:00001480       Vcl.Forms.TCustomForm.DestroyHandle
+ 0001:00001488       Vcl.Forms.TCustomForm.DestroyWindowHandle
+ 0001:00001490       Vcl.Forms.TCustomForm.DefaultHandler
+ 0001:00001498       Vcl.Forms.TCustomForm.SetFocusedControl
+ 0001:000014A0       Vcl.Forms.TCustomForm.AdjustClientRect
+ 0001:000014A8       Vcl.Forms.TCustomForm.PaintWindow
+ 0001:000014B0       Vcl.Forms.TCustomForm.Resizing
+ 0001:000014B8       Vcl.Forms.TCustomForm.DoBeforeMonitorDpiChanged
+ 0001:000014C0       Vcl.Forms.TCustomForm.DoAfterMonitorDpiChanged
+ 0001:000014C8       Vcl.Forms.TCustomForm.CloseQuery
+ 0001:000014D0       Vcl.Forms.TCustomForm.Show
+ 0001:000014D8       Vcl.Forms.TCustomForm.SetFocus
+ 0001:000014E0       Vcl.Forms.TCustomForm.ShowModal
+ 0001:000014E8       Vcl.Forms.TCustomForm.UpdateActions
+ 0001:000014F0       Vcl.Forms.TCustomForm.UpdateStyleElements
+ 0001:000014F8       Vcl.Forms.TCustomForm.RequestAlign
+ 0001:00001500       Vcl.Forms.TCustomForm.QueryInterface
+ 0001:00001508       Vcl.Forms.TForm.Destroy@
+ 0001:00001510       Vcl.Forms.TApplication.Initialize
+ 0001:00001518       Vcl.Forms.TApplication.CreateForm
+ 0001:00001520       Vcl.Forms.TApplication.Run
+ 0001:00001528       Vcl.Forms.TApplication.Terminate
+ 0001:00001530       Vcl.Forms.TApplication.SetMainFormOnTaskBar
+ 0001:00001538       Vcl.Forms.Finalization
+ 0001:00001540       Data.SqlTimSt.Finalization
+ 0001:00001548       Data.FmtBcd.Finalization
+ 0001:00001550       Data.DB.TFields.FieldByName
+ 0001:00001558       Data.DB.Finalization
+ 0001:00001560       Data.Win.ADODB.Finalization
+ 0001:00001568       Vcl.Grids.TCustomGrid.Destroy@
+ 0001:00001570       Vcl.Grids.TCustomDrawGrid.Destroy@
+ 0001:00001578       Vcl.Grids.TStringGrid.Destroy@
+ 0001:00001580       Vcl.Grids.TDrawGrid.Destroy@
+ 0001:00001588       Vcl.Buttons.TBitBtn.Destroy@
+ 0001:00001590       Vcl.Buttons.Finalization
+ 0001:00001598       Vcl.Imaging.jpeg.Finalization
+ 0001:000015A0       Vcl.Imaging.pngimage.Finalization
+ 0001:000015A8       Vcl.Imaging.GIFImg.Finalization
+ 0001:000015B0       System.NetEncoding.TNetEncoding.Destroy@
+ 0001:000015B8       AdvUtils.Finalization
+ 0001:000015C0       AdvPersistence.TAdvPersistence.Destroy@
+ 0001:000015C8       AdvPersistence.Finalization
+ 0001:000015D0       AdvGDIPlusApi.Finalization
+ 0001:000015D8       AdvGDIPlusClasses.Finalization
+ 0001:000015E0       AdvGraphicsTypes.Finalization
+ 0001:000015E8       AdvGraphics.Finalization
+ 0001:000015F0       Xml.Win.msxmldom.TMSXMLDOMDocumentFactory.Destroy@
+ 0001:000015F8       Xml.Win.msxmldom.Finalization
+ 0001:00001600       Xml.xmldom.Finalization
+ 0001:00001608       Xml.XMLSchema.Finalization
+ 0001:00001610       TMSTrial.Finalization
+ 0001:00001618       AdvGraphicsStyles.Finalization
+ 0001:00001620       AdvTypes.Finalization
+ 0001:00001628       AdvGDIP.Finalization
+ 0001:00001630       PlanXPVS.Finalization
+ 0001:00001638       PlanHTML.Finalization
+ 0001:00001640       AdvStyleIF.Finalization
+ 0001:00001648       Planner.TPlannerItem.SetCaptionType
+ 0001:00001650       Planner.TPlannerItem.SetCaptionText
+ 0001:00001658       Planner.TPlannerItem.SetColor
+ 0001:00001660       Planner.TPlannerItem.SetColorTo
+ 0001:00001668       Planner.TPlannerItem.SetCaptionBkg
+ 0001:00001670       Planner.Finalization
+ 0001:00001678       Vcl.ImageCollection.Finalization
+ 0001:00001680       Vcl.DBLogDlg.Finalization
+ 0001:00001688       Vcl.DBPWDlg.Finalization
+ 0001:00001690       Vcl.DBCtrls.TDBMemo.Destroy@
+ 0001:00001698       Vcl.DBCtrls.TDBNavigator.Destroy@
+ 0001:000016A0       Vcl.DBCtrls.TDBLookupListBox.Destroy@
+ 0001:000016A8       Vcl.DBCtrls.TCustomDBLookupComboBox.Destroy@
+ 0001:000016B0       Vcl.DBCtrls.TDBLookupComboBox.Destroy@
+ 0001:000016B8       Vcl.DBCtrls.Finalization
+ 0001:000016C0       Vcl.DBGrids.TCustomDBGrid.Destroy@
+ 0001:000016C8       Vcl.DBGrids.TDBGrid.Destroy@
+ 0001:000016D0       PlannerCal.TSelDateItems.Add
+ 0001:000016D8       PlannerCal.TSelDateItems.GetItem
+ 0001:000016E0       PlannerCal.TSelDateItem.SetColor
+ 0001:000016E8       PlannerCal.TSelDateItem.SetDate
+ 0001:000016F0       PlannerCal.TSelDateItem.SetEventShape
+ 0001:000016F8       PlannerCal.TSelDateItem.SetFontColor
+ 0001:00001700       PlannerCal.TSelDateItem.SetHint
+ 0001:00001708       PlannerCal.TPlannerCalendar.GetEvents
+ 0001:00001710       PlannerCal.Finalization
+ 0001:00001718       ACXPVS.Finalization
+ 0001:00001720       AdvToolTip.Finalization
+ 0001:00001728       PlannerMonthView.Finalization
+ 0001:00001730       AdvXPVS.Finalization
+ 0001:00001738       AdvUtil.Finalization
+ 0001:00001740       Winapi.D2D1.Finalization
+ 0001:00001748       Vcl.Direct2D.TDirect2DCanvas.Destroy@
+ 0001:00001750       Vcl.Direct2D.Finalization
+ 0001:00001758       AsgHTMLE.Finalization
+ 0001:00001760       AdvObj.Finalization
+ 0001:00001768       Vcl.CheckLst.TCheckListBox.Destroy@
+ 0001:00001770       Vcl.AxCtrls.Finalization
+ 0001:00001778       asgdd.Finalization
+ 0001:00001780       AdvDateTimePicker.Finalization
+ 0001:00001788       ATXPVS.Finalization
+ 0001:00001790       AdvDropDown.Finalization
+ 0001:00001798       asgxlsfmt.Finalization
+ 0001:000017A0       AdvGrid.Finalization
+ 0001:000017A8       DBAdvGrid.Finalization
+ 0001:000017B0       Vcl.ExtDlgs.Finalization
+ 0001:000017B8       Winapi.Mapi.Finalization
+ 0001:000017C0       Vcl.ExtActns.Finalization
+ 0001:000017C8       Vcl.ActnMenus.Finalization
+ 0001:000017D0       Vcl.ActnMan.Finalization
+ 0001:000017D8       AdvMenuUtil.Finalization
+ 0001:000017E0       AdvMenus.Finalization
+ 0001:000017E8       Vcl.AppEvnts.Finalization
+ 0001:000017F0       AdvOfficeHint.Finalization
+ 0001:000017F8       AdvDWM.Finalization
+ 0001:00001800       AdvTBXPVS.Finalization
+ 0001:00001808       AdvShapeButton.Finalization
+ 0001:00001810       AdvToolBar.Finalization
+ 0001:00001818       AdvWebBrowser.Win.TAdvWinWebBrowser.Destroy@
+ 0001:00001820       AdvWebBrowser.Win.Finalization
+ 0001:00001828       AdvWebBrowser.Finalization
+ 0001:00001830       System.Win.Sensors.TWindowsGpsStatus.Destroy@
+ 0001:00001838       System.Sensors.TGeocoder.Destroy@
+ 0001:00001840       System.Sensors.TSensorManager.Destroy@
+ 0001:00001848       System.Sensors.Finalization
+ 0001:00001850       AdvMetroForm.Finalization
+ 0001:00001858       AdvMetroTaskDialog.Finalization
+ 0001:00001860       AdvMetroTile.Finalization
+ 0001:00001868       AdvNavBar.Finalization
+ 0001:00001870       AdvReplaceDialogForm.Finalization
+ 0001:00001878       AdvMDD.Finalization
+ 0001:00001880       AdvMemo.Finalization
+ 0001:00001888       GDIPFill.Finalization
+ 0001:00001890       CustomItemsContainer.Finalization
+ 0001:00001898       dxCore.Finalization
+ 0001:000018A0       dxThreading.TdxUIThreadSyncService.Finalize@
+ 0001:000018A8       dxThreading.Finalization
+ 0001:000018B0       cxGeometry.Finalization
+ 0001:000018B8       dxCoreClasses.Finalization
+ 0001:000018C0       dxCrypto.TdxCryptoAlgorithms.Destroy@
+ 0001:000018C8       dxCrypto.Finalization
+ 0001:000018D0       dxCoreGraphics.TdxAlphaColors.Finalize@
+ 0001:000018D8       dxCoreGraphics.TdxTextMeasurer.Finalize@
+ 0001:000018E0       dxCoreGraphics.Finalization
+ 0001:000018E8       dxDPIAwareUtils.Finalization
+ 0001:000018F0       dxGDIPlusAPI.Finalization
+ 0001:000018F8       dxStringHelper.TdxStringHelper.Destroy@
+ 0001:00001900       dxStringHelper.Finalization
+ 0001:00001908       dxSmartImage.Finalization
+ 0001:00001910       dxGDIPlusClasses.TdxGPImageCodecJPEG.Destroy@
+ 0001:00001918       dxGDIPlusClasses.Finalization
+ 0001:00001920       cxDrawTextUtils.Finalization
+ 0001:00001928       dxUxTheme.Finalization
+ 0001:00001930       dxHooks.Finalization
+ 0001:00001938       dxTouch.Finalization
+ 0001:00001940       dxThemeManager.Finalization
+ 0001:00001948       dxSkinsStrs.Finalization
+ 0001:00001950       dxXMLDoc.Finalization
+ 0001:00001958       dxSVGCoreParsers.TdxSVGFontStyleString.Destroy@
+ 0001:00001960       dxSVGCoreParsers.TdxSVGParserValue.Destroy@
+ 0001:00001968       dxSVGCoreParsers.TdxSVGParserTransform.Destroy@
+ 0001:00001970       dxSVGCore.TdxSVGAttributeConverter.Destroy@
+ 0001:00001978       dxSVGCore.Finalization
+ 0001:00001980       dxSVGImage.Finalization
+ 0001:00001988       dxSkinsCore.Finalization
+ 0001:00001990       cxLibraryStrs.Finalization
+ 0001:00001998       cxLookAndFeelPainters.Finalization
+ 0001:000019A0       cxLookAndFeels.Finalization
+ 0001:000019A8       dxFading.Finalization
+ 0001:000019B0       dxForms.TdxFrameControllerManager.Destroy@
+ 0001:000019B8       dxForms.Finalization
+ 0001:000019C0       cxDWMApi.Finalization
+ 0001:000019C8       cxContainer.Finalization
+ 0001:000019D0       dxCustomHint.Finalization
+ 0001:000019D8       dxAnimation.Finalization
+ 0001:000019E0       dxShapePrimitives.Finalization
+ 0001:000019E8       dxDirectX.D2D.Types.Finalization
+ 0001:000019F0       dxDirectX.D2D.Classes.TdxDirect2DPenStyleCache.Destroy@
+ 0001:000019F8       dxDirectX.D2D.Classes.Finalization
+ 0001:00001A00       dxDirectX.D2D.Canvas.Finalization
+ 0001:00001A08       cxDateUtils.TdxTimeZoneHelper.Destroy@
+ 0001:00001A10       cxDateUtils.Finalization
+ 0001:00001A18       cxFormats.Finalization
+ 0001:00001A20       cxControls.TdxTouchScrollUIModeManager.Finalize@
+ 0001:00001A28       cxControls.TdxHybridScrollbarManagers.Finalize@
+ 0001:00001A30       cxControls.Finalization
+ 0001:00001A38       cxCustomCanvas.Finalization
+ 0001:00001A40       cxGraphics.TdxImageListPaintCache.Finalize@
+ 0001:00001A48       cxGraphics.Finalization
+ 0001:00001A50       cxClasses.Finalization
+ 0001:00001A58       NewForm..TMainFm
+ 0001:00001C9C       cxDataConsts.Finalization
+ 0001:00001CA4       cxDataStorage.Finalization
+ 0001:00001CAC       cxFilterConsts.Finalization
+ 0001:00001CB4       cxCustomData.Finalization
+ 0001:00001CBC       dxCultureInfo.Finalization
+ 0001:00001CC4       dxSpellCheckerCore.TdxSpellCheckerInstance.Destroy@
+ 0001:00001CCC       dxSpellCheckerCore.Finalization
+ 0001:00001CD4       cxEditConsts.Finalization
+ 0001:00001CDC       cxEdit.Finalization
+ 0001:00001CE4       cxFilterControlStrs.Finalization
+ 0001:00001CEC       cxTextEdit.Finalization
+ 0001:00001CF4       cxMaskEdit.Finalization
+ 0001:00001CFC       cxDropDownEdit.Finalization
+ 0001:00001D04       cxDB.TcxDataLinksController.Destroy@
+ 0001:00001D0C       cxExtEditConsts.Finalization
+ 0001:00001D14       cxCheckBox.Finalization
+ 0001:00001D1C       cxSpinEdit.Finalization
+ 0001:00001D24       cxTrackBar.Finalization
+ 0001:00001D2C       dxCameraControl.Finalization
+ 0001:00001D34       cxImage.Finalization
+ 0001:00001D3C       cxMemo.Finalization
+ 0001:00001D44       cxBlobEdit.Finalization
+ 0001:00001D4C       cxButtonEdit.Finalization
+ 0001:00001D54       cxCalc.Finalization
+ 0001:00001D5C       cxTimeEdit.Finalization
+ 0001:00001D64       Vcl.OleServer.Finalization
+ 0001:00001D6C       cxAccessibility.Finalization
+ 0001:00001D74       dxGallery.Finalization
+ 0001:00001D7C       dxNumericWheelPicker.Finalization
+ 0001:00001D84       dxDateTimeWheelPicker.Finalization
+ 0001:00001D8C       cxCalendar.Finalization
+ 0001:00001D94       cxCurrencyEdit.Finalization
+ 0001:00001D9C       cxHyperLinkEdit.Finalization
+ 0001:00001DA4       cxImageComboBox.Finalization
+ 0001:00001DAC       cxListBox.Finalization
+ 0001:00001DB4       cxMRUEdit.Finalization
+ 0001:00001DBC       dxAcrylicEffect.Finalization
+ 0001:00001DC4       cxGroupBox.Finalization
+ 0001:00001DCC       cxRadioGroup.Finalization
+ 0001:00001DD4       cxDBFilter.Finalization
+ 0001:00001DDC       cxDBData.Finalization
+ 0001:00001DE4       dxToggleSwitch.Finalization
+ 0001:00001DEC       dxSparkline.Finalization
+ 0001:00001DF4       dxBarCodeUtils.Finalization
+ 0001:00001DFC       dxBarCode.Finalization
+ 0001:00001E04       dxTokenEdit.Finalization
+ 0001:00001E0C       dxDocumentLayoutUnitConverter.TdxGraphicsDpi.Destroy@
+ 0001:00001E14       dxFontHelpers.TdxFontLink.Destroy@
+ 0001:00001E1C       dxFontHelpers.TdxGdiFontHelper.Finalize@
+ 0001:00001E24       dxFontHelpers.Finalization
+ 0001:00001E2C       dxFormattedText.Finalization
+ 0001:00001E34       dxFormattedTextConverterBBCode.Finalization
+ 0001:00001E3C       dxEncoding.TdxCyrillicEncodingDetector.Destroy@
+ 0001:00001E44       dxEncoding.TdxBulgarianEncodingDetector.Destroy@
+ 0001:00001E4C       dxEncoding.TdxIbm855EncodingDetector.Destroy@
+ 0001:00001E54       dxEncoding.TdxIbm866EncodingDetector.Destroy@
+ 0001:00001E5C       dxEncoding.TdxKoi8rEncodingDetector.Destroy@
+ 0001:00001E64       dxEncoding.TdxLatin5EncodingDetector.Destroy@
+ 0001:00001E6C       dxEncoding.TdxLatin5BulgarianEncodingDetector.Destroy@
+ 0001:00001E74       dxEncoding.TdxWin1251EncodingDetector.Destroy@
+ 0001:00001E7C       dxEncoding.TdxWin1251BulgarianEncodingDetector.Destroy@
+ 0001:00001E84       dxEncoding.TdxMacCyrillicDetector.Destroy@
+ 0001:00001E8C       dxEncoding.TdxGreekEncodingDetector.Destroy@
+ 0001:00001E94       dxEncoding.TdxLatin7EncodingDetector.Destroy@
+ 0001:00001E9C       dxEncoding.TdxWin1253EncodingDetector.Destroy@
+ 0001:00001EA4       dxEncoding.TdxUtf8EncodingAnalyzer.Destroy@
+ 0001:00001EAC       dxEncoding.TdxBig5CharDistributionAnalyzer.Destroy@
+ 0001:00001EB4       dxEncoding.TdxBig5EncodingAnalyzer.Destroy@
+ 0001:00001EBC       dxEncoding.TdxGB18030CharDistributionAnalyzer.Destroy@
+ 0001:00001EC4       dxEncoding.TdxGB18030EncodingAnalyzer.Destroy@
+ 0001:00001ECC       dxEncoding.TdxEucKrCharDistributionAnalyzer.Destroy@
+ 0001:00001ED4       dxEncoding.TdxEucKrEncodingAnalyzer.Destroy@
+ 0001:00001EDC       dxEncoding.TdxJapaneseCharDistributionAnalyzer.Destroy@
+ 0001:00001EE4       dxEncoding.TdxEucJpEncodingAnalyzer.Destroy@
+ 0001:00001EEC       dxEncoding.TdxShiftedJisEncodingAnalyzer.Destroy@
+ 0001:00001EF4       dxEncoding.TdxEncoding.Finalize@
+ 0001:00001EFC       dxEncoding.TdxCharsetAndCodePageTranslator.Finalize@
+ 0001:00001F04       dxEncoding.TdxFullTrustCharsetAndCodePageTranslator.Finalize@
+ 0001:00001F0C       dxEncoding.Finalization
+ 0001:00001F14       dxFormattedTextConverterRTF.Finalization
+ 0001:00001F1C       dxFormattedLabel.Finalization
+ 0001:00001F24       cxEditRepositoryItems.Finalization
+ 0001:00001F2C       cxEditDataRegisteredRepositoryItems.Finalization
+ 0001:00001F34       cxDBEditRepository.Finalization
+ 0001:00001F3C       cxEditDBRegisteredRepositoryItems.Finalization
+ 0001:00001F44       cxDBLookupComboBox.Finalization
+ 0001:00001F4C       AtbXPVS.Finalization
+ 0001:00001F54       dbplanner_test..TPlannerFm
+ 0001:000035A4       dbplanner_test.TPlannerFm.AdvComboBox1DrawItem
+ 0001:000036B4       dbplanner_test.TPlannerFm.AdvGlowButton1Click
+ 0001:0000371C       dbplanner_test.TPlannerFm.btnCreateClick
+ 0001:000037FC       dbplanner_test.TPlannerFm.ComboBox1DrawItem
+ 0001:00003990       dbplanner_test.TPlannerFm.DBPlanner1ItemDelete
+ 0001:000039BC       dbplanner_test.TPlannerFm.DBPlanner1ItemInsert
+ 0001:00003A2C       dbplanner_test.TPlannerFm.DBPlanner1ItemRightClick
+ 0001:00003AE0       dbplanner_test.TPlannerFm.DBPlanner1ItemText
+ 0001:00003B00       dbplanner_test.TPlannerFm.DBPlanner2ItemRightClick
+ 0001:00003B14       dbplanner_test.TPlannerFm.DBPlannerCalendar1AllDaySelect
+ 0001:00003B90       dbplanner_test.TPlannerFm.DBPlannerCalendar1DaySelect
+ 0001:00003CF8       dbplanner_test.TPlannerFm.DBPlannerMonthView1FieldsToItem
+ 0001:00003D44       dbplanner_test.TPlannerFm.DBPlannerMonthView1ItemRightClick
+ 0001:00003DF8       dbplanner_test.TPlannerFm.DBPlannerMonthView1ItemToFields
+ 0001:00003E74       dbplanner_test.TPlannerFm.Exit1Click
+ 0001:00003E90       dbplanner_test.TPlannerFm.FormCreate
+ 0001:00003FC0       dbplanner_test.TPlannerFm.Open1Click
+ 0001:000040DC       dbplanner_test.TPlannerFm.ToolButton5Click
+ 0001:00004130       Project_dbplanner.Finalization
+ 0002:00000000       System.System
+ 0002:00000008       SysInit.SysInit
+ 0002:00000010       System.UITypes.System.UITypes
+ 0002:00000018       Winapi.Windows.Winapi.Windows
+ 0002:00000030       Winapi.PsAPI.Winapi.PsAPI
+ 0002:00000038       System.Character.System.Character
+ 0002:00000040       System.Internal.ExcUtils.System.Internal.ExcUtils
+ 0002:00000048       System.SysUtils.TLanguages.Create@
+ 0002:00000050       System.SysUtils.TEncoding.Create@
+ 0002:00000058       System.SysUtils.Exception.Create@
+ 0002:00000060       System.SysUtils.TOSVersion.Create@
+ 0002:00000068       System.SysUtils.System.SysUtils
+ 0002:00000070       System.VarUtils.System.VarUtils
+ 0002:00000078       System.Variants.System.Variants
+ 0002:00000080       System.Math.System.Math
+ 0002:00000088       System.TimeSpan.TTimeSpan.Create@
+ 0002:00000090       System.Classes.TObserverMapping.Create@
+ 0002:00000098       System.Classes.TBinaryWriter.Create@
+ 0002:000000A0       System.Classes.TFieldsCache.Create@
+ 0002:000000A8       System.Classes.TThread.Create@
+ 0002:000000B0       System.Classes.TComponent.Create@
+ 0002:000000B8       System.Classes.TLoginCredentialService.Create@
+ 0002:000000C0       System.Classes.TBaseAsyncResult.Create@
+ 0002:000000C8       System.Classes.System.Classes
+ 0002:000000D0       System.Rtti.TRttiContext.Create@
+ 0002:000000D8       System.Rtti.TValue.Create@
+ 0002:000000E0       System.Rtti.System.Rtti
+ 0002:000000E8       System.TypInfo.System.TypInfo
+ 0002:000000F0       System.Generics.Defaults.TStringComparer.Create@
+ 0002:000000F8       System.Generics.Defaults.TIStringComparer.Create@
+ 0002:00000100       System.Messaging.TMessageManager.Create@
+ 0002:00000108       System.Actions.System.Actions
+ 0002:00000110       System.DateUtils.TTimeZone.Create@
+ 0002:00000118       System.DateUtils.System.DateUtils
+ 0002:00000120       System.IOUtils.TPath.Create@
+ 0002:00000128       System.IniFiles.System.IniFiles
+ 0002:00000130       System.Win.Registry.TRegistry.Create@
+ 0002:00000138       System.UIConsts.System.UIConsts
+ 0002:00000140       Vcl.Graphics.TWICImage.Create@
+ 0002:00000148       Vcl.Graphics.Vcl.Graphics
+ 0002:00000150       System.SyncObjs.System.SyncObjs
+ 0002:00000158       Winapi.UxTheme.Winapi.UxTheme
+ 0002:00000160       Vcl.ActnList.Vcl.ActnList
+ 0002:00000168       System.AnsiStrings.System.AnsiStrings
+ 0002:00000170       System.Win.ComObj.TComServerObject.Create@
+ 0002:00000178       System.Win.ComObj.System.Win.ComObj
+ 0002:00000180       Winapi.MsCTF.Winapi.MsCTF
+ 0002:00000190       Vcl.GraphUtil.Vcl.GraphUtil
+ 0002:00000198       Vcl.Controls.Vcl.Controls
+ 0002:000001A0       Vcl.StdCtrls.TCustomGroupBox.Create@
+ 0002:000001A8       Vcl.StdCtrls.TCustomEdit.Create@
+ 0002:000001B0       Vcl.StdCtrls.TCustomMemo.Create@
+ 0002:000001B8       Vcl.StdCtrls.TCustomComboBox.Create@
+ 0002:000001C0       Vcl.StdCtrls.TCustomButton.Create@
+ 0002:000001C8       Vcl.StdCtrls.TCustomCheckBox.Create@
+ 0002:000001D0       Vcl.StdCtrls.TRadioButton.Create@
+ 0002:000001D8       Vcl.StdCtrls.TCustomListBox.Create@
+ 0002:000001E0       Vcl.StdCtrls.TScrollBar.Create@
+ 0002:000001E8       Vcl.StdCtrls.TCustomStaticText.Create@
+ 0002:000001F0       Vcl.StdCtrls.TGroupBox.Create@
+ 0002:000001F8       Vcl.StdCtrls.TEdit.Create@
+ 0002:00000200       Vcl.StdCtrls.TMemo.Create@
+ 0002:00000208       Vcl.StdCtrls.TComboBox.Create@
+ 0002:00000210       Vcl.StdCtrls.TButton.Create@
+ 0002:00000218       Vcl.StdCtrls.TCheckBox.Create@
+ 0002:00000220       Vcl.StdCtrls.TListBox.Create@
+ 0002:00000228       Vcl.StdCtrls.TStaticText.Create@
+ 0002:00000230       Vcl.Printers.Vcl.Printers
+ 0002:00000238       Vcl.Clipbrd.Vcl.Clipbrd
+ 0002:00000240       Vcl.ComCtrls.TCustomTabControl.Create@
+ 0002:00000248       Vcl.ComCtrls.TTabControl.Create@
+ 0002:00000250       Vcl.ComCtrls.TCustomStatusBar.Create@
+ 0002:00000258       Vcl.ComCtrls.TCustomHeaderControl.Create@
+ 0002:00000260       Vcl.ComCtrls.TCustomTreeView.Create@
+ 0002:00000268       Vcl.ComCtrls.TTreeView.Create@
+ 0002:00000270       Vcl.ComCtrls.TTrackBar.Create@
+ 0002:00000278       Vcl.ComCtrls.TProgressBar.Create@
+ 0002:00000280       Vcl.ComCtrls.TCustomRichEdit.Create@
+ 0002:00000288       Vcl.ComCtrls.TRichEdit.Create@
+ 0002:00000290       Vcl.ComCtrls.TCustomUpDown.Create@
+ 0002:00000298       Vcl.ComCtrls.TUpDown.Create@
+ 0002:000002A0       Vcl.ComCtrls.TCustomHotKey.Create@
+ 0002:000002A8       Vcl.ComCtrls.THotKey.Create@
+ 0002:000002B0       Vcl.ComCtrls.TCustomListView.Create@
+ 0002:000002B8       Vcl.ComCtrls.TListView.Create@
+ 0002:000002C0       Vcl.ComCtrls.TToolBar.Create@
+ 0002:000002C8       Vcl.ComCtrls.TCoolBar.Create@
+ 0002:000002D0       Vcl.ComCtrls.TDateTimePicker.Create@
+ 0002:000002D8       Vcl.ComCtrls.TPageScroller.Create@
+ 0002:000002E0       Vcl.ComCtrls.TCustomComboBoxEx.Create@
+ 0002:000002E8       Vcl.ComCtrls.TComboBoxEx.Create@
+ 0002:000002F0       Vcl.ComCtrls.TStatusBar.Create@
+ 0002:000002F8       Vcl.ComCtrls.THeaderControl.Create@
+ 0002:00000300       Vcl.ComCtrls.Vcl.ComCtrls
+ 0002:00000308       System.HelpIntfs.System.HelpIntfs
+ 0002:00000310       Vcl.Dialogs.Vcl.Dialogs
+ 0002:00000318       Vcl.ExtCtrls.TCustomCategoryPanelGroup.Create@
+ 0002:00000320       Vcl.ExtCtrls.TCategoryPanelGroup.Create@
+ 0002:00000328       Vcl.ExtCtrls.TCustomLinkLabel.Create@
+ 0002:00000330       Vcl.ExtCtrls.TLinkLabel.Create@
+ 0002:00000338       Vcl.ExtCtrls.Vcl.ExtCtrls
+ 0002:00000340       Vcl.Themes.TStyleManager.Create@
+ 0002:00000348       Vcl.Themes.TCustomStyleEngine.Create@
+ 0002:00000350       Vcl.Menus.Vcl.Menus
+ 0002:00000358       Winapi.FlatSB.Winapi.FlatSB
+ 0002:00000360       Vcl.Forms.TScrollBox.Create@
+ 0002:00000368       Vcl.Forms.TCustomForm.Create@
+ 0002:00000370       Vcl.Forms.TForm.Create@
+ 0002:00000378       Vcl.Forms.Vcl.Forms
+ 0002:00000380       Data.SqlTimSt.Data.SqlTimSt
+ 0002:00000388       Data.FmtBcd.Data.FmtBcd
+ 0002:00000390       Data.DB.Data.DB
+ 0002:00000398       Data.Win.ADODB.Data.Win.ADODB
+ 0002:000003A0       Vcl.Grids.TCustomGrid.Create@
+ 0002:000003A8       Vcl.Grids.TCustomDrawGrid.Create@
+ 0002:000003B0       Vcl.Grids.TStringGrid.Create@
+ 0002:000003B8       Vcl.Grids.TDrawGrid.Create@
+ 0002:000003C0       Vcl.Buttons.TBitBtn.Create@
+ 0002:000003C8       Vcl.Buttons.Vcl.Buttons
+ 0002:000003D0       Vcl.Imaging.jpeg.Vcl.Imaging.jpeg
+ 0002:000003D8       Vcl.Imaging.pngimage.Vcl.Imaging.pngimage
+ 0002:000003E0       Vcl.Imaging.GIFImg.Vcl.Imaging.GIFImg
+ 0002:000003E8       System.NetEncoding.TNetEncoding.Create@
+ 0002:000003F0       AdvUtils.AdvUtils
+ 0002:000003F8       AdvPersistence.TAdvPersistence.Create@
+ 0002:00000400       AdvPersistence.AdvPersistence
+ 0002:00000408       AdvGDIPlusApi.AdvGDIPlusApi
+ 0002:00000410       AdvGDIPlusClasses.AdvGDIPlusClasses
+ 0002:00000418       AdvGraphicsTypes.AdvGraphicsTypes
+ 0002:00000420       AdvGraphics.AdvGraphics
+ 0002:00000428       Xml.Win.msxmldom.TMSXMLDOMDocumentFactory.Create@
+ 0002:00000430       Xml.Win.msxmldom.Xml.Win.msxmldom
+ 0002:00000438       Xml.xmldom.Xml.xmldom
+ 0002:00000440       Xml.XMLSchema.Xml.XMLSchema
+ 0002:00000448       TMSTrial.TMSTrial
+ 0002:00000450       AdvGraphicsStyles.AdvGraphicsStyles
+ 0002:00000458       AdvTypes.AdvTypes
+ 0002:00000460       AdvGDIP.AdvGDIP
+ 0002:00000468       PlanXPVS.PlanXPVS
+ 0002:00000470       PlanHTML.PlanHTML
+ 0002:00000478       AdvStyleIF.AdvStyleIF
+ 0002:00000480       Planner.Planner
+ 0002:00000488       Vcl.ImageCollection.Vcl.ImageCollection
+ 0002:00000490       Vcl.DBLogDlg.Vcl.DBLogDlg
+ 0002:00000498       Vcl.DBPWDlg.Vcl.DBPWDlg
+ 0002:000004A0       Vcl.DBCtrls.TDBMemo.Create@
+ 0002:000004A8       Vcl.DBCtrls.TDBNavigator.Create@
+ 0002:000004B0       Vcl.DBCtrls.TDBLookupListBox.Create@
+ 0002:000004B8       Vcl.DBCtrls.TCustomDBLookupComboBox.Create@
+ 0002:000004C0       Vcl.DBCtrls.TDBLookupComboBox.Create@
+ 0002:000004C8       Vcl.DBCtrls.Vcl.DBCtrls
+ 0002:000004D0       Vcl.DBGrids.TCustomDBGrid.Create@
+ 0002:000004D8       Vcl.DBGrids.TDBGrid.Create@
+ 0002:000004E0       PlannerCal.PlannerCal
+ 0002:000004E8       ACXPVS.ACXPVS
+ 0002:000004F0       AdvToolTip.AdvToolTip
+ 0002:000004F8       PlannerMonthView.PlannerMonthView
+ 0002:00000500       AdvXPVS.AdvXPVS
+ 0002:00000508       AdvUtil.AdvUtil
+ 0002:00000510       Winapi.D2D1.Winapi.D2D1
+ 0002:00000518       Vcl.Direct2D.TDirect2DCanvas.Create@
+ 0002:00000520       Vcl.Direct2D.Vcl.Direct2D
+ 0002:00000528       AsgHTMLE.AsgHTMLE
+ 0002:00000530       AdvObj.AdvObj
+ 0002:00000538       Vcl.CheckLst.TCheckListBox.Create@
+ 0002:00000540       Vcl.AxCtrls.Vcl.AxCtrls
+ 0002:00000548       asgdd.asgdd
+ 0002:00000550       AdvDateTimePicker.AdvDateTimePicker
+ 0002:00000558       ATXPVS.ATXPVS
+ 0002:00000560       AdvDropDown.AdvDropDown
+ 0002:00000568       asgxlsfmt.asgxlsfmt
+ 0002:00000570       AdvGrid.AdvGrid
+ 0002:00000578       DBAdvGrid.DBAdvGrid
+ 0002:00000580       Vcl.ExtDlgs.Vcl.ExtDlgs
+ 0002:00000588       Winapi.Mapi.Winapi.Mapi
+ 0002:00000590       Vcl.ExtActns.Vcl.ExtActns
+ 0002:00000598       Vcl.ActnMenus.Vcl.ActnMenus
+ 0002:000005A0       Vcl.ActnMan.Vcl.ActnMan
+ 0002:000005A8       AdvMenuUtil.AdvMenuUtil
+ 0002:000005B0       AdvMenus.AdvMenus
+ 0002:000005B8       Vcl.AppEvnts.Vcl.AppEvnts
+ 0002:000005C0       AdvOfficeHint.AdvOfficeHint
+ 0002:000005C8       AdvDWM.AdvDWM
+ 0002:000005D0       AdvTBXPVS.AdvTBXPVS
+ 0002:000005D8       AdvShapeButton.AdvShapeButton
+ 0002:000005E0       AdvToolBar.AdvToolBar
+ 0002:000005E8       AdvWebBrowser.Win.TAdvWinWebBrowser.Create@
+ 0002:000005F0       AdvWebBrowser.Win.AdvWebBrowser.Win
+ 0002:000005F8       AdvWebBrowser.AdvWebBrowser
+ 0002:00000600       System.Win.Sensors.TWindowsGpsStatus.Create@
+ 0002:00000608       System.Sensors.TGeocoder.Create@
+ 0002:00000610       System.Sensors.TSensorManager.Create@
+ 0002:00000618       System.Sensors.System.Sensors
+ 0002:00000620       AdvMetroForm.AdvMetroForm
+ 0002:00000628       AdvMetroTaskDialog.AdvMetroTaskDialog
+ 0002:00000630       AdvMetroTile.AdvMetroTile
+ 0002:00000638       AdvNavBar.AdvNavBar
+ 0002:00000640       AdvReplaceDialogForm.AdvReplaceDialogForm
+ 0002:00000648       AdvMDD.AdvMDD
+ 0002:00000650       AdvMemo.AdvMemo
+ 0002:00000658       GDIPFill.GDIPFill
+ 0002:00000660       CustomItemsContainer.CustomItemsContainer
+ 0002:00000668       dxCore.dxCore
+ 0002:00000670       dxThreading.TdxUIThreadSyncService.Initialize@
+ 0002:00000678       dxThreading.dxThreading
+ 0002:00000680       cxGeometry.cxGeometry
+ 0002:00000688       dxCoreClasses.dxCoreClasses
+ 0002:00000690       dxCrypto.TdxCryptoAlgorithms.Create@
+ 0002:00000698       dxCrypto.dxCrypto
+ 0002:000006A0       dxCoreGraphics.TdxAlphaColors.Initialize@
+ 0002:000006A8       dxCoreGraphics.TdxTextMeasurer.Initialize@
+ 0002:000006B0       dxCoreGraphics.dxCoreGraphics
+ 0002:000006B8       dxDPIAwareUtils.dxDPIAwareUtils
+ 0002:000006C0       dxGDIPlusAPI.dxGDIPlusAPI
+ 0002:000006C8       dxStringHelper.TdxStringHelper.Create@
+ 0002:000006D0       dxStringHelper.dxStringHelper
+ 0002:000006D8       dxSmartImage.dxSmartImage
+ 0002:000006E0       dxGDIPlusClasses.TdxGPImageCodecJPEG.Initialize@
+ 0002:000006E8       dxGDIPlusClasses.dxGDIPlusClasses
+ 0002:000006F0       cxDrawTextUtils.cxDrawTextUtils
+ 0002:000006F8       dxUxTheme.dxUxTheme
+ 0002:00000700       dxHooks.dxHooks
+ 0002:00000708       dxTouch.dxTouch
+ 0002:00000710       dxThemeManager.dxThemeManager
+ 0002:00000718       dxSkinsStrs.dxSkinsStrs
+ 0002:00000720       dxXMLDoc.dxXMLDoc
+ 0002:00000728       dxSVGCoreParsers.TdxSVGFontStyleString.Create@
+ 0002:00000730       dxSVGCoreParsers.TdxSVGParserValue.Create@
+ 0002:00000738       dxSVGCoreParsers.TdxSVGParserTransform.Create@
+ 0002:00000740       dxSVGCore.TdxSVGAttributeConverter.Create@
+ 0002:00000748       dxSVGCore.dxSVGCore
+ 0002:00000750       dxSVGImage.dxSVGImage
+ 0002:00000758       dxSkinsCore.dxSkinsCore
+ 0002:00000760       cxLibraryStrs.cxLibraryStrs
+ 0002:00000768       cxLookAndFeelPainters.cxLookAndFeelPainters
+ 0002:00000770       cxLookAndFeels.cxLookAndFeels
+ 0002:00000778       dxFading.dxFading
+ 0002:00000780       dxForms.TdxFrameControllerManager.Create@
+ 0002:00000788       dxForms.dxForms
+ 0002:00000790       cxDWMApi.cxDWMApi
+ 0002:00000798       cxContainer.cxContainer
+ 0002:000007A0       dxCustomHint.dxCustomHint
+ 0002:000007A8       dxAnimation.dxAnimation
+ 0002:000007B0       dxShapePrimitives.dxShapePrimitives
+ 0002:000007B8       dxDirectX.D2D.Types.dxDirectX.D2D.Types
+ 0002:000007C0       dxDirectX.D2D.Classes.TdxDirect2DPenStyleCache.Create@
+ 0002:000007C8       dxDirectX.D2D.Classes.dxDirectX.D2D.Classes
+ 0002:000007D0       dxDirectX.D2D.Canvas.dxDirectX.D2D.Canvas
+ 0002:000007D8       cxDateUtils.TdxTimeZoneHelper.Create@
+ 0002:000007E0       cxDateUtils.cxDateUtils
+ 0002:000007E8       cxFormats.cxFormats
+ 0002:000007F0       cxControls.TdxTouchScrollUIModeManager.Create@
+ 0002:000007F8       cxControls.TdxHybridScrollbarManagers.Initialize@
+ 0002:00000800       cxControls.cxControls
+ 0002:00000808       cxCustomCanvas.cxCustomCanvas
+ 0002:00000810       cxGraphics.TdxImageListPaintCache.Initialize@
+ 0002:00000818       cxGraphics.cxGraphics
+ 0002:00000820       cxClasses.cxClasses
+ 0002:00000828       cxDataConsts.cxDataConsts
+ 0002:00000830       cxDataStorage.cxDataStorage
+ 0002:00000838       cxFilterConsts.cxFilterConsts
+ 0002:00000840       cxCustomData.cxCustomData
+ 0002:00000848       dxCultureInfo.dxCultureInfo
+ 0002:00000850       dxSpellCheckerCore.TdxSpellCheckerInstance.Create@
+ 0002:00000858       dxSpellCheckerCore.dxSpellCheckerCore
+ 0002:00000860       cxEditConsts.cxEditConsts
+ 0002:00000868       cxEdit.cxEdit
+ 0002:00000870       cxFilterControlStrs.cxFilterControlStrs
+ 0002:00000878       cxTextEdit.cxTextEdit
+ 0002:00000880       cxMaskEdit.cxMaskEdit
+ 0002:00000888       cxDropDownEdit.cxDropDownEdit
+ 0002:00000890       cxDB.TcxDataLinksController.Create@
+ 0002:00000898       cxExtEditConsts.cxExtEditConsts
+ 0002:000008A0       cxCheckBox.cxCheckBox
+ 0002:000008A8       cxSpinEdit.cxSpinEdit
+ 0002:000008B0       cxTrackBar.cxTrackBar
+ 0002:000008B8       dxCameraControl.dxCameraControl
+ 0002:000008C0       cxImage.cxImage
+ 0002:000008C8       cxMemo.cxMemo
+ 0002:000008D0       cxBlobEdit.cxBlobEdit
+ 0002:000008D8       cxButtonEdit.cxButtonEdit
+ 0002:000008E0       cxCalc.cxCalc
+ 0002:000008E8       cxTimeEdit.cxTimeEdit
+ 0002:000008F0       Vcl.OleServer.Vcl.OleServer
+ 0002:000008F8       cxAccessibility.cxAccessibility
+ 0002:00000900       dxGallery.dxGallery
+ 0002:00000908       dxNumericWheelPicker.dxNumericWheelPicker
+ 0002:00000910       dxDateTimeWheelPicker.dxDateTimeWheelPicker
+ 0002:00000918       cxCalendar.cxCalendar
+ 0002:00000920       cxCurrencyEdit.cxCurrencyEdit
+ 0002:00000928       cxHyperLinkEdit.cxHyperLinkEdit
+ 0002:00000930       cxImageComboBox.cxImageComboBox
+ 0002:00000938       cxListBox.cxListBox
+ 0002:00000940       cxMRUEdit.cxMRUEdit
+ 0002:00000948       dxAcrylicEffect.dxAcrylicEffect
+ 0002:00000950       cxGroupBox.cxGroupBox
+ 0002:00000958       cxRadioGroup.cxRadioGroup
+ 0002:00000960       cxDBFilter.cxDBFilter
+ 0002:00000968       cxDBData.cxDBData
+ 0002:00000970       dxToggleSwitch.dxToggleSwitch
+ 0002:00000978       dxSparkline.dxSparkline
+ 0002:00000980       dxBarCodeUtils.dxBarCodeUtils
+ 0002:00000988       dxBarCode.dxBarCode
+ 0002:00000990       dxTokenEdit.dxTokenEdit
+ 0002:00000998       dxDocumentLayoutUnitConverter.TdxGraphicsDpi.Initialize@
+ 0002:000009A0       dxFontHelpers.TdxFontLink.Create@
+ 0002:000009A8       dxFontHelpers.TdxGdiFontHelper.Initialize@
+ 0002:000009B0       dxFontHelpers.dxFontHelpers
+ 0002:000009B8       dxFormattedText.dxFormattedText
+ 0002:000009C0       dxFormattedTextConverterBBCode.dxFormattedTextConverterBBCode
+ 0002:000009C8       dxEncoding.TdxCharsetAndCodePageTranslator.Create@
+ 0002:000009D0       dxEncoding.TdxCyrillicEncodingDetector.Create@
+ 0002:000009D8       dxEncoding.TdxBulgarianEncodingDetector.Create@
+ 0002:000009E0       dxEncoding.TdxIbm855EncodingDetector.Create@
+ 0002:000009E8       dxEncoding.TdxIbm866EncodingDetector.Create@
+ 0002:000009F0       dxEncoding.TdxKoi8rEncodingDetector.Create@
+ 0002:000009F8       dxEncoding.TdxLatin5EncodingDetector.Create@
+ 0002:00000A00       dxEncoding.TdxLatin5BulgarianEncodingDetector.Create@
+ 0002:00000A08       dxEncoding.TdxWin1251EncodingDetector.Create@
+ 0002:00000A10       dxEncoding.TdxWin1251BulgarianEncodingDetector.Create@
+ 0002:00000A18       dxEncoding.TdxMacCyrillicDetector.Create@
+ 0002:00000A20       dxEncoding.TdxGreekEncodingDetector.Create@
+ 0002:00000A28       dxEncoding.TdxLatin7EncodingDetector.Create@
+ 0002:00000A30       dxEncoding.TdxWin1253EncodingDetector.Create@
+ 0002:00000A38       dxEncoding.TdxUtf8EncodingAnalyzer.Create@
+ 0002:00000A40       dxEncoding.TdxBig5CharDistributionAnalyzer.Create@
+ 0002:00000A48       dxEncoding.TdxBig5EncodingAnalyzer.Create@
+ 0002:00000A50       dxEncoding.TdxGB18030CharDistributionAnalyzer.Create@
+ 0002:00000A58       dxEncoding.TdxGB18030EncodingAnalyzer.Create@
+ 0002:00000A60       dxEncoding.TdxEucKrCharDistributionAnalyzer.Create@
+ 0002:00000A68       dxEncoding.TdxEucKrEncodingAnalyzer.Create@
+ 0002:00000A70       dxEncoding.TdxJapaneseCharDistributionAnalyzer.Create@
+ 0002:00000A78       dxEncoding.TdxEucJpEncodingAnalyzer.Create@
+ 0002:00000A80       dxEncoding.TdxShiftedJisEncodingAnalyzer.Create@
+ 0002:00000A88       dxEncoding.TdxEncoding.Initialize@
+ 0002:00000A90       dxEncoding.TdxFullTrustCharsetAndCodePageTranslator.Initialize@
+ 0002:00000A98       dxEncoding.dxEncoding
+ 0002:00000AA0       dxFormattedTextConverterRTF.dxFormattedTextConverterRTF
+ 0002:00000AA8       dxFormattedLabel.dxFormattedLabel
+ 0002:00000AB0       cxEditRepositoryItems.cxEditRepositoryItems
+ 0002:00000AB8       cxEditDataRegisteredRepositoryItems.cxEditDataRegisteredRepositoryItems
+ 0002:00000AC0       cxDBEditRepository.cxDBEditRepository
+ 0002:00000AC8       cxEditDBRegisteredRepositoryItems.cxEditDBRegisteredRepositoryItems
+ 0002:00000AD0       cxDBLookupComboBox.cxDBLookupComboBox
+ 0002:00000AD8       AtbXPVS.AtbXPVS
+ 0002:00000AE0       Project_dbplanner.Project_dbplanner
+ 0003:00000000       SysInit.TlsIndex
+ 0003:00000004       SysInit.PtrToNil
+ 0003:00000008       SysInit.Module
+ 0003:00000024       SysInit...
+ 0003:00000078       Winapi.Windows.Win32MajorVersion
+ 0003:0000007C       Winapi.Windows.Win32MinorVersion
+ 0003:00000080       Winapi.Windows.Win32Platform
+ 0003:00000084       Winapi.MsCTF.MsCTFHandle
+ 0004:FFFF7000       SysInit.__ImageBase
+ 0004:00000000       SysInit.HInstance
+ 0004:00000008       SysInit.dbkFCallWrapperAddr
+ 0004:0000000C       SysInit.@_pfnDliNotifyHook2
+ 0004:00000010       SysInit.@_pfnDliFailureHook2
+ 0004:00000014       SysInit..1
+ 0004:00000018       Winapi.Windows..2
+ 0004:0000001C       Winapi.Windows.HtmlHelpModule
+ 0004:00000020       Winapi.PsAPI..1
+ 0004:00000024       Winapi.PsAPI.hPSAPI
+ 0004:00000028       Winapi.MsCTF..1
+ 0004:0000002C       NewForm.MainFm
+ 0004:00000030       dbplanner_test.PlannerFm
+
+
+Line numbers for SysInit(SysInit.pas) segment .text
+
+   396 0001:000000A0   397 0001:000000A3   398 0001:000000AC   401 0001:000000B0
+   424 0001:000000B8   428 0001:000000C0   431 0001:000000C8   458 0001:000000D0
+   478 0001:000000D8   480 0001:000000E0   481 0001:000000E8   877 0001:000000F0
+   878 0001:000000FA   974 0001:000000FC   983 0001:00000100   984 0001:00000103
+   985 0001:00000117   986 0001:0000012B   987 0001:0000013F   988 0001:00000153
+   989 0001:00000167   990 0001:0000017B   991 0001:0000018F   992 0001:000001A3
+   993 0001:000001B7   994 0001:000001CB   995 0001:000001DF   996 0001:000001F3
+   997 0001:00000207   998 0001:0000021B   999 0001:0000022F  1000 0001:00000243
+  1001 0001:00000257  1002 0001:0000026B  1003 0001:0000027F  1004 0001:00000293
+  1005 0001:000002A7  1006 0001:000002BB  1007 0001:000002CF  1008 0001:000002E3
+  1009 0001:000002F7  1010 0001:0000030B  1011 0001:0000031F  1012 0001:00000333
+  1013 0001:00000347  1014 0001:0000035B  1015 0001:0000036F  1016 0001:00000383
+  1017 0001:00000397  1018 0001:000003AB  1019 0001:000003BF  1020 0001:000003D3
+  1021 0001:000003E7  1022 0001:000003FB  1023 0001:0000040F  1024 0001:00000423
+  1025 0001:00000437  1026 0001:0000044B  1027 0001:0000045F  1028 0001:00000473
+  1029 0001:00000487  1030 0001:0000049B  1031 0001:000004AF  1032 0001:000004C3
+  1033 0001:000004D7  1035 0001:000004EB  1175 0001:000004F0  1176 0001:000004F7
+  1177 0001:000004FC  1178 0001:0000050A  1183 0001:00000596  1188 0001:00000615
+  1524 0001:0000061C  1525 0001:0000061F  1526 0001:00000626  1527 0001:00000632
+  1528 0001:0000063C  1529 0001:00000643  1530 0001:0000064A  1534 0001:00000652
+  1535 0001:00000657  1536 0001:00000663
+
+Line numbers for SysInit(C:\Builds\TP\runtime\rtl\sys\delayhlp.cpp) segment .text
+
+   223 0001:00000668   231 0001:0000066E   223 0001:00000673   231 0001:00000676
+   223 0001:00000679   231 0001:0000067C   242 0001:000006DB   231 0001:000006DE
+   242 0001:000006E1   253 0001:000006FE   254 0001:00000704   256 0001:00000713
+   262 0001:00000725   265 0001:0000072C   271 0001:0000072F   265 0001:00000737
+   271 0001:00000739   272 0001:00000744   274 0001:00000747   276 0001:0000074F
+   278 0001:0000075C   279 0001:00000760   280 0001:0000076F   282 0001:00000771
+   288 0001:0000077C   290 0001:0000077E   291 0001:00000787   293 0001:00000795
+   294 0001:00000799   300 0001:0000079E   301 0001:000007A6   302 0001:000007AF
+   304 0001:000007BD   305 0001:000007C1   307 0001:000007CC   308 0001:000007D0
+   309 0001:000007D8   314 0001:000007E1   317 0001:000007EF   318 0001:000007F3
+   320 0001:00000801   331 0001:00000813   339 0001:0000081B   340 0001:00000825
+   342 0001:00000829   345 0001:0000082F   347 0001:0000085A   349 0001:0000085C
+   356 0001:00000862   357 0001:00000865   358 0001:0000086E   360 0001:0000087C
+   361 0001:00000880   364 0001:0000088C   366 0001:00000891   373 0001:000008B0
+   374 0001:000008B9   375 0001:000008BD   380 0001:000008BF   383 0001:000008CB
+   384 0001:000008CF   385 0001:000008D7   389 0001:000008E0   391 0001:000008EE
+   392 0001:000008F2   394 0001:00000900   405 0001:00000912   410 0001:00000915
+   413 0001:0000091A   414 0001:00000923   415 0001:00000928   416 0001:0000092B
+   417 0001:0000092E   419 0001:0000093A   420 0001:0000093C   424 0001:00000948
+   426 0001:0000094E   424 0001:00000950   426 0001:00000956   429 0001:00000959
+   431 0001:0000096B   432 0001:00000979   433 0001:00000988   439 0001:00000992
+   440 0001:00000994   439 0001:00000996   440 0001:00000999   443 0001:000009BD
+   444 0001:000009CA   445 0001:000009CD   446 0001:000009DA   448 0001:000009E2
+   452 0001:00000A13   453 0001:00000A1C   455 0001:00000A23   457 0001:00000A36
+   460 0001:00000A3D   461 0001:00000A41   464 0001:00000A4C   465 0001:00000A4F
+   469 0001:00000A58   471 0001:00000A5D   469 0001:00000A62   471 0001:00000A63
+   469 0001:00000A69   470 0001:00000A6A   475 0001:00000A71   478 0001:00000A7E
+   490 0001:00000A8F   491 0001:00000A98   492 0001:00000AA1   495 0001:00000AC1
+   500 0001:00000AC3   484 0001:00000AC6   503 0001:00000ACD   508 0001:00000AD3
+   509 0001:00000ADF   510 0001:00000AE6   512 0001:00000AED   513 0001:00000AF1
+   512 0001:00000AF8   518 0001:00000AFF   521 0001:00000B04   522 0001:00000B07
+   536 0001:00000B10   537 0001:00000B17
+
+Line numbers for SysInit(SysInit.pas) segment .text
+
+  1755 0001:00000C30  1757 0001:00000C3D
+
+Line numbers for SysInit(SysInit.pas) segment .itext
+
+  1753 0002:00000008  1754 0002:0000000F
+
+Line numbers for Winapi.Windows(Winapi.Windows.pas) segment .text
+
+ 39002 0001:00000D20 39685 0001:00000D28 42853 0001:00000D30 42854 0001:00000D36
+ 42855 0001:00000D3D 42858 0001:00000D47 42859 0001:00000D50 42860 0001:00000D59
+ 42862 0001:00000D62 43120 0001:00000D6C 43121 0001:00000D88
+
+Line numbers for Winapi.Windows(Winapi.Windows.pas) segment .itext
+
+ 43116 0002:00000018 43117 0002:00000021 43118 0002:00000026 43119 0002:0000002D
+
+Line numbers for Winapi.PsAPI(Winapi.PsAPI.pas) segment .text
+
+   457 0001:00000D8C   459 0001:00000D9D   460 0001:00000DA8   463 0001:00000DAF
+
+Line numbers for Winapi.PsAPI(Winapi.PsAPI.pas) segment .itext
+
+   454 0002:00000030   456 0002:00000037
+
+Line numbers for Winapi.Messages(Winapi.Messages.pas) segment .text
+
+  2232 0001:00000000
+
+Line numbers for Winapi.ActiveX(Winapi.ActiveX.pas) segment .text
+
+  7819 0001:00000000
+
+Line numbers for Winapi.CommCtrl(Winapi.CommCtrl.pas) segment .text
+
+ 13261 0001:00000000
+
+Line numbers for Winapi.Imm(Winapi.Imm.pas) segment .text
+
+   901 0001:00000000
+
+Line numbers for Winapi.TpcShrd(Winapi.TpcShrd.pas) segment .text
+
+   197 0001:00000000
+
+Line numbers for Winapi.MsCTF(Winapi.MsCTF.pas) segment .text
+
+  2243 0001:00000F90  2244 0001:00000F99  2245 0001:00000FAD  2249 0001:00000FD0
+  2250 0001:00000FD9  2251 0001:00000FE4  2256 0001:00000FE8  2257 0001:00000FF5
+
+Line numbers for Winapi.MsCTF(Winapi.MsCTF.pas) segment .itext
+
+  2253 0002:00000180  2254 0002:00000189  2255 0002:0000018E
+
+Line numbers for Winapi.Dwmapi(Winapi.DwmApi.pas) segment .text
+
+   561 0001:00000000
+
+Line numbers for System.Win.Crtl(System.Win.Crtl.pas) segment .text
+
+   943 0001:00000000
+
+Line numbers for Winapi.MsInkAut(Winapi.MsInkAut.pas) segment .text
+
+  2778 0001:00000000
+
+Line numbers for Winapi.PenInputPanel(Winapi.PenInputPanel.pas) segment .text
+
+   405 0001:00000000
+
+Line numbers for Winapi.Qos(Winapi.Qos.pas) segment .text
+
+   294 0001:00000000
+
+Line numbers for Winapi.Winsock2(Winapi.Winsock2.pas) segment .text
+
+  3421 0001:00000000
+
+Line numbers for Winapi.IpExport(Winapi.IpExport.pas) segment .text
+
+   446 0001:00000000
+
+Line numbers for Winapi.ShellAPI(Winapi.ShellAPI.pas) segment .text
+
+  1919 0001:00000000
+
+Line numbers for Winapi.RegStr(Winapi.RegStr.pas) segment .text
+
+  1878 0001:00000000
+
+Line numbers for Winapi.WinInet(Winapi.WinInet.pas) segment .text
+
+  3466 0001:00000000
+
+Line numbers for Winapi.UrlMon(Winapi.UrlMon.pas) segment .text
+
+  2192 0001:00000000
+
+Line numbers for Winapi.ObjectArray(Winapi.ObjectArray.pas) segment .text
+
+    62 0001:00000000
+
+Line numbers for Winapi.StructuredQueryCondition(Winapi.StructuredQueryCondition.pas) segment .text
+
+   137 0001:00000000
+
+Line numbers for Winapi.PropSys(Winapi.Propsys.pas) segment .text
+
+  1228 0001:00000000
+
+Line numbers for Winapi.ShlObj(Winapi.ShlObj.pas) segment .text
+
+ 14865 0001:00000000
+
+Line numbers for Winapi.CommDlg(Winapi.CommDlg.pas) segment .text
+
+  1153 0001:00000000
+
+Line numbers for Winapi.WinSpool(Winapi.WinSpool.pas) segment .text
+
+  3027 0001:00000000
+
+Line numbers for Winapi.RichEdit(Winapi.RichEdit.pas) segment .text
+
+  1347 0001:00000000
+
+Line numbers for Winapi.Dlgs(Winapi.Dlgs.pas) segment .text
+
+   405 0001:00000000
+
+Line numbers for Winapi.ShellScaling(Winapi.ShellScaling.pas) segment .text
+
+   108 0001:00000000
+
+Line numbers for Winapi.MMSystem(Winapi.MMSystem.pas) segment .text
+
+  4736 0001:00000000
+
+Line numbers for Winapi.DxgiFormat(Winapi.DxgiFormat.pas) segment .text
+
+   274 0001:00000000
+
+Line numbers for Winapi.DXTypes(Winapi.DXTypes.pas) segment .text
+
+   281 0001:00000000
+
+Line numbers for Winapi.DxgiType(Winapi.DxgiType.pas) segment .text
+
+   271 0001:00000000
+
+Line numbers for Winapi.DXGI(Winapi.DXGI.pas) segment .text
+
+   615 0001:00000000
+
+Line numbers for Winapi.D3DCommon(Winapi.D3DCommon.pas) segment .text
+
+   835 0001:00000000
+
+Line numbers for Winapi.Portabledevicetypes(Winapi.Portabledevicetypes.pas) segment .text
+
+   178 0001:00000000
+
+Line numbers for Winapi.Sensors(Winapi.Sensors.pas) segment .text
+
+   631 0001:00000000
+
+Line numbers for Winapi.Sensorsapi(Winapi.Sensorsapi.pas) segment .text
+
+   197 0001:00000000
+
+Line numbers for Winapi.PropKey(Winapi.Propkey.pas) segment .text
+
+  6712 0001:00000000
+
+Line numbers for Winapi.Locationapi(Winapi.Locationapi.pas) segment .text
+
+   263 0001:00000000
+
+Line numbers for NewForm(NewForm.pas) segment .text
+
+    25 0001:00000000
+
+Line numbers for Winapi.DirectDraw(Winapi.DirectDraw.pas) segment .text
+
+  7213 0001:00000000
+
+Line numbers for Winapi.DirectSound(Winapi.DirectSound.pas) segment .text
+
+  2450 0001:00000000
+
+Line numbers for Winapi.Direct3D9(Winapi.Direct3D9.pas) segment .text
+
+  5625 0001:00000000
+
+Line numbers for Winapi.DirectShow9(Winapi.DirectShow9.pas) segment .text
+
+ 32130 0001:00000000
+
+Line numbers for dbplanner_test(dbplanner_test.pas) segment .text
+
+   147 0001:000035A4   148 0001:000035D6   149 0001:000035E8   151 0001:00003611
+   154 0001:00003623   155 0001:00003633   157 0001:00003643   162 0001:00003672
+   165 0001:000036B4   166 0001:000036D3   167 0001:000036FB   170 0001:0000371C
+   171 0001:00003728   173 0001:0000373C   174 0001:00003759   175 0001:00003776
+   176 0001:00003783   177 0001:00003790   178 0001:0000379D   179 0001:000037AA
+   180 0001:000037B2   181 0001:000037C5   183 0001:000037D8   189 0001:000037FC
+   190 0001:00003831   191 0001:00003841   193 0001:0000386A   194 0001:0000387F
+   195 0001:00003894   196 0001:000038A9   200 0001:000038C1   201 0001:000038D6
+   203 0001:000038EC   206 0001:00003924   207 0001:0000394F   210 0001:00003990
+   211 0001:0000399F   212 0001:000039B8   216 0001:000039BC   217 0001:000039CB
+   219 0001:000039E4   220 0001:000039F1   221 0001:000039FB   223 0001:00003A03
+   228 0001:00003A2C   229 0001:00003A4F   230 0001:00003A5D   232 0001:00003A73
+   233 0001:00003A7E   236 0001:00003A86   240 0001:00003AE0   241 0001:00003AEF
+   242 0001:00003AFA   246 0001:00003B00   248 0001:00003B0F   251 0001:00003B14
+   252 0001:00003B20   254 0001:00003B39   255 0001:00003B46   256 0001:00003B50
+   257 0001:00003B61   259 0001:00003B69   268 0001:00003B90   269 0001:00003BB8
+   270 0001:00003BBC   271 0001:00003BDB   273 0001:00003C02   274 0001:00003C26
+   275 0001:00003C39   277 0001:00003C56   278 0001:00003C7D   280 0001:00003C81
+   271 0001:00003C84   281 0001:00003C8D   282 0001:00003C93   284 0001:00003CA6
+   288 0001:00003CF8   289 0001:00003D07   290 0001:00003D23   296 0001:00003D44
+   297 0001:00003D67   298 0001:00003D75   299 0001:00003D8B   300 0001:00003D96
+   302 0001:00003D9E   306 0001:00003DF8   307 0001:00003E07   308 0001:00003E22
+   309 0001:00003E3C   312 0001:00003E74   313 0001:00003E80   314 0001:00003E8C
+   317 0001:00003E90   318 0001:00003E9C   319 0001:00003EAF   320 0001:00003EC2
+   322 0001:00003ED8   323 0001:00003EF5   324 0001:00003F02   325 0001:00003F0F
+   326 0001:00003F1C   330 0001:00003F26   332 0001:00003F3C   333 0001:00003F57
+   334 0001:00003F64   335 0001:00003F71   338 0001:00003F7B   342 0001:00003FC0
+   343 0001:00003FDF   344 0001:00003FF7   345 0001:00004009   346 0001:0000401A
+   347 0001:00004036   349 0001:00004044   350 0001:00004050   352 0001:0000406B
+   355 0001:000040DC   356 0001:000040E8   357 0001:000040F4   358 0001:000040FF
+
+Line numbers for Project_dbplanner(Project_dbplanner.dpr) segment .itext
+
+    10 0002:00000AE0    11 0002:00000AF0    12 0002:00000AFC    13 0002:00000B0A
+    14 0002:00000B22    15 0002:00000B3A    16 0002:00000B46
+
+Bound resource files
+
+NewForm.dfm
+dbplanner_test.dfm
+Project_dbplanner.res
+Project_dbplanner.drf
+
+
+Program entry point at 0002:00000AE0

@@ -1,0 +1,119 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 368
+  ClientWidth = 398
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlForm: TPanel
+    Left = 0
+    Top = 0
+    Width = 401
+    Height = 369
+    Color = clMoneyGreen
+    ParentBackground = False
+    TabOrder = 0
+    object lblHead: TLabel
+      Left = 96
+      Top = 16
+      Width = 209
+      Height = 24
+      Caption = 'Encryption / Decryption'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clPurple
+      Font.Height = -20
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object btnEncrypt: TButton
+      Left = 56
+      Top = 139
+      Width = 75
+      Height = 25
+      Caption = 'Encrypt'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      OnClick = btnEncryptClick
+    end
+    object txtInput: TEdit
+      Left = 34
+      Top = 91
+      Width = 151
+      Height = 24
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+      TextHint = 'Enter Data to Encrypt'
+    end
+    object txtDecrypt: TEdit
+      Left = 218
+      Top = 91
+      Width = 151
+      Height = 24
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 2
+    end
+    object btnDecrypt: TButton
+      Left = 272
+      Top = 139
+      Width = 75
+      Height = 25
+      Caption = 'Decrypt'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 3
+      OnClick = btnDecryptClick
+    end
+    object btnClear: TButton
+      Left = 160
+      Top = 139
+      Width = 75
+      Height = 25
+      Caption = 'Clear'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 4
+      OnClick = btnClearClick
+    end
+    object mmEncrypt: TMemo
+      Left = 34
+      Top = 192
+      Width = 335
+      Height = 153
+      ReadOnly = True
+      TabOrder = 5
+    end
+  end
+end

@@ -1,0 +1,863 @@
+unit CalFM;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TCalculatorFM = class(TForm)
+    btnCE: TButton;
+    btnClr: TButton;
+    btnBck: TButton;
+    btnDiv: TButton;
+    btn7: TButton;
+    btn8: TButton;
+    btn9: TButton;
+    btn4: TButton;
+    btn5: TButton;
+    btn6: TButton;
+    btnMinus: TButton;
+    btn1: TButton;
+    btn2: TButton;
+    btn3: TButton;
+    btnPlus: TButton;
+    btnplusminus: TButton;
+    btn0: TButton;
+    btnDec: TButton;
+    btnEql: TButton;
+    btnMulti: TButton;
+    txtInput: TEdit;
+    txtResult: TEdit;
+    procedure btn1Click(Sender: TObject);
+    procedure btn2Click(Sender: TObject);
+    procedure btn3Click(Sender: TObject);
+    procedure btn4Click(Sender: TObject);
+    procedure btn5Click(Sender: TObject);
+    procedure btn6Click(Sender: TObject);
+    procedure btn7Click(Sender: TObject);
+    procedure btn8Click(Sender: TObject);
+    procedure btn9Click(Sender: TObject);
+    procedure btn0Click(Sender: TObject);
+    procedure btnClrClick(Sender: TObject);
+    procedure btnCEClick(Sender: TObject);
+    procedure btnPlusClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure btnMinusClick(Sender: TObject);
+    procedure btnMultiClick(Sender: TObject);
+    procedure btnDivClick(Sender: TObject);
+    procedure btnEqlClick(Sender: TObject);
+    procedure btnBckClick(Sender: TObject);
+    procedure btnDecClick(Sender: TObject);
+    procedure txtInputKeyPress(Sender: TObject; var Key: Char);
+    procedure FormActivate(Sender: TObject);
+    procedure btnplusminusClick(Sender: TObject);
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  class function Add(AValue1:integer ; AValu2: integer): integer;
+  class  function Sub(AValue1:integer ; AValu2: integer): integer;
+  class  function Mul(AValue1:integer ; AValu2: integer): integer;
+  class  function Divide(AValue1:integer ; AValu2: integer): Extended;
+  end;
+
+var
+  CalculatorFM: TCalculatorFM;
+  gresult: String;
+  gtempRltString: String;
+  gtempResult1: String;
+  gtempResult2: String;
+  gfinalResult: Currency;
+  gplus: Boolean;
+  gminus: Boolean;
+  gmulti: Boolean;
+  gdiv:Boolean;
+  gdec:Boolean;
+  goptr:String;
+  gplusminus: Boolean;
+
+
+implementation
+
+{$R *.dfm}
+
+class function TCalculatorFM.Add(AValue1 :integer ; AValu2: integer): integer;
+begin
+  Result := AValue1 + AValu2 ;
+end;
+
+class function TCalculatorFM.Sub(AValue1:integer; AValu2: integer): integer;
+begin
+  Result := AValue1 - AValu2 ;
+end;
+
+class function TCalculatorFM.Mul(AValue1:integer ; AValu2: integer): integer;
+begin
+  Result := AValue1 * AValu2 ;
+end;
+
+class function TCalculatorFM.Divide(AValue1 :integer ; AValu2: integer): Extended;
+begin
+  Result := AValue1 / AValu2 ;
+end;
+
+//Button 0
+Procedure TCalculatorFM.btn0Click(Sender: TObject);
+begin
+   gplus :=False;
+   gminus :=False;
+   gmulti :=False;
+   gdiv :=False;
+   if gresult='' then
+   begin
+    txtInput.Text:= btn0.Caption;
+   end
+   else
+   begin
+    txtInput.Text := txtInput.Text + btn0.Caption;
+   end;
+   txtInput.SetFocus;
+   txtInput.AutoSelect:=False;
+end;
+
+//Button 1
+procedure TCalculatorFM.btn1Click(Sender: TObject);
+begin
+  gplus :=False;
+  gminus :=False;
+  gmulti :=False;
+  gdiv :=False;
+  //if txtResult.Text='' then
+  begin
+      if gresult='' then
+      begin
+        txtInput.Text := Tbutton(Sender).Caption;
+        gresult:=Tbutton(Sender).Caption;
+      end
+      else
+      begin
+        if txtInput.Text ='0' then
+        begin
+          gresult:=Tbutton(Sender).Caption;
+          txtInput.Text :=Tbutton(Sender).Caption;
+        end
+        else
+        begin
+          gresult:=gresult + txtInput.Text ;
+          txtInput.Text := txtInput.Text + Tbutton(Sender).Caption;
+        end;
+      end;
+  end;
+  txtInput.SetFocus;
+  txtInput.AutoSelect:=False;
+end;
+
+//Button 2
+procedure TCalculatorFM.btn2Click(Sender: TObject);
+begin
+
+end;
+
+//Button 3
+procedure TCalculatorFM.btn3Click(Sender: TObject);
+begin
+
+end;
+
+//Button 4
+procedure TCalculatorFM.btn4Click(Sender: TObject);
+begin
+
+end;
+
+//Button 5
+procedure TCalculatorFM.btn5Click(Sender: TObject);
+begin
+
+end;
+
+//Button 6
+procedure TCalculatorFM.btn6Click(Sender: TObject);
+begin
+
+end;
+
+//Button 7
+procedure TCalculatorFM.btn7Click(Sender: TObject);
+begin
+
+end;
+
+//Button 8
+procedure TCalculatorFM.btn8Click(Sender: TObject);
+begin
+
+end;
+
+//Button 9
+procedure TCalculatorFM.btn9Click(Sender: TObject);
+begin
+
+end;
+
+//Button Back
+procedure TCalculatorFM.btnBckClick(Sender: TObject);
+begin
+  gdec :=true;
+  if (txtInput.Text<>'') or (txtInput.Text<>'0') or (txtInput.Text<>'-') then
+  begin
+    txtInput.Text:=Copy (txtInput.Text,0,(length(txtInput.text)-1));
+    if txtInput.Text = '' then
+     txtInput.Text:='0';
+     gresult:='';
+  end
+  else
+  begin
+     txtInput.Text:='0';
+     gresult:='';
+  end;
+  txtInput.SetFocus;
+  txtInput.AutoSelect:=true;
+  gplusminus:=true;
+end;
+
+//Button CE
+procedure TCalculatorFM.btnCEClick(Sender: TObject);
+begin
+    gresult:='' ;
+    txtInput.Text:='0';
+    gdec :=true;
+    txtInput.SetFocus;
+    txtInput.AutoSelect:=true;
+    gplusminus := true;
+end;
+
+//Button Clear
+procedure TCalculatorFM.btnClrClick(Sender: TObject);
+begin
+    gresult:='' ;
+    txtInput.Text:='0';
+    txtResult.Text:='' ;
+    gtempRltString:='';
+    gfinalResult:=0;
+    gtempResult1:='';
+    gtempResult2:='';
+    gdec :=true;
+    txtInput.SetFocus;
+    txtInput.AutoSelect:=true;
+    gplusminus := true;
+end;
+
+//Button Decimal
+procedure TCalculatorFM.btnDecClick(Sender: TObject);
+begin
+  if gdec=true then
+  begin
+    if gresult='' then
+    begin
+      txtInput.Text:='0' + btnDec.Caption;
+      gresult:=btnDec.Caption;
+      gdec := false;
+    end
+    else
+    begin
+      gresult:=gresult + txtInput.Text ;
+      txtInput.Text := txtInput.Text + btnDec.Caption;
+      gdec := false;
+    end;
+  end;
+  txtInput.SetFocus;
+  gplusminus:=true;
+end;
+
+//Button Div
+procedure TCalculatorFM.btnDivClick(Sender: TObject);
+begin
+  gdec :=true;
+  if gdiv=False then
+  begin
+    if txtInput.Text<>'0' then
+    begin
+     if gtempResult1='' then
+        begin
+            gtempRltString := txtInput.Text+'/';
+            txtResult.Text := gtempRltString;
+            gresult:='';
+            gtempResult1 := txtInput.Text;
+            gdiv:=True;
+            goptr := '/';
+        end
+     else
+     begin
+      if goptr = '+' then
+         begin
+          gtempRltString := gtempRltString + txtInput.Text+'/';
+          txtResult.Text := gtempRltString;
+          gresult :='';
+          gtempResult2 := txtInput.Text;
+          gfinalResult := StrToFloat(gtempResult1) + StrToFloat(gtempResult2);
+          txtInput.Text := FloatToStr(gfinalResult);
+          gtempResult1 := txtInput.Text;
+          txtResult.Text :=  FloatToStr(gfinalResult) + '/';
+          gdiv:=True;
+         end
+
+      else if goptr = '-' then
+      begin
+          gtempRltString := gtempRltString + txtInput.Text+'/';
+          txtResult.Text := gtempRltString;
+          gresult :='';
+          gtempResult2 := txtInput.Text;
+          gfinalResult := StrToFloat(gtempResult1) - StrToFloat(gtempResult2);
+          txtInput.Text := FloatToStr(gfinalResult);
+          gtempResult1 := txtInput.Text;
+          txtResult.Text :=  FloatToStr(gfinalResult) + '/';
+          gdiv:=True;
+      end
+
+      else if goptr = '*' then
+      begin
+          gtempRltString := gtempRltString + txtInput.Text+'/';
+          txtResult.Text := gtempRltString;
+          gresult :='';
+          gtempResult2 := txtInput.Text;
+          gfinalResult := StrToFloat(gtempResult1) *  StrToFloat(gtempResult2);
+          txtInput.Text := FloatToStr(gfinalResult);
+          gtempResult1 := txtInput.Text;
+          txtResult.Text :=  FloatToStr(gfinalResult) + '/';
+          gdiv:=True;
+      end
+
+      else
+      begin
+          gtempRltString := gtempRltString + txtInput.Text+'/';
+          txtResult.Text := gtempRltString;
+          gresult :='';
+          gtempResult2 := txtInput.Text;
+          gfinalResult := StrToInt(gtempResult1) Div StrToInt(gtempResult2);
+          txtInput.Text := FloatToStr(gfinalResult);
+          gtempResult1 := txtInput.Text;
+          gmulti:=True;
+      end;
+      goptr := '/';
+     end;
+    end
+    else
+       ShowMessage('Cannot Divide By Zero');
+ end;
+  txtInput.SetFocus;
+  txtInput.AutoSelect:=True;
+end;
+
+//Button Equal
+procedure TCalculatorFM.btnEqlClick(Sender: TObject);
+begin
+  if txtInput.Text<>'0' then
+  begin
+    if goptr='+' then
+    begin
+        gresult :='';
+        gtempResult2 :=  txtInput.Text;
+        gfinalResult :=  StrToFloat(gtempResult1)+ StrToFloat(gtempResult2);
+        txtInput.Text := FloatToStr(gfinalResult);
+
+    end
+
+    else if goptr='-' then
+    begin
+        gresult :='';
+        gtempResult2 := txtInput.Text;
+        gfinalResult := StrToFloat(gtempResult1) - StrToFloat(gtempResult2);
+        txtInput.Text := FloatToStr(gfinalResult);
+
+    end
+
+    else if goptr='*' then
+    begin
+        gresult :='';
+        gtempResult2 := txtInput.Text;
+        gfinalResult := StrToFloat(gtempResult1) * StrToFloat(gtempResult2);
+        txtInput.Text := FloatToStr(gfinalResult);
+
+    end
+
+    else if goptr='/' then
+    begin
+        gresult :='';
+        gtempResult2 := txtInput.Text;
+        gfinalResult := StrToFloat(gtempResult1) / StrToFloat(gtempResult2);
+        txtInput.Text := FloatToStr(gfinalResult);
+
+    end
+    else
+      //Do Nothing;
+
+    gresult:='' ;
+    txtResult.Text:='' ;
+    gtempRltString:='';
+    gfinalResult:=0;
+    gtempResult1:='0';
+    gtempResult2:='0';
+    gdec:=true;
+    goptr:='';
+    txtInput.SetFocus;
+    txtInput.AutoSelect:=False;
+    gplusminus := true;
+  end
+  else
+  begin
+    if (goptr='-') or (goptr ='+') then
+    begin
+      gfinalResult := StrToFloat(gtempResult1);
+      txtInput.Text := FloatToStr(gfinalResult);
+      gresult := '' ;
+      txtResult.Text := '' ;
+      gtempRltString := '';
+      gfinalResult := 0;
+      gtempResult1 := '';
+      gtempResult2 := '';
+      goptr := '';
+    end
+    else if goptr='/' then
+      ShowMessage('Cannot Divide By Zero')
+    else
+    begin
+      gresult:='' ;
+      txtInput.Text:='0';
+      txtResult.Text:='' ;
+      gtempRltString:='';
+      gfinalResult:=0;
+      gtempResult1:='';
+      gtempResult2:='';
+      goptr :='';
+    end;
+  end;
+end;
+
+//Button Minus
+procedure TCalculatorFM.btnMinusClick(Sender: TObject);
+begin
+  gdec :=true;
+  if gminus=False then
+  begin
+    if txtInput.Text<>'0' then
+    begin
+      if gtempResult1='' then
+      begin
+          gtempRltString := txtInput.Text+'-';
+          txtResult.Text := gtempRltString;
+          gresult:='';
+          gtempResult1 := txtInput.Text;
+          gminus:=True;
+          goptr := '-';
+      end
+      else
+       begin
+       if goptr = '+' then
+       begin
+        gtempRltString := gtempRltString + txtInput.Text + '-' ;
+        txtResult.Text := gtempRltString;
+        gresult :='';
+        gtempResult2 := txtInput.Text;
+        gfinalResult := StrToFloat(gtempResult1) + StrToFloat(gtempResult2);
+        txtInput.Text := FloatToStr(gfinalResult);
+        gtempResult1 := txtInput.Text;
+        txtResult.Text :=  FloatToStr(gfinalResult) + '-';
+        gminus:=True;
+       end
+
+       else if goptr = '/' then
+       begin
+        gtempRltString := gtempRltString + txtInput.Text+'-';
+        txtResult.Text := gtempRltString;
+        gresult :='';
+        gtempResult2 := txtInput.Text;
+        gfinalResult := StrToFloat(gtempResult1) / StrToFloat(gtempResult2);
+        txtInput.Text := FloatToStr(gfinalResult);
+        gtempResult1 := txtInput.Text;
+        txtResult.Text :=  FloatToStr(gfinalResult) + '-';
+        gminus:=True;
+       end
+
+       else if goptr = '*' then
+       begin
+        gtempRltString := gtempRltString + txtInput.Text+'-';
+        txtResult.Text := gtempRltString;
+        gresult :='';
+        gtempResult2 := txtInput.Text;
+        gfinalResult := StrToFloat(gtempResult1) * StrToFloat(gtempResult2);
+        txtInput.Text := FloatToStr(gfinalResult);
+        gtempResult1 := txtInput.Text;
+        txtResult.Text :=  FloatToStr(gfinalResult) + '-';
+        gminus:=True;
+       end
+
+       else
+       begin
+        gtempRltString := gtempRltString + txtInput.Text+'-';
+        txtResult.Text := gtempRltString;
+        gresult :='';
+        gtempResult2 := txtInput.Text;
+        gfinalResult := StrToFloat(gtempResult1) - StrToFloat(gtempResult2);
+        txtInput.Text := FloatToStr(gfinalResult);
+        gtempResult1 := txtInput.Text;
+        gminus:=True;
+       end;
+       goptr := '-';
+      end;
+    end;
+    if goptr='/' then
+       ShowMessage('Cannot Divide By Zero');
+  end;
+  txtInput.SetFocus;
+  txtInput.AutoSelect:=True;
+end;
+
+//Button Multi
+procedure TCalculatorFM.btnMultiClick(Sender: TObject);
+begin
+   gdec :=true;
+   if gmulti=False then
+   begin
+    if txtInput.Text<>'0' then
+    begin
+      if gtempResult1='' then
+        begin
+          gtempRltString := txtInput.Text+'*';
+          txtResult.Text := gtempRltString;
+          gresult:='';
+          gtempResult1 := txtInput.Text;
+          gmulti:=True;
+          goptr := '*';
+        end
+      else
+      begin
+       if goptr = '+' then
+       begin
+        gtempRltString := gtempRltString + txtInput.Text+'*';
+        txtResult.Text := gtempRltString;
+        gresult :='';
+        gtempResult2 := txtInput.Text;
+        gfinalResult := StrToFloat(gtempResult1) + StrToFloat(gtempResult2);
+        txtInput.Text := FloatToStr(gfinalResult);
+        gtempResult1 := txtInput.Text;
+        txtResult.Text :=  FloatToStr(gfinalResult) + '*';
+        gmulti:=True;
+       end
+
+       else if goptr = '/' then
+       begin
+        gtempRltString := gtempRltString + txtInput.Text+'*';
+        txtResult.Text := gtempRltString;
+        gresult :='';
+        gtempResult2 := txtInput.Text;
+        gfinalResult := StrToFloat(gtempResult1) / StrToFloat(gtempResult2);
+        txtInput.Text := FloatToStr(gfinalResult);
+        gtempResult1 := txtInput.Text;
+        txtResult.Text :=  FloatToStr(gfinalResult) + '*';
+        gmulti:=True;
+       end
+
+       else if goptr = '-' then
+       begin
+        gtempRltString := gtempRltString + txtInput.Text+'*';
+        txtResult.Text := gtempRltString;
+        gresult :='';
+        gtempResult2 := txtInput.Text;
+        gfinalResult := StrToFloat(gtempResult1) - StrToFloat(gtempResult2);
+        txtInput.Text := FloatToStr(gfinalResult);
+        gtempResult1 := txtInput.Text;
+        txtResult.Text :=  FloatToStr(gfinalResult) + '*';
+        gmulti:=True;
+       end
+
+       else
+       begin
+        gtempRltString := gtempRltString + txtInput.Text+'*';
+        txtResult.Text := gtempRltString;
+        gresult :='';
+        gtempResult2 := txtInput.Text;
+        gfinalResult := StrToFloat(gtempResult1) * StrToFloat(gtempResult2);
+        txtInput.Text := FloatToStr(gfinalResult);
+        gtempResult1 := txtInput.Text;
+        gmulti:=True;
+       end;
+       goptr := '*';
+      end;
+    end;
+    if goptr='/' then
+       ShowMessage('Cannot Divide By Zero');
+  end;
+  txtInput.SetFocus;
+  txtInput.AutoSelect:=True;
+end;
+
+//Button Plus
+procedure TCalculatorFM.btnPlusClick(Sender: TObject);
+begin
+  gdec :=true;
+    if gplus=False then
+    begin
+      if txtInput.Text<>'0' then
+      begin
+        if gtempResult1='' then
+          begin
+            gtempRltString := txtInput.Text+'+';
+            txtResult.Text := gtempRltString;
+            gresult:='';
+            gtempResult1 := txtInput.Text;
+            gplus:=True;
+            goptr := '+';
+          end
+        else
+         begin
+          if goptr = '-' then
+          begin
+              gtempRltString := gtempRltString + txtInput.Text+'+';
+              txtResult.Text := gtempRltString;
+              gresult :='';
+              gtempResult2 := txtInput.Text;
+              gfinalResult := StrToFloat(gtempResult1) - StrToFloat(gtempResult2);
+              txtInput.Text := FloatToStr(gfinalResult);
+              gtempResult1 := txtInput.Text;
+              txtResult.Text :=  FloatToStr(gfinalResult) + '+';
+              gplus:=True;
+          end
+
+          else if goptr = '/' then
+          begin
+            gtempRltString := gtempRltString + txtInput.Text+'+';
+            txtResult.Text := gtempRltString;
+            gresult :='';
+            gtempResult2 := txtInput.Text;
+            gfinalResult := StrToFloat(gtempResult1) / StrToFloat(gtempResult2);
+            txtInput.Text := FloatToStr(gfinalResult);
+            gtempResult1 := txtInput.Text;
+            txtResult.Text :=  FloatToStr(gfinalResult) + '+';
+            gplus:=True;
+          end
+
+          else if goptr = '*' then
+          begin
+            gtempRltString := gtempRltString + txtInput.Text+'+';
+            txtResult.Text := gtempRltString;
+            gresult :='';
+            gtempResult2 := txtInput.Text;
+            gfinalResult := StrToFloat(gtempResult1) * StrToFloat(gtempResult2);
+            txtInput.Text := FloatToStr(gfinalResult);
+            gtempResult1 := txtInput.Text;
+            txtResult.Text :=  FloatToStr(gfinalResult) + '+';
+            gplus:=True;
+          end
+
+          else
+          begin
+            gtempRltString := gtempRltString + txtInput.Text+'+';
+            txtResult.Text := gtempRltString;
+            gresult :='';
+            gtempResult2 := txtInput.Text;
+            gfinalResult := StrToFloat(gtempResult1) + StrToFloat(gtempResult2);
+            txtInput.Text := FloatToStr(gfinalResult);
+            gtempResult1 := txtInput.Text;
+            gplus:=True;
+          end;
+       goptr := '+';
+       end;
+      end;
+      if goptr='/' then
+       ShowMessage('Cannot Divide By Zero');
+    end;
+   txtInput.SetFocus;
+   txtInput.AutoSelect:=True;
+end;
+
+//Button +-
+procedure TCalculatorFM.btnplusminusClick(Sender: TObject);
+begin
+  gplus :=False;
+  gminus :=False;
+  gmulti :=False;
+  gdiv :=False;
+  if gresult<>'' then
+  begin
+    if txtInput.Text ='0' then
+        begin
+          if gplusminus= true then
+          begin
+            //txtInput.Text:='';
+            txtInput.Text :='-' + txtInput.Text;
+            gresult:=txtInput.Text;
+            gplusminus := false;
+          end
+          else
+          begin
+            //txtInput.Text:='';
+            txtInput.Text :='' +txtInput.Text;
+            gresult:=txtInput.Text;
+            gplusminus := true;
+          end;
+        end
+        else
+        begin
+          if gplusminus= true then
+          begin
+            txtInput.Text := '-' + txtInput.Text;
+            gplusminus := false;
+          end
+          else
+          begin
+            txtInput.Text :='' + Copy (txtInput.Text,2,(length(txtInput.text)));
+            gplusminus := true;
+          end;
+        end;
+
+  end;
+  txtInput.SetFocus;
+  txtInput.AutoSelect:=False;
+end;
+
+//On Activate Form
+procedure TCalculatorFM.FormActivate(Sender: TObject);
+begin
+      txtInput.SetFocus;
+end;
+
+//Form Create
+procedure TCalculatorFM.FormCreate(Sender: TObject);
+begin
+    gplus := true;
+    gminus := true;
+    gmulti := true;
+    gdiv := true;
+    gdec := true;
+    goptr := '';
+    gplusminus:=true;
+    BorderIcons:=BorderIcons - [biMaximize];
+end;
+
+//On Key Pressed
+procedure TCalculatorFM.txtInputKeyPress(Sender: TObject; var Key: Char);
+begin
+    if Key='0' then
+    begin
+      Key:=#0;
+      btn0.click;
+      gresult := Key;
+      txtInput.SetFocus;
+      txtInput.AutoSelect:=False;
+    end
+    else if Key='1' then
+    begin
+      Key:=#0;
+      btn1.Click;
+      gresult := Key;
+      txtInput.SetFocus;
+      txtInput.AutoSelect:=False
+    end
+    else if Key='2' then
+    begin
+      Key:=#0;
+      btn2.click;
+      gresult := Key;
+      txtInput.SetFocus;
+      txtInput.AutoSelect:=False;
+
+    end
+    else if Key='3' then
+    begin
+      Key:=#0;
+      btn3.click;
+      gresult := Key;
+      txtInput.SetFocus;
+      txtInput.AutoSelect:=False
+    end
+    else if Key='4' then
+    begin
+      Key:=#0;
+      btn4.click;
+      gresult := Key;
+      txtInput.SetFocus;
+      txtInput.AutoSelect:=False
+    end
+    else if Key='5' then
+    begin
+      Key:=#0;
+      btn5.click;
+      gresult := Key;
+      txtInput.SetFocus;
+      txtInput.AutoSelect:=False
+    end
+    else if Key='6' then
+    begin
+      Key:=#0;
+      btn6.click;
+      gresult := Key;
+      txtInput.SetFocus;
+      txtInput.AutoSelect:=False
+    end
+    else if Key='7' then
+    begin
+      Key:=#0;
+      btn7.click;
+      gresult := Key;
+      txtInput.SetFocus;
+      txtInput.AutoSelect:=False
+    end
+    else if Key='8' then
+    begin
+      Key:=#0;
+      btn8.click;
+      gresult := Key;
+      txtInput.SetFocus;
+      txtInput.AutoSelect:=False
+    end
+    else if Key='9' then
+    begin
+      Key:=#0;
+      btn9.click;
+      gresult := Key;
+      txtInput.SetFocus;
+      txtInput.AutoSelect:=False
+    end
+    else if Key='+' then
+    begin
+      CalculatorFM.SetFocus;
+      btnPlus.Click
+    end
+    else if Key='*' then
+    begin
+      CalculatorFM.SetFocus;
+      btnMulti.Click
+    end
+    else if Key='-' then
+    begin
+      CalculatorFM.SetFocus;
+      btnMinus.Click
+    end
+    else if Key='/' then
+    begin
+      CalculatorFM.SetFocus;
+      btnDiv.Click;
+    end
+    else if Key='.' then
+    begin
+      CalculatorFM.SetFocus;
+      //gdec:=true;
+      btnDec.Click;
+    end
+    else if Key=#$D then
+    begin
+      CalculatorFM.SetFocus;
+      btnEql.Click;
+    end
+    else if Key=#8 then
+    begin
+      CalculatorFM.SetFocus;
+      btnBck.Click;
+    end;
+   end;
+
+end.

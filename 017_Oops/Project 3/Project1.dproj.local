@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.452,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.656,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\KamleshGaonkar\kamlesh\Practice\Oops\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.657,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\KamleshGaonkar\kamlesh\Practice\Oops\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.207,=D:\KamleshGaonkar\kamlesh\Practice\Oops\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.834,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\KamleshGaonkar\kamlesh\Practice\Oops\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

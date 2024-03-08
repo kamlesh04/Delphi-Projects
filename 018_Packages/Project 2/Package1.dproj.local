@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.222,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Package1.dproj=D:\KamleshGaonkar\kamlesh\Practice\Pks\Package1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.566,=D:\KamleshGaonkar\kamlesh\Practice\Pks\Button1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.824,=rtl.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.643,=vcl.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

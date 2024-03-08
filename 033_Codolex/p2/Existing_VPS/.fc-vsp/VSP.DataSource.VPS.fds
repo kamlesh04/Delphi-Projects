@@ -1,0 +1,18 @@
+{
+    "name": "VPS",
+    "dataSourceType": "Database",
+    "databaseServer": "Default",
+    "guid": "{B460B753-61B6-40F0-8AC5-AC65E4CDFBD6}",
+    "entityFiles": [
+        {
+            "guid": "{46719FB0-A2FB-4B21-A300-108089680CB3}",
+            "filePath": "DataSources\\VSP.DataSource.VPS.Users.fde"
+        },
+        {
+            "guid": "{5903474F-158D-47E5-B30C-82497399FE7C}",
+            "filePath": "DataSources\\VSP.DataSource.VPS.Vehicle.fde"
+        }
+    ],
+    "associations": [
+    ]
+}

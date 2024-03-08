@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile Android64="" Android=""/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.114,D:\KamleshGaonkar\kamlesh\Practice\FMX\p3\testDB.db=</Transaction>
+  </Transactions>
+</BorlandProject>

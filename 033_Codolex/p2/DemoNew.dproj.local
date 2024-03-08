@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.030,D:\KamleshGaonkar\kamlesh\Practice\VPS_Codolex\Unit5.dfm=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.331,=D:\Vehicle_pooling\latest\Admin v4.0.0\Admin v4.0.0\ConnectionDM.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.820,D:\KamleshGaonkar\kamlesh\Practice\VPS_Codolex\Unit5.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.181,=D:\Vehicle_pooling\latest\Admin v4.0.0\Admin v4.0.0\Dashboard.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.134,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.956,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.102,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.030,D:\KamleshGaonkar\kamlesh\Practice\VPS_Codolex\Unit5.pas=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.225,=D:\Vehicle_pooling\latest\Users\Dashboard.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.073,D:\Vehicle_pooling\latest\Users\DataModule.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.604,=D:\Vehicle_pooling\latest\Users\DataModule.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.213,D:\Vehicle_pooling\latest\Users\Dashboard.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.984,D:\KamleshGaonkar\kamlesh\Practice\VPS_Codolex\DemoNew.dproj=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.434,D:\Vehicle_pooling\latest\Users\ConnectionDM.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.365,=D:\Vehicle_pooling\latest\Users\ConnectionDM.pas</Transaction>
+  </Transactions>
+</BorlandProject>

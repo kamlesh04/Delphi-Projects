@@ -1,0 +1,42 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "Admin",
+    "sourceName": "Admin",
+    "guid": "{ECC5BC76-2765-418A-8D0C-98F5A5DD206D}",
+    "fields": [
+        {
+            "name": "Name",
+            "dataType": "string_",
+            "size": 50,
+            "defaultValue": "",
+            "sourceName": "Name",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{D39E3B81-D7B5-4E9D-9EFD-664F55640E07}"
+        }
+    ],
+    "associations": [
+    ],
+    "datasource": "{08A3D87F-472A-40A6-9A97-4DE92FE32773}"
+}

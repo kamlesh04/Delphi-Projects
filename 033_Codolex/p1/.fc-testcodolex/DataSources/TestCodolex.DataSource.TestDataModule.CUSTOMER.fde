@@ -1,0 +1,187 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "CUSTOMER",
+    "sourceName": "CUSTOMER",
+    "guid": "{88DFC8F3-2ABF-4463-B8E3-DD4A12701241}",
+    "fields": [
+        {
+            "name": "CUST_NO",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "CUST_NO",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{4362E319-56C1-408D-A45E-66B51B6EE938}"
+        },
+        {
+            "name": "CUSTOMER",
+            "dataType": "string_",
+            "size": 25,
+            "defaultValue": "",
+            "sourceName": "CUSTOMER",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{00EAB444-CB19-48F8-903B-23606A5CDD2C}"
+        },
+        {
+            "name": "CONTACT_FIRST",
+            "dataType": "string_",
+            "size": 15,
+            "defaultValue": "",
+            "sourceName": "CONTACT_FIRST",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 3,
+            "guid": "{515B803C-AC08-40F6-9D0F-67C01E97E99C}"
+        },
+        {
+            "name": "CONTACT_LAST",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "CONTACT_LAST",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 4,
+            "guid": "{3EE22738-69DA-49CC-B285-E1CCB2B24A7E}"
+        },
+        {
+            "name": "PHONE_NO",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "PHONE_NO",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 5,
+            "guid": "{7A144EB5-EFD7-4DD7-AE42-3265809456A8}"
+        },
+        {
+            "name": "ADDRESS_LINE1",
+            "dataType": "string_",
+            "size": 30,
+            "defaultValue": "",
+            "sourceName": "ADDRESS_LINE1",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 6,
+            "guid": "{DD2ABF22-F8E0-4A31-B060-218014D3BA94}"
+        },
+        {
+            "name": "ADDRESS_LINE2",
+            "dataType": "string_",
+            "size": 30,
+            "defaultValue": "",
+            "sourceName": "ADDRESS_LINE2",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 7,
+            "guid": "{B01F0A09-B76D-41D0-9C76-009F271FCC54}"
+        },
+        {
+            "name": "CITY",
+            "dataType": "string_",
+            "size": 25,
+            "defaultValue": "",
+            "sourceName": "CITY",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 8,
+            "guid": "{A2962D9B-6DDF-4D09-8BEB-A8E255A3329B}"
+        },
+        {
+            "name": "STATE_PROVINCE",
+            "dataType": "string_",
+            "size": 15,
+            "defaultValue": "",
+            "sourceName": "STATE_PROVINCE",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 9,
+            "guid": "{C7774FFA-FE3A-4033-981E-B40028F655D5}"
+        },
+        {
+            "name": "COUNTRY",
+            "dataType": "string_",
+            "size": 15,
+            "defaultValue": "",
+            "sourceName": "COUNTRY",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 10,
+            "guid": "{21722BEF-97B0-461D-980E-97CCA0B0498D}"
+        },
+        {
+            "name": "POSTAL_CODE",
+            "dataType": "string_",
+            "size": 12,
+            "defaultValue": "",
+            "sourceName": "POSTAL_CODE",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 11,
+            "guid": "{B61F36AB-7E80-4BF3-AB13-A1D80B561356}"
+        },
+        {
+            "name": "ON_HOLD",
+            "dataType": "string_",
+            "size": 1,
+            "defaultValue": "",
+            "sourceName": "ON_HOLD",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 12,
+            "guid": "{C6EC383B-7935-4ABD-94A0-2F6EFED3B5D0}"
+        }
+    ],
+    "associations": [
+        "{2DE32477-84E2-467A-A70F-DF59A2DD110A}",
+        "{DCCFEDDE-1E94-4BC0-A922-121848069D8C}"
+    ],
+    "datasource": "{B2754F07-64FF-4AFB-BF3C-7E10491CC75C}"
+}

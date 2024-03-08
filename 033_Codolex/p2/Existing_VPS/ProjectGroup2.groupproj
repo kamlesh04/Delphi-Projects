@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{71497322-0897-482C-8BFE-8F3EA82F4305}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\DemoNew.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\Vehicle_pooling\latest\Users\VehiclePoolingSystem.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DemoNew">
+        <MSBuild Projects="..\DemoNew.dproj"/>
+    </Target>
+    <Target Name="DemoNew:Clean">
+        <MSBuild Projects="..\DemoNew.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DemoNew:Make">
+        <MSBuild Projects="..\DemoNew.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="VehiclePoolingSystem">
+        <MSBuild Projects="D:\Vehicle_pooling\latest\Users\VehiclePoolingSystem.dproj"/>
+    </Target>
+    <Target Name="VehiclePoolingSystem:Clean">
+        <MSBuild Projects="D:\Vehicle_pooling\latest\Users\VehiclePoolingSystem.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="VehiclePoolingSystem:Make">
+        <MSBuild Projects="D:\Vehicle_pooling\latest\Users\VehiclePoolingSystem.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DemoNew;VehiclePoolingSystem"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DemoNew:Clean;VehiclePoolingSystem:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DemoNew:Make;VehiclePoolingSystem:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,232 @@
+{
+    "name": "RestApi",
+    "visibility": "Public_",
+    "isStatic": false,
+    "isFunction": true,
+    "guid": "{442FB6A1-629D-40D6-8094-29882BDF78F1}",
+    "returnValue": "{43D78C10-1144-4FDB-9B17-4F936584BEF4}",
+    "start": "{D1FDC5AF-297A-4ABA-98E4-45B9E57E9A00}",
+    "ends": [
+        "{511988A6-CD49-4B22-ACEC-3E6502CA32BC}"
+    ],
+    "parameters": [
+    ],
+    "elements": [
+        {
+            "bounds": [
+                10,
+                265,
+                80,
+                335,
+                [
+                    10,
+                    265
+                ],
+                [
+                    80,
+                    335
+                ]
+            ],
+            "componentName": "",
+            "description": "",
+            "elementClass": "FlowModel.Start.TFlowStart",
+            "guid": "{D1FDC5AF-297A-4ABA-98E4-45B9E57E9A00}",
+            "incomingSequences": [
+            ],
+            "outgoingSequences": [
+                "{3D665AFC-2C68-4F90-986B-D36518784B02}"
+            ],
+            "startSequence": "{3D665AFC-2C68-4F90-986B-D36518784B02}"
+        },
+        {
+            "bounds": [
+                710,
+                265,
+                780,
+                335,
+                [
+                    710,
+                    265
+                ],
+                [
+                    780,
+                    335
+                ]
+            ],
+            "componentName": "Core.Structural.End",
+            "description": "",
+            "elementClass": "Core.Structural.End",
+            "guid": "{511988A6-CD49-4B22-ACEC-3E6502CA32BC}",
+            "incomingSequences": [
+                "{ACD0DE73-5C94-487C-A030-29EF78C27CD6}"
+            ],
+            "outgoingSequences": [
+            ],
+            "returnVariable": "{F10FEBBB-910C-43CF-BB25-18FE0AED8135}"
+        },
+        {
+            "name": "RestApiResult",
+            "variableType": "string_",
+            "collectionType": "None",
+            "expression": "",
+            "customTypeName": "",
+            "description": "",
+            "elementClass": "FlowModel.Variable.TFlowVariable",
+            "guid": "{43D78C10-1144-4FDB-9B17-4F936584BEF4}"
+        },
+        {
+            "conditionType": "None",
+            "conditionOperator": "None",
+            "conditionValue": "",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        0
+                    ],
+                    "From_",
+                    "Right",
+                    0,
+                    [
+                        80,
+                        300
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        0
+                    ],
+                    "To_",
+                    "Left",
+                    0,
+                    [
+                        140,
+                        300
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "description": "",
+            "elementClass": "FlowModel.Sequence.TFlowSequence",
+            "guid": "{3D665AFC-2C68-4F90-986B-D36518784B02}",
+            "toElement": "{DF257687-3CFC-42E5-9262-A04081B97714}",
+            "fromElement": "{D1FDC5AF-297A-4ABA-98E4-45B9E57E9A00}"
+        },
+        {
+            "method": "GET",
+            "uRL": "'https:\/\/timeapi.io\/api\/TimeZone\/Zone'",
+            "contentType": "application\/json",
+            "body": "",
+            "parameters": [
+                [
+                    "'timeZone'",
+                    "'Europe\/Amsterdam'",
+                    "pkQUERY"
+                ]
+            ],
+            "hasBasicAuthentication": false,
+            "userName": "",
+            "password": "",
+            "requestTimeOut": 0,
+            "useSSLv2": false,
+            "useSSLv3": false,
+            "useTLSv1_0": false,
+            "useTLSv1_1": false,
+            "useTLSv1_2": false,
+            "useTLSv1_3": false,
+            "expression": "",
+            "bounds": [
+                140,
+                264,
+                338,
+                336,
+                [
+                    140,
+                    264
+                ],
+                [
+                    338,
+                    336
+                ]
+            ],
+            "componentName": "Core.Activities.RESTOperation",
+            "description": "",
+            "elementClass": "Core.Activities.RESTOperation",
+            "guid": "{DF257687-3CFC-42E5-9262-A04081B97714}",
+            "incomingSequences": [
+                "{3D665AFC-2C68-4F90-986B-D36518784B02}"
+            ],
+            "outgoingSequences": [
+                "{ACD0DE73-5C94-487C-A030-29EF78C27CD6}"
+            ],
+            "boundaryEvents": [
+            ],
+            "returnVariable": "{F10FEBBB-910C-43CF-BB25-18FE0AED8135}"
+        },
+        {
+            "name": "JSONResult",
+            "variableType": "string_",
+            "collectionType": "None",
+            "expression": "",
+            "customTypeName": "",
+            "description": "",
+            "elementClass": "FlowModel.Variable.TFlowVariable",
+            "guid": "{F10FEBBB-910C-43CF-BB25-18FE0AED8135}",
+            "owner": "{DF257687-3CFC-42E5-9262-A04081B97714}"
+        },
+        {
+            "conditionType": "None",
+            "conditionOperator": "None",
+            "conditionValue": "",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        0
+                    ],
+                    "From_",
+                    "Right",
+                    0,
+                    [
+                        338,
+                        300
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        0
+                    ],
+                    "To_",
+                    "Left",
+                    0,
+                    [
+                        710,
+                        300
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "description": "",
+            "elementClass": "FlowModel.Sequence.TFlowSequence",
+            "guid": "{ACD0DE73-5C94-487C-A030-29EF78C27CD6}",
+            "toElement": "{511988A6-CD49-4B22-ACEC-3E6502CA32BC}",
+            "fromElement": "{DF257687-3CFC-42E5-9262-A04081B97714}"
+        }
+    ]
+}

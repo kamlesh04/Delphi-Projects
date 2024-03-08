@@ -1,0 +1,26 @@
+{
+    "name": "VSP",
+    "dataSourceType": "Database",
+    "databaseServer": "Default",
+    "guid": "{08A3D87F-472A-40A6-9A97-4DE92FE32773}",
+    "entityFiles": [
+        {
+            "guid": "{8F49B6E0-B40C-45FD-BA03-AA2BD9B8A81C}",
+            "filePath": "DataSources\\VSP.DataSource.VSP.Notification.fde"
+        },
+        {
+            "guid": "{8DFC37C3-2518-4473-A4DA-78D855CE8ECF}",
+            "filePath": "DataSources\\VSP.DataSource.VSP.Vehicle.fde"
+        },
+        {
+            "guid": "{29F0CEED-FC43-4405-972F-5346E4E3A29B}",
+            "filePath": "DataSources\\VSP.DataSource.VSP.ride.fde"
+        },
+        {
+            "guid": "{CAB2FF58-8AAF-4121-A622-E0FE6CDA895F}",
+            "filePath": "DataSources\\VSP.DataSource.VSP.users.fde"
+        }
+    ],
+    "associations": [
+    ]
+}

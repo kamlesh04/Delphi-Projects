@@ -1,0 +1,49 @@
+{
+    "name": "Dashboard",
+    "language": "Delphi",
+    "guid": "{060E8599-E753-44B3-886D-373B0B3114F2}",
+    "flows": [
+        {
+            "guid": "{D2D7ABD7-FD0E-4784-98C8-F3919786347C}",
+            "filePath": "Dashboard\\Dashboard.Dashboard.GetCounts.fsf"
+        },
+        {
+            "guid": "{9A018B4C-07DC-4526-BCC9-3226EFB37D14}",
+            "filePath": "Dashboard\\Dashboard.Dashboard.GetNotifications.fsf"
+        },
+        {
+            "guid": "{8C3999D9-F529-4E11-B15A-47B0491322E2}",
+            "filePath": "Dashboard\\Dashboard.Dashboard.GetRideCount.fsf"
+        },
+        {
+            "guid": "{264EBEEF-DCDF-4A67-A7C0-E9BF6F309B3B}",
+            "filePath": "Dashboard\\Dashboard.Dashboard.GetRides.fsf"
+        },
+        {
+            "guid": "{E6EE843F-79B6-4E75-9C36-A0DCA52E9A35}",
+            "filePath": "Dashboard\\Dashboard.Dashboard.GetUserCount.fsf"
+        },
+        {
+            "guid": "{754CC290-58F3-49D7-9770-2AE31CEC1A2C}",
+            "filePath": "Dashboard\\Dashboard.Dashboard.GetVehicelCount.fsf"
+        },
+        {
+            "guid": "{B52BDE52-496D-4948-BE72-9B004F9FDBFB}",
+            "filePath": "Dashboard\\Dashboard.Dashboard.OnUserAddClick.fsf"
+        },
+        {
+            "guid": "{FC23D836-B558-41E6-8E6E-B5C889506001}",
+            "filePath": "Dashboard\\Dashboard.Dashboard.OnUserUpdateClick.fsf"
+        },
+        {
+            "guid": "{12DFF808-FECB-4E7D-8C2D-982AFC6A850C}",
+            "filePath": "Dashboard\\Dashboard.Dashboard.OnVehicelAddClick.fsf"
+        },
+        {
+            "guid": "{B80CF1ED-CFD4-488E-AD87-8F634E221D6D}",
+            "filePath": "Dashboard\\Dashboard.Dashboard.SearchButtonClick.fsf"
+        }
+    ],
+    "variables": [
+    ]
+}

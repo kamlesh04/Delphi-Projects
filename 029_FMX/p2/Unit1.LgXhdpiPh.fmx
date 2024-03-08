@@ -1,0 +1,29 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 696
+  ClientWidth = 448
+  DesignerMasterStyle = 3
+  inherited Grid1: TGrid
+    Size.Width = 448.000000000000000000
+    Size.Height = 648.000000000000000000
+    Viewport.Width = 448.000000000000000000
+    Viewport.Height = 648.000000000000000000
+  end
+  inherited ToolBar1: TToolBar
+    Size.Width = 448.000000000000000000
+    inherited SpeedButton2: TSpeedButton
+      Position.Y = -8.000000000000000000
+    end
+    inherited SpeedButton4: TSpeedButton
+      Position.Y = -8.000000000000000000
+    end
+    inherited txtSearch: TEdit
+      Position.X = 64.000000000000000000
+      Size.Width = 204.000000000000000000
+    end
+  end
+  inherited MultiView1: TMultiView
+    inherited Label4: TLabel
+      TextSettings.Font.StyleExt = {04070000000000000004000000}
+    end
+  end
+end

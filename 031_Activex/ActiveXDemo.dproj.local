@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.342,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.895,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.942,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.889,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.802,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\KamleshGaonkar\kamlesh\Practice\Activex\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.802,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.dfm=D:\KamleshGaonkar\kamlesh\Practice\Activex\Unit2.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.083,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.199,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.ridl</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.579,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.ridl=D:\KamleshGaonkar\kamlesh\Practice\Activex\Project1.ridl</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.471,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.057,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.593,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.625,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.342,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.716,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\KamleshGaonkar\kamlesh\Practice\Activex\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.026,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project1_TLB.pas=D:\KamleshGaonkar\kamlesh\Practice\Activex\Project1_TLB.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.231,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project1_TLB.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.607,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.998,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.083,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024-01-25 12:37:02.002,D:\KamleshGaonkar\kamlesh\Practice\Activex\ActiveX.dproj=D:\KamleshGaonkar\kamlesh\Practice\Activex\Project1.dproj</Transaction>
+    <Transaction>2024-01-25 12:37:14.778,D:\KamleshGaonkar\kamlesh\Practice\Activex\umain.pas=D:\KamleshGaonkar\kamlesh\Practice\Activex\Unit2.pas</Transaction>
+    <Transaction>2024-01-25 12:37:14.778,D:\KamleshGaonkar\kamlesh\Practice\Activex\umain.dfm=D:\KamleshGaonkar\kamlesh\Practice\Activex\Unit2.dfm</Transaction>
+    <Transaction>2024-01-25 12:37:45.221,D:\KamleshGaonkar\kamlesh\Practice\Activex\ActiveXDemo.dproj=D:\KamleshGaonkar\kamlesh\Practice\Activex\ActiveX.dproj</Transaction>
+    <Transaction>2024-01-25 12:38:23.607,D:\KamleshGaonkar\kamlesh\Practice\Activex\ActiveXdemo.ridl=D:\KamleshGaonkar\kamlesh\Practice\Activex\Project1.ridl</Transaction>
+    <Transaction>2024-01-25 12:38:23.654,D:\KamleshGaonkar\kamlesh\Practice\Activex\ActiveXdemo_TLB.pas=D:\KamleshGaonkar\kamlesh\Practice\Activex\Project1_TLB.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,30 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "View",
+    "sourceLocation": "Project",
+    "selectStatement": "SELECT VehicleID FROM vehicle",
+    "isReadOnly": false,
+    "name": "VehicleID",
+    "sourceName": "VehicleID",
+    "guid": "{6870A2EC-5DD8-44AF-AC13-77A1B34A0095}",
+    "fields": [
+    ],
+    "associations": [
+    ],
+    "datasource": "{B460B753-61B6-40F0-8AC5-AC65E4CDFBD6}",
+    "inheritanceEntity": "{5903474F-158D-47E5-B30C-82497399FE7C}"
+}

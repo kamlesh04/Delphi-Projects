@@ -1,0 +1,96 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "PROJ_DEPT_BUDGET",
+    "sourceName": "PROJ_DEPT_BUDGET",
+    "guid": "{FE170F43-C80E-4012-A56B-C455B01F29DC}",
+    "fields": [
+        {
+            "name": "FISCAL_YEAR",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "FISCAL_YEAR",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{8356F7B9-987D-4E23-9BEC-2453A41FA5CB}"
+        },
+        {
+            "name": "PROJ_ID",
+            "dataType": "string_",
+            "size": 5,
+            "defaultValue": "",
+            "sourceName": "PROJ_ID",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{F6F03E92-9FCE-41AF-A7E7-81AB5AB20BA5}"
+        },
+        {
+            "name": "DEPT_NO",
+            "dataType": "string_",
+            "size": 3,
+            "defaultValue": "",
+            "sourceName": "DEPT_NO",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 3,
+            "guid": "{EDDDC3AA-BD7F-4F1B-BAFB-05B11376AA5D}"
+        },
+        {
+            "name": "QUART_HEAD_CNT",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "QUART_HEAD_CNT",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 4,
+            "guid": "{9EBD85ED-C99D-46A0-8E1C-8EE6B237FAC7}"
+        },
+        {
+            "name": "PROJECTED_BUDGET",
+            "dataType": "Decimal_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "PROJECTED_BUDGET",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 12,
+            "scale": 2,
+            "position": 5,
+            "guid": "{CAC54B5F-AD55-4FBE-A512-82D2877D0E59}"
+        }
+    ],
+    "associations": [
+        "{59DD51CA-43F2-4CDB-89C2-269A06480C81}",
+        "{1D9D91F5-00F5-4AE8-9EA1-26F9AF61F0B3}"
+    ],
+    "datasource": "{B2754F07-64FF-4AFB-BF3C-7E10491CC75C}"
+}

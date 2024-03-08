@@ -1,0 +1,94 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        52,
+        344,
+        188,
+        466,
+        [
+            52,
+            344
+        ],
+        [
+            188,
+            466
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "Vehicel",
+    "sourceName": "Vehicle",
+    "guid": "{8DFC37C3-2518-4473-A4DA-78D855CE8ECF}",
+    "fields": [
+        {
+            "name": "VehicleID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "VehicleID",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{4EE584A0-24D7-47E1-ACE7-749875EA090B}"
+        },
+        {
+            "name": "VehicleType",
+            "dataType": "string_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "VehicleType",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{399C9871-1271-4680-8D9E-C10B452F1A60}"
+        },
+        {
+            "name": "VehicleName",
+            "dataType": "string_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "VehicleName",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 3,
+            "guid": "{9067BE58-8611-4AEF-A602-E6FAB243569E}"
+        },
+        {
+            "name": "VehicleNumberPlate",
+            "dataType": "string_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "VehicleNumberPlate",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 4,
+            "guid": "{54A5EEAD-57B1-43CE-B13B-1FA3C51CC8F4}"
+        },
+        {
+            "name": "VehicleCapacity",
+            "dataType": "string_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "VehicleCapacity",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 5,
+            "guid": "{FA18A91E-1F1A-47B3-8796-276085F0BAAD}"
+        }
+    ],
+    "associations": [
+    ],
+    "datasource": "{08A3D87F-472A-40A6-9A97-4DE92FE32773}"
+}

@@ -1,0 +1,178 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "EMPLOYEE",
+    "sourceName": "EMPLOYEE",
+    "guid": "{DFF9187E-0910-4FEA-AC06-7C22E7B8FCED}",
+    "fields": [
+        {
+            "name": "EMP_NO",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "EMP_NO",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{A83617AB-6694-498B-BF87-07EEDF34C5A1}"
+        },
+        {
+            "name": "FIRST_NAME",
+            "dataType": "string_",
+            "size": 15,
+            "defaultValue": "",
+            "sourceName": "FIRST_NAME",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{C2B49F45-65D3-4089-820B-104F941230DD}"
+        },
+        {
+            "name": "LAST_NAME",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "LAST_NAME",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 3,
+            "guid": "{85D39FE7-1C5F-47C8-8245-F60A20924E1A}"
+        },
+        {
+            "name": "PHONE_EXT",
+            "dataType": "string_",
+            "size": 4,
+            "defaultValue": "",
+            "sourceName": "PHONE_EXT",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 4,
+            "guid": "{0812A8E9-6242-493E-82CF-D31D205B551A}"
+        },
+        {
+            "name": "HIRE_DATE",
+            "dataType": "DateTime_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "HIRE_DATE",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 5,
+            "guid": "{B26B0C5E-3DC1-4C50-95B6-50ACDFD6125D}"
+        },
+        {
+            "name": "DEPT_NO",
+            "dataType": "string_",
+            "size": 3,
+            "defaultValue": "",
+            "sourceName": "DEPT_NO",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 6,
+            "guid": "{2980B7BE-4FE1-4EBA-8CC4-AF21959F627E}"
+        },
+        {
+            "name": "JOB_CODE",
+            "dataType": "string_",
+            "size": 5,
+            "defaultValue": "",
+            "sourceName": "JOB_CODE",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 7,
+            "guid": "{8359F39F-8482-4D60-BB5C-0CCD13EA714B}"
+        },
+        {
+            "name": "JOB_GRADE",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "JOB_GRADE",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 8,
+            "guid": "{E443756D-9E43-4044-9557-4CB7AAFE9A4F}"
+        },
+        {
+            "name": "JOB_COUNTRY",
+            "dataType": "string_",
+            "size": 15,
+            "defaultValue": "",
+            "sourceName": "JOB_COUNTRY",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 9,
+            "guid": "{9ADEDA3A-F5CB-48FC-9E0B-3DF244B101FA}"
+        },
+        {
+            "name": "SALARY",
+            "dataType": "Decimal_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "SALARY",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 10,
+            "scale": 2,
+            "position": 10,
+            "guid": "{762C46AD-1469-46C7-BAC8-589A1CE04A8B}"
+        },
+        {
+            "name": "FULL_NAME",
+            "dataType": "string_",
+            "size": 37,
+            "defaultValue": "",
+            "sourceName": "FULL_NAME",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 11,
+            "guid": "{F8A205E1-BDAC-48CC-8C00-A63AEFDACAE6}"
+        }
+    ],
+    "associations": [
+        "{9E00630C-9E14-4B7C-ABB8-448B5F117725}",
+        "{256A9A30-CF3B-4C06-8054-97C9DFB18B27}",
+        "{0D3FA345-3F72-4CDB-B4E6-99A55F5097FE}",
+        "{6CA49CAD-6896-4BA4-B253-6BE1B0455610}",
+        "{FDC3E1AC-A485-4C20-B2D7-7F2AD7D05538}",
+        "{AE5E4E41-E246-4AEA-9B2B-E11FDD716A1D}"
+    ],
+    "datasource": "{B2754F07-64FF-4AFB-BF3C-7E10491CC75C}"
+}

@@ -1,0 +1,94 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "Notification",
+    "sourceName": "Notification",
+    "guid": "{8F49B6E0-B40C-45FD-BA03-AA2BD9B8A81C}",
+    "fields": [
+        {
+            "name": "NotificationID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "NotificationID",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{BC94261A-2694-4510-B48D-83F1F16EE8BA}"
+        },
+        {
+            "name": "Content",
+            "dataType": "string_",
+            "size": 45,
+            "defaultValue": "",
+            "sourceName": "Content",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{1C1AB0E6-0A6B-4129-B31B-49F8FF85FC62}"
+        },
+        {
+            "name": "Date",
+            "dataType": "DateTime_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "Date",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 3,
+            "guid": "{288AAC74-DAD9-4C9F-8CB7-2866E6F8E783}"
+        },
+        {
+            "name": "Status",
+            "dataType": "string_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "Status",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 4,
+            "guid": "{3174576C-8E77-41D7-8E1B-4105D5569942}"
+        },
+        {
+            "name": "RideID",
+            "dataType": "string_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "RideID",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 5,
+            "guid": "{7E30E40C-BE60-4447-8F8F-D79F46B647B7}"
+        }
+    ],
+    "associations": [
+    ],
+    "datasource": "{08A3D87F-472A-40A6-9A97-4DE92FE32773}"
+}

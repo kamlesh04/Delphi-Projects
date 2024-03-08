@@ -1,0 +1,42 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "Test",
+    "sourceName": "Test",
+    "guid": "{AF2E8E12-0110-4F75-9434-63A119E52B91}",
+    "fields": [
+        {
+            "name": "TIme",
+            "dataType": "string_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "Time",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{3463476D-C544-41E7-80FD-77E89EE7EE66}"
+        }
+    ],
+    "associations": [
+    ],
+    "datasource": "{B2754F07-64FF-4AFB-BF3C-7E10491CC75C}"
+}

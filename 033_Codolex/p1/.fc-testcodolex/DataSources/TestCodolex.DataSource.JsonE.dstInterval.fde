@@ -1,0 +1,124 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Project",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "dstInterval",
+    "sourceName": "dstInterval",
+    "guid": "{5BDA09C3-0916-484A-A96B-C6AE46D225E0}",
+    "fields": [
+        {
+            "name": "dstIntervalID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "dstIntervalID",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 0,
+            "guid": "{386F22A8-2289-4ABB-A24D-3AC4904FB5AC}"
+        },
+        {
+            "name": "dstName",
+            "dataType": "string_",
+            "size": 4,
+            "defaultValue": "",
+            "sourceName": "dstName",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{C2B16976-596A-406D-A450-1D05BCE9C903}"
+        },
+        {
+            "name": "dstStart",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "dstStart",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 4,
+            "guid": "{FECF3E93-6E90-4DB6-A03E-90E7B0D9E8E0}"
+        },
+        {
+            "name": "dstEnd",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "dstEnd",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 5,
+            "guid": "{604B20C6-8653-4B15-BD4A-6A21BD98E26A}"
+        },
+        {
+            "name": "dstOffsetToUtcID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "dstOffsetToUtcID",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 0,
+            "guid": "{1610B19C-82A4-4946-9DDD-6475C28AB9E6}"
+        },
+        {
+            "name": "dstOffsetToStandardTimeID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "dstOffsetToStandardTimeID",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 0,
+            "guid": "{7E925657-79CD-421A-98A9-F5E564C2FA05}"
+        },
+        {
+            "name": "dstDurationID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "dstDurationID",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 0,
+            "guid": "{0C8CF377-527F-4D9D-80A4-AA17C81323CC}"
+        }
+    ],
+    "associations": [
+        "{25447832-87DD-4D52-A9EF-6BFF5F8D36D2}",
+        "{DE6BBFDD-4138-427F-BF34-D0A8A31E0424}",
+        "{96D8034D-6BF4-43B7-8D75-F50C5124D1B0}",
+        "{F1ABDD3C-D939-48D7-A0C0-37BD238CFF92}"
+    ],
+    "datasource": "{AA90E4A4-1AE8-485E-8DF5-8979517C66E1}"
+}

@@ -1,0 +1,200 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "SALES",
+    "sourceName": "SALES",
+    "guid": "{22818FA9-66C3-493F-9692-654B36CC0944}",
+    "fields": [
+        {
+            "name": "PO_NUMBER",
+            "dataType": "string_",
+            "size": 8,
+            "defaultValue": "",
+            "sourceName": "PO_NUMBER",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{CF0555A8-0C58-4515-BD0A-EFE2338E40A4}"
+        },
+        {
+            "name": "CUST_NO",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "CUST_NO",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{840A835E-A00D-4585-B1E2-8933EDB690EF}"
+        },
+        {
+            "name": "SALES_REP",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "SALES_REP",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 3,
+            "guid": "{12B0039E-6E52-44D9-BAC1-9D3A9D5CF8FC}"
+        },
+        {
+            "name": "ORDER_STATUS",
+            "dataType": "string_",
+            "size": 7,
+            "defaultValue": "",
+            "sourceName": "ORDER_STATUS",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 4,
+            "guid": "{62562C85-14F9-48DF-9FA0-972B9C8580E3}"
+        },
+        {
+            "name": "ORDER_DATE",
+            "dataType": "DateTime_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "ORDER_DATE",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 5,
+            "guid": "{FED2DDF4-F438-415B-8CC9-80AFC24D6AFD}"
+        },
+        {
+            "name": "SHIP_DATE",
+            "dataType": "DateTime_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "SHIP_DATE",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 6,
+            "guid": "{5DA63134-D365-4681-97FF-170A8134EB99}"
+        },
+        {
+            "name": "DATE_NEEDED",
+            "dataType": "DateTime_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "DATE_NEEDED",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 7,
+            "guid": "{72B1AFEE-444A-4C73-A813-4C3FA40B2508}"
+        },
+        {
+            "name": "PAID",
+            "dataType": "string_",
+            "size": 1,
+            "defaultValue": "",
+            "sourceName": "PAID",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 8,
+            "guid": "{AAC0CC97-5740-4A82-9FF5-8741E4433D7B}"
+        },
+        {
+            "name": "QTY_ORDERED",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "QTY_ORDERED",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 9,
+            "guid": "{7174C5AF-1E20-4A02-9B46-B106DC4AF216}"
+        },
+        {
+            "name": "TOTAL_VALUE",
+            "dataType": "Decimal_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "TOTAL_VALUE",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 9,
+            "scale": 2,
+            "position": 10,
+            "guid": "{668FBB24-7600-4240-8DF0-CDFD8CB03F66}"
+        },
+        {
+            "name": "DISCOUNT",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "DISCOUNT",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 11,
+            "guid": "{86421BDE-9E5E-4C31-A559-CD38C19CC49B}"
+        },
+        {
+            "name": "ITEM_TYPE",
+            "dataType": "string_",
+            "size": 12,
+            "defaultValue": "",
+            "sourceName": "ITEM_TYPE",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 12,
+            "guid": "{D73230C7-68FC-479F-9349-A6A4DA1804DE}"
+        },
+        {
+            "name": "AGED",
+            "dataType": "Decimal_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "AGED",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 18,
+            "scale": 9,
+            "position": 13,
+            "guid": "{981BE05C-D973-4AAC-B681-85E463EA13B9}"
+        }
+    ],
+    "associations": [
+        "{DCCFEDDE-1E94-4BC0-A922-121848069D8C}",
+        "{AE5E4E41-E246-4AEA-9B2B-E11FDD716A1D}"
+    ],
+    "datasource": "{B2754F07-64FF-4AFB-BF3C-7E10491CC75C}"
+}

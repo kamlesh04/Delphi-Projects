@@ -1,0 +1,97 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "PROJECT",
+    "sourceName": "PROJECT",
+    "guid": "{4BA47AFC-87BB-498A-8755-8209B0E8D6F2}",
+    "fields": [
+        {
+            "name": "PROJ_ID",
+            "dataType": "string_",
+            "size": 5,
+            "defaultValue": "",
+            "sourceName": "PROJ_ID",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{71E65CC0-57D6-4798-AB54-DAFB9D525063}"
+        },
+        {
+            "name": "PROJ_NAME",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "PROJ_NAME",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{DC793343-86AB-49B7-8E51-39090A1E90B6}"
+        },
+        {
+            "name": "PROJ_DESC",
+            "dataType": "string_",
+            "size": 100,
+            "defaultValue": "",
+            "sourceName": "PROJ_DESC",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 3,
+            "guid": "{E275D490-E807-4214-A03B-4ECFD3EE910B}"
+        },
+        {
+            "name": "TEAM_LEADER",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "TEAM_LEADER",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 4,
+            "guid": "{D3560856-6839-4EC1-B461-A3713A74967E}"
+        },
+        {
+            "name": "PRODUCT",
+            "dataType": "string_",
+            "size": 12,
+            "defaultValue": "",
+            "sourceName": "PRODUCT",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 5,
+            "guid": "{B50B1FC4-B19B-4372-8B59-E86CC995FC5C}"
+        }
+    ],
+    "associations": [
+        "{34FE5BC4-1892-496C-A82F-DD8EEAD6F049}",
+        "{6CA49CAD-6896-4BA4-B253-6BE1B0455610}",
+        "{1D9D91F5-00F5-4AE8-9EA1-26F9AF61F0B3}"
+    ],
+    "datasource": "{B2754F07-64FF-4AFB-BF3C-7E10491CC75C}"
+}

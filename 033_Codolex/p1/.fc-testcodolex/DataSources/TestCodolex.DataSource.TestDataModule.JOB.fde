@@ -1,0 +1,134 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "JOB",
+    "sourceName": "JOB",
+    "guid": "{460AC223-D494-420C-B88D-160832F0D936}",
+    "fields": [
+        {
+            "name": "JOB_CODE",
+            "dataType": "string_",
+            "size": 5,
+            "defaultValue": "",
+            "sourceName": "JOB_CODE",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{D3A524DB-4CA2-4899-B81D-952DBDACF8C5}"
+        },
+        {
+            "name": "JOB_GRADE",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "JOB_GRADE",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{DBB3023F-98E9-45D8-885D-8169E5C75E15}"
+        },
+        {
+            "name": "JOB_COUNTRY",
+            "dataType": "string_",
+            "size": 15,
+            "defaultValue": "",
+            "sourceName": "JOB_COUNTRY",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 3,
+            "guid": "{8BACB859-CEB5-4BE8-856F-A50F39157F17}"
+        },
+        {
+            "name": "JOB_TITLE",
+            "dataType": "string_",
+            "size": 25,
+            "defaultValue": "",
+            "sourceName": "JOB_TITLE",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 4,
+            "guid": "{FA75323E-D007-4D55-93D5-96C354732CF3}"
+        },
+        {
+            "name": "MIN_SALARY",
+            "dataType": "Decimal_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "MIN_SALARY",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 10,
+            "scale": 2,
+            "position": 5,
+            "guid": "{C6281E19-BF0C-4602-A2A7-67DB7D8349B6}"
+        },
+        {
+            "name": "MAX_SALARY",
+            "dataType": "Decimal_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "MAX_SALARY",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 10,
+            "scale": 2,
+            "position": 6,
+            "guid": "{11A9E6DA-3B60-4380-B875-37B9D7539F52}"
+        },
+        {
+            "name": "JOB_REQUIREMENT",
+            "dataType": "string_",
+            "size": 100,
+            "defaultValue": "",
+            "sourceName": "JOB_REQUIREMENT",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 7,
+            "guid": "{42117984-5CF2-4733-9BA4-60FF3FB7F54E}"
+        },
+        {
+            "name": "LANGUAGE_REQ",
+            "dataType": "string_",
+            "size": 15,
+            "defaultValue": "",
+            "sourceName": "LANGUAGE_REQ",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 8,
+            "guid": "{21C97F28-F6C0-40D7-ACD1-02DF75EFEE1E}"
+        }
+    ],
+    "associations": [
+        "{813C99AF-36C3-4EE5-970B-B5E5821207BD}"
+    ],
+    "datasource": "{B2754F07-64FF-4AFB-BF3C-7E10491CC75C}"
+}

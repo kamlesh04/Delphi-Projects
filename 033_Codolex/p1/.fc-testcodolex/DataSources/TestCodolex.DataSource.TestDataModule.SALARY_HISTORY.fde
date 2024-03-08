@@ -1,0 +1,108 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "SALARY_HISTORY",
+    "sourceName": "SALARY_HISTORY",
+    "guid": "{A2212546-E1DA-482E-8AEC-706EBA706715}",
+    "fields": [
+        {
+            "name": "EMP_NO",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "EMP_NO",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{37DF1D33-B44C-453A-B906-C704427FA363}"
+        },
+        {
+            "name": "CHANGE_DATE",
+            "dataType": "DateTime_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "CHANGE_DATE",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{A5C5533F-521D-46CB-A651-ED27B6EBDF0F}"
+        },
+        {
+            "name": "UPDATER_ID",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "UPDATER_ID",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 3,
+            "guid": "{580422B6-FAEF-477A-A484-125F463428C1}"
+        },
+        {
+            "name": "OLD_SALARY",
+            "dataType": "Decimal_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "OLD_SALARY",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 10,
+            "scale": 2,
+            "position": 4,
+            "guid": "{64545047-22C3-4B40-B53B-6BEA074B3DB1}"
+        },
+        {
+            "name": "PERCENT_CHANGE",
+            "dataType": "Decimal_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "PERCENT_CHANGE",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 5,
+            "guid": "{ACE3D694-480C-4343-A306-F3DAF6F3CC00}"
+        },
+        {
+            "name": "NEW_SALARY",
+            "dataType": "Decimal_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "NEW_SALARY",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 6,
+            "guid": "{C17AC442-8CD2-4003-9E1C-97FCCA3382D3}"
+        }
+    ],
+    "associations": [
+        "{FDC3E1AC-A485-4C20-B2D7-7F2AD7D05538}"
+    ],
+    "datasource": "{B2754F07-64FF-4AFB-BF3C-7E10491CC75C}"
+}

@@ -1,0 +1,95 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Project",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "dstOffsetToStandardTime",
+    "sourceName": "dstOffsetToStandardTime",
+    "guid": "{F96BBD84-CE6B-4CA6-A7DF-C470F11BEB83}",
+    "fields": [
+        {
+            "name": "dstOffsetToStandardTimeID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "dstOffsetToStandardTimeID",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 0,
+            "guid": "{C82455D2-780F-4B3F-8ECE-4795A1DC4F88}"
+        },
+        {
+            "name": "seconds",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "seconds",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{4132DE3E-CA4F-4A3A-9E51-1ECDD1222320}"
+        },
+        {
+            "name": "milliseconds",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "milliseconds",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{022AA3DE-0942-406B-A564-0801DB2DF0F8}"
+        },
+        {
+            "name": "ticks",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "ticks",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 3,
+            "guid": "{E8204F3B-2826-494B-BBC7-0F9914812448}"
+        },
+        {
+            "name": "nanoseconds",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "nanoseconds",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 4,
+            "guid": "{06303035-4600-4720-A22C-FBE4633BC5A8}"
+        }
+    ],
+    "associations": [
+        "{DE6BBFDD-4138-427F-BF34-D0A8A31E0424}"
+    ],
+    "datasource": "{AA90E4A4-1AE8-485E-8DF5-8979517C66E1}"
+}

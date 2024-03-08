@@ -1,0 +1,57 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "COUNTRY",
+    "sourceName": "COUNTRY",
+    "guid": "{0AAF1349-7472-49B5-8F96-238D974E3ADE}",
+    "fields": [
+        {
+            "name": "COUNTRY",
+            "dataType": "string_",
+            "size": 15,
+            "defaultValue": "",
+            "sourceName": "COUNTRY",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{BD1B4878-4AC5-4D30-B736-BA6E9590D435}"
+        },
+        {
+            "name": "CURRENCY",
+            "dataType": "string_",
+            "size": 10,
+            "defaultValue": "",
+            "sourceName": "CURRENCY",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{CFCE5BD0-5634-47CF-B55A-AEAA6299F735}"
+        }
+    ],
+    "associations": [
+        "{2DE32477-84E2-467A-A70F-DF59A2DD110A}",
+        "{813C99AF-36C3-4EE5-970B-B5E5821207BD}"
+    ],
+    "datasource": "{B2754F07-64FF-4AFB-BF3C-7E10491CC75C}"
+}

@@ -1,0 +1,287 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 384
+  ClientWidth = 312
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object SpeedButton1: TSpeedButton
+    Position.X = 24.000000000000000000
+    Position.Y = 128.000000000000000000
+    Text = 'SpeedButton1'
+  end
+  object Grid1: TGrid
+    Align = Client
+    CanFocus = True
+    ClipChildren = True
+    Size.Width = 312.000000000000000000
+    Size.Height = 336.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    RowCount = 0
+    Options = [ColLines, RowLines, RowSelect, Tabs, Header, HeaderClick]
+    Viewport.Width = 308.000000000000000000
+    Viewport.Height = 311.000000000000000000
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 312.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    object SpeedButton2: TSpeedButton
+      Position.X = 8.000000000000000000
+      Position.Y = 15.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'addtoolbuttonbordered'
+      Text = 'SpeedButton2'
+    end
+    object SpeedButton4: TSpeedButton
+      Position.X = 276.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'searchtoolbutton'
+      Text = 'SpeedButton2'
+      OnClick = SpeedButton4Click
+    end
+    object txtSearch: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 2
+      Position.X = 48.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 220.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object MultiView1: TMultiView
+    MasterButton = SpeedButton2
+    Mode = Drawer
+    OnShown = MultiView1Shown
+    Size.Width = 241.000000000000000000
+    Size.Height = 344.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 10
+    object Rectangle1: TRectangle
+      Align = Contents
+      Fill.Color = claAliceblue
+      Size.Width = 241.000000000000000000
+      Size.Height = 344.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      Stroke.Dash = DashDot
+      XRadius = 3.000000000000000000
+      YRadius = 5.000000000000000000
+      object Label1: TLabel
+        Position.X = 8.000000000000000000
+        Position.Y = 174.000000000000000000
+        Size.Width = 56.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Username'
+        TabOrder = 7
+      end
+      object Label2: TLabel
+        Position.X = 8.000000000000000000
+        Position.Y = 134.000000000000000000
+        Size.Width = 40.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Email'
+        TabOrder = 3
+      end
+      object Label3: TLabel
+        Position.X = 8.000000000000000000
+        Position.Y = 213.000000000000000000
+        Size.Width = 56.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Password'
+        TabOrder = 6
+      end
+      object Name: TLabel
+        Position.X = 8.000000000000000000
+        Position.Y = 97.000000000000000000
+        Size.Width = 40.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Name'
+        TabOrder = 9
+      end
+      object txtEmail: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 0
+        Position.X = 72.000000000000000000
+        Position.Y = 131.000000000000000000
+        Size.Width = 153.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object txtName: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 5
+        Position.X = 72.000000000000000000
+        Position.Y = 92.000000000000000000
+        Size.Width = 153.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object txtPassword: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 2
+        Password = True
+        Position.X = 72.000000000000000000
+        Position.Y = 209.000000000000000000
+        Size.Width = 153.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object txtUsername: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 1
+        Position.X = 72.000000000000000000
+        Position.Y = 168.000000000000000000
+        Size.Width = 153.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Rectangle2: TRectangle
+        Fill.Color = claAquamarine
+        Position.X = 110.000000000000000000
+        Position.Y = 258.000000000000000000
+        Size.Width = 67.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        object btnAdd: TSpeedButton
+          Align = Contents
+          Size.Width = 67.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'toolbutton'
+          Text = 'Add'
+          OnClick = btnAddClick
+        end
+      end
+      object txtID: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 4
+        ReadOnly = True
+        Position.X = 72.000000000000000000
+        Position.Y = 55.000000000000000000
+        Size.Width = 153.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        object Rectangle3: TRectangle
+          Align = Contents
+          Opacity = 0.400000005960464500
+          Size.Width = 153.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Label5: TLabel
+        Position.X = 8.000000000000000000
+        Position.Y = 58.000000000000000000
+        Size.Width = 40.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'ID'
+        TabOrder = 8
+      end
+    end
+    object Label4: TLabel
+      StyledSettings = [Family, Size, FontColor]
+      Position.X = 88.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.StyleExt = {04070000000000000004000000}
+      Text = 'Enter Details'
+      TabOrder = 7
+    end
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      
+        'Database=D:\KamleshGaonkar\kamlesh\Practice\FMX\p2\DB\FIRSTDB.FD' +
+        'B'
+      'User_Name=sysdba'
+      'Password=admin'
+      'DriverID=FB')
+    LoginPrompt = False
+    Left = 120
+    Top = 336
+  end
+  object FDTable1: TFDTable
+    IndexFieldNames = 'userid'
+    Connection = FDConnection1
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'Users'
+    Left = 8
+    Top = 344
+    object FDTable1userid: TIntegerField
+      FieldName = 'userid'
+      Origin = 'userid'
+    end
+    object FDTable1name: TWideStringField
+      FieldName = 'name'
+      Origin = 'name'
+      Size = 255
+    end
+    object FDTable1username: TWideStringField
+      FieldName = 'username'
+      Origin = 'username'
+      Size = 255
+    end
+    object FDTable1password: TWideStringField
+      FieldName = 'password'
+      Origin = '"password"'
+      Size = 255
+    end
+    object FDTable1email: TWideStringField
+      FieldName = 'email'
+      Origin = 'email'
+      Size = 225
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = FDTable1
+    ScopeMappings = <>
+    Left = 72
+    Top = 344
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 212
+    Top = 333
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = Grid1
+      Columns = <
+        item
+          MemberName = 'userid'
+        end
+        item
+          MemberName = 'name'
+        end
+        item
+          MemberName = 'email'
+        end>
+    end
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    Left = 256
+    Top = 328
+  end
+end

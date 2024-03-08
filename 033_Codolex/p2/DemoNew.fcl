@@ -1,0 +1,10 @@
+{
+    "programName": "DemoNew.dproj",
+    "guid": "{74B69C83-40A6-46EB-BB2E-A629CA9B1F9A}",
+    "projects": [
+        {
+            "name": "VSP",
+            "projectGUID": "{97749324-8B2E-4C6E-BC5B-8DB44A16CD7F}"
+        }
+    ]
+}

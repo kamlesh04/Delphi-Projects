@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.289,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.dfm=D:\KamleshGaonkar\kamlesh\Practice\Codolex\Main.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.289,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas=D:\KamleshGaonkar\kamlesh\Practice\Codolex\Main.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.410,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.102,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.339,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project2.dproj=D:\KamleshGaonkar\kamlesh\Practice\Codolex\CodolexDemo.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

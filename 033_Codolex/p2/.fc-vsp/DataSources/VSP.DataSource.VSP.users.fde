@@ -1,0 +1,107 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        83,
+        689,
+        157,
+        811,
+        [
+            83,
+            689
+        ],
+        [
+            157,
+            811
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "users",
+    "sourceName": "users",
+    "guid": "{CAB2FF58-8AAF-4121-A622-E0FE6CDA895F}",
+    "fields": [
+        {
+            "name": "UserID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "UserID",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{EEC4C7D1-8379-406F-9331-5E56AB30BA42}"
+        },
+        {
+            "name": "Name",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "Name",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{01A6F1FF-AB83-4AC6-929D-CECFF6D93991}"
+        },
+        {
+            "name": "Username",
+            "dataType": "string_",
+            "size": 30,
+            "defaultValue": "",
+            "sourceName": "Username",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 3,
+            "guid": "{3473CC33-CD8F-405B-A53C-3D73701A0164}"
+        },
+        {
+            "name": "Email",
+            "dataType": "string_",
+            "size": 30,
+            "defaultValue": "",
+            "sourceName": "Email",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 4,
+            "guid": "{CDC68297-54EF-4673-AB7A-3F01022B8733}"
+        },
+        {
+            "name": "UserType",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "UserType",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 5,
+            "guid": "{CEFF086B-873A-4844-BCE5-FB8222937636}"
+        },
+        {
+            "name": "PhoneNumber",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "PhoneNumber",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 6,
+            "guid": "{4FA219A3-3604-4C05-9C74-582F8470FF27}"
+        }
+    ],
+    "associations": [
+    ],
+    "datasource": "{08A3D87F-472A-40A6-9A97-4DE92FE32773}"
+}

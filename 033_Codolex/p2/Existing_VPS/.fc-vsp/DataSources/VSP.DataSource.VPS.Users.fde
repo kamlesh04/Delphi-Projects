@@ -1,0 +1,42 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "Users",
+    "sourceName": "Users",
+    "guid": "{46719FB0-A2FB-4B21-A300-108089680CB3}",
+    "fields": [
+        {
+            "name": "VehicleID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "VehicleID",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{7934ECDF-21A7-4BA4-B570-65306D97F388}"
+        }
+    ],
+    "associations": [
+    ],
+    "datasource": "{B460B753-61B6-40F0-8AC5-AC65E4CDFBD6}"
+}

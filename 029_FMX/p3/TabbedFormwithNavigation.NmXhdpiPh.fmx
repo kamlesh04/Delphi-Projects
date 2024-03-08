@@ -1,0 +1,135 @@
+inherited TabbedwithNavigationForm_NmXhdpiPh: TTabbedwithNavigationForm_NmXhdpiPh
+  ClientHeight = 616
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited TabControl1: TTabControl
+    Size.Width = 400.000000000000000000
+    Size.Height = 616.000000000000000000
+    Sizes = (
+      400s
+      567s
+      400s
+      567s
+      400s
+      567s
+      400s
+      567s)
+    inherited TabItem1: TTabItem
+      Size.Width = 100.000000000000000000
+      ExplicitSize.cx = 101.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited TabControl2: TTabControl
+        Size.Width = 400.000000000000000000
+        Size.Height = 567.000000000000000000
+        Sizes = (
+          400s
+          567s
+          400s
+          567s)
+        inherited TabItem5: TTabItem
+          ExplicitSize.cx = 8.000000000000000000
+          ExplicitSize.cy = 8.000000000000000000
+          inherited ToolBar1: TToolBar
+            Size.Width = 400.000000000000000000
+            inherited lblTitle1: TLabel
+              Size.Width = 400.000000000000000000
+            end
+            inherited btnNext: TSpeedButton
+              Position.X = 335.000000000000000000
+            end
+          end
+          inherited Panel1: TPanel
+            Size.Width = 400.000000000000000000
+            Size.Height = 567.000000000000000000
+            StyleLookup = 'panelstyle'
+            inherited Grid1: TGrid
+              Position.X = -2.000000000000000000
+              Position.Y = 315.000000000000000000
+              StyleLookup = 'gridstyle'
+              Viewport.Width = 402.000000000000000000
+              Viewport.Height = 196.000000000000000000
+            end
+          end
+        end
+        inherited TabItem6: TTabItem
+          ExplicitSize.cx = 8.000000000000000000
+          ExplicitSize.cy = 8.000000000000000000
+          inherited ToolBar2: TToolBar
+            Size.Width = 400.000000000000000000
+            inherited lblTitle2: TLabel
+              Size.Width = 400.000000000000000000
+            end
+          end
+        end
+      end
+    end
+    inherited TabItem2: TTabItem
+      Size.Width = 100.000000000000000000
+      ExplicitSize.cx = 102.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar3: TToolBar
+        Size.Width = 400.000000000000000000
+        inherited lblTitle3: TLabel
+          Size.Width = 400.000000000000000000
+        end
+      end
+      inherited Panel2: TPanel
+        Size.Width = 400.000000000000000000
+        Size.Height = 567.000000000000000000
+      end
+    end
+    inherited TabItem3: TTabItem
+      Size.Width = 100.000000000000000000
+      ExplicitSize.cx = 101.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar4: TToolBar
+        Size.Width = 400.000000000000000000
+        inherited lblTitle4: TLabel
+          Size.Width = 400.000000000000000000
+        end
+      end
+    end
+    inherited TabItem4: TTabItem
+      Size.Width = 100.000000000000000000
+      ExplicitSize.cx = 99.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar5: TToolBar
+        Size.Width = 400.000000000000000000
+        inherited lblTitle5: TLabel
+          Size.Width = 400.000000000000000000
+        end
+      end
+    end
+  end
+  inherited GestureManager1: TGestureManager
+    GestureData = <
+      item
+        Control = TabControl1
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end
+          item
+            GestureID = sgiRight
+          end>
+      end
+      item
+        Control = TabControl2
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end
+          item
+            GestureID = sgiRight
+          end>
+      end>
+  end
+  inherited FDConnection1: TFDConnection
+    Left = 192
+    Top = 513
+  end
+  inherited FDTable1: TFDTable
+    Left = 88
+    Top = 521
+  end
+end

@@ -1,0 +1,10 @@
+{
+    "programName": "CodolexDemo.dproj",
+    "guid": "{5D2F2E48-4011-4D7A-B39D-7FA609287205}",
+    "projects": [
+        {
+            "name": "TestCodolex",
+            "projectGUID": "{D55A1982-14FE-4D32-A7C7-F3502E6C9733}"
+        }
+    ]
+}

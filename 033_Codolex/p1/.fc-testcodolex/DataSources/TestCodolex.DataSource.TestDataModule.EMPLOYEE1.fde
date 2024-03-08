@@ -1,0 +1,94 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "EMPLOYEE1",
+    "sourceName": "EMPLOYEE1",
+    "guid": "{A4637EDA-9F6E-40B5-8867-395B4095B99A}",
+    "fields": [
+        {
+            "name": "EMP_NO",
+            "dataType": "AutoIncrement_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "EMP_NO",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{7921431A-1D86-4088-8296-D0EEA9D07CD0}"
+        },
+        {
+            "name": "FIRST_NAME",
+            "dataType": "string_",
+            "size": 15,
+            "defaultValue": "",
+            "sourceName": "FIRST_NAME",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{7F1440D5-8533-4A4C-94DD-EAD267021A68}"
+        },
+        {
+            "name": "LAST_NAME",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "LAST_NAME",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 3,
+            "guid": "{C2708E61-24CE-42E9-AEBF-62793F4FC4BE}"
+        },
+        {
+            "name": "HIRE_DATE",
+            "dataType": "DateTime_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "HIRE_DATE",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 4,
+            "guid": "{53F222E1-2208-4C06-BE06-EB7DE933A098}"
+        },
+        {
+            "name": "DEPT_NO",
+            "dataType": "string_",
+            "size": 3,
+            "defaultValue": "",
+            "sourceName": "DEPT_NO",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 5,
+            "guid": "{86511CCA-5912-41A4-94FF-0C24F56B0BBF}"
+        }
+    ],
+    "associations": [
+    ],
+    "datasource": "{B2754F07-64FF-4AFB-BF3C-7E10491CC75C}"
+}

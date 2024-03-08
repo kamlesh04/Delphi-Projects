@@ -1,0 +1,30 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "View",
+    "sourceLocation": "Project",
+    "selectStatement": "SELECT ride.* \r\nFROM ride AS ride \r\nwhere RideStartDate = :source and RideEndDate = :dest;",
+    "isReadOnly": false,
+    "name": "GetRides",
+    "sourceName": "GetRides",
+    "guid": "{3427CDE5-B6B5-4116-A3EA-B579FCE64652}",
+    "fields": [
+    ],
+    "associations": [
+    ],
+    "datasource": "{08A3D87F-472A-40A6-9A97-4DE92FE32773}",
+    "inheritanceEntity": "{29F0CEED-FC43-4405-972F-5346E4E3A29B}"
+}

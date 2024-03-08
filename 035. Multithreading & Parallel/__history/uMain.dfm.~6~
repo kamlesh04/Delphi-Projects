@@ -1,0 +1,83 @@
+object frmMultThreading: TfrmMultThreading
+  Left = 0
+  Top = 0
+  Caption = 'Multi-Threading'
+  ClientHeight = 407
+  ClientWidth = 718
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object MemLeft: TMemo
+    Left = 0
+    Top = 125
+    Width = 289
+    Height = 256
+    ImeName = 'India'
+    Lines.Strings = (
+      '')
+    TabOrder = 0
+  end
+  object pbLeft: TProgressBar
+    Left = 0
+    Top = 98
+    Width = 289
+    Height = 21
+    TabOrder = 1
+  end
+  object btnWithoutSync: TButton
+    Left = 56
+    Top = 40
+    Width = 177
+    Height = 25
+    Caption = 'Without Sync'
+    TabOrder = 2
+    OnClick = btnWithoutSyncClick
+  end
+  object btnShow: TButton
+    Left = 288
+    Top = 40
+    Width = 99
+    Height = 25
+    Caption = 'Show Message'
+    TabOrder = 3
+    OnClick = btnShowClick
+  end
+  object MemRight: TMemo
+    Left = 376
+    Top = 125
+    Width = 289
+    Height = 256
+    Lines.Strings = (
+      '')
+    TabOrder = 4
+  end
+  object pbRight: TProgressBar
+    Left = 376
+    Top = 98
+    Width = 289
+    Height = 21
+    TabOrder = 5
+  end
+  object btnWithSync: TButton
+    Left = 432
+    Top = 40
+    Width = 177
+    Height = 25
+    Caption = 'With Sync'
+    TabOrder = 6
+    OnClick = btnWithSyncClick
+  end
+  object Button1: TButton
+    Left = 635
+    Top = 40
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 7
+    OnClick = Button1Click
+  end
+end

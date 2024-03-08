@@ -1,0 +1,30 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        270,
+        61,
+        350,
+        129,
+        [
+            270,
+            61
+        ],
+        [
+            350,
+            129
+        ]
+    ],
+    "entityType": "View",
+    "sourceLocation": "Project",
+    "selectStatement": "INSERT INTO Users(Name,PhoneNumber,Email,UserType,Username,Password,VehicleID) \r\nVALUES(:Name, :PhoneNumber, :Email, :UserType, :Username, :Password, :VehicleID);",
+    "isReadOnly": false,
+    "name": "InsertUsers",
+    "sourceName": "InsertUsers",
+    "guid": "{73E54CEF-5416-4CC0-8B9E-ADAD0952F2A3}",
+    "fields": [
+    ],
+    "associations": [
+    ],
+    "datasource": "{08A3D87F-472A-40A6-9A97-4DE92FE32773}",
+    "inheritanceEntity": "{CAB2FF58-8AAF-4121-A622-E0FE6CDA895F}"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "TestClass",
+    "language": "Delphi",
+    "guid": "{1C30F3DB-420C-4EBC-8238-5DF71A84A524}",
+    "flows": [
+        {
+            "guid": "{EBC43312-178B-4DE8-8C74-A998BE622D34}",
+            "filePath": "TestModule\\TestModule.TestClass.FillGrid.fsf"
+        },
+        {
+            "guid": "{F7274C64-2404-4592-83F4-F5A6E82B3A42}",
+            "filePath": "TestModule\\TestModule.TestClass.GetData.fsf"
+        },
+        {
+            "guid": "{442FB6A1-629D-40D6-8094-29882BDF78F1}",
+            "filePath": "TestModule\\TestModule.TestClass.RestApi.fsf"
+        }
+    ],
+    "variables": [
+    ]
+}

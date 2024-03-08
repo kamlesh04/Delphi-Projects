@@ -1,0 +1,124 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "DEPARTMENT",
+    "sourceName": "DEPARTMENT",
+    "guid": "{98C892E3-4BCE-42CF-91AD-EF3F155A93AA}",
+    "fields": [
+        {
+            "name": "DEPT_NO",
+            "dataType": "string_",
+            "size": 3,
+            "defaultValue": "",
+            "sourceName": "DEPT_NO",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{96F2EBE9-DEC7-4B15-9A37-53CC3C37F8D0}"
+        },
+        {
+            "name": "DEPARTMENT",
+            "dataType": "string_",
+            "size": 25,
+            "defaultValue": "",
+            "sourceName": "DEPARTMENT",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{093ED4A8-C877-47A4-B554-3BA030CA9415}"
+        },
+        {
+            "name": "HEAD_DEPT",
+            "dataType": "string_",
+            "size": 3,
+            "defaultValue": "",
+            "sourceName": "HEAD_DEPT",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 3,
+            "guid": "{7943EF3E-EFEC-4684-8C92-12F7EB9F7279}"
+        },
+        {
+            "name": "MNGR_NO",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "MNGR_NO",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 4,
+            "guid": "{C0E26687-4DE6-470F-B542-4A518F657BD3}"
+        },
+        {
+            "name": "BUDGET",
+            "dataType": "Decimal_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "BUDGET",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 12,
+            "scale": 2,
+            "position": 5,
+            "guid": "{92D36E47-8270-40F6-BD77-C729418000E1}"
+        },
+        {
+            "name": "LOCATION",
+            "dataType": "string_",
+            "size": 15,
+            "defaultValue": "",
+            "sourceName": "LOCATION",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 6,
+            "guid": "{617D5830-E4C2-4DB7-A8A3-F39AC235341C}"
+        },
+        {
+            "name": "PHONE_NO",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "PHONE_NO",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 7,
+            "guid": "{9ADABCF1-FC7E-4DEF-A750-5DA1D00A0337}"
+        }
+    ],
+    "associations": [
+        "{0F62D715-9E6B-4C2C-9389-193FC3CCF71D}",
+        "{9E00630C-9E14-4B7C-ABB8-448B5F117725}",
+        "{256A9A30-CF3B-4C06-8054-97C9DFB18B27}",
+        "{59DD51CA-43F2-4CDB-89C2-269A06480C81}"
+    ],
+    "datasource": "{B2754F07-64FF-4AFB-BF3C-7E10491CC75C}"
+}

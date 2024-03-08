@@ -1,0 +1,136 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Project",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "JsonE",
+    "sourceName": "JsonE",
+    "guid": "{DC6A3D43-43E2-4D99-9203-A6C054BA2C0A}",
+    "fields": [
+        {
+            "name": "JsonEID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "JsonEID",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 0,
+            "guid": "{13D1A817-2409-40E2-BB88-4BC7B39E9DE1}"
+        },
+        {
+            "name": "timeZone",
+            "dataType": "string_",
+            "size": 16,
+            "defaultValue": "",
+            "sourceName": "timeZone",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{BFD103B1-14B6-40BA-8B17-C3C5AB50A791}"
+        },
+        {
+            "name": "currentLocalTime",
+            "dataType": "string_",
+            "size": 27,
+            "defaultValue": "",
+            "sourceName": "currentLocalTime",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{4ACB3917-0560-4DCE-A10A-697D1DE6D8C6}"
+        },
+        {
+            "name": "hasDayLightSaving",
+            "dataType": "Boolean_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "hasDayLightSaving",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 5,
+            "guid": "{D50B7FB3-3CF5-47B2-A231-4D5E862AA550}"
+        },
+        {
+            "name": "isDayLightSavingActive",
+            "dataType": "Boolean_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "isDayLightSavingActive",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 6,
+            "guid": "{42A4C0F9-017F-4C14-96E6-E17309A0A493}"
+        },
+        {
+            "name": "currentUtcOffsetID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "currentUtcOffsetID",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 0,
+            "guid": "{6FE8810B-4178-4348-A7D6-7EACE825FEB9}"
+        },
+        {
+            "name": "standardUtcOffsetID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "standardUtcOffsetID",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 0,
+            "guid": "{640033C2-B3DC-48C1-90E1-1CA67FA1AD18}"
+        },
+        {
+            "name": "dstIntervalID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "dstIntervalID",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 0,
+            "guid": "{7606C444-2D8E-4A48-8AB6-E3150BAB550E}"
+        }
+    ],
+    "associations": [
+        "{E3A31F28-9E81-47A4-8A62-D9157B52AB8B}",
+        "{EE3DAE92-E48F-4469-A648-4CE7921AB28C}",
+        "{F1ABDD3C-D939-48D7-A0C0-37BD238CFF92}"
+    ],
+    "datasource": "{AA90E4A4-1AE8-485E-8DF5-8979517C66E1}"
+}

@@ -1,0 +1,57 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        0,
+        0,
+        0,
+        0,
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "EMPLOYEE_PROJECT",
+    "sourceName": "EMPLOYEE_PROJECT",
+    "guid": "{F30D42E4-9A83-40CD-BBEE-8816D55EFB3A}",
+    "fields": [
+        {
+            "name": "EMP_NO",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "EMP_NO",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{7E9F0539-4EDA-4C0D-B9DC-2F72CD4E05C4}"
+        },
+        {
+            "name": "PROJ_ID",
+            "dataType": "string_",
+            "size": 5,
+            "defaultValue": "",
+            "sourceName": "PROJ_ID",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{19760DB4-986F-48EC-8D6A-36F7A9866A1A}"
+        }
+    ],
+    "associations": [
+        "{0D3FA345-3F72-4CDB-B4E6-99A55F5097FE}",
+        "{34FE5BC4-1892-496C-A82F-DD8EEAD6F049}"
+    ],
+    "datasource": "{B2754F07-64FF-4AFB-BF3C-7E10491CC75C}"
+}

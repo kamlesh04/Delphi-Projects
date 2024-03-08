@@ -1,0 +1,81 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        403,
+        264,
+        537,
+        367,
+        [
+            403,
+            264
+        ],
+        [
+            537,
+            367
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Database",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "ride",
+    "sourceName": "ride",
+    "guid": "{29F0CEED-FC43-4405-972F-5346E4E3A29B}",
+    "fields": [
+        {
+            "name": "RideID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "RideID",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "guid": "{C972BEE3-2349-4D3A-B7C9-3EB1CA4E791E}"
+        },
+        {
+            "name": "CurrentLocation",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "CurrentLocation",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "guid": "{6F0228D8-FA91-4A3E-86D1-56B3DDC2344C}"
+        },
+        {
+            "name": "DestinationLocation",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "DestinationLocation",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 3,
+            "guid": "{27A28CE3-C713-4EAB-AF63-41D243516A97}"
+        },
+        {
+            "name": "RideStatus",
+            "dataType": "string_",
+            "size": 20,
+            "defaultValue": "",
+            "sourceName": "RideStatus",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 4,
+            "guid": "{785BD653-88A4-4A65-8101-6EDE7D3403FC}"
+        }
+    ],
+    "associations": [
+    ],
+    "datasource": "{08A3D87F-472A-40A6-9A97-4DE92FE32773}"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "demo",
+    "fileName": "demo.fcp",
+    "supportedLanguages": 1,
+    "projectVersion": "1.5.0",
+    "guid": "{933E220A-527C-4D8E-ACE7-56ACBEBC8FB0}",
+    "datasources": [
+    ],
+    "modules": [
+    ]
+}

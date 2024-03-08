@@ -1,0 +1,17 @@
+{
+    "name": "RegisterVehicle",
+    "language": "Delphi",
+    "guid": "{5496A76B-1683-47CF-BAF5-AEF024CC833E}",
+    "flows": [
+        {
+            "guid": "{C4E4150E-9722-47E6-97B1-80FE5FBC57F6}",
+            "filePath": "RegisterVehicle\\RegisterVehicle.RegisterVehicle.InsertVehicle.fsf"
+        },
+        {
+            "guid": "{5F39BA78-C2DB-4544-ACB0-721991024FB2}",
+            "filePath": "RegisterVehicle\\RegisterVehicle.RegisterVehicle.OnRegisterClick.fsf"
+        }
+    ],
+    "variables": [
+    ]
+}

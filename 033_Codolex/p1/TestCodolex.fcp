@@ -1,0 +1,31 @@
+{
+    "name": "TestCodolex",
+    "fileName": "TestCodolex.fcp",
+    "supportedLanguages": 1,
+    "projectVersion": "1.5.0",
+    "guid": "{D55A1982-14FE-4D32-A7C7-F3502E6C9733}",
+    "datasources": [
+        {
+            "guid": "{B2754F07-64FF-4AFB-BF3C-7E10491CC75C}",
+            "filePath": "TestCodolex.DataSource.TestDataModule.fds"
+        },
+        {
+            "guid": "{AABAC24D-068D-4E91-8450-06B7C2C41592}",
+            "filePath": "TestCodolex.DataSource.JsonTest.fds"
+        }
+    ],
+    "modules": [
+        {
+            "name": "TestModule",
+            "guid": "{F8EEAC4B-1A71-4324-B998-FFFD65BBE55F}",
+            "dataModels": [
+            ],
+            "FlowClasses": [
+                {
+                    "guid": "{1C30F3DB-420C-4EBC-8238-5DF71A84A524}",
+                    "filePath": "TestModule\\TestModule.TestClass.fsf"
+                }
+            ]
+        }
+    ]
+}

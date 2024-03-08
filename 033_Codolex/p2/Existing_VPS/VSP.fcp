@@ -1,0 +1,28 @@
+{
+    "name": "VSP",
+    "fileName": "VSP.fcp",
+    "supportedLanguages": 1,
+    "projectVersion": "1.5.0",
+    "guid": "{763CFC71-0F73-4386-AE03-2430E38847C8}",
+    "datasources": [
+        {
+            "guid": "{B460B753-61B6-40F0-8AC5-AC65E4CDFBD6}",
+            "filePath": "VSP.DataSource.VPS.fds"
+        }
+    ],
+    "modules": [
+        {
+            "name": "RegisterVehicle",
+            "guid": "{7E60BB7F-A194-4D27-B897-8B3838309C55}",
+            "dataModels": [
+            ],
+            "FlowClasses": [
+                {
+                    "guid": "{5496A76B-1683-47CF-BAF5-AEF024CC833E}",
+                    "filePath": "RegisterVehicle\\RegisterVehicle.RegisterVehicle.fsf"
+                }
+            ]
+        }
+    ],
+    "storageVersion": "1.5.0"
+}

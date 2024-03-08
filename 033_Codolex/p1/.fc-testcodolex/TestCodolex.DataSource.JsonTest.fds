@@ -1,0 +1,122 @@
+{
+    "name": "JsonTest",
+    "dataSourceType": "REST",
+    "databaseServer": "None",
+    "guid": "{AABAC24D-068D-4E91-8450-06B7C2C41592}",
+    "entityFiles": [
+        {
+            "guid": "{CBA6CABA-6603-4B6A-849F-FBBDA8AC8851}",
+            "filePath": "DataSources\\TestCodolex.DataSource.JsonTest.Test.fde"
+        },
+        {
+            "guid": "{7F401B76-4037-4C92-A48F-D3710B5D51D1}",
+            "filePath": "DataSources\\TestCodolex.DataSource.JsonTest.currentUtcOffset.fde"
+        },
+        {
+            "guid": "{BCF16E86-CF27-4EAC-911A-A99D2B2DE441}",
+            "filePath": "DataSources\\TestCodolex.DataSource.JsonTest.dstDuration.fde"
+        },
+        {
+            "guid": "{5247065D-DC48-4E72-9F0F-456910A1E24E}",
+            "filePath": "DataSources\\TestCodolex.DataSource.JsonTest.dstInterval.fde"
+        },
+        {
+            "guid": "{82D52D13-DDBB-4B63-A5CA-775E70036EE7}",
+            "filePath": "DataSources\\TestCodolex.DataSource.JsonTest.dstOffsetToStandardTime.fde"
+        },
+        {
+            "guid": "{B1FEC431-FF24-4221-930A-B57219D20086}",
+            "filePath": "DataSources\\TestCodolex.DataSource.JsonTest.dstOffsetToUtc.fde"
+        },
+        {
+            "guid": "{E653AA0C-22AE-4D92-8E6A-79DA25FBBA6A}",
+            "filePath": "DataSources\\TestCodolex.DataSource.JsonTest.standardUtcOffset.fde"
+        }
+    ],
+    "associations": [
+        {
+            "associationType": "OneToOne",
+            "points": [
+            ],
+            "isAutoCreate": true,
+            "foreignName": "",
+            "name": "dstOffsetToUtc",
+            "sourceName": "",
+            "guid": "{84EA65BF-72BE-4E43-9FD1-3B0C479D4928}",
+            "fromEntity": "{5247065D-DC48-4E72-9F0F-456910A1E24E}",
+            "fromField": "{53EB3C70-7800-4C7C-B79B-42E0E8410E9C}",
+            "toEntity": "{B1FEC431-FF24-4221-930A-B57219D20086}",
+            "toField": "{C81471E8-696F-4A1E-9E2D-68C89B1F0011}"
+        },
+        {
+            "associationType": "OneToOne",
+            "points": [
+            ],
+            "isAutoCreate": true,
+            "foreignName": "",
+            "name": "dstOffsetToStandardTime",
+            "sourceName": "",
+            "guid": "{030FFCFB-533C-4C6A-B03A-E81EF4E2D8B8}",
+            "fromEntity": "{5247065D-DC48-4E72-9F0F-456910A1E24E}",
+            "fromField": "{D2AE3576-B64C-4F4D-8C5F-7F89F5BDE9C5}",
+            "toEntity": "{82D52D13-DDBB-4B63-A5CA-775E70036EE7}",
+            "toField": "{2941BA3D-11AC-4DAF-8FE7-628ABD06267F}"
+        },
+        {
+            "associationType": "OneToOne",
+            "points": [
+            ],
+            "isAutoCreate": true,
+            "foreignName": "",
+            "name": "dstDuration",
+            "sourceName": "",
+            "guid": "{56F6C683-3600-418A-BDC4-2C779C0365C0}",
+            "fromEntity": "{5247065D-DC48-4E72-9F0F-456910A1E24E}",
+            "fromField": "{C2DE99E1-010A-4E5F-94CF-31DCFEC5CE47}",
+            "toEntity": "{BCF16E86-CF27-4EAC-911A-A99D2B2DE441}",
+            "toField": "{B326E028-93A0-4041-AC11-28A23E33DE4D}"
+        },
+        {
+            "associationType": "OneToOne",
+            "points": [
+            ],
+            "isAutoCreate": true,
+            "foreignName": "",
+            "name": "currentUtcOffset",
+            "sourceName": "",
+            "guid": "{9236C576-DEA9-442A-87C2-55C8E41CC8C3}",
+            "fromEntity": "{CBA6CABA-6603-4B6A-849F-FBBDA8AC8851}",
+            "fromField": "{F58375F0-5370-4923-8E38-9A04E97FFDD9}",
+            "toEntity": "{7F401B76-4037-4C92-A48F-D3710B5D51D1}",
+            "toField": "{29D3A8A0-E00C-428F-961B-1BED399A82B2}"
+        },
+        {
+            "associationType": "OneToOne",
+            "points": [
+            ],
+            "isAutoCreate": true,
+            "foreignName": "",
+            "name": "standardUtcOffset",
+            "sourceName": "",
+            "guid": "{C1465584-6DAC-4519-ADDB-850F3F389869}",
+            "fromEntity": "{CBA6CABA-6603-4B6A-849F-FBBDA8AC8851}",
+            "fromField": "{EEA873E7-66D6-434E-AACC-ED6905D9E828}",
+            "toEntity": "{E653AA0C-22AE-4D92-8E6A-79DA25FBBA6A}",
+            "toField": "{A8EF8139-E83E-4D1A-A5CC-CFC87BF93014}"
+        },
+        {
+            "associationType": "OneToOne",
+            "points": [
+            ],
+            "isAutoCreate": true,
+            "foreignName": "",
+            "name": "dstInterval",
+            "sourceName": "",
+            "guid": "{8F23E380-8BDD-4CEF-99CC-2ED44BCE9765}",
+            "fromEntity": "{CBA6CABA-6603-4B6A-849F-FBBDA8AC8851}",
+            "fromField": "{10C70621-12E2-4AF8-A163-CD046ACBCFF6}",
+            "toEntity": "{5247065D-DC48-4E72-9F0F-456910A1E24E}",
+            "toField": "{0C060DC0-4D60-4A0C-98B4-02C3E98753B1}"
+        }
+    ]
+}

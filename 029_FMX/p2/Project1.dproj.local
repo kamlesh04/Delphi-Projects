@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.942,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.083,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.610,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.036,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\KamleshGaonkar\kamlesh\Practice\FMX\p2\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.458,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\KamleshGaonkar\kamlesh\Practice\FMX\p2\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.036,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\KamleshGaonkar\kamlesh\Practice\FMX\p2\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.098,=D:\KamleshGaonkar\kamlesh\Practice\FMX\p2\CalFM.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.755,D:\KamleshGaonkar\kamlesh\Practice\FMX\p2\CalFM.pas=</Transaction>
+  </Transactions>  <BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>

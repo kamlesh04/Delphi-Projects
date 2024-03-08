@@ -1,0 +1,98 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 308
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Image1: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Position.Y = 224.000000000000000000
+    Size.Width = 308.000000000000000000
+    Size.Height = 256.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Layer3D1: TLayer3D
+    Height = 4.000000000000000000
+    Resolution = 50
+    StyleLookup = 'toolbarstyle'
+    Width = 8.000000000000000000
+  end
+  object Layout3D1: TLayout3D
+    Height = 4.000000000000000000
+    Width = 5.000000000000000000
+  end
+  object Layout1: TLayout
+    Align = Bottom
+    Position.Y = 430.000000000000000000
+    Size.Width = 308.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object SpeedButton1: TSpeedButton
+      Action = TakePhotoFromCameraAction1
+      Align = Right
+      Enabled = True
+      ImageIndex = -1
+      Position.X = 260.000000000000000000
+      Position.Y = 1.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'cameratoolbutton'
+    end
+    object SpeedButton2: TSpeedButton
+      Action = ShowShareSheetAction1
+      Align = Left
+      Enabled = True
+      ImageIndex = -1
+      Position.Y = 1.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'actiontoolbutton'
+      OnClick = SpeedButton2Click
+    end
+  end
+  object WebBrowser1: TWebBrowser
+    Size.Width = 308.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    Position.Y = 32.000000000000000000
+    WindowsEngine = IEOnly
+  end
+  object CheckBox1: TCheckBox
+    Position.X = 16.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = 'Turn On Location'
+    OnClick = CheckBox1Click
+  end
+  object ActionList1: TActionList
+    Left = 24
+    Top = 72
+    object TakePhotoFromCameraAction1: TTakePhotoFromCameraAction
+      Category = 'Media Library'
+      OnDidFinishTaking = TakePhotoFromCameraAction1DidFinishTaking
+    end
+    object ShowShareSheetAction1: TShowShareSheetAction
+      Category = 'Media Library'
+      OnBeforeExecute = ShowShareSheetAction1BeforeExecute
+    end
+  end
+  object LocationSensor1: TLocationSensor
+    ActivityType = Other
+    UsageAuthorization = WhenInUse
+    OnLocationChanged = LocationSensor1LocationChanged
+    Left = 152
+    Top = 32
+  end
+end

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.083,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.474,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.323,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\KamleshGaonkar\kamlesh\Practice\3d\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.871,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\KamleshGaonkar\kamlesh\Practice\3d\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.323,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\KamleshGaonkar\kamlesh\Practice\3d\Unit1.pas</Transaction>
+    <Transaction>2024-01-25 10:34:28.051,D:\KamleshGaonkar\kamlesh\Practice\3d\uMain.pas=D:\KamleshGaonkar\kamlesh\Practice\3d\Unit1.pas</Transaction>
+    <Transaction>2024-01-25 10:34:28.051,D:\KamleshGaonkar\kamlesh\Practice\3d\uMain.fmx=D:\KamleshGaonkar\kamlesh\Practice\3d\Unit1.fmx</Transaction>
+    <Transaction>2024-01-25 10:35:11.518,D:\KamleshGaonkar\kamlesh\Practice\3d\Demo3D.dproj=D:\KamleshGaonkar\kamlesh\Practice\3d\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

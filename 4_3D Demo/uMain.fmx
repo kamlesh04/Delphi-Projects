@@ -1,0 +1,63 @@
+object frm3DMain: Tfrm3DMain
+  Left = 0
+  Top = 0
+  Caption = '3DMain'
+  ClientHeight = 408
+  ClientWidth = 356
+  FormStyle = StayOnTop
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ToolBar: TToolBar
+    Align = Bottom
+    Position.Y = 367.000000000000000000
+    Size.Width = 356.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object Viewport3D: TViewport3D
+    Align = Client
+    Color = claTurquoise
+    Size.Width = 356.000000000000000000
+    Size.Height = 367.000000000000000000
+    Size.PlatformDefault = False
+    UsingDesignCamera = False
+    OnMouseDown = Viewport3DMouseDown
+    OnMouseMove = Viewport3DMouseMove
+    object DummyX: TDummy
+      Width = 1.000000000000000000
+      Height = 1.000000000000000000
+      Depth = 1.000000000000000000
+      object DummyY: TDummy
+        Width = 1.000000000000000000
+        Height = 1.000000000000000000
+        Depth = 1.000000000000000000
+        object CameraMain: TCamera
+          AngleOfView = 45.000000000000000000
+          Position.Z = -5.000000000000000000
+          Width = 1.000000000000000000
+          Height = 1.000000000000000000
+          Depth = 1.000000000000000000
+          object Light: TLight
+            Color = claWhite
+            LightType = Directional
+            SpotCutOff = 180.000000000000000000
+            Width = 1.000000000000000000
+            Height = 1.000000000000000000
+            Depth = 1.000000000000000000
+          end
+        end
+      end
+      object StrokeCube: TStrokeCube
+        Color = claWhite
+        RotationAngle.Y = 86.467491149902340000
+        Width = 4.926969528198242000
+        Height = 8.783017158508301000
+        Depth = 7.406538963317871000
+        Quanternion = '(0,-0.684976160526276,0,-0.728565096855164)'
+      end
+    end
+  end
+end

@@ -1,0 +1,113 @@
+library currency;
+
+{ Important note about DLL memory management: ShareMem must be the
+  first unit in your library's USES clause AND your project's (select
+  Project-View Source) USES clause if your DLL exports any procedures or
+  functions that pass strings as parameters or function results. This
+  applies to all strings passed to and from your DLL--even those that
+  are nested in records and classes. ShareMem is the interface unit to
+  the BORLNDMM.DLL shared memory manager, which must be deployed along
+  with your DLL. To avoid using BORLNDMM.DLL, pass string information
+  using PChar or ShortString parameters. }
+
+uses
+  System.SysUtils,
+  System.Classes;
+
+{$R *.res}
+
+function USD_TO_(a:double; curr:string):double;export;
+begin
+  if curr = 'INR' then
+   Result:= a*76.41
+  else if curr = 'EUR' then
+    Result:=a*0.95
+  else if curr = 'JPY' then
+    Result:=a*130.12
+  else if curr = 'GBP' then
+    Result:=a*0.80
+  else if curr = 'CAD' then
+    Result:=a*1.28;
+end;
+
+function INR_TO_(a:double; curr:string):double;export;
+var
+  r :double;
+begin
+  if curr = 'USD' then
+   Result:= a*0.013
+  else if curr = 'EUR' then
+    Result:=a*0.012
+  else if curr = 'JPY' then
+    Result:=a*1.70
+  else if curr = 'GBP' then
+    r:=a*0.010
+  else if curr = 'CAD' then
+    Result:=a*0.017;
+end;
+
+function EUR_TO_(a:double; curr:string):double;export;
+begin
+  if curr = 'USD' then
+   Result:= a*1.05
+  else if curr = 'INR' then
+    Result:=a*80.38
+  else if curr = 'JPY' then
+    Result:=a*136.89
+  else if curr = 'GBP' then
+    Result:=a*0.84
+  else if curr = 'CAD' then
+    Result:=a*1.35;
+end;
+
+function JPY_TO_(a:double; curr:string):double;export;
+begin
+  if curr = 'USD' then
+   Result:= a*0.0077
+  else if curr = 'INR' then
+    Result:=a*0.59
+  else if curr = 'EUR' then
+    Result:=a*0.0073
+  else if curr = 'GBP' then
+    Result:=a*0.0061
+  else if curr = 'CAD' then
+    Result:=a*0.0099;
+end;
+
+function GBP_TO_(a:double; curr:string):double;export;
+begin
+  if curr = 'USD' then
+   Result:= a*1.25
+  else if curr = 'INR' then
+    Result:=a*96.04
+  else if curr = 'EUR' then
+    Result:=a*1.19
+  else if curr = 'JPY' then
+    Result:=a*162.85
+  else if curr = 'CAD' then
+    Result:=a*1.61;
+end;
+
+function CAD_TO_(a:double; curr:string):double;export;
+begin
+  if curr = 'USD' then
+   Result:= a*0.78
+  else if curr = 'INR' then
+    Result:=a*59.60
+  else if curr = 'EUR' then
+    Result:=a*0.74
+  else if curr = 'JPY' then
+    Result:=a*101.04
+  else if curr = 'GBP' then
+    Result:=a*0.62;
+end;
+
+exports
+USD_TO_,
+INR_TO_,
+EUR_TO_,
+JPY_TO_,
+GBP_TO_,
+CAD_TO_;
+begin
+end.

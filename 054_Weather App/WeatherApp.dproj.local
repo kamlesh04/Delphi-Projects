@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024-03-14 18:00:34.722,=D:\KamleshGaonkar\kamlesh\Practice\Weather App\Unit1.pas</Transaction>
+    <Transaction>2024-03-14 18:00:51.666,D:\KamleshGaonkar\kamlesh\Practice\Weather App\dmMain.dfm=D:\KamleshGaonkar\kamlesh\Practice\Weather App\Unit1.dfm</Transaction>
+    <Transaction>2024-03-14 18:00:51.666,D:\KamleshGaonkar\kamlesh\Practice\Weather App\dmMain.pas=D:\KamleshGaonkar\kamlesh\Practice\Weather App\Unit1.pas</Transaction>
+    <Transaction>2024-03-14 18:01:11.344,D:\KamleshGaonkar\kamlesh\Practice\Weather App\WeatherApp.dproj=D:\KamleshGaonkar\kamlesh\Practice\Weather App\HeaderFooterApplication.dproj</Transaction>
+    <Transaction>2024-03-14 18:01:22.324,D:\KamleshGaonkar\kamlesh\Practice\Weather App\uMain.fmx=D:\KamleshGaonkar\kamlesh\Practice\Weather App\HeaderFooterTemplate.fmx</Transaction>
+    <Transaction>2024-03-14 18:01:22.324,D:\KamleshGaonkar\kamlesh\Practice\Weather App\uMain.pas=D:\KamleshGaonkar\kamlesh\Practice\Weather App\HeaderFooterTemplate.pas</Transaction>
+  </Transactions>
+</BorlandProject>

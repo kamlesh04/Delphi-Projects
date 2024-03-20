@@ -1,0 +1,61 @@
+unit CurvyPanel1;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Controls, CurvyControls,Winapi.Messages, Vcl.StdCtrls;
+
+type
+  TCurvyPanel1 = class(TCurvyPanel)
+  private
+    { Private declarations }
+    FButton : TButton;
+    FOnClick: TNotifyEvent;
+    procedure OnButtonClick(Sender : TObject);
+  protected
+    { Protected declarations }
+    procedure DoButtonClick; virtual;
+
+  public
+    { Public declarations }
+    constructor Create(AOwner: TComponent); override;
+  published
+    { Published declarations }
+    property OnClick: TNotifyEvent read FOnClick write FOnClick;
+  end;
+
+procedure Register;
+
+implementation
+
+procedure Register;
+begin
+  RegisterComponents('Samples', [TCurvyPanel1]);
+end;
+
+{ TCurvyPanel1 }
+
+
+
+
+{ TCurvyPanel1 }
+
+procedure TCurvyPanel1.OnButtonClick(Sender : TObject);
+begin
+  DoButtonClick;
+end;
+
+constructor TCurvyPanel1.Create(AOwner: TComponent);
+begin
+  inherited;
+  FButton := TButton.Create(Self);
+  FButton.OnClick := OnButtonClick;
+end;
+
+procedure TCurvyPanel1.DoButtonClick;
+begin
+   if Assigned(FOnClick) then
+    FOnClick(Self);
+end;
+
+end.

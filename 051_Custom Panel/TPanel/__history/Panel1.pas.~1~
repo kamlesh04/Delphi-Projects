@@ -1,0 +1,63 @@
+unit Panel1;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Vcl.Controls, Vcl.ExtCtrls;
+
+type
+  TPanel1 = class(TPanel)
+  private
+    { Private declarations }
+    FEdgeRadius: Integer;
+  protected
+    { Protected declarations }
+    procedure Paint; override;
+  public
+    { Public declarations }
+    constructor Create(AOwner: TComponent); override;
+  published
+    { Published declarations }
+    property EdgeRadius: Integer read FEdgeRadius write FEdgeRadius;
+  end;
+
+procedure Register;
+
+implementation
+
+procedure Register;
+begin
+  RegisterComponents('Samples', [TPanel1]);
+end;
+
+{ TPanel1 }
+
+constructor TPanel1.Create(AOwner: TComponent);
+begin
+  inherited Create(AOwner)
+  EdgeRadius := 5;
+
+end;
+
+procedure TPanel1.Paint;
+var
+  R: TRect;
+  Region: HRGN;
+  begin
+  inherited Paint;
+  R := ClientRect;
+  Canvas.Brush.Color := Color;
+
+  Region := CreateRoundRectRgn(R.Left, R.Top, R.Right, R.Bottom, FRadius, FRadius);
+  try
+  SetWindowRgn(Handle, Region, True);
+  finally
+  DeleteObject(Region);
+  end;
+
+end;
+
+
+end;
+
+end.

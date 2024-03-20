@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E62C3DF0-C976-4CC4-8A27-C976E7F08149}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="WebSocket.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Client\ClientExe.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="WebSocket">
+        <MSBuild Projects="WebSocket.dproj"/>
+    </Target>
+    <Target Name="WebSocket:Clean">
+        <MSBuild Projects="WebSocket.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WebSocket:Make">
+        <MSBuild Projects="WebSocket.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ClientExe">
+        <MSBuild Projects="Client\ClientExe.dproj"/>
+    </Target>
+    <Target Name="ClientExe:Clean">
+        <MSBuild Projects="Client\ClientExe.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ClientExe:Make">
+        <MSBuild Projects="Client\ClientExe.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="WebSocket;ClientExe"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="WebSocket:Clean;ClientExe:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="WebSocket:Make;ClientExe:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,29 @@
+unit NewForm;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, NewFrame;
+
+type
+  TfrmNewForm = class(TForm)
+    Memo1: TMemo;
+    Button1: TButton;
+    Button2: TButton;
+    Frame11: TFrame1;
+    Memo2: TMemo;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmNewForm: TfrmNewForm;
+
+implementation
+
+{$R *.dfm}
+
+end.

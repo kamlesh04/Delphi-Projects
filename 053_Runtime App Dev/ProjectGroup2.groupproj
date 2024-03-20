@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{AEF3B867-F090-4C59-BDCC-77382BDEB09A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Design\Designtime.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Run\Runtime.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Design_time inheritance\DesignInherit.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Design_time inheritance\Designtime_design\DesignInherit_Design.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Designtime">
+        <MSBuild Projects="Design\Designtime.dproj"/>
+    </Target>
+    <Target Name="Designtime:Clean">
+        <MSBuild Projects="Design\Designtime.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Designtime:Make">
+        <MSBuild Projects="Design\Designtime.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Runtime">
+        <MSBuild Projects="Run\Runtime.dproj"/>
+    </Target>
+    <Target Name="Runtime:Clean">
+        <MSBuild Projects="Run\Runtime.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Runtime:Make">
+        <MSBuild Projects="Run\Runtime.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DesignInherit">
+        <MSBuild Projects="Design_time inheritance\DesignInherit.dproj"/>
+    </Target>
+    <Target Name="DesignInherit:Clean">
+        <MSBuild Projects="Design_time inheritance\DesignInherit.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DesignInherit:Make">
+        <MSBuild Projects="Design_time inheritance\DesignInherit.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DesignInherit_Design">
+        <MSBuild Projects="Design_time inheritance\Designtime_design\DesignInherit_Design.dproj"/>
+    </Target>
+    <Target Name="DesignInherit_Design:Clean">
+        <MSBuild Projects="Design_time inheritance\Designtime_design\DesignInherit_Design.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DesignInherit_Design:Make">
+        <MSBuild Projects="Design_time inheritance\Designtime_design\DesignInherit_Design.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Designtime;Runtime;DesignInherit;DesignInherit_Design"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Designtime:Clean;Runtime:Clean;DesignInherit:Clean;DesignInherit_Design:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Designtime:Make;Runtime:Make;DesignInherit:Make;DesignInherit_Design:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

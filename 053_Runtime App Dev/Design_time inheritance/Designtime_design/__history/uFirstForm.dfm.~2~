@@ -1,0 +1,4 @@
+inherited frmFirstForm: TfrmFirstForm
+  Caption = 'First Form '
+  TextHeight = 15
+end

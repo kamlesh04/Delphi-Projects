@@ -1,0 +1,14 @@
+program DesignInherit_Design;
+
+uses
+  Vcl.Forms,
+  uBaseForm in 'uBaseForm.pas' {Form6};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmBaseForm, frmBaseForm);
+  Application.Run;
+end.

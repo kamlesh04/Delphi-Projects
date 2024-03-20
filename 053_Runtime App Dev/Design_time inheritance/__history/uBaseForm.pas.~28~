@@ -1,0 +1,50 @@
+unit uBaseForm;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, threading;
+
+type
+  TfrmBaseForm = class(TForm)
+    pnlButtons: TPanel;
+    lblNote: TLabel;
+    btnAdd: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+    fMessage : string;
+  public
+    { Public declarations }
+    procedure SetMessage(Val : String);
+    procedure TestVirtual; virtual;
+    procedure TestVirtualAbs; virtual; abstract;
+    property GetMessage : string read fMessage write fMessage;
+  end;
+
+var
+  frmBaseForm: TfrmBaseForm;
+
+implementation
+
+{$R *.dfm}
+
+{ TfrmBaseForm }
+
+procedure TfrmBaseForm.Button1Click(Sender: TObject);
+begin
+  ShowMessage('Hello from base form.');
+end;
+
+procedure TfrmBaseForm.SetMessage(Val: String);
+begin
+  fMessage := Val;
+end;
+
+procedure TfrmBaseForm.TestVirtual;
+begin
+ ShowMessage('Hello from base form');
+end;
+
+end.

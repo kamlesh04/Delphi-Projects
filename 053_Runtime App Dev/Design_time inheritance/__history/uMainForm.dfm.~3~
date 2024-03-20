@@ -1,0 +1,23 @@
+object frmMainForm: TfrmMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Main Form'
+  ClientHeight = 433
+  ClientWidth = 622
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object btnShowForm: TButton
+    Left = 192
+    Top = 80
+    Width = 75
+    Height = 25
+    Caption = 'Show Form'
+    TabOrder = 0
+    OnClick = btnShowFormClick
+  end
+end

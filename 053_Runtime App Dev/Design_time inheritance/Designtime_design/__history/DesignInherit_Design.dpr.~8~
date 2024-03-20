@@ -1,0 +1,20 @@
+program DesignInherit_Design;
+
+uses
+  Vcl.Forms,
+  uBaseForm in 'uBaseForm.pas' {frmBaseForm},
+  uFirstForm in 'uFirstForm.pas' {frmFirstForm},
+  uSecondForm in 'uSecondForm.pas' {frmSecondForm},
+  uMainForm in 'uMainForm.pas' {frmMainForm};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+//  Application.CreateForm(TfrmBaseForm, frmBaseForm);
+//  Application.CreateForm(TfrmFirstForm, frmFirstForm);
+//  Application.CreateForm(TfrmSecondForm, frmSecondForm);
+  Application.CreateForm(TfrmMainForm, frmMainForm);
+  Application.Run;
+end.

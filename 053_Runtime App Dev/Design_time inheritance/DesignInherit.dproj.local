@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.336,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.478,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.898,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.094,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.145,D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\uMain.pas=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\uBaseForm.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.834,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.634,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.203,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.575,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.069,D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\Unit1.pas=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\uRuntimeForm.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.575,=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.929,D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\Unit1.pas=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\uRuntimeSecondForm.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.836,=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.826,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.898,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.618,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.563,=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.380,D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\uMainForm.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.169,=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\uMainForm.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.412,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.214,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.145,D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\uMain.dfm=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\uBaseForm.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.760,D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\Unit2.pas=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\uMainForm.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.342,=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.478,=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.100,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.549,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.776,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit6.pas=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\uMain.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.479,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.329,=C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project2.html</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.776,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Unit6.dfm=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\uMain.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.375,C:\Users\mangi\OneDrive\Documents\Embarcadero\Studio\Projects\Project2.dproj=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\DesignInherit.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.338,=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.760,D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\Unit2.dfm=D:\KamleshGaonkar\kamlesh\Practice\Runtime\Design_time inheritance\uMainForm.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

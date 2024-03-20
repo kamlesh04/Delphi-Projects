@@ -1,0 +1,24 @@
+unit uFirstForm;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uBaseForm, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmFirstForm = class(TfrmBaseForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmFirstForm: TfrmFirstForm;
+
+implementation
+
+{$R *.dfm}
+
+end.

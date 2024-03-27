@@ -38,6 +38,29 @@ object frmForecast: TfrmForecast
     Size.PlatformDefault = False
     StyleLookup = 'bottomtoolbar'
     TabOrder = 1
+    object lblRefresh: TLabel
+      StyledSettings = [FontColor]
+      Position.X = 12.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 155.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Data will refresh in : '
+      TabOrder = 0
+    end
+    object lblCount: TLabel
+      StyledSettings = [FontColor]
+      Position.X = 164.000000000000000000
+      Position.Y = 16.000000000000000000
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = '30'
+      TabOrder = 1
+    end
   end
   object pnlMain: TPanel
     Align = Client
@@ -168,5 +191,11 @@ object frmForecast: TfrmForecast
         Size.PlatformDefault = False
       end
     end
+  end
+  object tmRefresh: TTimer
+    Enabled = False
+    OnTimer = tmRefreshTimer
+    Left = 280
+    Top = 404
   end
 end

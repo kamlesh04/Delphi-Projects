@@ -23,9 +23,15 @@ type
     imgWindSpeed: TImage;
     imgWindDir: TImage;
     imgCloudCover: TImage;
+    tmRefresh: TTimer;
+    lblRefresh: TLabel;
+    lblCount: TLabel;
     procedure FormCreate(Sender: TObject);
+    procedure tmRefreshTimer(Sender: TObject);
   private
     { Private declarations }
+     FCountDown : integer;
+    procedure GetWeatherData;
   public
     { Public declarations }
   end;
@@ -38,6 +44,12 @@ implementation
 {$R *.fmx}
 
 procedure TfrmForecast.FormCreate(Sender: TObject);
+begin
+  FCountDown := 30;
+  GetWeatherData;
+end;
+
+procedure TfrmForecast.GetWeatherData;
 var
   lWeatherData : TWeatherData;
   lBitmap : TBitmap;
@@ -84,7 +96,19 @@ begin
   finally
     lBitmap.Free;
   end;
+  tmRefresh.Enabled := true;
+end;
 
+procedure TfrmForecast.tmRefreshTimer(Sender: TObject);
+begin
+  lblCount.Text := FCountDown.ToString;
+  FCountDown := FCountDown - 1;
+  if FCountDown = 0 then
+  begin
+    tmRefresh.Enabled := false;
+    GetWeatherData;
+    FCountDown := 30;
+  end;
 end;
 
 end.

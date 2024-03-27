@@ -214,7 +214,7 @@
         </DelphiCompile>
         <DCCReference Include="uMain.pas">
             <FormDeviceName>iPhone</FormDeviceName>
-            <Form>HeaderFooterForm</Form>
+            <Form>frmForecast</Form>
             <FormType>fmx</FormType>
         </DCCReference>
         <DCCReference Include="dmMain.pas">

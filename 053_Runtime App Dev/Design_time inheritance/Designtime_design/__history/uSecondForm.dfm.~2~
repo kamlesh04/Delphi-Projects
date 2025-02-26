@@ -1,4 +1,0 @@
-inherited frmSecondForm: TfrmSecondForm
-  Caption = 'Second Form'
-  TextHeight = 15
-end

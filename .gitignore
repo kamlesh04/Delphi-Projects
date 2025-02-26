@@ -1,0 +1,12 @@
+# Ignore Delphi compiled resource files
+*.res
+
+# Ignore Delphi IDE cache and local settings
+*.identcache
+*.local
+*.local.*
+*.dcu
+
+# Ignore Delphi history files
+__history/
+__recovery/

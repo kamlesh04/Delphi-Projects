@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>1899-12-30 00:00:00.000.790,D:\KamleshGaonkar\kamlesh\Practice\XOX Game\HeaderFooterTemplate.pas=D:\KamleshGaonkar\kamlesh\Practice\XOX Game\uMain.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.437,D:\KamleshGaonkar\kamlesh\Practice\XOX Game\HeaderFooterApplication.dproj=D:\KamleshGaonkar\kamlesh\Practice\XOX Game\XOXGame.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.790,D:\KamleshGaonkar\kamlesh\Practice\XOX Game\HeaderFooterTemplate.fmx=D:\KamleshGaonkar\kamlesh\Practice\XOX Game\uMain.fmx</Transaction>
-  </Transactions>
-</BorlandProject>
